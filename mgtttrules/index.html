@@ -1,0 +1,326 @@
+<html>
+<head>
+<style type="text/css">
+.transition, p, ul li i:before, ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+
+.no-select, h2 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+h1, h2 {
+  color: #dedede;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+h2.rule-header {
+	font-weight: bold;
+	margin-bottom: 10px;
+	cursor: default;
+	text-align: center;
+}
+
+p {
+  color: #dedede;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  z-index: 2;
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  padding-left: 30px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2px;
+  padding-top: 9px;
+}
+
+ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 8px;
+  right: 20;
+}
+
+ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #dedede;
+  width: 3px;
+  height: 9px;
+}
+
+ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+
+ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+body {
+	background: url('http://monumentalgaming.net/uploads/set_resources_2/hl2_funkycops.jpg.708fe2c80a4e79807a4c2bb2e0108c5f.jpg');
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(48, 69, 92, 0.8);
+	padding: 30px;
+}
+
+.cont {
+	display: inline-block;
+	position: relative;
+	margin: 0px auto;
+	background-color: rgba(50, 50, 50, 0.8);
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.column1 {
+	float: left;
+	width: 49%;
+}
+
+.column2 {
+	float: right;
+	width: 49%;
+}
+
+</style>
+<link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="cont">
+<h1>Monumental Gaming - Trouble in Terrorist Town Rules</h1>
+<hr>
+<div class="column1">
+<h2 class="rule-header">General Rules</h2>
+<hr>
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>1. Do not harass, threaten or discriminate other players</h2>
+    <p>1.1 - Do not go out of your way to deliberately grief other players or exacerbate negative situations. Includes but is not limited to;<br/>
+		&emsp;&emsp;1.1.1 - Harassing someone over gender and/or voice<br/>
+		&emsp;&emsp;1.1.2 - Harassing over preferred sex<br/>
+		&emsp;&emsp;1.1.3 - Discriminate someone because of gender and/or age<br/>
+		&emsp;&emsp;1.1.4 - Discriminate someone for race<br/>
+	1.2 - Threats towards players, the server and the community will result in severe consequences.<br/>
+	&emsp;&emsp;1.2.1 - Saying you're going to DDOS the server, joking or not, will result in a insta-permanent ban.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>2. Do not spam</h2>
+    <p>2.1 - Over microphone, in text chat or by other means it is not permitted. Includes but is not limited to;<br/>
+		&emsp;&emsp;2.1.1 - Spamming binds<br/>
+		&emsp;&emsp;2.1.2 - Playing music through chat<br/>
+		&emsp;&emsp;2.1.3 - Constantly talking without a reason
+	</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>3. Do not metagame</h2>
+    <p>3.1 - This means giving out unknown information to other players using outside mechanics. Includes but is not limited to;<br/>
+		&emsp;&emsp;3.1.1 - Who the traitors are<br/>
+		&emsp;&emsp;3.1.2 - Where someone is located<br/>
+		&emsp;&emsp;3.1.3 - Who is still alive<br/>
+		&emsp;&emsp;3.1.4 - C4 location<br/>
+		&emsp;&emsp;3.1.5 - Unidentified body location
+	</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>4. Do not glitch, cheat or exploit</h2>
+    <p>4.1 - Glitching or exploiting the map, including leaving map boundaries, is not allowed.<br/>
+	4.2 - Cheating with scripts or third party programs will not be tolerated.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>5. Traitor baiting is not KOSable, but being killed for it is not RDM</h2>
+    <p>5.1 - Traitor baiting includes but is not limited to;<br/>
+		&emsp;&emsp;5.1.1 - A player is shooting near players or is actually damaging players to troll<br/>
+		&emsp;&emsp;5.1.2 - A player is activating traps, activating T items or equipping T weapons<br/>
+		&emsp;&emsp;5.1.3 - A player is claiming he's a traitor<br/>
+		&emsp;&emsp;5.1.4 - A player is carrying an explosive barrel to a group of people (don't shoot the barrel, only the player)<br/>
+		5.2 - Deliberate traitor baiting will result in consequences.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>6. Do not RDM (Random Death Match)</h2>
+    <p>6.1 - This means killing other players without valid reason. This also includes but is not limited to;<br/>
+		&emsp;&emsp;6.1.1 - Firing the detective weapon, Golden Gun, without reason.<br/>
+		&emsp;&emsp;6.1.2 - Taking it upon yourself to enforce rules. Server staff will deal with rule breakers.<br/>
+	6.2 - Leaving after unpunished RDM will result in a ban.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>7. Have a pronounceable and typable name in English</h2>
+    <p>7.1 - The following are examples of non-pronounceable or non-English names;<br/>
+		&emsp;&emsp;7.1.1 - 复仇者<br/>
+		&emsp;&emsp;7.1.2 - <br/>
+		&emsp;&emsp;7.1.3 - <br/>
+	7.2 - Failing to change your name upon the request of staff will result in a kick.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>8. Take reports seriously</h2>
+    <p>8.1 - False reports will not be tolerated and will result in a slay.<br/>
+	8.2 - Violent language in a report is not helpful nor tolerated and will also result in a slay.<br/>
+	8.3 - Truthfully and calmly explaining a situation is more helpful to staff when handling reports.<br/>
+	8.4 - A staff member's word is final, within reason.</p>
+  </li>
+</ul>
+</div>
+<div class="column2">
+<h2 class="rule-header">As a Traitor</h2>
+<hr>
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>9. Warn and Do not damage your fellow traitors</h2>
+    <p>9.1 - Warn fellow Traitors about any harmful actions and give sufficient time for them to vacate the targeted area. Harmful actions include but is not limited to;<br/>
+	&emsp;&emsp;9.1.1 - Throwing a pigeon<br/>
+	&emsp;&emsp;9.1.2 - Throwing a holy hand grenade<br/>
+	9.2 - You do not need to warn for C4 or Melon Mines as traitors can see them on their map.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>10. Do not delay</h2>
+    <p>10.1 - In overtime, stalling or camping will result in a slay</p>
+  </li>
+</ul>
+<h2 class="rule-header">As an Innocent/Detective</h2>
+<hr>
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>11. Do not shoot or damage somebody without solid evidence</h2>
+    <p>11.1 - Solid evidence includes but is not limited to;<br/>
+	&emsp;&emsp;11.1.1 - A KOS (Kill on Sight) was called<br/>
+	&emsp;&emsp;11.1.2 - DNA from a body<br/>
+	&emsp;&emsp;11.1.3 - Witnessing an event first-hand<br/>
+	11.2 - Falsely KOSing a player will result in players calling a KOS on you.<br/>
+	11.3 - Throwing grenades that have the ability to harm players, without proof of traitorous actions, is not permitted.<br/>
+	11.4 - When disarming C4, give sufficient warning as to your location and when you will do so.<br/>
+	11.5 - Killing or injuring with props is only allowed as living Traitor.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>12. Invalid grounds to kill or shoot someone</h2>
+    <p>12.1 - Suspicious activity.<br/>
+	12.2 - The player is AFK or not moving.<br/>
+	12.3 - Not responding to a life check, unless in overtime.<br/>
+	12.4 - Being near an unidentified body or refusing to identify it.<br/>
+	12.5 - Being hit in crossfire.<br/>
+	12.6 - Shooting someone unannounced.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>13. Do not destroy detective equipment or testers</h2>
+    <p>13.1 - Destroying detective equipment or moving it to where it is inaccessible is a KOSable offence. Detective equipment includes but is not limited to;<br/>
+	&emsp;&emsp;13.1.1 - Health Station<br/>
+	&emsp;&emsp;13.1.2 - Peace Sentry<br/>
+	&emsp;&emsp;13.1.3 - Portable Tester<br/>
+	13.2 - Destroying or rendering a Traitor tester inoperative is a KOSable offence, unless done pre-round.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>14. Announce having a traitor weapon</h2>
+    <p>14.1 - Upon obtaining a T weapon, announce it in chat.<br/>
+	14.2 - Failure to do so and carrying it will be considered traitor baiting.</p>
+  </li>
+</ul>
+</div>
+</div>
+</body>
+</html>
