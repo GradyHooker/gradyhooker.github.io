@@ -1,0 +1,407 @@
+<html>
+<head>
+<title>The Raidos Network</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Bangers' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style type="text/css">
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.page-cont {
+	height: 100%;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	padding: 0px;
+	margin: 0px;
+	align-content: space-between;
+}
+
+.social {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 32px;
+}
+
+.social a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+}
+
+.title {
+	height: 130px;
+	text-align: center;
+	flex-shrink: 0;
+	padding: 10px;
+	font-size: 6em;
+	font-family: 'Bangers', sans-serif;
+	line-height: 130px;	
+	background: rgba(40,40,40,1);
+	color: black;
+	text-shadow: 0 0 20px #FFFFFF;
+	padding-bottom: 25px;
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.title-text {
+	display: inline-block;
+}
+
+.panel-cont {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	flex-shrink: 1;
+	height: 100%;
+}
+
+.panel {
+	color: white;
+	text-align: center;
+	font-size: 2.4em;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: -webkit-linear-gradient(rgba(198,16,25,0), rgba(188,6,15,0.9) 40%);
+	background: -moz-linear-gradient(rgba(198,16,25,0), rgba(188,6,15,0.9) 40%);
+	background: linear-gradient(rgba(198,16,25,0), rgba(188,6,15,0.9) 40%);
+	padding-top: 50px;
+	padding-bottom: 15px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index: 2;
+	transition: padding 0.4s ease-in-out;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.panel-top {
+	background: -webkit-linear-gradient(rgba(40,40,40,1) 0%, rgba(40,40,40,0));
+	background: -moz-linear-gradient(rgba(40,40,40,1) 0%, rgba(40,40,40,0));
+	background: linear-gradient(rgba(40,40,40,1) 0%, rgba(40,40,40,0));
+	padding-bottom: 50px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+}
+
+.panel-link {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+}
+
+.panel-white {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background: rgb(0, 0, 0);
+	opacity: 0.25;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.panel-contents:hover .panel-white {
+	opacity: 0;
+}
+
+.panel-contents:hover .panel {
+	padding-bottom: 35px;
+}
+
+.panel-contents {
+	flex-grow: 1;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+/*#anime {
+	background-image: url("anime.png");
+}*/
+
+#entertainment {
+	background-image: url("entertainment.jpg");
+}
+
+#food {
+	background-image: url("food.jpg");
+}
+
+#gaming {
+	background-image: url("gaming.jpg");
+}
+
+#live-action {
+	background-image: url("live-action.jpg");
+}
+
+/*#music {
+	background-image: url("music.jpg");
+}*/
+
+/*#tv-movies {
+	background-image: url("tv-movie.jpg");
+}*/
+
+#wrestling {
+	background-image: url("wrestling.png");
+}
+
+@media screen and (max-width: 1200px) {
+	.title {
+		font-size: 5em;
+		height: 108px;
+		line-height: 108px;
+		padding: 8px;
+		padding-bottom: 21px;
+	}
+	
+	.logo {
+		height: 125px;
+		width: 125px;
+	}
+
+	.panel {
+		font-size: 2em;
+	}
+	
+	.social {
+		font-size: 0.8em;
+		padding: 27px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.panel {
+		font-size: 1.5em;
+	}
+	
+	.title {
+		font-size: 4em;
+		height: 87px;
+		line-height: 87px;
+		padding: 7px;
+		padding-bottom: 17px;
+	}
+	
+	.logo {
+		height: 100px;
+		width: 100px;
+	}
+	
+	.social {
+		font-size: 0.66em;
+		padding: 21px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.title {
+		font-size: 3em;
+		height: 65px;
+		line-height: 65px;
+		padding: 5px;
+		padding-bottom: 13px;
+	}
+	
+	.logo {
+		height: 75px;
+		width: 75px;
+	}
+	
+	.social {
+		font-size: 0.5em;
+		padding: 16px;
+	}
+	
+	.panel-contents {
+		width: 100%;
+		display: block;
+	}
+	
+	.panel-cont {
+		flex-direction: column;
+	}
+	
+	.panel {
+		font-size: 1.8em;
+		padding-bottom: 6px;
+	}
+	
+	.panel-top {
+		display: none;
+	}
+	
+	.panel-top-first {
+		display: block;
+	}
+	
+	.panel-contents:hover .panel {
+		padding-bottom: 10px;
+	}
+	
+		
+	/*#anime {
+		background-image: url("anime-l.png");
+	}*/
+
+	#entertainment {
+		background-image: url("entertainment-l.jpg");
+	}
+
+	#food {
+		background-image: url("food-l.jpg");
+	}
+
+	#gaming {
+		background-image: url("gaming-l.jpg");
+	}
+
+	#live-action {
+		background-image: url("live-action-l.jpg");
+	}
+
+	/*#music {
+		background-image: url("music-l.jpg");
+	}*/
+
+	/*#tv-movies {
+		background-image: url("tv-movie-l.jpg");
+	}*/
+
+	#wrestling {
+		background-image: url("wrestling-l.png");
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.title {
+		font-size: 2em;
+		height: 43px;
+		line-height: 43px;
+		padding: 3px;
+		padding-bottom: 8px;
+	}
+	
+	.logo {
+		height: 50px;
+		width: 50px;
+	}
+	
+	.social {
+		font-size: 0.33em;
+		padding: 11px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.social {
+		display: none;
+	}
+}
+</style>
+</head>
+<body>
+<div class="page-cont">
+	<div class="social">
+		<a href="https://www.facebook.com/RaidosNetwork/"><i class="fa fa-facebook-square"></i> Facebook</a><br/>
+		<a href="https://twitter.com/RaidosNetwork"><i class="fa fa-twitter-square"></i> Twitter</a><br/>
+		<a href="https://www.youtube.com/channel/UCJk8UU1r04sXQ13gAFgQ5Tg"><i class="fa fa-youtube-square"></i> YouTube</a>
+	</div>
+	<div class="title">
+		<div class="title-text">
+			The&nbsp;&nbsp;&nbsp;
+		</div><img src="logo-glow.png" class="logo" alt="R"><div class="title-text">
+			aidos&nbsp;&nbsp;&nbsp;Network
+		</div>
+	</div>
+	<div class="panel-cont">
+		<!--<div class="panel-contents" id="anime">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Anime
+			</div>
+		</div>-->
+		<div class="panel-contents" id="entertainment">
+			<div class="panel-top panel-top-first"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Entertainment
+			</div>
+		</div>
+		<div class="panel-contents" id="food">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Food
+			</div>
+		</div>
+		<div class="panel-contents" id="gaming">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Gaming
+			</div>
+		</div>
+		<div class="panel-contents" id="live-action">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Live Action
+			</div>
+		</div>
+		<!--<div class="panel-contents" id="music">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Music
+			</div>
+		</div>-->
+		<div class="panel-contents" id="wrestling">
+			<div class="panel-top"></div>
+			<a href="#">
+				<div class="panel-link"></div>
+			</a>
+			<div class="panel-white"></div>
+			<div class="panel">
+				Wrestling
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
