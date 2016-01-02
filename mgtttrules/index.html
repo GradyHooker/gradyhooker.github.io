@@ -15,10 +15,6 @@ body {
 	overflow-y: scroll;
 }
 
-.transition, p, ul li i:before, ul li i:after {
-  transition: all 0.25s ease-in-out;
-}
-
 .no-select, h2 {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -59,7 +55,7 @@ h2.rule-header {
 }
 
 p {
-  color: #ededed;
+  color: #cccccc;
   position: relative;
   overflow: hidden;
   max-height: 800px;
@@ -104,7 +100,7 @@ ul li i {
 
 ul li i:after {
     color: #ededed;
-	content: "/\\";
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAoklEQVRIie2SUQ2EMAxAJwEJSJgEJCABCXMwCUg4CUhAwiQgAQmPn/WuWXKXZjf42kv2szavTVvnOp1HAYZb5cAGpOaFAA8cfDgBf4c85demCDBlEcAuo8mjEqZaeVDytZx7/hOWGrmw/siLKi9a5bqz0KoZOcOXWuBi6si9dyXs3+Sbks9WuXJ4VSSVwfkfeVFEDiOUwQiMtXLlGSy763TsXLpPLbHeHnSKAAAAAElFTkSuQmCC");
 }
 
 ul li input[type=checkbox] {
@@ -125,7 +121,7 @@ ul li input[type=checkbox]:checked ~ p {
 
 ul li input[type=checkbox]:checked ~ i:after {
 	color: #ededed;
-	content: "\\/";
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAqklEQVRIie2UQRHDIBQFIwEJlYCESIgEJMRBJERCJVQCEpBQCUjYXmD6pqUFJhzZI5PsZj6EZZlMhgE4wAzwGMCV5AARsBfkFngm1/ZZDVciSR6TIwC30kOeN9u35qd8Fbn/O2rgLhHXIN9FfjbtI3BI5KjIM2dV3PNy+trM3iUXySoSn9aMjDG2jLEWsRIJwEPkzQehJRIlNE4ukfyvlM/4wMjl62Qy6eMFZgsz/LK8UWwAAAAASUVORK5CYII=");
 }
 
 body {
