@@ -1,6 +1,16 @@
 <html>
 <head>
 <style type="text/css">
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
 .transition, p, ul li i:before, ul li i:after {
   transition: all 0.25s ease-in-out;
 }
@@ -52,7 +62,7 @@ p {
   opacity: 1;
   transform: translate(0, 0);
   z-index: 2;
-  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', 'Roboto', Verdana, sans-serif;
   padding-left: 30px;
   font-weight: normal;
 }
@@ -72,18 +82,6 @@ ul li {
   padding-top: 9px;
 }
 
-ul li:nth-of-type(1) {
-  animation-delay: 0.5s;
-}
-
-ul li:nth-of-type(2) {
-  animation-delay: 0.75s;
-}
-
-ul li:nth-of-type(3) {
-  animation-delay: 1s;
-}
-
 ul li:last-of-type {
   padding-bottom: 0;
 }
@@ -93,22 +91,14 @@ ul li i {
   transform: translate(-6px, 0);
   margin-top: 8px;
   right: 20;
+  font-style: normal;
+  font-weight: bold;
 }
 
-ul li i:before, ul li i:after {
-  content: "";
-  position: absolute;
-  background-color: #dedede;
-  width: 3px;
-  height: 9px;
-}
-
-ul li i:before {
-  transform: translate(-2px, 0) rotate(45deg);
-}
 
 ul li i:after {
-  transform: translate(2px, 0) rotate(-45deg);
+    color: #ededed;
+	content: "/\\";
 }
 
 ul li input[type=checkbox] {
@@ -127,29 +117,30 @@ ul li input[type=checkbox]:checked ~ p {
   transform: translate(0, 50%);
 }
 
-ul li input[type=checkbox]:checked ~ i:before {
-  transform: translate(2px, 0) rotate(45deg);
-}
-
 ul li input[type=checkbox]:checked ~ i:after {
-  transform: translate(-2px, 0) rotate(-45deg);
+	color: #ededed;
+	content: "\\/";
 }
 
 body {
 	background: url('http://monumentalgaming.net/uploads/set_resources_2/hl2_funkycops.jpg.708fe2c80a4e79807a4c2bb2e0108c5f.jpg');
 	background-size: cover;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Verdana, sans-serif;
 	color: rgba(48, 69, 92, 0.8);
 	padding: 30px;
 }
 
 .cont {
 	display: inline-block;
-	position: relative;
-	margin: 0px auto;
+	position: absolute;
+	margin: 0 auto;
 	background-color: rgba(50, 50, 50, 0.9);
 	padding: 30px;
 	border-radius: 30px;
+	width: 80%;
+	color: #ededed;
+	font-family: 'Roboto Condensed', 'Roboto', Verdana, sans-serif;
+	font-weight: normal;
 }
 
 .column1 {
@@ -174,8 +165,13 @@ body {
 	color: #FF4444;
 }
 
+.centered {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
 </style>
-<link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
 <script type="text/javascript">
 window.onload = highlightHash;
 window.onhashchange = highlightHash;
@@ -199,6 +195,7 @@ function highlightHash() {
 <body>
 <div class="cont">
 <h1>Monumental Gaming - Trouble in Terrorist Town Rules</h1>
+<p class="centered">Expand each rule for further information.</p>
 <hr>
 <div class="column1">
 <h2 class="rule-header">General Rules</h2>
