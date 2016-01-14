@@ -414,9 +414,9 @@ body {
 }
 .page-panel-cont {
 	padding: 10px;
-	background: -webkit-linear-gradient(rgba(40,40,40,1) 0%, #CCC 5%);
-	background: -moz-linear-gradient(rgba(40,40,40,1) 0%, #CCC 5%);
-	background: linear-gradient(rgba(40,40,40,1) 0%, #CCC 5%);
+	background: -webkit-linear-gradient(rgba(40,40,40,1) 0%, #CCC 50px);
+	background: -moz-linear-gradient(rgba(40,40,40,1) 0%, #CCC 50px);
+	background: linear-gradient(rgba(40,40,40,1) 0%, #CCC 50px);
 }
 
 hr {
