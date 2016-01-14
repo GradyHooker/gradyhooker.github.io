@@ -89,6 +89,7 @@ function generate_DOM(holder_id, more_id, howmany) {
 	more_obj = document.getElementById(more_id);
 	var new_more_obj = more_obj.cloneNode(true);
 	more_obj.parentNode.removeChild(more_obj);
+	
 	for(i = 0; i < howmany; i++) {
 		if (i+index < json.length) {
 			obj = json[i+index].snippet;
@@ -98,6 +99,19 @@ function generate_DOM(holder_id, more_id, howmany) {
 		}
 		
 		count++;
+		
+		var gamebits = obj.title.split(" (");
+		
+		var namebits = gamebits[0].split(" - ");
+		var name = namebits[1];
+		
+		for(j = 2; j < namebits.length; j++) {
+			name = name + " - " + namebits[j];
+		}
+		
+		if(gamebits.length > 1) {
+			name = name + "<br/>(" + gamebits[1].split(")")[0] + ")";
+		}
 		
 		episode = document.createElement("DIV");
 		episode.className = "episode";
@@ -121,7 +135,7 @@ function generate_DOM(holder_id, more_id, howmany) {
 		//episode_figcap.innerHTML = obj.length;
 		episode_text = document.createElement("P");
 		episode_text.className = "episode-title";
-		episode_text.innerHTML = obj.title.split(" - ")[1];
+		episode_text.innerHTML = name;
 		
 		details = document.createElement("DIV");
 		details.className = "episode_details";
