@@ -23,6 +23,8 @@ body {
 	top: 0px;
 	right: 0px;
 	padding: 32px;
+	font-size: 1.8em;
+	text-align: center;
 }
 
 .social a {
@@ -30,6 +32,7 @@ body {
 	font-size: 1.5em;
 	color: white;
 	text-decoration: none;
+	padding: 5px;
 }
 
 .title {
@@ -184,7 +187,7 @@ body {
 	}
 	
 	.social {
-		font-size: 0.8em;
+		font-size: 1.44em;
 		padding: 27px;
 	}
 }
@@ -208,7 +211,7 @@ body {
 	}
 	
 	.social {
-		font-size: 0.66em;
+		font-size: 1.18em;
 		padding: 21px;
 	}
 }
@@ -228,7 +231,7 @@ body {
 	}
 	
 	.social {
-		font-size: 0.5em;
+		font-size: 0.9em;
 		padding: 16px;
 	}
 	
@@ -307,7 +310,7 @@ body {
 	}
 	
 	.social {
-		font-size: 0.33em;
+		font-size: 0.59em;
 		padding: 11px;
 	}
 }
