@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>MotoPark NZ</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="init.js"></script>
+	<script src="data.js"></script>
+	<script src="script.js"></script>
+  </head>
+  <body>
+	<div class="container">
+		<div class="panel-left">
+			<div>
+				<img class="logo" src="logo.png"/>
+				<div class="motto">MotoPark NZ currently knows about 1120 motorcycle parks</div>
+				<div>Where are you riding today?</div>
+				<input id="autocomplete" class="location-search" placeholder="Enter a destination" type="text" autofocus/>
+			</div>
+			<div class="results" id="results">
+				<!--<div class="results-card">
+					<img class="results-img" src="parks/HAM-02.png"/>
+					<div class="results-details">
+						<div class="results-address">
+							STREET ADDRESS
+						</div>
+						<div class="results-numbers">
+							<span>8P</span>
+							<span>8m</span>
+							<span>0.8km</span>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<div>
+				<span>Quick Location Links</span>
+				<div class="location-link-cont">
+					<div class="location-link auckland" onclick="changeLocation('Auckland')">
+						<div class="location-heading">Auckland</div>
+						284 Parks
+					</div>
+					<div class="location-link wellington" onclick="changeLocation('Wellington')">
+						<div class="location-heading">Wellington</div>
+						517 Parks
+					</div>
+					<div class="location-link christchurch" onclick="changeLocation('Christchurch')">
+						<div class="location-heading">Christchurch</div>
+						66 Parks
+					</div>
+					<div class="location-link hamilton" onclick="changeLocation('Hamilton')">
+						<div class="location-heading">Hamilton</div>
+						76 Parks
+					</div>
+					<div class="location-link dunedin" onclick="changeLocation('Dunedin')">
+						<div class="location-heading">Dunedin</div>
+						82 Parks
+					</div>
+					<div class="location-link hastings" onclick="changeLocation('Hastings')">
+						<div class="location-heading">Hastings</div>
+						20 Parks
+					</div>
+					<div class="location-link napier" onclick="changeLocation('Napier')">
+						<div class="location-heading">Napier</div>
+						42 Parks
+					</div>
+					<div class="location-link whangarei" onclick="changeLocation('Whangarei')">
+						<div class="location-heading">Whangarei</div>
+						3 Parks
+					</div>
+					<div class="location-link taupo" onclick="changeLocation('Taupo')">
+						<div class="location-heading">Taupo</div>
+						30 Parks
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="map">
+		</div>
+	</div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxqG3Q_65uYcc7-Z9OBdhE3k62QNUnNTg&callback=initMap&libraries=places"></script>
+  </body>
+</html>
