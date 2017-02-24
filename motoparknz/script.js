@@ -167,7 +167,7 @@ function constructResult(results, i) {
 	var outer = document.createElement("DIV");
 	outer.className = "results-card";
 	var img = document.createElement("IMG");
-	img.src = "parks/" + locations[i][0] + ".png";
+	img.src = "parks/thumbs/" + locations[i][0] + ".jpg";
 	img.className = "results-img";
 	var details = document.createElement("DIV");
 	details.className = "results-details";
