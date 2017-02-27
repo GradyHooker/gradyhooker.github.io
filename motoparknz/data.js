@@ -174,7 +174,7 @@ var locations = [
 	["AUK-23",	"187 Federal St",		-36.850263, 	174.761655,		16,		""],
 	["AUK-24",	"58 Gaunt St",			-36.844433, 	174.754923,		26,		""],
 	["AUK-25",	"15 Hardinge St",		-36.846398, 	174.758142,		16,		""],
-	["AUK-26",	"Mccrae Way",			-36.908891, 	174.683296,		'??',		"McCrae Way Car Park (AT offers free designated parking for motorcycles in all of its car park buildings)", true],
+	["AUK-26",	"Mccrae Way",			-36.908891, 	174.683296,		'??',	"McCrae Way Car Park (AT offers free designated parking for motorcycles in all of its car park buildings)", true],
 	["AUK-27",	"The Avenue, Takapuna",	-36.785706, 	174.754149,		8,		""],
 	["AUK-28",	"10/18 Upper Queen St",	-36.858756, 	174.761164,		'??',	"Upper Queen Street Car Park (AT offers free designated parking for motorcycles in all of its car park buildings)", true],
 
