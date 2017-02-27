@@ -79,6 +79,7 @@ function onPlaceChanged() {
 	if (place.geometry) {
 		map.panTo(place.geometry.location);
 		map.setZoom(17);
+		document.getElementById("clear-phrase").style.display = "none";
 		clearSearchFilter();
 		
 		var scale = 1.5;
@@ -108,14 +109,11 @@ function onPlaceChanged() {
 			center : place.geometry.location,
 			radius : 400
 		});
-
-		var pane = document.getElementById("results");
-		while (pane.hasChildNodes()) {
-			pane.removeChild(pane.lastChild);
-		}
+		
 		var loadingImg = document.createElement("IMG");
 		loadingImg.src = "icons/loading.gif";
 		loadingImg.className = "loader-gif";
+		var pane = document.getElementById("results");
 		pane.appendChild(loadingImg);
 
 		spotsToAdd = [];
@@ -128,6 +126,7 @@ function onPlaceChanged() {
 			if (distance >= 0.4) {
 				mark.setOpacity(0.4);
 			} else {
+				mark.setOpacity(0.4);
 				spotsTrying++;
 				console.log("Trying at to add Park #" + i);
 				addDelayedParkingSpot(i, mark, place.geometry.location);
@@ -163,6 +162,12 @@ function resetPage() {
 	}
 }
 
+function clearSearchFilterButton() {
+	document.getElementById("autocomplete").value = "";
+	document.getElementById("clear-phrase").style.display = "none";
+	clearSearchFilter();
+}
+
 function clearSearchFilter() {
 	for (var i = 0; i < markers.length; i++) {
 		markers[i].setOpacity(1.0);
@@ -174,6 +179,10 @@ function clearSearchFilter() {
 	}
 	if (dest_circle != null) {
 		dest_circle.setMap(null);
+	}
+	var pane = document.getElementById("results");
+	while (pane.hasChildNodes()) {
+		pane.removeChild(pane.lastChild);
 	}
 }
 
@@ -227,6 +236,8 @@ function checkIfAddedAll() {
 		while (pane.hasChildNodes()) {
 			pane.removeChild(pane.lastChild);
 		}
+		//Show the clear button
+		document.getElementById("clear-phrase").style.display = "block";
 		for (var i = 0; i < spotsToAdd.length; i++) {
 			pane.appendChild(constructResult(spotsToAdd[i].result, spotsToAdd[i].index));
 		}
