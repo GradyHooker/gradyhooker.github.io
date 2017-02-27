@@ -79,9 +79,8 @@ function onPlaceChanged() {
 	if (place.geometry) {
 		map.panTo(place.geometry.location);
 		map.setZoom(17);
-		if (dest_marker != null) {
-			dest_marker.setMap(null);
-		}
+		clearSearchFilter();
+		
 		var scale = 1.5;
 		dest_marker = new google.maps.Marker({
 			position : place.geometry.location,
@@ -99,9 +98,6 @@ function onPlaceChanged() {
 		var destLat = place.geometry.location.lat();
 		var destLng = place.geometry.location.lng();
 
-		if (dest_circle != null) {
-			dest_circle.setMap(null);
-		}
 		dest_circle = new google.maps.Circle({
 			strokeColor : '#000000',
 			strokeOpacity : 0.6,
@@ -170,6 +166,8 @@ function resetPage() {
 function clearSearchFilter() {
 	for (var i = 0; i < markers.length; i++) {
 		markers[i].setOpacity(1.0);
+		google.maps.event.clearListeners(markers[i], 'mouseover');
+		google.maps.event.clearListeners(markers[i], 'mouseout');
 	}
 	if (dest_marker != null) {
 		dest_marker.setMap(null);
@@ -187,6 +185,7 @@ function addDelayedParkingSpot(i, mark, dest) {
 
 function addParkingSpot(i, mark, dest) {
 	mark.setOpacity(1.0);
+	console.log(mark.icon.url);
 	var request = {
 		origin : mark.position,
 		destination : dest,
@@ -243,11 +242,15 @@ function distBetween(lat1, lng1, lat2, lng2) {
 }
 
 function constructResult(results, i) {
+	var mark = markers[i];
+	var oldIcon = mark.icon.url;
 	var outer = document.createElement("DIV");
 	outer.className = "results-card";
 	outer.id = "result-" + i;
+	
+	//Hover effects (Card)
 	outer.onmouseover = function() {
-		markers[i].setIcon({
+		mark.setIcon({
 			url : 'icons/marker-selected.png',
 			size : new google.maps.Size(22 * 1.5, 32 * 1.5),
 			origin : new google.maps.Point(0, 0),
@@ -258,8 +261,8 @@ function constructResult(results, i) {
 		this.style.background = "#b4e3d0";
 	};
 	outer.onmouseout = function() {
-		markers[i].setIcon({
-			url : 'icons/marker.png',
+		mark.setIcon({
+			url : oldIcon,
 			size : new google.maps.Size(22 * 1.2, 32 * 1.2),
 			origin : new google.maps.Point(0, 0),
 			labelOrigin : new google.maps.Point(11 * 1.2, 11 * 1.2),
@@ -268,6 +271,32 @@ function constructResult(results, i) {
 		});
 		this.style.background = "#f0f0f0";
 	};
+	
+	//Hover Effects (Marker)
+	google.maps.event.addListener(mark, 'mouseover', function() {
+		this.setIcon({
+			url : 'icons/marker-selected.png',
+			size : new google.maps.Size(22 * 1.5, 32 * 1.5),
+			origin : new google.maps.Point(0, 0),
+			labelOrigin : new google.maps.Point(11 * 1.5, 11 * 1.5),
+			anchor : new google.maps.Point(11 * 1.5, 32 * 1.5),
+			scaledSize : new google.maps.Size(22 * 1.5, 32 * 1.5)
+		});
+		document.getElementById("result-" + i).style.background = "#b4e3d0";
+	});
+	
+	google.maps.event.addListener(mark, 'mouseout', function() {
+		mark.setIcon({
+			url : oldIcon,
+			size : new google.maps.Size(22 * 1.2, 32 * 1.2),
+			origin : new google.maps.Point(0, 0),
+			labelOrigin : new google.maps.Point(11 * 1.2, 11 * 1.2),
+			anchor : new google.maps.Point(11 * 1.2, 32 * 1.2),
+			scaledSize : new google.maps.Size(22 * 1.2, 32 * 1.2)
+		});
+		document.getElementById("result-" + i).style.background = "#f0f0f0";
+	});
+	
 	var img = document.createElement("IMG");
 	img.src = "parks/thumbs/" + locations[i][0] + ".jpg";
 	img.className = "results-img";
