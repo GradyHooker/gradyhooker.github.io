@@ -15,7 +15,7 @@ html, body {
 
 .panel-left {
 	width: 20%;
-	min-width: 170px;
+	min-width: 340px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

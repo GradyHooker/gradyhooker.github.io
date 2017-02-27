@@ -35,10 +35,10 @@ function initMap() {
 		});
 		markers[i] = marker;
 		marker.addListener('click', function() {
-			map.setCenter({
-				lat : this.position.lat(),
-				lng : this.position.lng()
-			});
+			/*map.setCenter({
+			 lat : this.position.lat(),
+			 lng : this.position.lng()
+			 });*/
 		});
 	}
 
@@ -58,6 +58,10 @@ function initMap() {
 
 	//Set up directions
 	directionsService = new google.maps.DirectionsService();
+	directionsDisplay = new google.maps.DirectionsRenderer({
+		suppressMarkers : true,
+		preserveViewport : true
+	});
 }
 
 function changeLocation(loc) {
@@ -81,7 +85,7 @@ function onPlaceChanged() {
 		map.setZoom(17);
 		document.getElementById("clear-phrase").style.display = "none";
 		clearSearchFilter();
-		
+
 		var scale = 1.5;
 		dest_marker = new google.maps.Marker({
 			position : place.geometry.location,
@@ -109,7 +113,7 @@ function onPlaceChanged() {
 			center : place.geometry.location,
 			radius : 400
 		});
-		
+
 		var loadingImg = document.createElement("IMG");
 		loadingImg.src = "icons/loading.gif";
 		loadingImg.className = "loader-gif";
@@ -169,10 +173,12 @@ function clearSearchFilterButton() {
 }
 
 function clearSearchFilter() {
+	directionsDisplay.setMap(null);
 	for (var i = 0; i < markers.length; i++) {
 		markers[i].setOpacity(1.0);
 		google.maps.event.clearListeners(markers[i], 'mouseover');
 		google.maps.event.clearListeners(markers[i], 'mouseout');
+		google.maps.event.clearListeners(markers[i], 'click');
 	}
 	if (dest_marker != null) {
 		dest_marker.setMap(null);
@@ -180,10 +186,15 @@ function clearSearchFilter() {
 	if (dest_circle != null) {
 		dest_circle.setMap(null);
 	}
+	clearResultsPane();
+}
+
+function clearResultsPane() {
 	var pane = document.getElementById("results");
 	while (pane.hasChildNodes()) {
 		pane.removeChild(pane.lastChild);
 	}
+	directionsDisplay.setPanel(null);
 }
 
 function addDelayedParkingSpot(i, mark, dest) {
@@ -258,7 +269,23 @@ function constructResult(results, i) {
 	var outer = document.createElement("DIV");
 	outer.className = "results-card";
 	outer.id = "result-" + i;
-	
+
+	//Give directions (Card)
+	outer.onclick = function() {
+		clearResultsPane();
+		directionsDisplay.setMap(map);
+		directionsDisplay.setPanel(document.getElementById("results"));
+		directionsDisplay.setDirections(results);
+	};
+
+	//Give directions (Marker)
+	google.maps.event.addListener(mark, 'click', function() {
+		clearResultsPane();
+		directionsDisplay.setMap(map);
+		directionsDisplay.setPanel(document.getElementById("results"));
+		directionsDisplay.setDirections(results);
+	});
+
 	//Hover effects (Card)
 	outer.onmouseover = function() {
 		mark.setIcon({
@@ -282,7 +309,7 @@ function constructResult(results, i) {
 		});
 		this.style.background = "#f0f0f0";
 	};
-	
+
 	//Hover Effects (Marker)
 	google.maps.event.addListener(mark, 'mouseover', function() {
 		this.setIcon({
@@ -293,9 +320,12 @@ function constructResult(results, i) {
 			anchor : new google.maps.Point(11 * 1.5, 32 * 1.5),
 			scaledSize : new google.maps.Size(22 * 1.5, 32 * 1.5)
 		});
-		document.getElementById("result-" + i).style.background = "#b4e3d0";
+		var card = document.getElementById("result-" + i);
+		if (card != null) {
+			card.style.background = "#b4e3d0";
+		}
 	});
-	
+
 	google.maps.event.addListener(mark, 'mouseout', function() {
 		mark.setIcon({
 			url : oldIcon,
@@ -305,9 +335,12 @@ function constructResult(results, i) {
 			anchor : new google.maps.Point(11 * 1.2, 32 * 1.2),
 			scaledSize : new google.maps.Size(22 * 1.2, 32 * 1.2)
 		});
-		document.getElementById("result-" + i).style.background = "#f0f0f0";
+		var card = document.getElementById("result-" + i);
+		if (card != null) {
+			card.style.background = "#f0f0f0";
+		}
 	});
-	
+
 	var img = document.createElement("IMG");
 	img.src = "parks/thumbs/" + locations[i][0] + ".jpg";
 	img.className = "results-img";
