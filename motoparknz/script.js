@@ -143,6 +143,7 @@ function onPlaceChanged() {
 			while (pane.hasChildNodes()) {
 				pane.removeChild(pane.lastChild);
 			}
+			document.getElementById("clear-phrase").style.display = "block";
 			var noParksFound = document.createElement("SPAN");
 			noParksFound.innerHTML = "No Parks Found";
 			noParksFound.className = "no-parks";
