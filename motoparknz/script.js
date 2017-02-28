@@ -60,7 +60,8 @@ function initMap() {
 	directionsService = new google.maps.DirectionsService();
 	directionsDisplay = new google.maps.DirectionsRenderer({
 		suppressMarkers : true,
-		preserveViewport : true
+		preserveViewport : true,
+		suppressInfoWindows : true
 	});
 }
 
@@ -197,6 +198,48 @@ function clearResultsPane() {
 	directionsDisplay.setPanel(null);
 }
 
+function hideResultsPaneExcept(i) {
+	directionsDisplay.setPanel(null);
+	console.log("Hiding them all but " + i);
+	var pane = document.getElementById("results");
+	var children = pane.childNodes;
+	var alreadyGotButton = false;
+	for (var j = 0; j < children.length; j++) {
+		if (children[j].className == "results-card") {
+			if (children[j].id != "result-" + i) {
+				children[j].style.display = "none";
+			} else {
+				children[j].style.display = "block";
+			}
+		} else if (children[j].className == "results-back") {
+			alreadyGotButton = true;
+			children[j].style.display = "block";
+		}
+	}
+	if (!alreadyGotButton) {
+		var backButton = document.createElement("DIV");
+		backButton.className = "results-back";
+		backButton.innerHTML = "[↶] Back to Search Results";
+		backButton.onclick = clearDirectionsFromPane;
+		pane.appendChild(backButton);
+	}
+}
+
+function clearDirectionsFromPane() {
+	directionsDisplay.setPanel(null);
+	directionsDisplay.setMap(null);
+	
+	var pane = document.getElementById("results");
+	var children = pane.childNodes;
+	for (var j = 0; j < children.length; j++) {
+		if (children[j].className == "results-card") {
+			children[j].style.display = "block";
+		} else if (children[j].className == "results-back") {
+			children[j].style.display = "none";
+		}
+	}
+}
+
 function addDelayedParkingSpot(i, mark, dest) {
 	setTimeout(function() {
 		addParkingSpot(i, mark, dest);
@@ -272,7 +315,7 @@ function constructResult(results, i) {
 
 	//Give directions (Card)
 	outer.onclick = function() {
-		clearResultsPane();
+		hideResultsPaneExcept(i);
 		directionsDisplay.setMap(map);
 		directionsDisplay.setPanel(document.getElementById("results"));
 		directionsDisplay.setDirections(results);
@@ -280,7 +323,7 @@ function constructResult(results, i) {
 
 	//Give directions (Marker)
 	google.maps.event.addListener(mark, 'click', function() {
-		clearResultsPane();
+		hideResultsPaneExcept(i);
 		directionsDisplay.setMap(map);
 		directionsDisplay.setPanel(document.getElementById("results"));
 		directionsDisplay.setDirections(results);
