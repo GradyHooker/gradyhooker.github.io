@@ -9,6 +9,10 @@ function initMap() {
 			lng : 172.65
 		}
 	});
+	
+	if(document.getElementById('map').offsetWidth <= 600 || document.getElementById('map').offsetHeight <= 650) {
+		map.setZoom(5);
+	}
 
 	for (var i = 0; i < locations.length; i++) {
 		var point = locations[i];
@@ -75,6 +79,7 @@ function initMap() {
 		}
 	}
 	document.getElementById("total-parks-number").textContent = count;
+	document.getElementById("total-parks-number-side").textContent = count;
 }
 
 function changeLocation(loc) {
