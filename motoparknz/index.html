@@ -12,6 +12,14 @@
 	</head>
 	<body>
 		<div class="container">
+			<div class="panel-top mobile-only">
+				<div class="logo-top-cont">
+					<img class="logo" src="logo-long.png" onclick="resetPage()"/>
+					<div class="motto">
+						MotoPark NZ currently knows about 1120 motorcycle parks
+					</div>
+				</div>
+			</div>
 			<div class="panel-left">
 				<div>
 					<img class="logo" src="logo.png" onclick="resetPage()"/>
@@ -22,12 +30,14 @@
 						Where are you riding today?
 					</div>
 					<input id="autocomplete" class="location-search" placeholder="Enter a destination" type="text"/>
-					<div class="clear-phrase" id="clear-phrase" onclick="clearSearchFilterButton()">[X] Clear Search Results</div>
+					<div class="clear-phrase" id="clear-phrase" onclick="clearSearchFilterButton()">
+						[X] Clear Search Results
+					</div>
 				</div>
 				<div class="results" id="results">
 					&nbsp;
 				</div>
-				<div>
+				<div class="quick-locations">
 					<span>Quick Location Links</span>
 					<div class="location-link-cont">
 						<div class="location-link auckland" onclick="changeLocation('Auckland')">
