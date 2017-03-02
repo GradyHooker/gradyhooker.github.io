@@ -451,3 +451,12 @@ function padValue(i) {
 		return i;
 	}
 }
+
+function openSearchTab() {
+	var panel = document.getElementsByClassName("panel-left")[0];
+	if(panel.classList.contains("open")) {
+		panel.classList.remove("open");
+	} else {
+		panel.classList.add("open");
+	}
+}
