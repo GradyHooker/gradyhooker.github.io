@@ -1,6 +1,9 @@
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom : 6,
+		streetViewControl : false,
+		minZoom : 5,
+		fullscreenControl : false,
 		center : {
 			lat : -41.15,
 			lng : 172.65
@@ -12,9 +15,9 @@ function initMap() {
 		var scale = 1.2;
 		var icon;
 		if (point[6] != null && point[6]) {
-			icon = "icons/marker-building.png";
+			icon = "icons/prescaled/marker-building.png";
 		} else {
-			icon = "icons/marker.png";
+			icon = "icons/prescaled/marker.png";
 		}
 		var marker = new google.maps.Marker({
 			position : {
@@ -63,6 +66,15 @@ function initMap() {
 		preserveViewport : true,
 		suppressInfoWindows : true
 	});
+
+	//Update all the number values
+	var count = 0;
+	for (var i = 0; i < locations.length; i++) {
+		if (locations[i][4] != "??") {
+			count += parseInt(locations[i][4]);
+		}
+	}
+	document.getElementById("total-parks-number").textContent = count;
 }
 
 function changeLocation(loc) {
@@ -92,7 +104,7 @@ function onPlaceChanged() {
 			position : place.geometry.location,
 			map : map,
 			icon : {
-				url : 'icons/marker-x.png',
+				url : 'icons/prescaled/marker-x.png',
 				size : new google.maps.Size(22 * scale, 22 * scale),
 				origin : new google.maps.Point(0, 0),
 				labelOrigin : new google.maps.Point(11 * scale, 11 * scale),
@@ -229,7 +241,7 @@ function hideResultsPaneExcept(i) {
 function clearDirectionsFromPane() {
 	directionsDisplay.setPanel(null);
 	directionsDisplay.setMap(null);
-	
+
 	var pane = document.getElementById("results");
 	var children = pane.childNodes;
 	for (var j = 0; j < children.length; j++) {
@@ -333,7 +345,7 @@ function constructResult(results, i) {
 	//Hover effects (Card)
 	outer.onmouseover = function() {
 		mark.setIcon({
-			url : 'icons/marker-selected.png',
+			url : 'icons/prescaled/marker-selected.png',
 			size : new google.maps.Size(22 * 1.5, 32 * 1.5),
 			origin : new google.maps.Point(0, 0),
 			labelOrigin : new google.maps.Point(11 * 1.5, 11 * 1.5),
@@ -357,7 +369,7 @@ function constructResult(results, i) {
 	//Hover Effects (Marker)
 	google.maps.event.addListener(mark, 'mouseover', function() {
 		this.setIcon({
-			url : 'icons/marker-selected.png',
+			url : 'icons/prescaled/marker-selected.png',
 			size : new google.maps.Size(22 * 1.5, 32 * 1.5),
 			origin : new google.maps.Point(0, 0),
 			labelOrigin : new google.maps.Point(11 * 1.5, 11 * 1.5),
