@@ -9,8 +9,8 @@ function initMap() {
 			lng : 172.65
 		}
 	});
-	
-	if(document.getElementById('map').offsetWidth <= 600 || document.getElementById('map').offsetHeight <= 650) {
+
+	if (document.getElementById('map').offsetWidth <= 600 || document.getElementById('map').offsetHeight <= 650) {
 		map.setZoom(5);
 	}
 
@@ -454,9 +454,13 @@ function padValue(i) {
 
 function openSearchTab() {
 	var panel = document.getElementsByClassName("panel-left")[0];
-	if(panel.classList.contains("open")) {
+	if (panel.classList.contains("open")) {
 		panel.classList.remove("open");
 	} else {
 		panel.classList.add("open");
 	}
+	setTimeout(function() {
+		google.maps.event.trigger(map, 'resize');
+	}, 1000);
+
 }
