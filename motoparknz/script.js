@@ -96,6 +96,20 @@ function changeLocation(loc) {
 	}
 }
 
+function changeLocationGPS() {
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(setLocationGPS);
+	}
+}
+
+function setLocationGPS(position) {
+	map.setCenter({
+		lat : position.coords.latitude,
+		lng : position.coords.longitude
+	});
+	map.setZoom(15);
+}
+
 function onPlaceChanged() {
 	var place = autocomplete.getPlace();
 	if (place.geometry) {
@@ -466,7 +480,7 @@ function openSearchTab() {
 		search_icon.style.opacity = 0;
 		close_icon.style.opacity = 1;
 	}
-	
+
 	var otherPanel = document.getElementsByClassName("panel-right")[0];
 	if (otherPanel.classList.contains("open")) {
 		var location_icon = document.getElementById("location-icon");
@@ -475,7 +489,7 @@ function openSearchTab() {
 		location_icon.style.opacity = 1;
 		locationClose_icon.style.opacity = 0;
 	}
-	
+
 	var c = map.getCenter();
 	setTimeout(function() {
 		google.maps.event.trigger(map, 'resize');
@@ -497,7 +511,7 @@ function openLocationTab() {
 		location_icon.style.opacity = 0;
 		close_icon.style.opacity = 1;
 	}
-	
+
 	var otherPanel = document.getElementsByClassName("panel-left")[0];
 	if (otherPanel.classList.contains("open")) {
 		var search_icon = document.getElementById("search-icon");
@@ -506,7 +520,7 @@ function openLocationTab() {
 		search_icon.style.opacity = 1;
 		searchClose_icon.style.opacity = 0;
 	}
-	
+
 	var c = map.getCenter();
 	setTimeout(function() {
 		google.maps.event.trigger(map, 'resize');
