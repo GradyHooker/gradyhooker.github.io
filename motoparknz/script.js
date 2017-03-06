@@ -459,8 +459,10 @@ function openSearchTab() {
 	} else {
 		panel.classList.add("open");
 	}
+	var c = map.getCenter();
 	setTimeout(function() {
 		google.maps.event.trigger(map, 'resize');
+		map.setCenter(c);
 	}, 1000);
 
 }
