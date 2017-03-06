@@ -73,13 +73,80 @@ function initMap() {
 
 	//Update all the number values
 	var count = 0;
+	var count_auk = 0;
+	var count_wlg = 0;
+	var count_chc = 0;
+	var count_ham = 0;
+	var count_dnd = 0;
+	var count_has = 0;
+	var count_nap = 0;
+	var count_whg = 0;
+	var count_tpo = 0;
+
 	for (var i = 0; i < locations.length; i++) {
 		if (locations[i][4] != "??") {
 			count += parseInt(locations[i][4]);
+			switch(locations[i][0].split("-")[0]) {
+				case "AUK":
+					count_auk += parseInt(locations[i][4]);
+					break;
+				case "WLG":
+					count_wlg += parseInt(locations[i][4]);
+					break;
+				case "CHC":
+					count_chc += parseInt(locations[i][4]);
+					break;
+				case "HAM":
+					count_ham += parseInt(locations[i][4]);
+					break;
+				case "DND":
+					count_dnd += parseInt(locations[i][4]);
+					break;
+				case "HAS":
+					count_has += parseInt(locations[i][4]);
+					break;
+				case "NAP":
+					count_nap += parseInt(locations[i][4]);
+					break;
+				case "WHG":
+					count_whg += parseInt(locations[i][4]);
+					break;
+				case "TPO":
+					count_tpo += parseInt(locations[i][4]);
+					break;
+			}
 		}
 	}
-	document.getElementById("total-parks-number").textContent = count;
-	document.getElementById("total-parks-number-side").textContent = count;
+	
+	document.getElementsByClassName("total-parks-number")[0].textContent = count;
+	document.getElementsByClassName("total-parks-number")[1].textContent = count;
+	
+	document.getElementsByClassName("auk-parks-number")[0].textContent = count_auk;
+	document.getElementsByClassName("auk-parks-number")[1].textContent = count_auk;
+	
+	document.getElementsByClassName("wlg-parks-number")[0].textContent = count_wlg;
+	document.getElementsByClassName("wlg-parks-number")[1].textContent = count_wlg;
+	
+	document.getElementsByClassName("chc-parks-number")[0].textContent = count_chc;
+	document.getElementsByClassName("chc-parks-number")[1].textContent = count_chc;
+	
+	document.getElementsByClassName("ham-parks-number")[0].textContent = count_ham;
+	document.getElementsByClassName("ham-parks-number")[1].textContent = count_ham;
+	
+	document.getElementsByClassName("dnd-parks-number")[0].textContent = count_dnd;
+	document.getElementsByClassName("dnd-parks-number")[1].textContent = count_dnd;
+	
+	document.getElementsByClassName("has-parks-number")[0].textContent = count_has;
+	document.getElementsByClassName("has-parks-number")[1].textContent = count_has;
+	
+	document.getElementsByClassName("nap-parks-number")[0].textContent = count_nap;
+	document.getElementsByClassName("nap-parks-number")[1].textContent = count_nap;
+	
+	document.getElementsByClassName("whg-parks-number")[0].textContent = count_whg;
+	document.getElementsByClassName("whg-parks-number")[1].textContent = count_whg;
+	
+	document.getElementsByClassName("tpo-parks-number")[0].textContent = count_tpo;
+	document.getElementsByClassName("tpo-parks-number")[1].textContent = count_tpo;
 }
 
 function changeLocation(loc) {
