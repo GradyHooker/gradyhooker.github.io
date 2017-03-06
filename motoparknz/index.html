@@ -14,7 +14,8 @@
 		<div class="container">
 			<div class="panel-top mobile-only">
 				<div class="circle-button" onclick="openSearchTab()">
-					<img class="search-icon" src="icons/search.png" alt="Search icon">
+					<img class="search-icon" id="search-icon" src="icons/search.png" alt="Search icon">
+					<img class="close-icon" id="search-icon-close" src="icons/close.png" alt="Close icon">
 				</div>
 				<div class="logo-top-cont">
 					<img class="logo-top" src="logo-long.png" onclick="resetPage()"/>
@@ -22,8 +23,9 @@
 						MotoPark NZ currently knows about <span id="total-parks-number">0</span> motorcycle parks
 					</div>
 				</div>
-				<div class="circle-button">
-					<img class="search-icon" src="icons/location.png" alt="Location icon">
+				<div class="circle-button" onclick="openLocationTab()">
+					<img class="location-icon" id="location-icon" src="icons/location.png" alt="Location icon">
+					<img class="close-icon" id="location-icon-close" src="icons/close.png" alt="Close icon">
 				</div>
 			</div>
 			<div class="inner-container">
@@ -106,6 +108,64 @@
 				</div>
 				<div id="map">
 					&nbsp;
+				</div>
+				<div class="panel-right">
+					<div class="location-link-cont">
+						<div class="location-link auckland" onclick="changeLocation('Auckland')">
+							<div class="location-heading">
+								Auckland
+							</div>
+							284 Parks
+						</div>
+						<div class="location-link wellington" onclick="changeLocation('Wellington')">
+							<div class="location-heading">
+								Wellington
+							</div>
+							517 Parks
+						</div>
+						<div class="location-link christchurch" onclick="changeLocation('Christchurch')">
+							<div class="location-heading">
+								Christchurch
+							</div>
+							66 Parks
+						</div>
+						<div class="location-link hamilton" onclick="changeLocation('Hamilton')">
+							<div class="location-heading">
+								Hamilton
+							</div>
+							76 Parks
+						</div>
+						<div class="location-link dunedin" onclick="changeLocation('Dunedin')">
+							<div class="location-heading">
+								Dunedin
+							</div>
+							82 Parks
+						</div>
+						<div class="location-link hastings" onclick="changeLocation('Hastings')">
+							<div class="location-heading">
+								Hastings
+							</div>
+							20 Parks
+						</div>
+						<div class="location-link napier" onclick="changeLocation('Napier')">
+							<div class="location-heading">
+								Napier
+							</div>
+							42 Parks
+						</div>
+						<div class="location-link whangarei" onclick="changeLocation('Whangarei')">
+							<div class="location-heading">
+								Whangarei
+							</div>
+							3 Parks
+						</div>
+						<div class="location-link taupo" onclick="changeLocation('Taupo')">
+							<div class="location-heading">
+								Taupo
+							</div>
+							30 Parks
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
