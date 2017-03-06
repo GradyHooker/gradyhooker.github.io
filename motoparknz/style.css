@@ -282,9 +282,11 @@ html, body {
 	font-size: 0.8em;
 }
 
-.adp-summary {
+.adp-summary, .adp-placemark {
 	display: none;
 }
+
+
 
 /*Media Queries*/
 @media (max-height: 650px) {
