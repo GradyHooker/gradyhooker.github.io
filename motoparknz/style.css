@@ -210,6 +210,12 @@ html, body {
 	box-shadow: 0 2px 4px rgba(20, 20, 20, 0.5);
 }
 
+.location-link.gps {
+	width: 200px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
 .location-photo {
 	width: 40%;
 }
@@ -297,6 +303,14 @@ html, body {
 	background-size: cover;
 }
 
+.gps {
+	background: linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(cities/gps.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 #map {
 	height: 100%;
 	width: 100%;
@@ -309,6 +323,10 @@ html, body {
 
 .adp-summary, .adp-placemark {
 	display: none;
+}
+
+.adp-directions {
+	width: 100%;
 }
 
 /*Media Queries*/

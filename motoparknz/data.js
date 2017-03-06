@@ -28,8 +28,16 @@ var locations = [
 	["HAM-14",	"692/690 Victoria St",	-37.782896, 	175.279151,		2,		""],
 	["HAM-15",	"801 Victoria St",		-37.781753, 	175.277858,		3,		""],
 	["HAM-16",	"920 Victoria St",		-37.780017, 	175.276528,		2,		""],
+	["HAM-17",	"The Base (Te Awa)",	-37.750319, 	175.233258,		5,		"Inside The Base (Outside EB Games)", true],
+	["HAM-18",	"The Base (Warehouse)",	-37.748097, 	175.232138,		8,		"Inside The Base (Outside Foundation Bar)", true],
+	["HAM-19",	"The Base (Farmers)",	-37.749481, 	175.235004,		'??',	"Inside The Base (Basement Car Park)", true],
+	["HAM-20",	"The Base (Te Awa)",	-37.747181, 	175.232785,		'??',	"Inside The Base (Outside Gloria Jean's)", true],
+	["HAM-21",	"The Base (Heathcotes)",-37.748509, 	175.231397,		4,		"Inside The Base (Outside Heathcotes)", true],
+	["HAM-22",	"The Base (Mitre 10)",	-37.746544, 	175.229002,		4,		"Inside The Base (Outside Mitre 10)", true],
+	["HAM-23",	"Chartwell Shopping",	-37.751505, 	175.279288,		'??',	"Inside Chartwell Shopping Centre", true],
+	["HAM-23",	"136 Hillcrest Rd",		-37.788682, 	175.318423,		'??',	"University of Waikato", true],
 	
-	["WHG-01",	"16 Rathbone St",		-35.724273, 	174.321299,		3,		""],
+	["WHG-01",	"16 Rathbone St",		-35.724273, 	174.321299,		6,		""],
 	
 	["TPO-01",	"5 Paora Hapi St",		-38.684405, 	176.070881,		3,		""],
 	["TPO-02",	"67 Paora Hapi St",		-38.685200, 	176.074567,		2,		""],
