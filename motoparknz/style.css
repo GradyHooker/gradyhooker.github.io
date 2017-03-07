@@ -199,6 +199,9 @@ html, body {
 	margin: 0.4em;
 	border-radius: 3px;
 	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 	width: 90px;
 	min-width: 70px;
 	font-size: 0.75em;
