@@ -87,7 +87,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: top;
 	justify-content: space-around;
 }
 
@@ -105,10 +104,10 @@ h1 {
 
 .section-separator {
 	color: #EEEEEE;
-    overflow: hidden;
-    text-align: center;
-    font-variant: small-caps;
-    font-variant-caps: small-caps;
+	overflow: hidden;
+	text-align: center;
+	font-variant: small-caps;
+	font-variant-caps: small-caps;
 }
 
 .personal-logo {
