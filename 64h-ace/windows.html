@@ -1,0 +1,942 @@
+<html>
+<head>
+	<style type="text/css">
+		@font-face {
+			font-family: 'PixelArial';
+			src: url('fonts/pixel_arial.ttf')  format('truetype');
+		}
+		
+		html, body {
+			height: 100%;
+			overflow: hidden;
+			user-select: none;
+		}
+		
+		body {
+			background-color: #008080;
+			padding: 0;
+			margin: 0;
+			position: relative;
+			cursor: url(cursor_arrow.png), auto;
+			font-family: 'PixelArial';
+			font-smooth: never;
+			-webkit-font-smoothing : none;
+		}
+		
+		.footer {
+			position: absolute;
+			bottom: 0;
+			height: 22px;
+			padding: 2px;
+			padding-left: 8px;
+			padding-right: 8px;
+			padding-bottom: 8px;
+			border-top: 2px solid #EFEFEF;
+			width: calc(100% - 4px);
+			background: #c0c0c0;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.footer-left {
+			display: flex;
+		}
+		
+		.footer-right {
+			display: flex;
+		}
+		
+		.divider {
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+		
+		.clock {
+			padding: 2px;
+			width: 96px;
+			height: 16px;
+			border-top: 1px solid #808080;
+			border-left: 1px solid #808080;
+			border-right: 1px solid #ffffff;
+			border-bottom: 1px solid #ffffff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.time {
+			padding-right: 6px;
+			font-size: 10px;
+		}
+		
+		.desktop {
+			width: 1px;
+			height: 100%;
+			padding: 8px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+
+		.desktop-item {
+			width: 76px;
+			height: 52px;
+			color: white;
+			font-size: 8px;
+			text-align: center;
+			margin-bottom: 24px;
+			margin-right: 5px;
+		}
+		
+		.desktop-icon-img {
+			height: 36px;
+			padding-bottom: 4px;
+			text-align: center;
+		}
+		
+		.desktop-text {
+			border: 1px dotted #008080;
+			margin: 0 auto;
+		}
+		
+		.desktop-text.clicked {
+			border: 1px dotted #e60000;
+		}
+		
+		.programs {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: calc(100% - 34px);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 10;
+			pointer-events: none;
+		}
+		
+		.doom {
+			width: 700px;
+			height: 450px;
+			display: none;
+			z-index: 15;
+			pointer-events: auto;
+		}
+		
+		.notepad {
+			width: 680px;
+			height: 420px;
+			display: none;
+			z-index: 15;
+			pointer-events: auto;
+		}
+		
+		.media {
+			width: 290px;
+			height: 320px;
+			display: none;
+			z-index: 15;
+			pointer-events: auto;
+		}
+		
+				
+		.popup {
+			width: 290px;
+			height: 320px;
+			display: block;
+			z-index: 15;
+			pointer-events: auto;
+		}
+		
+		.outlook {
+			width: 625px;
+			height: 498px;
+			display: none;
+			z-index: 15;
+			pointer-events: auto;
+		}
+		
+		.doom iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+		
+		.notepad textarea {
+			width: 100%;
+			height: 100%;
+			border: none;
+			outline: 0px;
+			cursor: url(cursor_text.png), auto;
+		}
+		
+		.media pre {
+			background: black;
+			color: white;
+			height: 172px;
+			margin: 0px;
+			padding: 3px;
+		}
+		
+		.outlook * {
+			flex: none;
+			border-collapse: collapse;
+		}
+		
+		.outlook .row {
+			display: flex;
+			justify-content: space-between;
+			align-content: space-between;
+		}
+		
+		.outlook .col {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-content: space-between;
+		}
+		
+		.outlook_messages {
+			background: url('outlook_messages.png');
+			height: 141px;
+			padding-left: 5px;
+			padding-top: 22px;
+		}
+		
+		.outlook_messages table * {
+			font-size: 9px;
+			border-collapse: collapse;
+		}
+		
+		.outlook_preview {
+			background: url('outlook_preview_empty.png');
+			height: 195px;
+			position: relative;
+			font-size: 9px;
+		}
+		
+		.outlook_preview.read {
+			background: url('outlook_preview_message.png');
+			height: 195px;
+		}
+		
+		.outlook-right {
+			width: 424px;
+		}
+		
+		.outlook-name {
+			padding-left: 60px;
+			width: 92px;
+			display: flex;
+			align-items: center;
+		}
+		
+		.outlook-unread {
+			font-weight: bold;
+		}
+		
+		.outlook-subject {
+			width: 144px;
+		}
+		
+		.outlook-to {
+			position: absolute;
+			left: 248px;
+			top: 7px;
+		}
+		
+		.outlook-from {
+			position: absolute;
+			left: 55px;
+			top: 7px;
+		}
+		
+		.outlook-sub {
+			position: absolute;
+			left: 55px;
+			top: 21px;
+		}
+		
+		.outlook-msg {
+			position: absolute;
+			left: 5px;
+			top: 44px;
+		}
+		
+		#popup-template {
+			display: none;
+		}
+		
+		.application {
+			background: #bdbdbd;
+			padding: 2px;
+			border: 2px solid #EFEFEF;
+		}
+		
+		.application-content {
+			height: calc(100% - 20px);
+		}
+		
+		.application-heading {
+			color: white;
+			font-size: 9px;
+			font-weight: bold;
+			height: 18px;
+			background: linear-gradient(90deg , #00007b, #0884ce);
+			margin-bottom: 2px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding-top: 1px;
+			padding-bottom: 1px;
+			padding-left: 2px;
+			padding-right: 2px;
+		}
+		
+		.application-icon img {
+			height: 16px;
+			width: 16px;
+			padding-right: 5px;
+		}
+		
+		.application-heading-sub {
+			display: flex;
+			align-items: center;
+		}
+		
+		.button-close {
+			margin-left: 2px;
+		}
+		
+		.footer-heading {
+			height: 16px;
+			width: 154px;
+			color: black;
+			font-size: 9px;
+			font-weight: bold;
+			background: #d0d0d0;
+			border-top: 2px solid #808080;
+			border-left: 2px solid #808080;
+			border-bottom: 2px solid #dfdfdf;
+			border-right: 2px solid #dfdfdf;
+			padding: 1px;
+			display: none;
+			flex-wrap: nowrap;
+		}
+		
+		.footer-text {
+			padding-top: 2px;
+		}
+		
+		.application-heading-sub-first {
+			width: calc(100% - 50px);
+		}
+		
+		.application-title {
+			overflow: hidden;
+			white-space: nowrap;
+			width: calc(100% - 25px);
+		}
+		
+		.blue-screen {
+			height: 100%;
+			width: 100%;
+			background: #0000b2;
+			display: none;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.outlook-reading {
+			background: #08246b;
+			font-weight: bold;
+			color: white;
+		}
+		
+	</style>
+	<script type="text/javascript">
+		window.onload = init;
+		var popupid = 0;
+		var virus;
+		
+		function init() {
+			setInterval(function() {
+				updateTime();
+			}, 30 * 1000);
+			
+			updateTime();
+			
+			var icons = document.getElementsByClassName("desktop-item");
+			for(var i = 0; i < icons.length; i++) {
+				var icon = icons[i];
+				icon.onclick = function() {
+					var others = document.getElementsByClassName("desktop-text");
+					for(var j = 0; j < others.length; j++) {
+						if(others[j].classList.contains('clicked')) {
+							others[j].classList.remove('clicked');
+						}
+					}
+					var text = this.getElementsByClassName("desktop-text")[0];
+					if(text.classList.contains('clicked')) {
+						text.classList.remove('clicked');
+					} else {
+						text.classList.add('clicked');
+					}
+				}
+			}
+		}
+		
+		function updateTime() {
+			var d = new Date();
+			var time = document.getElementsByClassName('time')[0];
+			var hours = d.getHours();
+			var mins = d.getMinutes()
+			var ender;
+			if(hours > 12) {
+				hours = hours - 12;
+				ender = "PM";
+			} else {
+				ender = "AM";
+			}
+			if(mins < 10) {
+				mins = "0" + mins;
+			}
+			time.innerHTML = hours + ":" + mins + " " + ender;
+		}
+		
+		function releaseVirus() {
+			virus = setInterval(function() {
+				make_popup();
+			}, 1000);
+		}
+		
+		function make_popup() {
+			var popupTemplate = document.getElementById("popup-template");
+			var popup = popupTemplate.cloneNode(true);
+			popup.id = "popup-" + popupid;
+			var img = popup.getElementsByClassName('application-content')[0].getElementsByTagName('img')[0];
+			img.src = "popups/" + (popupid % 30) + ".gif"; 
+			img.onload = function() {
+				popup.style.width = img.naturalWidth + "px";
+				popup.style.height = (img.naturalHeight + 20) + "px";
+				var h = popup.style.height.slice(0, -2);
+				var w = popup.style.width.slice(0, -2);
+				
+				popup.style.position = "absolute";			
+				var l = Math.floor(Math.random() * (window.innerWidth - w + 20)) - 20;
+				var t = Math.floor(Math.random() * (window.innerHeight - h + 20)) - 20;
+				popup.style.left = l + "px";
+				popup.style.top = t + "px";
+				
+				popup.getElementsByClassName('button-close')[0].onclick = function() {
+					closePopup(this);
+				};
+				
+				popupTemplate.parentNode.appendChild(popup);
+				
+				popupid = popupid + 1;
+				
+				if(popupid > 30) {
+					popupid = 0;
+					killitAll();
+				}
+			}
+		}
+		
+		function killitAll() {
+			clearInterval(virus);
+			var popups = document.getElementsByClassName("popup");
+			var length = popups.length;
+			for(var i = 30; i >= 0; i--) {
+				var pup = document.getElementById("popup-" + i);
+				if(pup != null) pup.parentNode.removeChild(pup);
+			}
+			var blueScreen = document.getElementsByClassName('blue-screen')[0];
+			blueScreen.style.display = "flex";
+			setTimeout(function() {
+				removeBlueScreen();
+			}, 10 * 1000);
+		}
+		
+		function showDIV(cl) {
+			var cont = document.getElementsByClassName(cl)[0];
+			cont.style.display = "block";
+			cont = document.getElementsByClassName(cl)[1];
+			cont.style.display = "flex";
+		}
+		
+		function hideDIV(cl) {
+			var cont = document.getElementsByClassName(cl)[0];
+			cont.style.display = "none";
+			cont = document.getElementsByClassName(cl)[1];
+			cont.style.display = "none";
+		}
+		
+		function closeDOOM() {
+			hideDIV('doom');
+			document.getElementsByClassName('doom')[0].getElementsByTagName('iframe')[0].src = "http://www.classicgamesarcade.com/games/doom.swf";
+		}
+		
+		function showMedia() {
+			showDIV('media');
+			document.getElementsByClassName('media')[0].getElementsByTagName('audio')[0].play();
+		}
+		
+		function closeMedia() {
+			hideDIV('media');
+			document.getElementsByClassName('media')[0].getElementsByTagName('audio')[0].src = "manifest.mp3";
+		}
+		
+		function closePopup(t) {
+			var child = t.parentNode.parentNode.parentNode;
+			child.parentNode.removeChild(child);
+		}
+		
+		function removeBlueScreen() {
+			var blueScreen = document.getElementsByClassName('blue-screen')[0];
+			blueScreen.style.display = "none";
+		}
+		
+		var to = [
+			"",
+			"Grady Hooker",
+			"Grady Hooker",
+			"Grady Hooker",
+			"Grady Hooker"
+		];	
+
+		var from = [
+			"",
+			"Grady Hooker",
+			"Nathaniel Watson",
+			"Jeremy Symon",
+			"Syntax Error"
+		];	
+
+		var sub = [
+			"",
+			"Arcton",
+			"Is this real life?",
+			"HAPPY NEW YEARS!",
+			"wot is dis?"
+		];	
+
+		var msg = [
+			"",
+			"I have this fucking awesome idea man, all we need is like $3million and then we can build this thing that is like a house but also an office space for us where we can live upstairs and shit but work on the second floor and then have kitchen adna all the boring house shit on the bototmf loor. Of course we need an awesome gym in the basement because getting swol is important to all of us and we can run all sorts of hackathons in the offfice space for even longer than 64hours because we will awesome and cool and make the money all we need is a bunch fo build money to make the building and then we are sorted,. think about it man.",
+			"or just a fanta sea?! Get it!",
+			"WOOOOOOOOOOOOOOOOOOOOOO!",
+			"OwO"
+		];			
+		
+		function readMessage(t, i) {
+			if(t.classList.contains('outlook-unread')) {
+				t.classList.remove('outlook-unread');
+				t.getElementsByTagName('img')[0].src = "outlook_icon_read.png";
+				document.getElementsByClassName('outlook_bottom')[0].src = "outlook_bottom_read.png";
+				document.getElementsByClassName('outlook_left')[0].src = "outlook_left_read.png";
+			}
+			
+			var rows = t.parentNode.getElementsByTagName('tr');
+			for(var j = 0; j < rows.length; j++) {
+				if(rows[j].classList.contains('outlook-reading')) {
+					rows[j].classList.remove('outlook-reading');
+				}
+			}
+
+			t.classList.add('outlook-reading');
+			document.getElementsByClassName('outlook_preview')[0].style.background = "url(outlook_preview_message.png)";
+			document.getElementsByClassName('outlook-to')[0].innerHTML = to[i];
+			document.getElementsByClassName('outlook-from')[0].innerHTML = from[i];
+			document.getElementsByClassName('outlook-sub')[0].innerHTML = sub[i];
+			document.getElementsByClassName('outlook-msg')[0].innerHTML = msg[i];
+		}
+	</script>
+</head>
+<body>
+	<div class="programs">
+		<div class="application doom">
+			<div class="application-heading">
+				<div class="application-heading-sub application-heading-sub-first">
+					<div class="application-icon">
+						<img src="icon_doom.png"/>
+					</div>
+					DOOM
+				</div>
+				<div class="application-heading-sub">
+					<img src="buttons_header.png"/>
+					<img src="buttons_close.png" class="button-close" onclick="closeDOOM()"/>
+				</div>
+			</div>
+			<div class="application-content">
+				<iframe src="http://www.classicgamesarcade.com/games/doom.swf"></iframe>
+			</div>
+		</div>
+		<div class="application notepad">
+			<div class="application-heading">
+				<div class="application-heading-sub application-heading-sub-first">
+					<div class="application-icon">
+						<img src="icon_notepad.png"/>
+					</div>
+					New Text Document.txt - Notepad
+				</div>
+				<div class="application-heading-sub">
+					<img src="buttons_header.png"/>
+					<img src="buttons_close.png" class="button-close" onclick="hideDIV('notepad')"/>
+				</div>
+			</div>
+			<div class="application-content">
+				<textarea>
+ ######  ##     ##    ###     #######   ######  
+##    ## ##     ##   ## ##   ##     ## ##    ## 
+##       ##     ##  ##   ##  ##     ## ##       
+##       ######### ##     ## ##     ##  ######  
+##       ##     ## ######### ##     ##       ## 
+##    ## ##     ## ##     ## ##     ## ##    ## 
+ ######  ##     ## ##     ##  #######   ######  
+		 
+Before there was anything, Chaos was born. Not of human form, not a god, but a primordial deity that existed as a unformed mass representing all the elements mixed together.
+
+######## ########  ######## ########  ##     ##  ######  
+##       ##     ## ##       ##     ## ##     ## ##    ## 
+##       ##     ## ##       ##     ## ##     ## ##       
+######   ########  ######   ########  ##     ##  ######  
+##       ##   ##   ##       ##     ## ##     ##       ## 
+##       ##    ##  ##       ##     ## ##     ## ##    ## 
+######## ##     ## ######## ########   #######   ######  
+
+The God of Darkness, also a primordial deity, born from Chaos along with Nyx (The Goddess of The Night) was also one of the first things to exist. So evil that an area in the Underworld where the dead pass after dying was named after him. Erebus & Nyx's mortal enemies are Aether (God of Light) and Hemera (Goddess of The Day).
+
+##    ## ##    ## ##     ## 
+###   ##  ##  ##   ##   ##  
+####  ##   ####     ## ##   
+## ## ##    ##       ###    
+##  ####    ##      ## ##   
+##   ###    ##     ##   ##  
+##    ##    ##    ##     ## 
+
+After a little bit of incest with her brother Erebus, Nyx birthed 19 children including her mortal enemies Aether & Hemera.
+1. Aether (God of Light)
+2. Hemera (Goddess of The Day)
+3. Apate (Goddess of Deceit)
+4. Dolos (God of Deception)
+5. Moros (God of Destiny)
+6. Nemesis (Goddess of Retribution)
+7. The Moirai (The Fates)
+8. The Keres (Goddess' of Violent Death)
+9. Thanatos (God of Peaceful Death)
+10. Geras (God of Old Age)
+11. The Hesperides (Goddess' of the Evening)
+12. Oizys (Goddess of Misery, Anxiety, and Depression)
+13. Momus (God of Satire and Mockery)
+14. Eris (Goddess of Strife and Discord)
+15. Philotes (Goddess of Affection, Friendship, and Sex)
+16. Eleos (Goddess of Pity, Mercy, Clemency, and Compassion)
+17. Hypnos (God of Sleep)
+18. The Oneiroi (Gods of Dreams and Nightmares)
+19. Charon (The Ferryman of Hades)
+
+Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders. Screw Flanders.</textarea>
+			</div>
+		</div>
+		<div class="application media">
+			<div class="application-heading">
+				<div class="application-heading-sub application-heading-sub-first">
+					<div class="application-icon">
+						<img src="icon_media.png"/>
+					</div>
+					Manifest.mp3 - Windows Media Player
+				</div>
+				<div class="application-heading-sub">
+					<img src="buttons_header.png"/>
+					<img src="buttons_close.png" class="button-close" onclick="closeMedia()"/>
+				</div>
+			</div>
+			<div class="application-content">
+				<img src="bg-music.png"/>
+				<pre>
+  CHAOTIC PLAYLIST
+  "Die Vorstellung des Chaos"
+  "Poetic Justice" - Paul Bley (Chaos)
+  "Starting Over" - Paul Bley (Chaos)
+  "Amen" - Sepultura (Chaos A.D.)
+  "Chaos B.C." - Sepultura (Chaos A.D.)
+  "Kaiowas" - Sepultura (Chaos A.D.)
+► "Manifest" - Sepultura (Chaos A.D.)
+  "Territory" - Sepultura (Chaos A.D.)
+  "Chaos" - Skold
+  "Chaos" - Stump (A Fierce Pancake) 
+				</pre>
+				<audio src="manifest.mp3"></audio>
+			</div>
+		</div>
+		<div class="application popup" id="popup-template">
+			<div class="application-heading">
+				<div class="application-heading-sub application-heading-sub-first">
+					<div class="application-icon">
+						<img src="icon_popup.png"/>
+					</div>
+					<div class="application-title">
+						Microsoft Internet Explorer
+					</div>
+				</div>
+				<div class="application-heading-sub">
+					<img src="buttons_header.png"/>
+					<img src="buttons_close.png" class="button-close"/>
+				</div>
+			</div>
+			<div class="application-content">
+				<img src=""/>
+			</div>
+		</div>
+		<div class="blue-screen">
+			<img src="blue-screen.png"/>
+		</div>
+		<div class="application outlook">
+			<div class="application-heading">
+				<div class="application-heading-sub application-heading-sub-first">
+					<div class="application-icon">
+						<img src="icon_outlook_full.png"/>
+					</div>
+					Inbox - Outlook Express
+				</div>
+				<div class="application-heading-sub">
+					<img src="buttons_header.png"/>
+					<img src="buttons_close.png" class="button-close" onclick="hideDIV('outlook')"/>
+				</div>
+			</div>
+			<div class="application-content">
+				<div class="col">
+					<img src="outlook_top.png"/>
+					<div class="row">
+						<img class="outlook_left" src="outlook_left.png"/>
+						<div class="outlook-right col">
+							<div class="outlook_messages">
+								<table>
+									<tr class="outlook-unread" onclick="readMessage(this, 1)">
+										<td class="outlook-name">
+											<img src="outlook_icon_unread.png"/>
+											G. Hooker
+										</td>
+										<td class="outlook-subject">
+											Arcton
+										</td>
+										<td class="outlook-received">
+											4/06/1999 16:45
+										</td>
+									</tr>
+									<tr onclick="readMessage(this, 2)">
+										<td class="outlook-name">
+											<img src="outlook_icon_read.png"/>
+											N. Watson
+										</td>
+										<td class="outlook-subject">
+											Is this real life?
+										</td>
+										<td class="outlook-received">
+											18/01/1999 7:14
+										</td>
+									</tr>
+									<tr onclick="readMessage(this, 3)">
+										<td class="outlook-name">
+											<img src="outlook_icon_read.png"/>
+											J. Symon
+										</td>
+										<td class="outlook-subject">
+											HAPPY NEW YEARS!
+										</td>
+										<td class="outlook-received">
+											31/12/1998 23:58 
+										</td>
+									</tr>
+									<tr onclick="readMessage(this, 4)">
+										<td class="outlook-name">
+											<img src="outlook_icon_read.png"/>
+											A. Fleming
+										</td>
+										<td class="outlook-subject">
+											wot is dis?
+										</td>
+										<td class="outlook-received">
+											12/12/1998 11:52 
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div class="outlook_preview">
+								<div class="outlook-to">
+									
+								</div>
+								<div class="outlook-from">
+									
+								</div>
+								<div class="outlook-sub">
+									
+								</div>
+								<div class="outlook-msg">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<img class="outlook_bottom" src="outlook_bottom.png"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="desktop">
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_computer.png"/>
+			</div>
+			<div class="desktop-text">
+				My Computer
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_documents.png"/>
+			</div>
+			<div class="desktop-text">
+				My Documents
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_internet.png"/>
+			</div>
+			<div class="desktop-text">
+				Internet Explorer
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_network.png"/>
+			</div>
+			<div class="desktop-text">
+				Network Neighborhood
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_recycle.png"/>
+			</div>
+			<div class="desktop-text">
+				Recycle Bin
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_msn.png"/>
+			</div>
+			<div class="desktop-text">
+				Set Up The Microsoft ...
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_connect.png"/>
+			</div>
+			<div class="desktop-text">
+				Connect to the Internet
+			</div>
+		</div>
+		<div class="desktop-item">
+			<div class="desktop-icon-img">
+				<img src="icon_folder.png"/>
+			</div>
+			<div class="desktop-text">
+				Online Services
+			</div>
+		</div>
+		<div class="desktop-item" ondblclick="releaseVirus()">
+			<div class="desktop-icon-img">
+				<img src="icon_virus.png"/>
+			</div>
+			<div class="desktop-text">
+				NotAVirus.exe
+			</div>
+		</div>
+		<div class="desktop-item" ondblclick="showDIV('doom')">
+			<div class="desktop-icon-img">
+				<img src="icon_doom.png"/>
+			</div>
+			<div class="desktop-text">
+				DOOM
+			</div>
+		</div>
+		<div class="desktop-item" ondblclick="showDIV('notepad')">
+			<div class="desktop-icon-img">
+				<img src="icon_text.png"/>
+			</div>
+			<div class="desktop-text">
+				New Text Document.txt
+			</div>
+		</div>
+		<div class="desktop-item" ondblclick="showMedia()">
+			<div class="desktop-icon-img">
+				<img src="icon_multimedia.png"/>
+			</div>
+			<div class="desktop-text">
+				Manifest.mp3
+			</div>
+		</div>
+		<div class="desktop-item" ondblclick="showDIV('outlook')">
+			<div class="desktop-icon-img">
+				<img src="icon_outlook.png"/>
+			</div>
+			<div class="desktop-text">
+				Outlook Express
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-left">
+			<img src="start_button.png"/>
+			<img class="divider" src="divider.png"/>
+			<div class="footer-heading doom">
+				<div class="application-icon">
+					<img src="icon_doom.png"/>
+				</div>
+				<div class="footer-text">
+					DOOM
+				</div>
+			</div>
+			<div class="footer-heading notepad">
+				<div class="application-icon">
+					<img src="icon_notepad.png"/>
+				</div>
+				<div class="footer-text">
+					New Text Document.tx...
+				</div>
+			</div>
+			<div class="footer-heading media">
+				<div class="application-icon">
+					<img src="icon_media.png"/>
+				</div>
+				<div class="footer-text">
+					Manifest.mp3 - Windo...
+				</div>
+			</div>
+			<div class="footer-heading outlook">
+				<div class="application-icon">
+					<img src="icon_outlook_full.png"/>
+				</div>
+				<div class="footer-text">
+					Inbox - Outlook Express
+				</div>
+			</div>
+		</div>
+		<div class="footer-right">
+			<img class="divider" src="divider.png"/>
+			<div class="clock">
+				<img src="clock_icons.png"/>
+				<div class="time">
+					8:00 PM
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+	<!--Thanks to Lucas Bebber https://codepen.io/lbebber/pen/XJRdrV/ for the CRT effect-->
+	<link rel="stylesheet" type="text/css" href="crt.css">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			overflow: hidden;
+		}
+		
+		body {
+			background: url('wallpaper.png');
+			padding: 0;
+			margin: 0;
+			position: relative;
+		}
+		
+		.overlay {
+			z-index: 10;
+			pointer-events: none;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 874px;
+			height: 906px;
+		}
+		
+		.comp-on {
+			background: url('monitor.png');
+			display: none;
+		}
+		
+		.comp-off {
+			background: url('monitor-off.png');
+			display: block;
+		}
+		
+		.container {
+			margin-top: 50px;
+			position: relative;
+			left: 70px;
+			top: 80px;
+			width: 729px;
+			height: 555px;
+		}
+		
+		.monitor {
+			position: relative;
+			width: 874px;
+			height: 906px;
+			margin: 0 auto;
+		}
+		
+		#switch {
+			display: block;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: 704px;
+			left: 598px;
+			cursor: pointer;
+		}
+		
+		.desk {
+			width: 100%;
+			position: absolute;
+			top: 725px;
+		}
+		
+		.poster-1 {
+			position: absolute;
+			top: -200px;
+			left: -300px;
+		}
+		
+		.poster-2 {
+			position: absolute;
+			top: -300px;
+			left: 1600px
+		}
+	</style>
+	<script type="text/javascript">
+		function toggleScreen() {
+			var cont = document.getElementsByClassName("container")[0];
+			var comp_on = document.getElementsByClassName("comp-on")[0];
+			var comp_off = document.getElementsByClassName("comp-off")[0];
+			if(cont.classList.contains('on')) {
+				cont.classList.remove('on');
+				comp_on.style.display = "none";
+				comp_off.style.display = "block";
+			} else {
+				cont.classList.add('on');
+				comp_on.style.display = "block";
+				comp_off.style.display = "none";
+			}
+		}
+	</script>
+</head>
+<body>
+	<img class="poster-1" src="poster_zelda.png"/>
+	<img class="poster-2" src="poster_medievil.png"/>
+	<img class="desk" src="desk.png"/>
+	<div class="monitor">
+		<div class="container">
+			<iframe src="windows.html" class="screen" width="800" height="600"></iframe>
+		</div>
+		<input type="checkbox" id="switch" checked onclick="toggleScreen()">
+		<div class="overlay comp-on">
+			&nbsp;
+		</div>
+		<div class="overlay comp-off">
+			&nbsp;
+		</div>
+	</div>
+</body>
+</html>
