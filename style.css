@@ -213,6 +213,39 @@ h1 {
 	border-radius: 20px;
 }
 
+.media-hidden {
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: none;
+}
+
+.media-more {
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+}
+
+.media-more span {
+	border: 2px solid #aaa;
+	background: white;
+	color: #333;
+	padding: 6px;
+	cursor: pointer;
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	border-radius: 8px;
+	transition: 0.4s;
+}
+
+.media-more span:hover {
+	background: #ccc;
+}
+
 .other-interviews {
 	background: white;
 	border-radius: 10px;
