@@ -190,7 +190,7 @@ h1 {
 
 .media-logo-cont {
 	display: flex;
-	flex-wrap: none;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	padding-left: 8px;
@@ -207,10 +207,18 @@ h1 {
 	padding-right: 2px;
 }
 
+.media-logo-cont-small a {
+    width: 34px;
+}
+
 .media-logo {
 	height: 100%;
 	width: 100%;
 	border-radius: 20px;
+}
+
+.media-logo-nolink {
+	opacity: 0.2;
 }
 
 .media-hidden {
