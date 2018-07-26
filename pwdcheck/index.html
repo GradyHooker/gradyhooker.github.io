@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function StealPassword() {
+	var pwd = document.getElementById("password").value;
+	document.getElementById("password").value = "";
+	console.log("The User's password is: " + pwd);
+	
+	var crit = 0;
+	if(/[a-z]/.test(pwd)) crit++;
+	if(/[A-Z]/.test(pwd)) crit++;
+	if(/[0-9]/.test(pwd)) crit++;
+	if(/[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(pwd)) crit++;
+	
+	var length = Math.floor((pwd.length * 37651) + (crit * 679458) + (Math.random() * (999999 - 0)));
+	if(pwd.length == 0) length = 0;
+	var sec_num = parseInt(length, 10); // don't forget the second param
+    var days    = Math.floor(sec_num / 86400);
+	var hours   =  Math.floor((sec_num - (days * 86400)) / 3600);
+    var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+    var seconds = sec_num - (hours * 3600) - (minutes * 60);
+	
+	builtString = "";
+	builtString += "<span style='color: red; font-size: 2em;'>" + Math.min(Math.floor(length/3333333 * 100), 95) + "%</span><br/><br/>";
+	builtString += "Your password is " + pwd.length + " characters long<br/>";
+	builtString += "It contains  " + crit + " of 5 critical elements<br/><br/>";
+	builtString += "It would take:<br/>" + days + " days<br/>" +  + hours + " hours<br/>" + minutes + " minutes<br/>" + seconds + " seconds<br/>for a hacker to crack it<br/>";
+	
+	document.getElementById("passwordStrength").innerHTML = builtString;
+	return false;
+}
+</script>
+<style>
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: calc(100vh - 124px);
+}
+</style>
+<title>Password Strength Checker</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding-top: 24px; background: url('bg.png');">
+<h1>Password Strength Checker</h1>
+<form onsubmit="return StealPassword()" style="width: 100%;">
+	<input id="password" type="text" style="font-size: 1.2em; width: 100%; max-width: 300px; height: 32px; outline: none; border: 1px solid #aaa; padding: 5px 10px; border-radius: 30px; margin-bottom: 12px;" placeholder="Enter Password"/>
+	<br/>
+	<input type="submit" style="font-size: 1.2em; width: 100%; max-width: 300px; height: 32px; outline: none; border: 1px solid #aaa; padding: 5px; border-radius: 30px; cursor: pointer;" value="Check Strength">
+</form>
+<span id="passwordStrength">
+&nbsp;
+</span>
+<br/>
+<span style="font-weight: bold;">
+Developed By
+</span>
+<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+	<img src="mit.png" style="width: 20%; max-height: 150px; max-width: 150px; padding: 5px;"/>
+	<img src="amazon.png" style="width: 20%; max-height: 150px; max-width: 150px; padding: 5px;"/>
+	<img src="tesla.png" style="width: 20%; max-height: 150px; max-width: 150px; padding: 5px;"/>
+	<img src="ibm.png" style="width: 20%; max-height: 150px; max-width: 150px; padding: 5px;"/>
+</div>
+</body>
+</html>
