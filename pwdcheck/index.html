@@ -19,8 +19,8 @@ function StealPassword() {
 	var sec_num = parseInt(length, 10); // don't forget the second param
     var days    = Math.floor(sec_num / 86400);
 	var hours   =  Math.floor((sec_num - (days * 86400)) / 3600);
-    var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
-    var seconds = sec_num - (hours * 3600) - (minutes * 60);
+    var minutes = Math.floor((sec_num - (days * 86400) - (hours * 3600)) / 60);
+    var seconds = sec_num - (days * 86400) - (hours * 3600) - (minutes * 60);
 	
 	builtString = "";
 	builtString += "<span style='color: red; font-size: 2em;'>" + Math.min(Math.floor(length/3333333 * 100), 95) + "%</span><br/><br/>";
