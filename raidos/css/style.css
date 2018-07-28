@@ -1,0 +1,201 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background: #222;
+	font-family: 'Roboto';
+}
+
+.nav-panel {
+	background: #333;
+	height: 36px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto';
+}
+
+.nav-panel a {
+	text-decoration: none;
+}
+
+.nav-panel .nav-item {
+	font-size: 0.8em;
+	height: 36px;
+	padding: 0px 48px;
+	margin: 0px 6px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.2s;
+	color: white;
+}
+
+.nav-panel .nav-item span.circle {
+	height: 12px;
+	width: 12px;
+	border-radius: 8px;
+	margin-right: 6px;
+}
+
+.nav-panel .nav-item.active span.circle {
+	display: block;
+}
+
+.nav-panel .nav-item:hover,
+.nav-panel .nav-item.active {
+	background: #2a2a2a;
+}
+
+.showcase-panel {
+	width: 100%;
+	max-height: 550px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 22px;
+}
+
+.showcase-panel .showcase-info {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 32px;
+}
+
+.showcase-panel .showcase-info .info-header {
+	font-size: 2em;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+}
+
+.showcase-panel .showcase-info .info-title {
+	font-size: 1.6em;
+	margin-bottom: 6px;
+}
+
+.showcase-panel .showcase-info .info-show {
+	font-size: 1em;
+	margin-bottom: 18px;
+}
+
+.showcase-panel .showcase-info .info-header {
+	font-size: 2em;
+	margin-bottom: 18px;
+}
+
+.showcase-panel .showcase-info .info-description {
+	font-size: 0.9em;
+	font-family: 'Roboto Condensed';
+}
+
+.showcase-panel .img-cont {
+	position: relative;
+	width: 70%;
+	max-width: 1280px;
+	flex-shrink: 0;
+}
+
+.showcase-panel .img-cont img {
+	width: 100%;
+}
+
+.showcase-panel .img-cont:before {
+	display: block;
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: linear-gradient(to left, rgba(34, 34, 34, 0), rgba(34, 34, 34, 1));
+}
+
+.playlists-panel {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 22px;
+}
+
+.playlists-panel .playlists-title {
+	color: white;
+	font-size: 1.6em;
+	font-variant: small-caps;
+	margin-bottom: 6px;
+	margin-left: 42px;
+}
+
+.playlists-panel .carousel {
+	width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+.playlists-panel .carousel,
+.playlists-panel .carousel .slick-list,
+.playlists-panel .carousel .slick-track,
+.playlists-panel .carousel .playlist-item {
+	max-height: 185px;
+}
+
+.playlists-panel .carousel .playlist-item {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Condensed';
+}
+
+.playlists-panel .carousel .playlist-item img {
+	height: calc(100% - 25px);
+	margin: 0 auto;
+	margin-bottom: 4px;
+}
+
+.playlists-panel .carousel .slick-prev,
+.playlists-panel .carousel .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 30px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.playlists-panel .carousel .slick-arrow.slick-disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.playlists-panel .carousel .slick-prev {
+    left: -35px;
+}
+
+.playlists-panel .carousel .slick-next {
+    right: -35px;
+}
+
+.playlists-panel .carousel .slick-prev:before,
+.playlists-panel .carousel .slick-next:before {
+	font-family: FontAwesome;
+	font-size: 40px;
+	line-height: 1;
+	color: white;
+}   
+
+.playlists-panel .carousel .slick-prev:before {
+	content: "\f053";
+}
+
+.playlists-panel .carousel .slick-next:before {
+	content: "\f054";
+}
