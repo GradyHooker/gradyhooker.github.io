@@ -81,11 +81,16 @@ body {
 	color: #292f33;
 }
 
-.project-description {
+.project-description,
+.project-country {
 	color: #66757f;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+}
+
+.project-country {
+	padding-bottom: 0px;
 }
 
 .content {
