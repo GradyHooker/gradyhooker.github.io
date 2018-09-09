@@ -1,0 +1,300 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+	background: grey;
+	display: flex;
+}
+
+.cont .options > * {
+	flex-shrink: 0;
+}
+
+.cont .options .saveLoadButtons button,
+.cont .jsonDisplay button {
+	padding: 4px;
+	margin: 8px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border: 1px solid #36c466;
+	background: #3cd870;
+	color: white;
+	text-transform: uppercase;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	cursor: pointer;
+}
+
+.cont .jsonDisplay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: none;
+}
+
+.cont .jsonDisplay textarea {
+	margin: 100px;
+	margin-bottom: 0;
+	width: calc(100% - 200px);
+	height: 100%;
+	background: white;
+	resize: none;
+}
+.cont .jsonDisplay button {
+	height: 40px;
+	flex-shrink: 0;
+	width: 200px;
+	margin-bottom: 100px;
+}
+
+.cont .options {
+	background: white;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+	height: calc(100% - 40px);
+	width: 400px;
+	flex-shrink: 0;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	font-family: 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+.cont .options .saveLoadButtons {
+	width: 80%;
+	display: flex;
+}
+
+.cont .options .saveLoadButtons button {
+	width: 50%;
+}
+
+.cont .options .saveLoadButtons .save {
+	width: 50%;
+}
+
+.cont .options .logo {
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+.cont .options .submit,
+.cont .options .progress {
+	width: 80%;
+	outline: 0;
+	border: 1px solid #36c466;
+	background: #3cd870;
+	padding: 8px;
+	margin: 8px;
+	margin-top: 16px;
+	text-transform: uppercase;
+	color: white;
+	cursor: pointer;
+	transition: background 0.4s;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+.cont .options .progress {
+	background: white;
+	position: relative;
+	width: 80%;
+	height: 16px;
+	display: none;
+}
+
+.cont .options .progress .value,
+.cont .options .progress .label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	color: black;
+}
+
+.cont .options .progress .value {
+	background: #30ad5a;
+}
+
+.cont .options .progress .label {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont .options .submit:hover {
+	background: #30ad5a;
+}
+
+.cont .options .table-cont {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 100%;
+	flex-shrink: 1;
+}
+
+.cont .options .table-cont .table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.cont .options .table-cont .table tr td:nth-child(1),
+.cont .options .table-cont .table thead th:nth-child(1) {
+	padding-left: 10px;
+}
+
+.cont .options .table-cont .table tr td:nth-child(3),
+.cont .options .table-cont .table thead th:nth-child(3) {
+	padding-right: 10px;
+}
+
+.cont .options .table-cont .table thead tr {
+	background: #ccc;
+}
+
+.cont .options .table-cont .table tbody tr:nth-child(odd) {
+	background: #eee;
+}
+
+.cont .options .table-cont .table tbody tr:nth-child(even) {
+	background: #fff;
+}
+
+.cont .options .table-cont .table tbody tr:hover {
+	background: #ddd;
+}
+
+.cont .options .table-cont .table tbody tr td:nth-child(2) {
+	padding: 10px 10px;
+}
+
+.cont .options .table-cont .table tr i {
+	cursor: pointer;
+	color: #FF5555;
+}
+
+.cont .options .table-cont .table .latlng {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.cont .options .table-cont .table img {
+	max-height: 48px;
+	max-width: 64px;
+}
+
+.cont .map {
+	width: 100%;
+	height: 100%;
+}
+
+.cont .map > * {
+	width: 100%;
+	height: 100%;
+}
+
+.form-wrapper {
+    width: 100%;
+	height: 40px;
+    padding: 16px;
+	margin-bottom: 0;
+}
+
+.form-wrapper input {
+    width: calc(100% - 80px);
+    height: 100%;
+    padding: 10px 5px;
+    float: left;   
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;     
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}   
+
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 80px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    border-radius: 0 3px 3px 0;     
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}  
+
+.form-wrapper button:hover {    
+    background: #e54040;
+}  
+
+.form-wrapper button:active,
+.form-wrapper button:focus {  
+    background: #c42f2f;
+    outline: 0;  
+}
+
+.form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before {
+    border-right-color: #e54040;
+}
+
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before {
+        border-right-color: #c42f2f;
+}     
+
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
