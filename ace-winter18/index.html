@@ -1,68 +1,119 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<title>
+		Windows Nine-T-8
+	</title>
+	<!--Thanks to Lucas Bebber https://codepen.io/lbebber/pen/XJRdrV/ for the CRT effect-->
+	<link rel="stylesheet" type="text/css" href="crt.css">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			overflow: hidden;
+		}
+		
+		body {
+			background: url('wallpaper.png');
+			padding: 0;
+			margin: 0;
+			position: relative;
+		}
+		
+		.overlay {
+			z-index: 10;
+			pointer-events: none;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 874px;
+			height: 906px;
+		}
+		
+		.comp-on {
+			background: url('monitor.png');
+			display: none;
+		}
+		
+		.comp-off {
+			background: url('monitor-off.png');
+			display: block;
+		}
+		
+		.container {
+			margin-top: 50px;
+			position: relative;
+			left: 70px;
+			top: 80px;
+			width: 729px;
+			height: 555px;
+		}
+		
+		.monitor {
+			position: relative;
+			width: 874px;
+			height: 906px;
+			margin: 0 auto;
+		}
+		
+		#switch {
+			display: block;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: 704px;
+			left: 598px;
+			cursor: pointer;
+		}
+		
+		.desk {
+			width: 100%;
+			position: absolute;
+			top: 725px;
+		}
+		
+		.poster-1 {
+			position: absolute;
+			top: -200px;
+			left: -300px;
+		}
+		
+		.poster-2 {
+			position: absolute;
+			top: -300px;
+			left: 1600px
+		}
+	</style>
+	<script type="text/javascript">
+		function toggleScreen() {
+			var cont = document.getElementsByClassName("container")[0];
+			var comp_on = document.getElementsByClassName("comp-on")[0];
+			var comp_off = document.getElementsByClassName("comp-off")[0];
+			if(cont.classList.contains('on')) {
+				cont.classList.remove('on');
+				comp_on.style.display = "none";
+				comp_off.style.display = "block";
+			} else {
+				cont.classList.add('on');
+				comp_on.style.display = "block";
+				comp_off.style.display = "none";
+			}
+		}
+	</script>
 </head>
 <body>
-
-<div class="cont">
-	<div class="jsonDisplay" id="jsonDisplay">
-		<textarea id="json"></textarea>
-		<button class="load" onclick="generateLocations()">
-			<i class="fas fa-sync-alt"></i> Generate
-		</button>
-	</div>
-	<div class="options">
-		<img src="logo.png" class="logo"/>
-		<div class="saveLoadButtons">
-			<button class="save" onclick="saveLocations()">
-				<i class="fas fa-save"></i> Save
-			</button>
-			<button class="load" onclick="loadLocations()">
-				<i class="fas fa-file-upload"></i> Load
-			</button>
+	<img class="poster-1" src="poster_zelda.png"/>
+	<img class="poster-2" src="poster_medievil.png"/>
+	<img class="desk" src="desk.png"/>
+	<div class="monitor">
+		<div class="container">
+			<iframe src="windows.html" class="screen" width="800" height="600"></iframe>
 		</div>
-		<div>
-			<span>I have </span>
-			<select id="days">
-				<option value="2">2</option>
-				<option value="3" selected>3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="6">6</option>
-				<option value="7">7</option>
-			</select>
-			<span> Days</span>
+		<input type="checkbox" id="switch" checked onclick="toggleScreen()">
+		<div class="overlay comp-on">
+			&nbsp;
 		</div>
-		<form class="form-wrapper">
-			<input id="location" type="text" placeholder="Type Location" required>
-			<button type="button" onclick="addLocation()">Add</button>
-		</form>
-		<div class="table-cont">
-			<table class="table">
-				<thead>
-					<th>Picture</th>
-					<th width="100%">Location</th>
-					<th>&nbsp;</th>
-				</thead>
-				<tbody id="table">
-				</tbody>
-			</table>
+		<div class="overlay comp-off">
+			&nbsp;
 		</div>
-		
-		<button class="submit" id="submit" onclick="goKMeans()">
-			Generate Clusters
-		</button>
-		<!--<div class="progress" id="progress">
-			<span class="value" style="width:50%;"></span>
-			<span class="label" id="progress-text">Iteration 1000 of 10000</span>
-		</div>-->
 	</div>
-	<div id="map" class="map">
-	</div>
-</div>
-
-<script src="index.js" type="text/javascript"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxqG3Q_65uYcc7-Z9OBdhE3k62QNUnNTg&callback=initMap&libraries=places"></script>
 </body>
 </html>
