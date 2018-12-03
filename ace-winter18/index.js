@@ -174,6 +174,10 @@ function goKMeans() {
 		}
 	}
 	
+	console.log(currentBestMeanSquare);
+	console.log(currentBest);
+	console.log("");
+	
 	//Update map
 	for(i=0; i < mapPoints.length; i++){
 		for(j=0; j < currentBest.length; j++){
