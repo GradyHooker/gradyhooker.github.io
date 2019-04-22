@@ -370,6 +370,10 @@ header nav > ul > li > a {
 	header nav > ul > li > a {
 		padding-bottom: 17px !important;
 	}
+	
+	.main {
+		margin-top: 75px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -381,7 +385,7 @@ header nav > ul > li > a {
 		position: fixed !important;
 		margin-left: -20px !important;
 		top: 64px;
-		background: #333333;
+		background: #e7e7e7;
 		overflow-y: auto;
 		max-height: calc(100% - 65px);
 	}
