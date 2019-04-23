@@ -399,6 +399,7 @@ var jsonBoxes = [
 	
 	
 	
+
 	{
 		"categories": ["media","media-conventions"],
 		"screenshot": "armageddon-wellington19.png",
@@ -417,8 +418,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157707912677185",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -445,8 +446,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157697129091510",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -473,8 +474,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/sets/72157701021683891",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -491,8 +492,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/wrestlingroundup/sets/72157696639942710",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -509,8 +510,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/sets/72157701356980251",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -537,8 +538,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157700798733561",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -555,8 +556,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157699797496071",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -573,8 +574,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157694897188500",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -591,8 +592,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157699786980104",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -609,8 +610,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157693014021220",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -632,8 +633,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/sets/72157694726551150",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -710,8 +711,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157690880345440",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -728,8 +729,8 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157700220343824",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
@@ -751,8 +752,8 @@ var jsonBoxes = [
 			},
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/sets/72157668805121578",
-				"image": "flickr.png",
-				"text": "Flickr Album"
+				"image": "photo.png",
+				"text": "Photo Album"
 			}
 		]
 	},
