@@ -148,17 +148,18 @@ $(function() {
 	var counter = Math.floor(Math.random() * Math.floor(5));
 	
 	function cycleImagesIn() {
-		console.log("IN");
 		$('#sticky').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />').fadeIn(500);
-		setTimeout(cycleImagesOut, 4500);
+		
+		setTimeout(cycleImagesOut, 4000);
+		
+		counter++;
+		if(counter >= 5) counter = 0;
+		$('#preload').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />');
 	};
 	
 	function cycleImagesOut() {
-		console.log("OUT");
 		$('#sticky').fadeOut(500);
 		setTimeout(cycleImagesIn, 500);
-		counter++;
-		if(counter >= 5) counter = 0;
 	};
 	
 	cycleImagesIn();
