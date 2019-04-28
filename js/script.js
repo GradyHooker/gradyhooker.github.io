@@ -120,4 +120,46 @@ $(function() {
 		window.location.href = this.href;
 		location.reload();
 	});
+	
+	//Set the Sticky Image
+	var gradyImages = [
+		{
+			"src": "images/grady/1-700tall.png",
+			"title": "Grady at 1 years old"
+		},
+		{
+			"src": "images/grady/2-700tall.png",
+			"title": "Grady at 6 years old"
+		},
+		{
+			"src": "images/grady/3-700tall.png",
+			"title": "Grady at 11 years old"
+		},
+		{
+			"src": "images/grady/4-700tall.png",
+			"title": "Grady at 16 years old"
+		},
+		{
+			"src": "images/grady/5-700tall.png",
+			"title": "Grady at 21 years old"
+		}
+	];
+	
+	var counter = Math.floor(Math.random() * Math.floor(5));
+	
+	function cycleImagesIn() {
+		console.log("IN");
+		$('#sticky').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />').fadeIn(500);
+		setTimeout(cycleImagesOut, 4500);
+	};
+	
+	function cycleImagesOut() {
+		console.log("OUT");
+		$('#sticky').fadeOut(500);
+		setTimeout(cycleImagesIn, 500);
+		counter++;
+		if(counter >= 5) counter = 0;
+	};
+	
+	cycleImagesIn();
 });

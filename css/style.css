@@ -231,6 +231,24 @@ h1 {
 	color: #292f33;
 }
 
+#sticky {
+	display: none;
+}
+
+@media screen and (min-width: 1500px) {
+	#sticky {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		z-index: 100;
+	}
+	
+	#sticky img {
+		width: 200px;
+	}
+}
+
 @media screen and (max-width: 720px) {
 	.main {
 		width: calc(100% - 32px);

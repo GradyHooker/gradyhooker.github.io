@@ -399,7 +399,6 @@ var jsonBoxes = [
 	
 	
 	
-
 	{
 		"categories": ["media","media-conventions"],
 		"screenshot": "armageddon-wellington19.png",
