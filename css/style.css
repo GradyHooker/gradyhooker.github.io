@@ -231,12 +231,8 @@ h1 {
 	color: #292f33;
 }
 
-#sticky {
-	display: none;
-}
-
-#preload {
-	display: none;
+#sticky, #preload {
+	display: none !important;
 }
 
 @media screen and (min-width: 1500px) {
