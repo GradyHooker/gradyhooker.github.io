@@ -400,6 +400,132 @@ var jsonBoxes = [
 	
 	
 	{
+		"categories": ["media","media-esports"],
+		"screenshot": "lpl-projectcars2-2019.png",
+		"date": "23 May 2019",
+		"title": "LPL Project Cars 2 ANZ Championship - Season 1",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland, New Zealand"
+		},
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/project-cars2/2019-05-lpl-projectcars2-event",
+				"image": "article.png",
+				"text": "Esports Kingdom Article"
+			},
+			/*{
+				"link": "",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}*/
+		]
+	},
+	{
+		"categories": ["media","media-esports"],
+		"screenshot": "iemsydney19.png",
+		"date": "3/5 May 2019",
+		"title": "IEM Sydney 2019",
+		"country": {
+			"code": "au",
+			"text": "Australia",
+			"city": "Sydney, Australia"
+		},
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-05-elige-interview-sydney19",
+				"image": "elige-syd19.png",
+				"text": "Interview with Team Liquid Counter-Strike player EliGE"
+			},
+			/*{
+				"link": "",
+				"image": "twistzz-syd19.png",
+				"text": "Interview with Team Liquid Counter-Strike player Twistzz"
+			},*/
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-05-fallen-interview-sydney19",
+				"image": "fallen-syd19.png",
+				"text": "Interview with MIBR Counter-Strike player FalleN"
+			},
+			/*{
+				"link": "",
+				"image": "lekr0-syd19.png",
+				"text": "Interview with NiP Counter-Strike player Lekr0"
+			},*/
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-05-adren-interview-sydney19",
+				"image": "adren-syd19.png",
+				"text": "Interview with FaZe Counter-Strike player AdreN"
+			},
+			/*{
+				"link": "",
+				"image": "chrisj-syd19.png",
+				"text": "Interview with mousesport Counter-Strike player chrisJ"
+			},*/
+			/*{
+				"link": "",
+				"image": "gratisfaction-syd19.png",
+				"text": "Interview with Renegades Counter-Strike player Gratisfaction"
+			},*/
+			/*{
+				"link": "",
+				"image": "ethan-syd19.png",
+				"text": "Interview with NRG Counter-Strike player Ethan"
+			},*/
+			/*{
+				"link": "",
+				"image": "tizian-syd19.png",
+				"text": "Interview with BIG Counter-Strike player tiziaN"
+			},*/
+			/*{
+				"link": "",
+				"image": "blamef-syd19.png",
+				"text": "Interview with Heroic Counter-Strike player BlameF"
+			},*/
+			/*{
+				"link": "",
+				"image": "freeman-syd19.png",
+				"text": "Interview with ViCi Gaming Counter-Strike player Freeman"
+			},*/
+			/*{
+				"link": "",
+				"image": "sico-syd19.png",
+				"text": "Interview with Grayhound Counter-Strike player sico"
+			},*/
+			/*{
+				"link": "",
+				"image": "moose-syd19.png",
+				"text": "Interview with eUnited Counter-Strike player moose"
+			},*/
+			/*{
+				"link": "",
+				"image": "zewsyofnu-syd19.png",
+				"text": "Interview with Chiefs Counter-Strike players zewsy & ofnu"
+			},*/
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-05-benkai-interview-sydney19",
+				"image": "benkai-syd19.png",
+				"text": "Interview with BOOT Counter-Strike player Benkai"
+			},
+			{
+				"link": "https://esportskingdom.gg/overwatch/2019-05-roro-interview-sydney19",
+				"image": "roro-syd19.png",
+				"text": "Interview with Blank Esports Overwatch player Roro"
+			},
+			/*{
+				"link": "",
+				"image": "vlog.png",
+				"text": "Event Vlog"
+			},*/
+			/*{
+				"link": "",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}*/
+		]
+	},
+	{
 		"categories": ["media","media-conventions"],
 		"screenshot": "armageddon-wellington19.png",
 		"date": "13/15 April",
@@ -464,12 +590,12 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=7s3iSCoG7xw",
 				"image": "matt-kemp-runefest.png",
-				"text": "Senior Product Manager of Old School RuneScape, Matthew Kemp"
+				"text": "Interview with Senior Product Manager of Old School RuneScape, Matthew Kemp"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=O_P9u1yNXqI",
 				"image": "matt-casey-runefest.png",
-				"text": "Senior Product Manager of RuneScape 3, Matt Casey"
+				"text": "Interview with Senior Product Manager of RuneScape 3, Matt Casey"
 			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/sets/72157701021683891",
@@ -528,13 +654,53 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-09-dupreeh-interview",
 				"image": "dupreeh-faceit.png",
-				"text": "Astralis dupreeh"
+				"text": "Interview with Astralis Counter-Strike player dupreeh"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-09-zonic-interview",
 				"image": "zonic-faceit.png",
-				"text": "Astralis zonic"
+				"text": "Interview with Astralis Counter-Strike coach zonic"
 			},
+			/*{
+				"link": "",
+				"image": "rain-faceit.png",
+				"text": "Interview with FaZe Clan player rain"
+			},*/
+			/*{
+				"link": "",
+				"image": "elige-faceit.png",
+				"text": "Interview with Team Liquid player EliGE"
+			},*/
+			/*{
+				"link": "",
+				"image": "fallen-faceit.png",
+				"text": "Interview with MIBR player FalleN"
+			},*/
+			/*{
+				"link": "",
+				"image": "tarik-faceit.png",
+				"text": "Interview with MIBR player tarik"
+			},*/
+			/*{
+				"link": "",
+				"image": "ange1-faceit.png",
+				"text": "Interview with HellRaisers player ANGE1"
+			},*/
+			/*{
+				"link": "",
+				"image": "shahzam-faceit.png",
+				"text": "Interview with compLexity player ShahZaM"
+			},*/
+			/*{
+				"link": "",
+				"image": "bardolph-faceit.png",
+				"text": "Interview with FACEIT staff James Bardoplh"
+			},*/
+			/*{
+				"link": "",
+				"image": "freya-faceit.png",
+				"text": "Interview with FACEIT staff Freya"
+			},*/
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157700798733561",
 				"image": "photo.png",
@@ -651,57 +817,57 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-karrigan-interview",
 				"image": "karrigan-syd18.png",
-				"text": "FaZe Clan karrigan"
+				"text": "Interview with FaZe Clan Counter-Strike player karrigan"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-ropz-interview",
 				"image": "ropz-syd18.png",
-				"text": "mousesports ropz"
+				"text": "Interview with mousesports Counter-Strike player ropz"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-magisk-interview",
 				"image": "magisk-syd18.png",
-				"text": "Astralis Magisk"
+				"text": "Interview with Astralis Counter-Strike player Magisk"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-boltz-interview",
 				"image": "boltz-syd18.png",
-				"text": "SK Gaming boltz"
+				"text": "Interview with SK Gaming Counter-Strike player boltz"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-lekr0-interview",
 				"image": "lekr0-syd18.png",
-				"text": "Fnatic lekr0"
+				"text": "Interview with Fnatic Counter-Strike player lekr0"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-bntet-interview",
 				"image": "bntet-syd18.png",
-				"text": "TyLoo BnTeT"
+				"text": "Interview with TyLoo Counter-Strike player BnTeT"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-gratisfaction-interview",
 				"image": "gratisfaction-syd18.png",
-				"text": "Grayhound Gaming Gratisfaction"
+				"text": "Interview with Grayhound Gaming Counter-Strike player Gratisfaction"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-xign-interview",
 				"image": "xign-syd18.png",
-				"text": "MVP PK XigN"
+				"text": "Interview with MVP PK Counter-Strike player XigN"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-alistair-interview",
 				"image": "alistair-syd18.png",
-				"text": "ORDER aliStair"
+				"text": "Interview with ORDER Counter-Strike player aliStair"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-sterling-interview",
 				"image": "sterling-syd18.png",
-				"text": "Chiefs sterling"
+				"text": "Interview with Chiefs Counter-Strike player sterling"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-lons-interview",
 				"image": "lons-syd18.png",
-				"text": "Legacy LONS"
+				"text": "Interview with Legacy Counter-Strike player LONS"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=xi8d6KjGntg",
@@ -746,7 +912,7 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://esportskingdom.gg/gt-sport/2017-12-lpl-gtsport-event",
-				"image": "esportskingdom.png",
+				"image": "article.png",
 				"text": "Esports Kingdom Article"
 			},
 			{
@@ -770,7 +936,7 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=kMkp2SXAs24",
 				"image": "vldl.png",
-				"text": "Viva La Dirt League"
+				"text": "Interview with YouTuber's Viva La Dirt League"
 			}
 		]
 	},
@@ -800,13 +966,28 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2017-05-astralis-kjaerbye-interview",
 				"image": "astralis-kjaerbye.png",
-				"text": "Astralis Kjaerbye"
+				"text": "Interview with Astralis Counter-Strike player Kjaerbye"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2017-05-sk-fer-interview",
 				"image": "sk-fer.png",
-				"text": "SK Gaming fer"
+				"text": "Interview with SK Gaming Counter-Strike player fer"
 			},
+			/*{
+				"link": "",
+				"image": "optic-rush.png",
+				"text": "Interview with OpTic Gaming player RUSH"
+			},*/
+			/*{
+				"link": "",
+				"image": "renegades-nexa.png",
+				"text": "Interview with Renegades player nexa"
+			},*/
+			/*{
+				"link": "",
+				"image": "chiefs-pecks.png",
+				"text": "Interview with Chiefs ESC player pecks"
+			},*/
 			{
 				"link": "https://www.youtube.com/watch?v=vgRj02Ou0Wc",
 				"image": "vlog.png",
@@ -828,37 +1009,37 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=Z8w5vHHwc1Y",
 				"image": "bad-luck-fale.png",
-				"text": "NJPW Bad Luck Fale"
+				"text": "Interview with NJPW wrestler Bad Luck Fale"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=OmIWi1lKxPI",
 				"image": "jay-white.png",
-				"text": "NJPW Jay White"
+				"text": "Interview with NJPW wrestler Jay White"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=C3lOtxQs-hk",
 				"image": "henare.png",
-				"text": "NJPW Henare"
+				"text": "Interview with NJPW wrestler Henare"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=BSMn1WA13vk",
 				"image": "leo-tonga.png",
-				"text": "NJPW Leo Tonga"
+				"text": "Interview with NJPW wrestler Leo Tonga"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=mnGlASztbNI",
 				"image": "marcus-kool.png",
-				"text": "Kiwi Wrestler Marcus Kool"
+				"text": "Interview with Kiwi wrestler Marcus Kool"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=e51kngSt6-A",
 				"image": "paul-sayers.png",
-				"text": "Kiwi Wrestler Paul Sayers"
+				"text": "Interview with Kiwi wrestler Paul Sayers"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=QAU4gDcvbvs",
 				"image": "peter-josephs.png",
-				"text": "Sakura Peter Josephs"
+				"text": "Interview with Sakura Pro Wrestling's Peter Josephs"
 			}
 		]
 	},
@@ -888,7 +1069,7 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=phih82Gwcrs",
 				"image": "haku.png",
-				"text": "WWE Legend Haku"
+				"text": "Interview with WWE Wrestling Legend Haku"
 			}
 		]
 	},
@@ -918,7 +1099,7 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=LKJdVEDW63o",
 				"image": "martin-klebba.png",
-				"text": "Actor Martin Klebba"
+				"text": "Interview with Actor Martin Klebba"
 			}
 		]
 	},
@@ -936,7 +1117,7 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=fLNxcMgxklQ",
 				"image": "hacksaw-jimduggan.png",
-				"text": "WWE Hall of Famer 'Hacksaw' Jim Duggan"
+				"text": "Interview with WWE Hall of Famer 'Hacksaw' Jim Duggan"
 			}
 		]
 	},
@@ -954,7 +1135,7 @@ var jsonBoxes = [
 			{
 				"link": "https://www.youtube.com/watch?v=HWUJ0YWi4Rc",
 				"image": "michael-rowe.png",
-				"text": "Actor Michael Rowe"
+				"text": "Interview with Actor Michael Rowe"
 			}
 		]
 	},
