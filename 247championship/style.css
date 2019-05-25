@@ -99,6 +99,10 @@ body, html {
 
 @media (min-width:600px) {
 	.tl-slide-content .tl-text {
-		display: none;
+		display: none !important;
+	}
+	
+	.tl-slide-content .tl-media {
+		width: 100% !important;
 	}
 }
