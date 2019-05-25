@@ -98,11 +98,20 @@ body, html {
 }
 
 @media (min-width:600px) {
-	.tl-slide-content .tl-text {
-		display: none !important;
+	.tl-slide-content {
+		flex-direction: column !important;
 	}
 	
-	.tl-slide-content .tl-media {
+	.tl-slide-content .tl-media	{
+		width: 100% !important;
+		flex-shrink: 1;
+	}
+	
+	.tl-slide-content .tl-text {
+		width: calc(100% - 40px) !important;
+	}
+	
+	.tl-media-content-container {
 		width: 100% !important;
 	}
 }
