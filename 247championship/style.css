@@ -96,3 +96,9 @@ body, html {
 .tl-slidenav-title {
 	opacity: 0.8 !important;
 }
+
+@media (min-width:600px) {
+	.tl-slide-content .tl-text {
+		display: none;
+	}
+}
