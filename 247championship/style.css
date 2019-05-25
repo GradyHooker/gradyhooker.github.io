@@ -1,0 +1,98 @@
+@import 'https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+#timeline-embed {
+	width: calc(100% - 40px);
+	height: calc(100vh - 40px);
+	margin: 20px;
+}
+
+.tl-timeline {
+	font-family: font-family: 'Lato', sans-serif;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-],
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"],
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+	color: #5d5d5d;
+	font-size: 14px;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+	color: #5d5d5d;
+	font-size: 12px;
+}
+
+.tl-timeera.tl-timeera-color1 .tl-timeera-background {
+	background: #ffb3ba;
+}
+.tl-timeera.tl-timeera-color2 .tl-timeera-background {
+	background: #bae1ff;
+}
+.tl-timeera.tl-timeera-color3 .tl-timeera-background {
+	background: #ffffba;
+}
+.tl-timeera.tl-timeera-color4 .tl-timeera-background {
+	background: #baffc9;
+}
+.tl-timeera.tl-timeera-color5 .tl-timeera-background {
+	background: #ffdfba;
+}
+
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick,
+.tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick .tl-timeaxis-tick-text span {
+	color: #bfbfbf !important;
+}
+
+.title {
+	border: 2px solid gold !important;
+}
+
+.raw {
+	background-color: #d48a72 !important;
+}
+
+.smackdown {
+	background-color: #72bcd4 !important;
+}
+
+.tl-slide-content-container {
+	padding: 0 !important;
+	padding-bottom: 20px !important;
+}
+
+.tl-slide-content {
+	display: flex !important;
+	flex-direction: row-reverse;
+	height: calc(100vh - 360px);
+}
+
+.tl-slide-content .tl-media {
+	width: 60% !important;
+	overflow-y: hidden !important;
+	height: 100% !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tl-media-twitter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tl-slidenav-title {
+	opacity: 0.8 !important;
+}
