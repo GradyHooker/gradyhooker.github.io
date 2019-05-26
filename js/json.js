@@ -415,11 +415,11 @@ var jsonBoxes = [
 				"image": "article.png",
 				"text": "Esports Kingdom Article"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://www.flickr.com/photos/kingofesports/albums/72157708756855587",
 				"image": "photo.png",
 				"text": "Photo Album"
-			}*/
+			}
 		]
 	},
 	{
@@ -518,11 +518,11 @@ var jsonBoxes = [
 				"image": "vlog.png",
 				"text": "Event Vlog"
 			},*/
-			/*{
-				"link": "",
+			{
+				"link": "https://www.flickr.com/photos/kingofesports/albums/72157708746831378",
 				"image": "photo.png",
 				"text": "Photo Album"
-			}*/
+			}
 		]
 	},
 	{
