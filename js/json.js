@@ -1,6 +1,8 @@
 var jsonLabels = {
 	"projects": "Projects",
 	"work": "Work Experience",
+	"work-it": "Work Experience - IT",
+	"work-journalism": "Work Experience - Journalism",
 	"accomplishments": "Accomplishments",
 	"media": "Media & Press",
 	"media-esports": "Media - Esports",
