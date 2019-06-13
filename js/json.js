@@ -227,6 +227,22 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["work","work-journalism"],
+		"screenshot": "esportskingdom-screenshot.png",
+		"title": "Esports Kingdom",
+		"role": "Content Writer",
+		"years": "2017 - Current",
+		"logo": "esportskingdom-logo.png",
+		"description": "I create esports-focussed content through photography, videography, and journography (incl. interviews in video and text form).",
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/",
+				"image": "icon-www.png",
+				"text": "Website icon"
+			}
+		]
+	},
+	{
+		"categories": ["work","work-journalism"],
 		"screenshot": "ultimategaming-screenshot.png",
 		"title": "UltimateGaming",
 		"role": "Content Writer",
