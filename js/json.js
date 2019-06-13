@@ -204,7 +204,7 @@ var jsonBoxes = [
 	
 	
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "sdl2-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Development Assistant Manager",
@@ -214,7 +214,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "sdl-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Software Developer",
@@ -224,7 +224,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
 		"screenshot": "ultimategaming-screenshot.png",
 		"title": "UltimateGaming",
 		"role": "Content Writer",
@@ -234,7 +234,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
 		"screenshot": "nzpwi-screenshot.png",
 		"title": "NZPWI",
 		"role": "Digital Journalist",
@@ -251,7 +251,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "university-screenshot.png",
 		"title": "University of Waikato",
 		"role": "Seasonal Assistant",
@@ -261,7 +261,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
 		"screenshot": "freefm-screenshot.png",
 		"title": "FreeFM 89.0",
 		"role": "Radio Host",
