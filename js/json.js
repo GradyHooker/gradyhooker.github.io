@@ -1,6 +1,8 @@
 var jsonLabels = {
 	"projects": "Projects",
 	"work": "Work Experience",
+	"work-it": "Work - IT",
+	"work-journalism": "Work - Journalism",
 	"accomplishments": "Accomplishments",
 	"media": "Media & Press",
 	"media-esports": "Media - Esports",
@@ -204,7 +206,7 @@ var jsonBoxes = [
 	
 	
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "sdl2-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Development Assistant Manager",
@@ -214,7 +216,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "sdl-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Software Developer",
@@ -224,7 +226,23 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
+		"screenshot": "esportskingdom-screenshot.png",
+		"title": "Esports Kingdom",
+		"role": "Content Writer",
+		"years": "2017 - Current",
+		"logo": "esportskingdom-logo.png",
+		"description": "I create esports-focussed content through photography, videography, and journography (incl. interviews in video and text form).",
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/",
+				"image": "icon-www.png",
+				"text": "Website icon"
+			}
+		]
+	},
+	{
+		"categories": ["work","work-journalism"],
 		"screenshot": "ultimategaming-screenshot.png",
 		"title": "UltimateGaming",
 		"role": "Content Writer",
@@ -234,7 +252,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
 		"screenshot": "nzpwi-screenshot.png",
 		"title": "NZPWI",
 		"role": "Digital Journalist",
@@ -251,7 +269,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-it"],
 		"screenshot": "university-screenshot.png",
 		"title": "University of Waikato",
 		"role": "Seasonal Assistant",
@@ -261,7 +279,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["work"],
+		"categories": ["work","work-journalism"],
 		"screenshot": "freefm-screenshot.png",
 		"title": "FreeFM 89.0",
 		"role": "Radio Host",
