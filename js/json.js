@@ -486,11 +486,11 @@ var jsonBoxes = [
 				"image": "gratisfaction-syd19.png",
 				"text": "Interview with Renegades Counter-Strike player Gratisfaction"
 			},*/
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-07-ethan-interview-sydney19",
 				"image": "ethan-syd19.png",
 				"text": "Interview with NRG Counter-Strike player Ethan"
-			},*/
+			},
 			/*{
 				"link": "",
 				"image": "tizian-syd19.png",
