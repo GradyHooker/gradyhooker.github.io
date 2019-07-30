@@ -42,7 +42,7 @@ $(function() {
 					//Make Media Logo
 					mediaLogo = document.createElement('div');
 					$(mediaLogo).addClass('media-logo-cont');
-					if(box.links.length > 8) $(mediaLogo).addClass('media-logo-cont-small');
+					if(box.links.length >= 8) $(mediaLogo).addClass('media-logo-cont-small');
 					box.links.forEach(function(link) {
 						url = document.createElement('a');
 						url.target = "_blank";

@@ -416,12 +416,11 @@ var jsonBoxes = [
 	
 	
 	
-	
 	{
 		"categories": ["media","media-esports"],
 		"screenshot": "lpl-csgo-2019.png",
-		"date": "25 July 2019",
-		"title": "LPL Pro CSGO ANZ Championship Season 2",
+		"date": "23 May 2019",
+		"title": "LPL Pro CSGO ANZ Championship 2019 Season 2",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
@@ -430,7 +429,7 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-07-zeph-interview-lplcsgo",
-				"image": "zeph-lpl.png",
+				"image": "zeph-lplcsgo.png",
 				"text": "Interview with SYF Gaming player zeph"
 			}
 		]
@@ -438,8 +437,8 @@ var jsonBoxes = [
 	{
 		"categories": ["media","media-esports"],
 		"screenshot": "lpl-dota2-2019.png",
-		"date": "18 July 2019",
-		"title": "LPL Pro Dota 2 ANZ Championship Season 2",
+		"date": "23 May 2019",
+		"title": "LPL Pro Dota 2 ANZ Championship 2019 Season 2",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
@@ -448,11 +447,12 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://esportskingdom.gg/dota-2/2019-07-splicko-interview-lpldota",
-				"image": "splicko-lpl.png",
+				"image": "splicko-lpldota2.png",
 				"text": "Interview with Athletico player Splicko"
 			},
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157709735808682",
+				"target": "_blank",
 				"image": "photo.png",
 				"text": "Photo Album"
 			}
@@ -462,7 +462,7 @@ var jsonBoxes = [
 		"categories": ["media","media-esports"],
 		"screenshot": "lpl-projectcars2-2019.png",
 		"date": "23 May 2019",
-		"title": "LPL Project Cars 2 ANZ Championship Season 1",
+		"title": "LPL Pro Project Cars 2 ANZ Championship Season 1",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
