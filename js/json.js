@@ -8,7 +8,8 @@ var jsonLabels = {
 	"media-esports": "Media - Esports",
 	"media-conventions": "Media - Conventions",
 	"media-wrestling": "Media - Wrestling",
-	"media-other": "Media - Other"
+	"media-other": "Media - Other",
+	"media-international": "Media - Outside ANZ Region"
 }
 
 var jsonBoxes = [
@@ -636,7 +637,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-conventions"],
+		"categories": ["media","media-conventions","media-international"],
 		"screenshot": "runefest18.png",
 		"date": "5/6 October 2018",
 		"title": "RuneFest 2018",
@@ -664,7 +665,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-wrestling"],
+		"categories": ["media","media-wrestling","media-international"],
 		"screenshot": "progress-wembley.png",
 		"date": "30 September 2018",
 		"title": "PROGRESS Wrestling: Hello Wembley!",
@@ -682,7 +683,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-conventions"],
+		"categories": ["media","media-conventions","media-international"],
 		"screenshot": "facts-fall18.png",
 		"date": "29/30 September 2018",
 		"title": "FACTS - Fall 2018",
@@ -700,7 +701,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-esports"],
+		"categories": ["media","media-esports","media-international"],
 		"screenshot": "faceit-london18.png",
 		"date": "19/23 September 2018",
 		"title": "FACEIT CSGO Major: London 2018",
