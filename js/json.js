@@ -523,11 +523,11 @@ var jsonBoxes = [
 				"image": "chrisj-syd19.png",
 				"text": "Interview with mousesports Counter-Strike player chrisJ"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-gratisfaction-interview-sydney19",
 				"image": "gratisfaction-syd19.png",
 				"text": "Interview with Renegades Counter-Strike player Gratisfaction"
-			},*/
+			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-07-ethan-interview-sydney19",
 				"image": "ethan-syd19.png",
@@ -538,11 +538,11 @@ var jsonBoxes = [
 				"image": "tizian-syd19.png",
 				"text": "Interview with BIG Counter-Strike player tiziaN"
 			},*/
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-blamef-interview-sydney19",
 				"image": "blamef-syd19.png",
-				"text": "Interview with Heroic Counter-Strike player BlameF"
-			},*/
+				"text": "Interview with Heroic Counter-Strike player blameF"
+			},
 			/*{
 				"link": "",
 				"image": "freeman-syd19.png",
