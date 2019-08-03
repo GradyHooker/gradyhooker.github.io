@@ -508,11 +508,11 @@ var jsonBoxes = [
 				"image": "fallen-syd19.png",
 				"text": "Interview with MIBR Counter-Strike player FalleN"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-lekr0-interview-sydney19",
 				"image": "lekr0-syd19.png",
 				"text": "Interview with NiP Counter-Strike player Lekr0"
-			},*/
+			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-adren-interview-sydney19",
 				"image": "adren-syd19.png",
@@ -573,11 +573,6 @@ var jsonBoxes = [
 				"image": "roro-syd19.png",
 				"text": "Interview with Blank Esports Overwatch player Roro"
 			},
-			/*{
-				"link": "",
-				"image": "vlog.png",
-				"text": "Event Vlog"
-			},*/
 			{
 				"link": "https://www.flickr.com/photos/kingofesports/albums/72157708746831378",
 				"image": "photo.png",
