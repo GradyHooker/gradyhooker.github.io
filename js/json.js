@@ -543,11 +543,11 @@ var jsonBoxes = [
 				"image": "blamef-syd19.png",
 				"text": "Interview with Heroic Counter-Strike player blameF"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-freeman-interview-sydney19",
 				"image": "freeman-syd19.png",
 				"text": "Interview with ViCi Gaming Counter-Strike player Freeman"
-			},*/
+			},
 			/*{
 				"link": "",
 				"image": "sico-syd19.png",
