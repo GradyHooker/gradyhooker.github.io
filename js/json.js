@@ -307,6 +307,14 @@ var jsonBoxes = [
 	
 	{
 		"categories": ["accomplishments"],
+		"screenshot": "nzcsc19-screenshot.png",
+		"title": "NZ Cyber Security '19 Challenge Success",
+		"logo": "nzcsc19-logo.png",
+		"description": "Now flying solo, I managed to match the placing from last year and land second in the industry category for the first two rounds.",
+		"links": []
+	},
+	{
+		"categories": ["accomplishments"],
 		"screenshot": "arohafornz-screenshot.png",
 		"title": "Aroha For NZ Charity Stream",
 		"logo": "arohafornz-logo.png",
@@ -548,16 +556,16 @@ var jsonBoxes = [
 				"image": "freeman-syd19.png",
 				"text": "Interview with ViCi Gaming Counter-Strike player Freeman"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-sico-interview-sydney19",
 				"image": "sico-syd19.png",
 				"text": "Interview with Grayhound Counter-Strike player sico"
-			},*/
-			/*{
-				"link": "",
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-moose-interview-sydney19",
 				"image": "moose-syd19.png",
 				"text": "Interview with eUnited Counter-Strike player moose"
-			},*/
+			},
 			/*{
 				"link": "",
 				"image": "zewsyofnu-syd19.png",
