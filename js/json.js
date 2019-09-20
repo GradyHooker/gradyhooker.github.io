@@ -426,6 +426,48 @@ var jsonBoxes = [
 	
 	
 	{
+		"categories": ["media","media-esports","media-international"],
+		"screenshot": "starladder-berlin19.png",
+		"date": "3 September 2019",
+		"title": "StarLadder CSGO Major: Berlin 2019",
+		"country": {
+			"code": "de",
+			"text": "Germany",
+			"city": "Berlin, Germany"
+		},
+		"links": [
+			
+		]
+	},
+	{
+		"categories": ["media","media-conventions","media-international"],
+		"screenshot": "comiccon-amsterdam19.png",
+		"date": "1 September 2019",
+		"title": "Comic Con Amsterdam 2019",
+		"country": {
+			"code": "nl",
+			"text": "Netherlands",
+			"city": "Amsterdam, Netherlands"
+		},
+		"links": [
+			
+		]
+	},
+	{
+		"categories": ["media","media-conventions","media-international"],
+		"screenshot": "gamescom19.png",
+		"date": "24 August 2019",
+		"title": "gamescom 2019",
+		"country": {
+			"code": "de",
+			"text": "Germany",
+			"city": "Cologne, Germany"
+		},
+		"links": [
+			
+		]
+	},
+	{
 		"categories": ["media","media-esports"],
 		"screenshot": "lpl-csgo-2019.png",
 		"date": "23 May 2019",
