@@ -529,11 +529,11 @@ var jsonBoxes = [
 			"city": "Cologne, Germany"
 		},
 		"links": [
-			/*{
-				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+			{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007984296",
 				"image": "photo.png",
 				"text": "Photo Album"
-			}*/
+			}
 		]
 	},
 	{
