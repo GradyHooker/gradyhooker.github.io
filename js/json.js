@@ -52,7 +52,7 @@ var jsonBoxes = [
 		"description": "Collectamaps allows gamers to traverse open world games by providing interactive game maps with the collectibles' positions plotted and detailed.",
 		"links": [
 			{
-				"link": "http://grady.nz/Collectamaps/",
+				"link": "http://grady.nz/collectamaps/",
 				"image": "icon-www.png",
 				"text": "Website icon"
 			}
@@ -67,7 +67,7 @@ var jsonBoxes = [
 		"description": "As an interactive web application, MotoPark helps motorcycle riders in New Zealand find parks in their city close to their destination.",
 		"links": [
 			{
-				"link": "http://grady.nz/MotoParkNZ",
+				"link": "http://grady.nz/motopark-nz",
 				"image": "icon-www.png",
 				"text": "Website icon"
 			}
