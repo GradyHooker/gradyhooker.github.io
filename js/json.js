@@ -48,7 +48,7 @@ var jsonBoxes = [
 		"screenshot": "collectamaps-screenshot.png",
 		"title": "Collectamaps",
 		"logo": "collectamaps-logo.png",
-		"logoLink": "http://grady.nz/Collectamaps/",
+		"logoLink": "http://grady.nz/collectamaps/",
 		"description": "Collectamaps allows gamers to traverse open world games by providing interactive game maps with the collectibles' positions plotted and detailed.",
 		"links": [
 			{
@@ -63,7 +63,7 @@ var jsonBoxes = [
 		"screenshot": "motopark-screenshot.png",
 		"title": "MotoPark NZ",
 		"logo": "motopark-logo.png",
-		"logoLink": "http://grady.nz/MotoParkNZ",
+		"logoLink": "http://grady.nz/motopark-nz",
 		"description": "As an interactive web application, MotoPark helps motorcycle riders in New Zealand find parks in their city close to their destination.",
 		"links": [
 			{
@@ -424,7 +424,24 @@ var jsonBoxes = [
 	
 	
 	
-	
+	{
+		"categories": ["media","media-esports"],
+		"screenshot": "lpl-projectcars2-2019s3.png",
+		"date": "19 September 2019",
+		"title": "LPL Pro Project Cars 2 ANZ Championship Season 3",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland, New Zealand"
+		},
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/project-cars2/2019-09-madzie-interview-lplprojectcars",
+				"image": "madzie-lplcars.png",
+				"text": "Interview with Team Highlands Racing player MadzieAU"
+			}
+		]
+	},
 	{
 		"categories": ["media","media-esports","media-international"],
 		"screenshot": "starladder-berlin19.png",
@@ -436,7 +453,46 @@ var jsonBoxes = [
 			"city": "Berlin, Germany"
 		},
 		"links": [
-			
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-09-device-interview-berlin19",
+				"image": "device-berlin19.png",
+				"text": "Interview with Astralis player device"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-boombl4-interview-berlin19",
+				"image": "boombl4-berlin19.png",
+				"text": "Interview with NaVi player Boombl4"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-tarik-interview-berlin19",
+				"image": "tarik-berlin19.png",
+				"text": "Interview with NRG Esports player tarik"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-09-nbk-interview-berlin19",
+				"image": "nbk-berlin19.png",
+				"text": "Interview with Team Vitality player NBK-"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-gratisfaction-interview-berlin19",
+				"image": "gratisfaction-berlin19.png",
+				"text": "Interview with Renegades player Gratisfaction"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-09-liazz-interview-berlin19",
+				"image": "liazz-berlin19.png",
+				"text": "Interview with Renegades player Liazz"
+			},
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2019-08-sick-interview-berlin19",
+				"image": "sick-berlin19.png",
+				"text": "Interview with compLexity Gaming player SicK"
+			},
+			/*{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}*/
 		]
 	},
 	{
@@ -450,7 +506,11 @@ var jsonBoxes = [
 			"city": "Amsterdam, Netherlands"
 		},
 		"links": [
-			
+			{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
 		]
 	},
 	{
@@ -464,7 +524,11 @@ var jsonBoxes = [
 			"city": "Cologne, Germany"
 		},
 		"links": [
-			
+			/*{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}*/
 		]
 	},
 	{
