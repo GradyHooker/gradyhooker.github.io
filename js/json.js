@@ -40,6 +40,11 @@ var jsonBoxes = [
 				"link": "http://seizeland.arcton.nz/",
 				"image": "icon-www.png",
 				"text": "Website icon"
+			},
+			{
+				"link": "https://www.youtube.com/watch?v=HSMJUsUwfgM",
+				"image": "icon-youtube.png",
+				"text": "YouTube icon"
 			}
 		]
 	},
