@@ -444,6 +444,11 @@ var jsonBoxes = [
 				"link": "https://esportskingdom.gg/project-cars2/2019-09-madzie-interview-lplprojectcars",
 				"image": "madzie-lplcars.png",
 				"text": "Interview with Team Highlands Racing player MadzieAU"
+			},
+			{
+				"link": "https://esportskingdom.gg/project-cars2/2019-09-bull-interview-lplprojectcars",
+				"image": "bull-lplcars.png",
+				"text": "Interview with Sim Racing player BULL"
 			}
 		]
 	},
