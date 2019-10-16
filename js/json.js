@@ -430,6 +430,24 @@ var jsonBoxes = [
 	
 	
 	{
+		"categories": ["media","media-conventions"],
+		"screenshot": "pax-au.png",
+		"date": "11-13 October 2019",
+		"title": "PAX Australia 2019",
+		"country": {
+			"code": "au",
+			"text": "Australia",
+			"city": "Melbourne, Australia"
+		},
+		"links": [
+			{
+				"link": "https://www.youtube.com/watch?v=epx0f40pTgw",
+				"image": "vlog.png",
+				"text": "24/7 Championship Recap"
+			}
+		]
+	},
+	{
 		"categories": ["media","media-esports"],
 		"screenshot": "lpl-projectcars2-2019s3.png",
 		"date": "19 September 2019",
@@ -516,6 +534,11 @@ var jsonBoxes = [
 			"city": "Amsterdam, Netherlands"
 		},
 		"links": [
+			{
+				"link": "https://esportskingdom.gg/multiple-games/2019-10-comiccon-amsterdam-after",
+				"image": "article.png",
+				"text": "Raidos Gaming Article"
+			},
 			{
 				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
 				"image": "photo.png",
