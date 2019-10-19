@@ -449,12 +449,12 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/watch?v=epx0f40pTgw",
 				"image": "vlog.png",
 				"text": "24/7 Championship Recap"
-			}/*,
+			},
 			{
-				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711402106673",
 				"image": "photo.png",
 				"text": "Photo Album"
-			}*/
+			}
 		]
 	},
 	{
