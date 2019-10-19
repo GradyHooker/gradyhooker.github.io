@@ -441,10 +441,20 @@ var jsonBoxes = [
 		},
 		"links": [
 			{
+				"link": "https://esportskingdom.gg/22racing-series/2019-10-what-is-22-racing",
+				"image": "22racing.png",
+				"text": "22 Racing Series Early Impressions"
+			},
+			{
 				"link": "https://www.youtube.com/watch?v=epx0f40pTgw",
 				"image": "vlog.png",
 				"text": "24/7 Championship Recap"
-			}
+			}/*,
+			{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711007510048",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}*/
 		]
 	},
 	{
