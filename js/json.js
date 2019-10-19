@@ -9,7 +9,8 @@ var jsonLabels = {
 	"media-conventions": "Media - Conventions",
 	"media-wrestling": "Media - Wrestling",
 	"media-other": "Media - Other",
-	"media-international": "Media - Outside ANZ Region"
+	"media-international": "Media - Outside ANZ Region",
+	"media-highlights": "Media - Highlights"
 }
 
 var jsonBoxes = [
@@ -430,7 +431,7 @@ var jsonBoxes = [
 	
 	
 	{
-		"categories": ["media","media-conventions"],
+		"categories": ["media","media-conventions","media-highlights"],
 		"screenshot": "pax-au.png",
 		"date": "11-13 October 2019",
 		"title": "PAX Australia 2019",
@@ -481,7 +482,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-esports","media-international"],
+		"categories": ["media","media-esports","media-international","media-highlights"],
 		"screenshot": "starladder-berlin19.png",
 		"date": "3 September 2019",
 		"title": "StarLadder CSGO Major: Berlin 2019",
@@ -557,7 +558,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-conventions","media-international"],
+		"categories": ["media","media-conventions","media-international","media-highlights"],
 		"screenshot": "gamescom19.png",
 		"date": "24 August 2019",
 		"title": "gamescom 2019",
@@ -640,7 +641,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-esports"],
+		"categories": ["media","media-esports","media-highlights"],
 		"screenshot": "iemsydney19.png",
 		"date": "3/5 May 2019",
 		"title": "IEM Sydney 2019",
@@ -789,7 +790,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-conventions","media-international"],
+		"categories": ["media","media-conventions","media-international","media-highlights"],
 		"screenshot": "runefest18.png",
 		"date": "5/6 October 2018",
 		"title": "RuneFest 2018",
@@ -817,7 +818,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-wrestling","media-international"],
+		"categories": ["media","media-wrestling","media-international","media-highlights"],
 		"screenshot": "progress-wembley.png",
 		"date": "30 September 2018",
 		"title": "PROGRESS Wrestling: Hello Wembley!",
@@ -853,7 +854,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-esports","media-international"],
+		"categories": ["media","media-esports","media-international","media-highlights"],
 		"screenshot": "faceit-london18.png",
 		"date": "19/23 September 2018",
 		"title": "FACEIT CSGO Major: London 2018",
@@ -1016,7 +1017,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-esports"],
+		"categories": ["media","media-esports","media-highlights"],
 		"screenshot": "iemsydney18.png",
 		"date": "1/6 May 2018",
 		"title": "IEM Sydney 2018",
@@ -1094,7 +1095,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-conventions"],
+		"categories": ["media","media-conventions","media-highlights"],
 		"screenshot": "rtx-sydney.png",
 		"date": "3/4 February 2018",
 		"title": "RTX Sydney 2018",
@@ -1165,7 +1166,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
-		"categories": ["media","media-esports"],
+		"categories": ["media","media-esports","media-highlights"],
 		"screenshot": "iemsydney.png",
 		"date": "3/7 May 2017",
 		"title": "IEM Sydney 2017",
@@ -1208,7 +1209,7 @@ var jsonBoxes = [
 		]
 	},
 	{
-		"categories": ["media","media-wrestling"],
+		"categories": ["media","media-wrestling","media-highlights"],
 		"screenshot": "sakura-onthemat16.png",
 		"date": "12 November 2016",
 		"title": "NJPW Sakura On The Mat",
