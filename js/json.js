@@ -431,6 +431,24 @@ var jsonBoxes = [
 	
 	
 	{
+		"categories": ["media","media-conventions"],
+		"screenshot": "armageddon-auckland19.png",
+		"date": "25-28 October 2019",
+		"title": "Aramgeddon Expo - Auckland 2019",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland, New Zealand"
+		},
+		"links": [
+			{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157711615515836",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
+		]
+	},
+	{
 		"categories": ["media","media-conventions","media-highlights"],
 		"screenshot": "pax-au.png",
 		"date": "11-13 October 2019",
