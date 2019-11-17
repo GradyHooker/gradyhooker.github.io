@@ -431,6 +431,35 @@ var jsonBoxes = [
 	
 	
 	{
+		"categories": ["media","media-esports"],
+		"screenshot": "lpl-rocketleague-2019.png",
+		"date": "17 November 2019",
+		"title": "RLCS Season 8 Oceanic Championship Finals",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland, New Zealand"
+		},
+		"links": [
+			{
+				"link": "https://esportskingdom.gg/rocket-league/2019-11-torsos-interview-lplrlcs8",
+				"image": "torsos-lplrocketleague.png",
+				"text": "Interview with Renegades player Torsos"
+			},
+			{
+				"link": "https://esportskingdom.gg/rocket-league/2019-11-walcott-interview-lplrlcs8",
+				"image": "walcott-lplrocketleague.png",
+				"text": "Interview with Canberra Havoc player Walcott"
+			},
+			{
+				"link": "https://www.flickr.com/photos/kingofesports/albums/72157711814014653",
+				"target": "_blank",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
+		]
+	},
+	{
 		"categories": ["media","media-conventions"],
 		"screenshot": "armageddon-auckland19.png",
 		"date": "25-28 October 2019",
