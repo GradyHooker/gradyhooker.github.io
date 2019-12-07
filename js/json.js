@@ -217,7 +217,7 @@ var jsonBoxes = [
 		"screenshot": "sdl2-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Development Assistant Manager",
-		"years": "2018 - Current",
+		"years": "Oct 2018 - Current",
 		"logo": "sdl-logo.png",
 		"description": "For a part of every day I assist in managing the development team of 9+ across a range of products, sprints and coordinated releases.",
 		"links": []
@@ -227,7 +227,7 @@ var jsonBoxes = [
 		"screenshot": "sdl-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Software Developer",
-		"years": "2017 - Current",
+		"years": "Jul 2017 - Current",
 		"logo": "sdl-logo.png",
 		"description": "I work with SDL's suite of software tools including Dejar, Bremy and DejarMail coding in JavaScript, C# and Java with various libraries.",
 		"links": []
@@ -236,10 +236,10 @@ var jsonBoxes = [
 		"categories": ["work","work-journalism"],
 		"screenshot": "esportskingdom-screenshot.png",
 		"title": "Esports Kingdom",
-		"role": "Content Writer",
-		"years": "2017 - Current",
+		"role": "Photographer, Videographer & Journalist",
+		"years": "Dec 2017 - Current",
 		"logo": "esportskingdom-logo.png",
-		"description": "I create esports-focussed content through photography, videography, and journography (incl. interviews in video and text form).",
+		"description": "I create esports-focused content through photography, videography, and journography (incl. interviews in video and text form).",
 		"links": [
 			{
 				"link": "https://esportskingdom.gg/",
@@ -252,8 +252,8 @@ var jsonBoxes = [
 		"categories": ["work","work-journalism"],
 		"screenshot": "ultimategaming-screenshot.png",
 		"title": "UltimateGaming",
-		"role": "Content Writer",
-		"years": "2017",
+		"role": "Freelance Journalist",
+		"years": "May 2017 - Jul 2017",
 		"logo": "ultimategaming-logo.png",
 		"description": "I wrote articles about the Counter-Strike: Global Offensive world with a focus on event previews/recaps and updates in the esports world.",
 		"links": []
@@ -263,7 +263,7 @@ var jsonBoxes = [
 		"screenshot": "nzpwi-screenshot.png",
 		"title": "NZPWI",
 		"role": "Digital Journalist",
-		"years": "2015 - Current",
+		"years": "May 2015 - Current",
 		"logo": "nzpwi-logo.png",
 		"logoLink": "http://www.nzpwi.co.nz/author/grady/",
 		"description": "I write opinion articles for New Zealand's pro-wrestling news source and contribute to the various other sections of the website.",
@@ -280,7 +280,7 @@ var jsonBoxes = [
 		"screenshot": "university-screenshot.png",
 		"title": "University of Waikato",
 		"role": "Seasonal Assistant",
-		"years": "2015 - 2016",
+		"years": "Jul 2015 - Nov 2016",
 		"logo": "university-logo.png",
 		"description": "At the University of Waikato I was selected for the position to mark assignments, supervise tests and grade labs for a computer science course.",
 		"links": []
@@ -290,10 +290,10 @@ var jsonBoxes = [
 		"screenshot": "freefm-screenshot.png",
 		"title": "FreeFM 89.0",
 		"role": "Radio Host",
-		"years": "2013 - Current",
+		"years": "Jan 2013 - Current",
 		"logo": "freefm-logo.png",
 		"logoLink": "https://www.accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646",
-		"description": "I host a radio show (previously, two) and am responsible for recording, promoting and editing the audio of each show on a weekly basis.",
+		"description": "I host a radio show (previously two) and am responsible for recording, promoting and editing the audio of each show on a weekly basis.",
 		"links": []
 	},
 	
