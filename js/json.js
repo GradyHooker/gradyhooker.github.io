@@ -214,12 +214,22 @@ var jsonBoxes = [
 	
 	{
 		"categories": ["work","work-it"],
+		"screenshot": "sdl3-screenshot.png",
+		"title": "Solution Dynamics, based in the UK",
+		"role": "SecOps Engineer",
+		"years": "Feb 2020 - Current (1mos)",
+		"logo": "sdl-logo.png",
+		"description": "",
+		"links": []
+	},
+	{
+		"categories": ["work","work-it"],
 		"screenshot": "sdl2-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Development Assistant Manager",
-		"years": "Oct 2018 - Current",
+		"years": "Oct 2018 - Current (1yr 5mos)",
 		"logo": "sdl-logo.png",
-		"description": "For a part of every day I assist in managing the development team of 9+ across a range of products, sprints and coordinated releases.",
+		"description": "I assist in managing the dev team of 9+ across a range of solutions, sprints, and coordinated releases as well as my Scrum Master duties.",
 		"links": []
 	},
 	{
@@ -227,9 +237,9 @@ var jsonBoxes = [
 		"screenshot": "sdl-screenshot.png",
 		"title": "Solution Dynamics",
 		"role": "Software Developer",
-		"years": "Jul 2017 - Current",
+		"years": "Jul 2017 - Feb 2020 (2yrs 8mos)",
 		"logo": "sdl-logo.png",
-		"description": "I work with SDL's suite of software tools including Dejar, Bremy and DejarMail coding in JavaScript, C# and Java with various libraries.",
+		"description": "I work with SDL's suite of in-house software solutions, coding in C#, Javascript, and Java with various libraries and packages.",
 		"links": []
 	},
 	{
@@ -237,7 +247,7 @@ var jsonBoxes = [
 		"screenshot": "esportskingdom-screenshot.png",
 		"title": "Esports Kingdom",
 		"role": "Photographer, Videographer & Journalist",
-		"years": "Dec 2017 - Current",
+		"years": "Dec 2017 - Current (2yrs 3mo)",
 		"logo": "esportskingdom-logo.png",
 		"description": "I create esports-focused content through photography, videography, and journography (incl. interviews in video and text form).",
 		"links": [
@@ -253,7 +263,7 @@ var jsonBoxes = [
 		"screenshot": "ultimategaming-screenshot.png",
 		"title": "UltimateGaming",
 		"role": "Freelance Journalist",
-		"years": "May 2017 - Jul 2017",
+		"years": "May 2017 - Jul 2017 (3mos)",
 		"logo": "ultimategaming-logo.png",
 		"description": "I wrote articles about the Counter-Strike: Global Offensive world with a focus on event previews/recaps and updates in the esports world.",
 		"links": []
@@ -263,7 +273,7 @@ var jsonBoxes = [
 		"screenshot": "nzpwi-screenshot.png",
 		"title": "NZPWI",
 		"role": "Digital Journalist",
-		"years": "May 2015 - Current",
+		"years": "May 2015 - Current (4yrs 10mos)",
 		"logo": "nzpwi-logo.png",
 		"logoLink": "http://www.nzpwi.co.nz/author/grady/",
 		"description": "I write opinion articles for New Zealand's pro-wrestling news source and contribute to the various other sections of the website.",
@@ -280,7 +290,7 @@ var jsonBoxes = [
 		"screenshot": "university-screenshot.png",
 		"title": "University of Waikato",
 		"role": "Seasonal Assistant",
-		"years": "Jul 2015 - Nov 2016",
+		"years": "Jul 2015 - Nov 2016 (1yr 5mos)",
 		"logo": "university-logo.png",
 		"description": "At the University of Waikato I was selected for the position to mark assignments, supervise tests and grade labs for a computer science course.",
 		"links": []
@@ -290,7 +300,7 @@ var jsonBoxes = [
 		"screenshot": "freefm-screenshot.png",
 		"title": "FreeFM 89.0",
 		"role": "Radio Host",
-		"years": "Jan 2013 - Current",
+		"years": "Jan 2013 - Current (6yrs 11mos)",
 		"logo": "freefm-logo.png",
 		"logoLink": "https://www.accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646",
 		"description": "I host a radio show (previously two) and am responsible for recording, promoting and editing the audio of each show on a weekly basis.",
@@ -1233,11 +1243,11 @@ var jsonBoxes = [
 				"image": "sk-fer.png",
 				"text": "Interview with SK Gaming Counter-Strike player fer"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2020-01-rush-interview-sydney17",
 				"image": "optic-rush.png",
 				"text": "Interview with OpTic Gaming player RUSH"
-			},*/
+			},
 			/*{
 				"link": "",
 				"image": "renegades-nexa.png",
