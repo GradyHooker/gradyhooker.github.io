@@ -46,7 +46,8 @@
 			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-123516744-1', 'auto');
-			ga('send', 'pageview', location.pathname);
+			console.log(location.pathname + location.hash);
+			ga('send', 'pageview', location.pathname + location.hash);
 		</script>
 		<!-- End Google Analytics -->
 	</head>
