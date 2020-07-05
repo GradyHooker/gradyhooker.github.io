@@ -378,7 +378,7 @@ var jsonBoxes = [
 		"screenshot": "graduation-screenshot.png",
 		"title": "Graduated with a BCMS(Hons)",
 		"logo": "university-logo.png",
-		"description": "In December of 2016, after four years of studying, I graduated with a Bachelor of Computing and Mathematical Sciences with First Class Honours.",
+		"description": "In Dec of 2016, after four years of studying, I graduated with a Bachelor of Computing and Mathematical Sciences with First Class Honours.",
 		"links": []
 	},
 	{
@@ -442,13 +442,13 @@ var jsonBoxes = [
 	
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-rocketleague-2019.png",
-		"date": "17 November 2019",
-		"title": "RLCS Season 8 Oceanic Championship Finals",
+		"logo": "rlcs-lpl.png",
+		"date": "Nov 2019",
+		"title": "RLCS S8 Oceanic Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -471,13 +471,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland19.png",
-		"date": "25-28 October 2019",
-		"title": "Aramgeddon Expo - Auckland 2019",
+		"logo": "armageddonexpo.png",
+		"date": "Oct 2019",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -489,13 +489,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-highlights"],
-		"screenshot": "pax-au.png",
-		"date": "11-13 October 2019",
-		"title": "PAX Australia 2019",
+		"logo": "pax.png",
+		"date": "Oct 2019",
+		"title": "PAX Australia",
 		"country": {
 			"code": "au",
 			"text": "Australia",
-			"city": "Melbourne, Australia"
+			"city": "Melbourne"
 		},
 		"links": [
 			{
@@ -517,13 +517,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-projectcars2-2019s3.png",
-		"date": "19 September 2019",
-		"title": "LPL Pro Project Cars 2 ANZ Championship Season 3",
+		"logo": "lpl-projectcars2.png",
+		"date": "Sep 2019",
+		"title": "LPL Project Cars 2 Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -540,13 +540,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports","media-international","media-highlights"],
-		"screenshot": "starladder-berlin19.png",
-		"date": "3 September 2019",
-		"title": "StarLadder CSGO Major: Berlin 2019",
+		"logo": "starladder-major.png",
+		"date": "Sep 2019",
+		"title": "StarLadder CSGO Major",
 		"country": {
 			"code": "de",
 			"text": "Germany",
-			"city": "Berlin, Germany"
+			"city": "Berlin"
 		},
 		"links": [
 			{
@@ -593,13 +593,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-international"],
-		"screenshot": "comiccon-amsterdam19.png",
-		"date": "1 September 2019",
-		"title": "Comic Con Amsterdam 2019",
+		"logo": "comiccon-amsterdam.png",
+		"date": "Sep 2019",
+		"title": "Comic Con Amsterdam",
 		"country": {
 			"code": "nl",
 			"text": "Netherlands",
-			"city": "Amsterdam, Netherlands"
+			"city": "Amsterdam"
 		},
 		"links": [
 			{
@@ -616,13 +616,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-international","media-highlights"],
-		"screenshot": "gamescom19.png",
-		"date": "24 August 2019",
-		"title": "gamescom 2019",
+		"logo": "gamescom.png",
+		"date": "Aug 2019",
+		"title": "gamescom",
 		"country": {
 			"code": "de",
 			"text": "Germany",
-			"city": "Cologne, Germany"
+			"city": "Cologne"
 		},
 		"links": [
 			{
@@ -634,13 +634,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-csgo-2019.png",
-		"date": "23 May 2019",
-		"title": "LPL Pro CSGO ANZ Championship 2019 Season 2",
+		"logo": "lpl-csgo.png",
+		"date": "May 2019",
+		"title": "LPL CSGO Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -652,13 +652,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-dota2-2019.png",
-		"date": "23 May 2019",
-		"title": "LPL Pro Dota 2 ANZ Championship 2019 Season 2",
+		"logo": "lpl-dota2.png",
+		"date": "May 2019",
+		"title": "LPL Dota 2 Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -676,13 +676,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-projectcars2-2019.png",
-		"date": "23 May 2019",
-		"title": "LPL Pro Project Cars 2 ANZ Championship Season 1",
+		"logo": "lpl-projectcars2.png",
+		"date": "May 2019",
+		"title": "LPL Project Cars 2 Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -699,13 +699,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports","media-highlights"],
-		"screenshot": "iemsydney19.png",
-		"date": "3/5 May 2019",
-		"title": "IEM Sydney 2019",
+		"logo": "iem.png",
+		"date": "May 2019",
+		"title": "IEM Sydney",
 		"country": {
 			"code": "au",
 			"text": "Australia",
-			"city": "Sydney, Australia"
+			"city": "Sydney"
 		},
 		"links": [
 			{
@@ -773,11 +773,11 @@ var jsonBoxes = [
 				"image": "moose-syd19.png",
 				"text": "Interview with eUnited Counter-Strike player moose"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2020-05-zewsy-ofnu-interview-sydney19",
 				"image": "zewsyofnu-syd19.png",
 				"text": "Interview with Chiefs Counter-Strike players zewsy & ofnu"
-			},*/
+			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-benkai-interview-sydney19",
 				"image": "benkai-syd19.png",
@@ -797,13 +797,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-wellington19.png",
-		"date": "13/15 April",
-		"title": "Armageddon Expo - Wellington 2019",
+		"logo": "armageddonexpo.png",
+		"date": "Apr 2019",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Wellington, New Zealand"
+			"city": "Wellington"
 		},
 		"links": [
 			{
@@ -820,13 +820,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland18.png",
-		"date": "19/22 October",
-		"title": "Armageddon Expo - Auckland 2018",
+		"logo": "armageddonexpo.png",
+		"date": "Oct 2018",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -848,13 +848,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-international","media-highlights"],
-		"screenshot": "runefest18.png",
-		"date": "5/6 October 2018",
-		"title": "RuneFest 2018",
+		"logo": "runefest.png",
+		"date": "Oct 2018",
+		"title": "RuneFest",
 		"country": {
 			"code": "gb",
 			"text": "United Kingdom",
-			"city": "London, United Kingdom"
+			"city": "London"
 		},
 		"links": [
 			{
@@ -876,13 +876,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-wrestling","media-international","media-highlights"],
-		"screenshot": "progress-wembley.png",
-		"date": "30 September 2018",
-		"title": "PROGRESS Wrestling: Hello Wembley!",
+		"logo": "progress.png",
+		"date": "Sep 2018",
+		"title": "PROGRESS 76: Hello Wembley!",
 		"country": {
 			"code": "gb",
 			"text": "United Kingdom",
-			"city": "London, United Kingdom"
+			"city": "London"
 		},
 		"links": [
 			{
@@ -894,13 +894,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-international"],
-		"screenshot": "facts-fall18.png",
-		"date": "29/30 September 2018",
-		"title": "FACTS - Fall 2018",
+		"logo": "facts.png",
+		"date": "Sep 2018",
+		"title": "FACTS Fall",
 		"country": {
 			"code": "be",
 			"text": "Belgium",
-			"city": "Ghent, Belgium"
+			"city": "Ghent"
 		},
 		"links": [
 			{
@@ -912,13 +912,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports","media-international","media-highlights"],
-		"screenshot": "faceit-london18.png",
-		"date": "19/23 September 2018",
-		"title": "FACEIT CSGO Major: London 2018",
+		"logo": "faceit-major.png",
+		"date": "Sep 2018",
+		"title": "FACEIT CSGO Major",
 		"country": {
 			"code": "gb",
 			"text": "United Kingdom",
-			"city": "London, United Kingdom"
+			"city": "London"
 		},
 		"links": [
 			{
@@ -980,13 +980,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "pingzero-51.png",
-		"date": "14/15 September 2018",
+		"logo": "pingzero.png",
+		"date": "Sep 2018",
 		"title": "PingZero 51",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -998,13 +998,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-other"],
-		"screenshot": "timezone-halo.png",
-		"date": "28 August 2018",
-		"title": "Timezone NZ Halo: Fireteam Raven Launch",
+		"logo": "timezone.png",
+		"date": "Aug 2018",
+		"title": "Halo: Fireteam Raven Launch",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1016,13 +1016,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "breakaway-dojo.png",
-		"date": "13 August 2018",
+		"logo": "breakaway.png",
+		"date": "Aug 2018",
 		"title": "Breakaway Esports Dojo Tour",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1034,13 +1034,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-tekken18.png",
-		"date": "8 July 2018",
-		"title": "LPL Tekken 7 NZ Championship 2018 Qualifier",
+		"logo": "lplpro-tekken.png",
+		"date": "Jul 2018",
+		"title": "LPL Tekken 7 Qualifier",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1052,13 +1052,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-tauranga18.png",
-		"date": "26/27 May 2018",
-		"title": "Armageddon Expo - Tauranga 2018",
+		"logo": "armageddonexpo.png",
+		"date": "May 2018",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Tauranga, New Zealand"
+			"city": "Tauranga"
 		},
 		"links": [
 			{
@@ -1075,13 +1075,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports","media-highlights"],
-		"screenshot": "iemsydney18.png",
-		"date": "1/6 May 2018",
-		"title": "IEM Sydney 2018",
+		"logo": "iem.png",
+		"date": "May 2018",
+		"title": "IEM Sydney",
 		"country": {
 			"code": "au",
 			"text": "Australia",
-			"city": "Sydney, Australia"
+			"city": "Sydney"
 		},
 		"links": [
 			{
@@ -1153,13 +1153,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions","media-highlights"],
-		"screenshot": "rtx-sydney.png",
-		"date": "3/4 February 2018",
-		"title": "RTX Sydney 2018",
+		"logo": "rtx-sydney.png",
+		"date": "Feb 2018",
+		"title": "RTX Sydney",
 		"country": {
 			"code": "au",
 			"text": "Australia",
-			"city": "Sydney, Australia"
+			"city": "Sydney"
 		},
 		"links": [
 			{
@@ -1171,13 +1171,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-gtsport.png",
-		"date": "5 December 2017",
-		"title": "LPL GT Sport NZ Championship 2017",
+		"logo": "lpl-gtsport.png",
+		"date": "Dec 2017",
+		"title": "LPL GT Sport Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1194,13 +1194,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland17.png",
-		"date": "20/23rd October 2017",
-		"title": "Armageddon Expo - Auckland 2017",
+		"logo": "armageddonexpo.png",
+		"date": "Oct 2017",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1212,25 +1212,25 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-esports"],
-		"screenshot": "lpl-tekken7.png",
-		"date": "11 September 2017",
-		"title": "LPL TEKKEN 7 NZ Championship 2017",
+		"logo": "lpl-tekken7.png",
+		"date": "Sep 2017",
+		"title": "LPL Tekken 7 Championship",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": []
 	},
 	{
 		"categories": ["media","media-esports","media-highlights"],
-		"screenshot": "iemsydney.png",
-		"date": "3/7 May 2017",
-		"title": "IEM Sydney 2017",
+		"logo": "iem.png",
+		"date": "May 2017",
+		"title": "IEM Sydney",
 		"country": {
 			"code": "au",
 			"text": "Australia",
-			"city": "Sydney, Australia"
+			"city": "Sydney"
 		},
 		"links": [
 			{
@@ -1248,11 +1248,11 @@ var jsonBoxes = [
 				"image": "optic-rush.png",
 				"text": "Interview with OpTic Gaming player RUSH"
 			},
-			/*{
-				"link": "",
+			{
+				"link": "https://esportskingdom.gg/counter-strike/2020-03-nexa-interview-sydney17",
 				"image": "renegades-nexa.png",
 				"text": "Interview with Renegades player nexa"
-			},*/
+			},
 			/*{
 				"link": "",
 				"image": "chiefs-pecks.png",
@@ -1267,13 +1267,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-wrestling","media-highlights"],
-		"screenshot": "sakura-onthemat16.png",
-		"date": "12 November 2016",
+		"logo": "njpw.png",
+		"date": "Nov 2016",
 		"title": "NJPW Sakura On The Mat",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1315,25 +1315,25 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland16.png",
-		"date": "21/24th October 2016",
-		"title": "Armageddon Expo - Auckland 2016",
+		"logo": "armageddonexpo-old.png",
+		"date": "Oct 2016",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": []
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-manukau16.png",
-		"date": "5/6th March 2016",
-		"title": "Armageddon Expo - Manukau 2016",
+		"logo": "armageddonexpo-old.png",
+		"date": "Mar 2016",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Manukau, New Zealand"
+			"city": "Manukau"
 		},
 		"links": [
 			{
@@ -1345,25 +1345,25 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland15.png",
-		"date": "23/26th October 2015",
-		"title": "Armageddon Expo - Auckland 2015",
+		"logo": "armageddonexpo-old.png",
+		"date": "Oct 2015",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": []
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-hamilton15.png",
-		"date": "14/15th March 2015",
-		"title": "Armageddon Expo - Hamilton 2015",
+		"logo": "armageddonexpo-old.png",
+		"date": "Mar 2015",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Hamilton, New Zealand"
+			"city": "Hamilton"
 		},
 		"links": [
 			{
@@ -1375,13 +1375,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland14.png",
-		"date": "24/27th October 2014",
-		"title": "Armageddon Expo - Auckland 2014",
+		"logo": "armageddonexpo-old.png",
+		"date": "Oct 2014",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": [
 			{
@@ -1393,13 +1393,13 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-hamilton14.png",
-		"date": "24/25th May 2014",
-		"title": "Armageddon Expo - Hamilton 2014",
+		"logo": "armageddonexpo-older.png",
+		"date": "May 2014",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Hamilton, New Zealand"
+			"city": "Hamilton"
 		},
 		"links": [
 			{
@@ -1411,25 +1411,25 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-auckland13.png",
-		"date": "25/28th October 2013",
-		"title": "Armageddon Expo - Auckland 2013",
+		"logo": "armageddonexpo-older.png",
+		"date": "Oct 2013",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Auckland, New Zealand"
+			"city": "Auckland"
 		},
 		"links": []
 	},
 	{
 		"categories": ["media","media-conventions"],
-		"screenshot": "armageddon-hamilton13.png",
-		"date": "25/26th May 2013",
-		"title": "Armageddon Expo - Hamilton 2013",
+		"logo": "armageddonexpo-older.png",
+		"date": "May 2013",
+		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",
 			"text": "New Zealand",
-			"city": "Hamilton, New Zealand"
+			"city": "Hamilton"
 		},
 		"links": []
 	}

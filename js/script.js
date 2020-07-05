@@ -12,48 +12,46 @@ $(function() {
 		jsonBoxes.forEach(function(box) {
 			if(box.categories.includes(hash)) {
 				//Make outer element
-				d = document.createElement('div');
-				$(d).addClass('project-cont');
-				box.categories.forEach(function(className) {
-					$(d).addClass(className);
-				});
 
 				if(box.categories.includes('media')) {
-					//Structure like Media
-					//Make Screenshot
+					//Structure like Media		
+					d = document.createElement('div');
+					$(d).addClass('media-cont');
+					box.categories.forEach(function(className) {
+						$(d).addClass(className);
+					});		
+					
+					f = document.createElement('div');
+					$(f).addClass('media-logo-cont');
+					$(d).append(f);
 					sc = document.createElement('div');
-					$(sc).addClass('project-screenshot-cont');
-					$(sc).html('<img class="project-screenshot" src="images/media/' + box.screenshot + '" alt="' + box.title + ' Image"/>');
-					$(d).append(sc);
-				
-					//Make Project Title
+					$(sc).addClass('media-logo');
+					$(sc).html('<img class="media-logo-img" src="images/logos_white/' + box.logo + '" alt="' + box.title + ' Image"/>');
+					$(f).append(sc);
+					
+					e = document.createElement('div');
+					$(e).addClass('media-text-cont');
+					$(d).append(e);
+					
 					title = document.createElement('div');
-					$(title).addClass('project-title');
+					$(title).addClass('media-title');
 					$(title).attr('data-date', box.date);
 					$(title).text(box.title);
-					$(d).append(title);
+					$(e).append(title);
 					
-					//Make Project Country
 					country = document.createElement('div');
-					$(country).addClass('project-country');
-					$(country).html('<img src="images/blank.gif" class="flag flag-' + box.country.code + '" alt="' + box.country.text + '" /> ' + box.country.city);
-					$(d).append(country);
-					
-					//Make Media Logo
-					mediaLogo = document.createElement('div');
-					$(mediaLogo).addClass('media-logo-cont');
-					if(box.links.length >= 8) $(mediaLogo).addClass('media-logo-cont-small');
-					box.links.forEach(function(link) {
-						url = document.createElement('a');
-						url.target = "_blank";
-						url.href = link.link;
-						$(url).html('<img src="images/media/' + link.image + '" class="media-logo" alt="' + link.text + '" title="' + link.text + '"/>');
-						$(mediaLogo).append(url);
-					});
-					$(d).append(mediaLogo);
+					$(country).addClass('media-text');
+					$(country).html(box.date + ', ' + box.country.city + ' <img src="images/blank.gif" class="flag flag-' + box.country.code + '" alt="' + box.country.text + '" />');
+					$(e).append(country);
 					
 				} else if(box.categories.includes('work') || box.categories.includes('projects') || box.categories.includes('accomplishments')) {
 					//Structure like Work Experience or Project or Accomplishment
+					d = document.createElement('div');
+					$(d).addClass('project-cont');
+					box.categories.forEach(function(className) {
+						$(d).addClass(className);
+					});
+				
 					//Make Screenshot
 					sc = document.createElement('div');
 					$(sc).addClass('project-screenshot-cont');
