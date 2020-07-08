@@ -144,21 +144,21 @@ $(function() {
 	];
 	
 	var counter = Math.floor(Math.random() * Math.floor(5));
+	setInterval(cycleImages, 7500);
+	changeImage();
 	
-	function cycleImagesIn() {
+	function changeImage() {
 		$('#sticky').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />').fadeIn(500);
-		
-		setTimeout(cycleImagesOut, 4000);
-		
 		counter++;
 		if(counter >= 5) counter = 0;
 		$('#preload').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />');
-	};
+	}
 	
-	function cycleImagesOut() {
-		$('#sticky').fadeOut(500);
-		setTimeout(cycleImagesIn, 500);
+	function cycleImages() {
+		$('#sticky').addClass('hide');
+		setTimeout(function (){
+			changeImage();
+			$('#sticky').removeClass('hide');
+		}, 500);
 	};
-	
-	cycleImagesIn();
 });

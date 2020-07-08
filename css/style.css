@@ -291,6 +291,14 @@ h1 {
 	display: none !important;
 }
 
+#sticky.show {
+	opacity: 1;
+}
+
+#sticky.hide {
+	opacity: 0;
+}
+
 @media screen and (min-width: 1500px) {
 	#sticky {
 		display: block !important;
@@ -298,6 +306,7 @@ h1 {
 		bottom: 0;
 		right: 0;
 		z-index: 100;
+		transition: 0.4s;
 	}
 	
 	#sticky img {
