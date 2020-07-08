@@ -289,9 +289,6 @@ h1 {
 
 #sticky, #preload {
 	display: none !important;
-}
-
-#sticky.show {
 	opacity: 1;
 }
 
