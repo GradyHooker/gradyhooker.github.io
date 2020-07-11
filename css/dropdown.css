@@ -293,10 +293,6 @@
 		justify-content: center;
 	}
 	
-	#cssmenu .submenu-button.submenu-opened {
-		background: #262626;
-	}
-	
 	#cssmenu ul ul .submenu-button {
 		height: 38px;
 		width: 38px;

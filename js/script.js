@@ -9,6 +9,14 @@ $(function() {
 		ga('create', 'UA-123516744-1', 'auto');
 		ga('send', 'pageview', location.pathname + location.hash);
 		
+		//Close the menubar
+		$("#menu-button").removeClass("menu-opened");
+		$("#menu-list").removeClass("open");
+		$("#menu-list").hide();
+		$("#menu-list").find(".submenu-button").removeClass("submenu-opened");
+		$("#menu-list").find("ul").removeClass("open");
+		$("#menu-list").find("ul").hide();
+		
 		//Then build the page
 		var hash;
 		if(location.hash == null || location.hash == "") {
@@ -181,7 +189,7 @@ $(function() {
 function showMediaInfo(id) {
 	event.stopPropagation();
 	
-	$("#sidePanel").html('<div class="close" onclick="hideSidePanel()">🗙</div>');
+	$("#sidePanel").html('<div class="close" onclick="hideSidePanel()"><i class="fas fa-times"></i></div>');
 	
 	var info;
 	jsonBoxes.forEach(function(box) {
