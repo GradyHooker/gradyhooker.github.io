@@ -441,6 +441,7 @@ var jsonBoxes = [
 	
 	
 	{
+		"name": "rlcs-lpl-2019",
 		"categories": ["media","media-esports"],
 		"logo": "rlcs-lpl.png",
 		"date": "Nov 2019",
@@ -470,6 +471,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2019",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
 		"date": "Oct 2019",
@@ -488,6 +490,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "pax-au-2019",
 		"categories": ["media","media-conventions","media-highlights"],
 		"logo": "pax.png",
 		"date": "Oct 2019",
@@ -516,6 +519,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-projectcars2-2019",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-projectcars2.png",
 		"date": "Sep 2019",
@@ -539,6 +543,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "starladder-csgo-2019",
 		"categories": ["media","media-esports","media-international","media-highlights"],
 		"logo": "starladder-major.png",
 		"date": "Sep 2019",
@@ -592,6 +597,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "comiccon-amsterdam-2019",
 		"categories": ["media","media-conventions","media-international"],
 		"logo": "comiccon-amsterdam.png",
 		"date": "Sep 2019",
@@ -615,6 +621,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "gamescom-2019",
 		"categories": ["media","media-conventions","media-international","media-highlights"],
 		"logo": "gamescom.png",
 		"date": "Aug 2019",
@@ -633,6 +640,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-csgo-2019",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-csgo.png",
 		"date": "May 2019",
@@ -651,6 +659,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-dota2-2019",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-dota2.png",
 		"date": "May 2019",
@@ -675,6 +684,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-projectcars2-20192",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-projectcars2.png",
 		"date": "May 2019",
@@ -698,6 +708,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "iem-sydney-2019",
 		"categories": ["media","media-esports","media-highlights"],
 		"logo": "iem.png",
 		"date": "May 2019",
@@ -711,77 +722,77 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-elige-interview-sydney19",
 				"image": "elige-syd19.png",
-				"text": "Interview with Team Liquid Counter-Strike player EliGE"
+				"text": "Interview with Team Liquid CSGO player EliGE"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-twistzz-interview-sydney19",
 				"image": "twistzz-syd19.png",
-				"text": "Interview with Team Liquid Counter-Strike player Twistzz"
+				"text": "Interview with Team Liquid CSGO player Twistzz"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-fallen-interview-sydney19",
 				"image": "fallen-syd19.png",
-				"text": "Interview with MIBR Counter-Strike player FalleN"
+				"text": "Interview with MIBR CSGO player FalleN"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-lekr0-interview-sydney19",
 				"image": "lekr0-syd19.png",
-				"text": "Interview with NiP Counter-Strike player Lekr0"
+				"text": "Interview with NiP CSGO player Lekr0"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-adren-interview-sydney19",
 				"image": "adren-syd19.png",
-				"text": "Interview with FaZe Counter-Strike player AdreN"
+				"text": "Interview with FaZe CSGO player AdreN"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-07-chrisj-interview-sydney19",
 				"image": "chrisj-syd19.png",
-				"text": "Interview with mousesports Counter-Strike player chrisJ"
+				"text": "Interview with mousesports CSGO player chrisJ"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-gratisfaction-interview-sydney19",
 				"image": "gratisfaction-syd19.png",
-				"text": "Interview with Renegades Counter-Strike player Gratisfaction"
+				"text": "Interview with Renegades CSGO player Gratisfaction"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-07-ethan-interview-sydney19",
 				"image": "ethan-syd19.png",
-				"text": "Interview with NRG Counter-Strike player Ethan"
+				"text": "Interview with NRG CSGO player Ethan"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-tizian-interview-sydney19",
 				"image": "tizian-syd19.png",
-				"text": "Interview with BIG Counter-Strike player tiziaN"
+				"text": "Interview with BIG CSGO player tiziaN"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-blamef-interview-sydney19",
 				"image": "blamef-syd19.png",
-				"text": "Interview with Heroic Counter-Strike player blameF"
+				"text": "Interview with Heroic CSGO player blameF"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-freeman-interview-sydney19",
 				"image": "freeman-syd19.png",
-				"text": "Interview with ViCi Gaming Counter-Strike player Freeman"
+				"text": "Interview with ViCi Gaming CSGO player Freeman"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-sico-interview-sydney19",
 				"image": "sico-syd19.png",
-				"text": "Interview with Grayhound Counter-Strike player sico"
+				"text": "Interview with Grayhound CSGO player sico"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-08-moose-interview-sydney19",
 				"image": "moose-syd19.png",
-				"text": "Interview with eUnited Counter-Strike player moose"
+				"text": "Interview with eUnited CSGO player moose"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2020-05-zewsy-ofnu-interview-sydney19",
 				"image": "zewsyofnu-syd19.png",
-				"text": "Interview with Chiefs Counter-Strike players zewsy & ofnu"
+				"text": "Interview with Chiefs CSGO players zewsy & ofnu"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2019-05-benkai-interview-sydney19",
 				"image": "benkai-syd19.png",
-				"text": "Interview with BOOT Counter-Strike player Benkai"
+				"text": "Interview with BOOT CSGO player Benkai"
 			},
 			{
 				"link": "https://esportskingdom.gg/overwatch/2019-05-roro-interview-sydney19",
@@ -796,6 +807,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-wellington-2019",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
 		"date": "Apr 2019",
@@ -819,6 +831,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2018",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
 		"date": "Oct 2018",
@@ -847,6 +860,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "runefest-2018",
 		"categories": ["media","media-conventions","media-international","media-highlights"],
 		"logo": "runefest.png",
 		"date": "Oct 2018",
@@ -875,6 +889,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "progress-2018",
 		"categories": ["media","media-wrestling","media-international","media-highlights"],
 		"logo": "progress.png",
 		"date": "Sep 2018",
@@ -893,6 +908,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "facts-fall-2018",
 		"categories": ["media","media-conventions","media-international"],
 		"logo": "facts.png",
 		"date": "Sep 2018",
@@ -911,6 +927,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "faceit-csgo-2018",
 		"categories": ["media","media-esports","media-international","media-highlights"],
 		"logo": "faceit-major.png",
 		"date": "Sep 2018",
@@ -924,7 +941,7 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-09-dupreeh-interview",
 				"image": "dupreeh-faceit.png",
-				"text": "Interview with Astralis Counter-Strike player dupreeh"
+				"text": "Interview with Astralis CSGO player dupreeh"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-09-zonic-interview",
@@ -979,6 +996,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "pingzero-51",
 		"categories": ["media","media-esports"],
 		"logo": "pingzero.png",
 		"date": "Sep 2018",
@@ -997,6 +1015,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "timezone-halo-launch",
 		"categories": ["media","media-other"],
 		"logo": "timezone.png",
 		"date": "Aug 2018",
@@ -1015,6 +1034,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "breakaway-tour",
 		"categories": ["media","media-esports"],
 		"logo": "breakaway.png",
 		"date": "Aug 2018",
@@ -1033,6 +1053,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lplpro-tekken-2018",
 		"categories": ["media","media-esports"],
 		"logo": "lplpro-tekken.png",
 		"date": "Jul 2018",
@@ -1051,6 +1072,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-tauranga-2018",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
 		"date": "May 2018",
@@ -1074,6 +1096,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "iem-sydney-2018",
 		"categories": ["media","media-esports","media-highlights"],
 		"logo": "iem.png",
 		"date": "May 2018",
@@ -1087,57 +1110,57 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-karrigan-interview",
 				"image": "karrigan-syd18.png",
-				"text": "Interview with FaZe Clan Counter-Strike player karrigan"
+				"text": "Interview with FaZe Clan CSGO player karrigan"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-ropz-interview",
 				"image": "ropz-syd18.png",
-				"text": "Interview with mousesports Counter-Strike player ropz"
+				"text": "Interview with mousesports CSGO player ropz"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-magisk-interview",
 				"image": "magisk-syd18.png",
-				"text": "Interview with Astralis Counter-Strike player Magisk"
+				"text": "Interview with Astralis CSGO player Magisk"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-boltz-interview",
 				"image": "boltz-syd18.png",
-				"text": "Interview with SK Gaming Counter-Strike player boltz"
+				"text": "Interview with SK Gaming CSGO player boltz"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-lekr0-interview",
 				"image": "lekr0-syd18.png",
-				"text": "Interview with Fnatic Counter-Strike player lekr0"
+				"text": "Interview with Fnatic CSGO player lekr0"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-bntet-interview",
 				"image": "bntet-syd18.png",
-				"text": "Interview with TyLoo Counter-Strike player BnTeT"
+				"text": "Interview with TyLoo CSGO player BnTeT"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-gratisfaction-interview",
 				"image": "gratisfaction-syd18.png",
-				"text": "Interview with Grayhound Gaming Counter-Strike player Gratisfaction"
+				"text": "Interview with Grayhound Gaming CSGO player Gratisfaction"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-xign-interview",
 				"image": "xign-syd18.png",
-				"text": "Interview with MVP PK Counter-Strike player XigN"
+				"text": "Interview with MVP PK CSGO player XigN"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-alistair-interview",
 				"image": "alistair-syd18.png",
-				"text": "Interview with ORDER Counter-Strike player aliStair"
+				"text": "Interview with ORDER CSGO player aliStair"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-sterling-interview",
 				"image": "sterling-syd18.png",
-				"text": "Interview with Chiefs Counter-Strike player sterling"
+				"text": "Interview with Chiefs CSGO player sterling"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2018-05-lons-interview",
 				"image": "lons-syd18.png",
-				"text": "Interview with Legacy Counter-Strike player LONS"
+				"text": "Interview with Legacy CSGO player LONS"
 			},
 			{
 				"link": "https://www.youtube.com/watch?v=xi8d6KjGntg",
@@ -1152,6 +1175,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "rtx-sydney-2018",
 		"categories": ["media","media-conventions","media-highlights"],
 		"logo": "rtx-sydney.png",
 		"date": "Feb 2018",
@@ -1170,6 +1194,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-gtsport-2017",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-gtsport.png",
 		"date": "Dec 2017",
@@ -1193,6 +1218,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2017",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
 		"date": "Oct 2017",
@@ -1211,6 +1237,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "lpl-tekken7-2017",
 		"categories": ["media","media-esports"],
 		"logo": "lpl-tekken7.png",
 		"date": "Sep 2017",
@@ -1223,6 +1250,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
+		"name": "iem-sydney-2017",
 		"categories": ["media","media-esports","media-highlights"],
 		"logo": "iem.png",
 		"date": "May 2017",
@@ -1236,12 +1264,12 @@ var jsonBoxes = [
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2017-05-astralis-kjaerbye-interview",
 				"image": "astralis-kjaerbye.png",
-				"text": "Interview with Astralis Counter-Strike player Kjaerbye"
+				"text": "Interview with Astralis CSGO player Kjaerbye"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2017-05-sk-fer-interview",
 				"image": "sk-fer.png",
-				"text": "Interview with SK Gaming Counter-Strike player fer"
+				"text": "Interview with SK Gaming CSGO player fer"
 			},
 			{
 				"link": "https://esportskingdom.gg/counter-strike/2020-01-rush-interview-sydney17",
@@ -1266,6 +1294,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "njpw-sakura-2016",
 		"categories": ["media","media-wrestling","media-highlights"],
 		"logo": "njpw.png",
 		"date": "Nov 2016",
@@ -1314,6 +1343,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2016",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-old.png",
 		"date": "Oct 2016",
@@ -1326,6 +1356,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
+		"name": "armageddon-manukau-2016",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-old.png",
 		"date": "Mar 2016",
@@ -1344,6 +1375,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2015",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-old.png",
 		"date": "Oct 2015",
@@ -1356,6 +1388,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
+		"name": "armageddon-hamilton-2015",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-old.png",
 		"date": "Mar 2015",
@@ -1374,6 +1407,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2014",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-old.png",
 		"date": "Oct 2014",
@@ -1392,6 +1426,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-hamilton-2014",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-older.png",
 		"date": "May 2014",
@@ -1410,6 +1445,7 @@ var jsonBoxes = [
 		]
 	},
 	{
+		"name": "armageddon-auckland-2013",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-older.png",
 		"date": "Oct 2013",
@@ -1422,6 +1458,7 @@ var jsonBoxes = [
 		"links": []
 	},
 	{
+		"name": "armageddon-hamilton-2013",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo-older.png",
 		"date": "May 2013",

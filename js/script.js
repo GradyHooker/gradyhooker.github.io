@@ -1,4 +1,10 @@
 $(function() {
+	$("html").click(hideSidePanel);
+	
+	$("#sidePanel").click(function() {
+		event.stopPropagation();
+	});
+	
 	var hash;
 	if(location.hash == null || location.hash == "") {
 		hash = "projects";
@@ -12,7 +18,6 @@ $(function() {
 		jsonBoxes.forEach(function(box) {
 			if(box.categories.includes(hash)) {
 				//Make outer element
-
 				if(box.categories.includes('media')) {
 					//Structure like Media		
 					d = document.createElement('div');
@@ -20,6 +25,7 @@ $(function() {
 					box.categories.forEach(function(className) {
 						$(d).addClass(className);
 					});		
+					$(d).click(function(){ showMediaInfo(box.name); });
 					
 					f = document.createElement('div');
 					$(f).addClass('media-logo-cont');
@@ -162,3 +168,43 @@ $(function() {
 		}, 500);
 	};
 });
+
+function showMediaInfo(id) {
+	event.stopPropagation();
+	
+	$("#sidePanel").html('<div class="close" onclick="hideSidePanel()">🗙</div>');
+	
+	var info;
+	jsonBoxes.forEach(function(box) {
+		if(box.name == id) {
+			info = box;
+			return false;
+		}
+	});
+	
+	img = document.createElement('div');
+	$(img).addClass('sidepanel-image-cont');
+	$(img).html('<img class="sidepanel-image" src="images/media/' + info.name + '.png" alt="' + info.title + ' Image"/>');
+	$('#sidePanel').append(img);
+	
+	links = document.createElement('div');
+	$(links).addClass('sidepanel-links-cont');
+	info.links.forEach(function(link) {
+		l = document.createElement('a');
+		$(l).attr("href", link.link);
+		$(l).attr("target", "_blank");
+		$(l).addClass('sidepanel-link');
+		$(l).html('<img class="sidepanel-link-image" src="images/media/' + link.image + '" /> <span>' + link.text + '</span>');
+		$(links).append(l);
+	});
+	if(info.links.length == 0) {
+		$(links).html('<div class="sidepanel-links-none">No Content Found</div>');
+	}
+	$('#sidePanel').append(links);
+	
+	$("#main").addClass("sidePanel");
+}
+
+function hideSidePanel() {
+	$("#main").removeClass("sidePanel");
+}
