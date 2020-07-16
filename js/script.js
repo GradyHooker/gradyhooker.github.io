@@ -11,8 +11,10 @@ $(function() {
 		
 		//Close the menubar
 		$("#menu-button").removeClass("menu-opened");
+		if($("#menu-list").hasClass("open")) {
+			$("#menu-list").hide();
+		}
 		$("#menu-list").removeClass("open");
-		$("#menu-list").hide();
 		$("#menu-list").find(".submenu-button").removeClass("submenu-opened");
 		$("#menu-list").find("ul").removeClass("open");
 		$("#menu-list").find("ul").hide();
