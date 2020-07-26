@@ -441,6 +441,26 @@ var jsonBoxes = [
 	
 	
 	{
+		"name": "armageddon-tauranga-2020",
+		"categories": ["media","media-conventions"],
+		"logo": "armageddonexpo.png",
+		"date": "July 2020",
+		"title": "Armageddon Expo",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Tauranga"
+		},
+		"links": [
+			{
+				"link": "https://www.flickr.com/photos/raidosgaming/albums/72157715242711717",
+				"target": "_blank",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
+		]
+	},
+	{
 		"name": "rlcs-lpl-2019",
 		"categories": ["media","media-esports"],
 		"logo": "rlcs-lpl.png",
