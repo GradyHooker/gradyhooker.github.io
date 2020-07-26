@@ -3,6 +3,7 @@ $(function() {
 		buildSite();
 	});
 	buildSite();
+	resize();
 	
 	function buildSite() {
 		//Start with a Google Analytics view

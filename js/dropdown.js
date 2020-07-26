@@ -54,7 +54,9 @@ window.onload = function() {
 	}
 };
 
-window.onresize = function(){
+window.onresize = resize;
+
+function resize() {
 	var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	var lists = cssmenu.getElementsByTagName("ul");
 	if (w > 768 && (prevState == "small" || prevState == "")) {
