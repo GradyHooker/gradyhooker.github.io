@@ -1,6 +1,7 @@
 $(function() {
 	window.addEventListener('hashchange', function() {
 		buildSite();
+		resize();
 	});
 	buildSite();
 	resize();
@@ -18,7 +19,11 @@ $(function() {
 		$("#menu-list").removeClass("open");
 		$("#menu-list").find(".submenu-button").removeClass("submenu-opened");
 		$("#menu-list").find("ul").removeClass("open");
-		$("#menu-list").find("ul").hide();
+		if(getWidth() < 768) {
+			$("#menu-list").find("ul").hide();
+		} else {
+			$("#menu-list").find("ul").show();
+		}
 		
 		//Then build the page
 		var hash;
@@ -39,6 +44,16 @@ $(function() {
 		if(jsonLabels[hash] != null && jsonLabels[hash] != "") {
 			//Do the thing
 			$('#content-name').text(jsonLabels[hash]);
+			
+			//If media, add subtitle
+			$('.content-subname').remove();
+			if(jsonLabels[hash].includes('Media')) {
+				sub = document.createElement('div');
+				$(sub).addClass('content-subname');
+				$(sub).text("Click on a box to see content from that event");					
+				$(sub).insertAfter('#content-name');
+			}
+			
 			jsonBoxes.forEach(function(box) {
 				if(box.categories.includes(hash)) {
 					//Make outer element
@@ -227,4 +242,24 @@ function showMediaInfo(id) {
 
 function hideSidePanel() {
 	$("#main").removeClass("sidePanel");
+}
+
+function getWidth() {
+  return Math.max(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth
+  );
+}
+
+function getHeight() {
+  return Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.offsetHeight,
+    document.documentElement.clientHeight
+  );
 }
