@@ -12,9 +12,11 @@ function getPlaylistData(box) {
 	$.ajax({
 		url: theUrl,
 		success: function(response){
-			console.log(response);
 			playlistReturn.push(...response['items']);
 			constructPodcastBoxCallback(box, playlistReturn, response.pageInfo.totalResults);
+		},
+		error: function(response){
+			console.log(response.responseText);
 		}
 	});
 	
