@@ -19,45 +19,6 @@ body {
     flex-direction: column;
 }
 
-.media-cont {
-	height: 85px;
-	width: 400px;
-	margin: 9px;
-	background: white;
-	border-radius: 3px;
-	border: 1px solid #595959;
-	background: #383838;
-	color: white;
-	margin: 10px;
-	text-align: left;
-	position: relative;
-	box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
-    display: flex;
-    flex-direction: row;
-	cursor: pointer;
-}
-
-.media-logo-cont {
-	padding: 15px 8px;
-	height: calc(100% - 30px);
-	width: 120px;
-	flex-shrink: 0;
-	border-right: 1px solid #595959;
-}
-
-.media-logo {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.media-logo-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
 .project-screenshot-cont {
 	flex-shrink: 0;
 	height: 120px;
@@ -112,27 +73,6 @@ body {
 	color: #292f33;
 	margin-left: 4px;
 	margin-right: 4px;
-}
-
-.media-title {
-	font-weight: 400;
-	font-size: 1em;
-	color: white;
-	margin-bottom: 6px;
-}
-
-.media-text-cont {
-	height: calc(100% - 30px);
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.media-text {
-	color: white;
-	font-weight: 300;
-	font-size: 0.95em;
 }
 
 .project-years {
@@ -251,50 +191,6 @@ h1 {
 	color: black;
 }
 
-/* MEDIA PAGE */
-.media-logo-cont {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
-
-.media-logo-cont a {
-	text-decoration: none;
-	flex-shrink: 1;
-	max-height: 40px;
-	max-width: 40px;
-	padding-left: 2px;
-	padding-right: 2px;
-}
-
-.media-logo-cont-small a {
-    width: 34px;
-}
-
-.media-logo {
-	height: 100%;
-	width: 100%;
-	border-radius: 20px;
-}
-
-.media-logo-nolink {
-	opacity: 0.2;
-}
-
-.other-interviews {
-	background: white;
-	border-radius: 10px;
-	margin: 10px auto;
-	text-align: center;
-	position: relative;
-	box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
-	padding: 10px 20px 5px 20px;
-	font-size: 1em;
-	text-align: left;
-	color: #292f33;
-}
-
 #sticky, #preload {
 	display: none !important;
 	opacity: 1;
@@ -370,21 +266,6 @@ h1 {
 	.project-links {
 		order: 3;
 		height: auto;
-	}
-
-	.media-logo-cont a {
-		max-height: 30px;
-		max-width: 30px;
-	}
-
-	.media-logo-cont-small a {
-		width: 24px;
-	}
-
-	.media-logo {
-		height: 100%;
-		width: 100%;
-		border-radius: 20px;
 	}
 }
 

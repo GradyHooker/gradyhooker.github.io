@@ -4,6 +4,7 @@ var jsonLabels = {
 	"work-it": "Work - IT",
 	"work-journalism": "Work - Journalism",
 	"accomplishments": "Accomplishments",
+	"podcasts": "Podcasts",
 	"media": "Media & Press",
 	"media-esports": "Media - Esports",
 	"media-conventions": "Media - Conventions",
@@ -437,14 +438,174 @@ var jsonBoxes = [
 	
 	
 	
+	{
+		"categories": ["podcasts"],
+		"title": "Wrestling Roundup",
+		"description": "Professional Wrestling",
+		"logo": "wrestling-roundup.png",
+		"playlist": "PLf_ZXfW98JX0RvJQ1UUBTcb9aBMhDAjoN",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PLf_ZXfW98JX0RvJQ1UUBTcb9aBMhDAjoN",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://podcasts.apple.com/us/podcast/wrestling-roundup/id663644512",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
+			},
+			{
+				"link": "https://accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646",
+				"image": "icon-accessmedia-white.png",
+				"text": "Listen on AccessMedia.nz"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Medacast",
+		"description": "Children's anime, Medabots",
+		"logo": "medacast.png",
+		"playlist": "PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Scared Heart Stories",
+		"description": "Television show, Scrubs",
+		"logo": "sacred-heart-stories.png",
+		"playlist": "PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "The Podcast Podcast",
+		"description": "Podcasters",
+		"logo": "podcast-podcast.png",
+		"playlist": "PL_tQxNJBCq7Cxv5BCUnTgM6jXaCIhXgx2",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Cxv5BCUnTgM6jXaCIhXgx2",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	/*{
+		"categories": ["podcasts"],
+		"title": "Fighting The Algorithm",
+		"description": "Internet Personalities",
+		"logo": "fighting-the-algorithm.png",
+		"playlist": "PL_tQxNJBCq7B_eW9t7YbLL8pN0T9LfwGJ",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7B_eW9t7YbLL8pN0T9LfwGJ",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Coffee, Pizza & Code",
+		"description": "Game Developers",
+		"logo": "coffee-pizza-code.png",
+		"playlist": "PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Banana Etiquette",
+		"description": "Television show, Survivor",
+		"logo": "banana-etiquette.png",
+		"playlist": "PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Coolx4",
+		"description": "Television show, Community",
+		"logo": "coolx4.png",
+		"playlist": "PL_tQxNJBCq7CG5U5_zXU5EUy6JN1bn1H5",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CG5U5_zXU5EUy6JN1bn1H5",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Video Game Broadcasting School",
+		"description": "YouTube show, VGHS",
+		"logo": "video-game-broadcasting-school.png",
+		"playlist": "PL_tQxNJBCq7A7eu_-vEr9PRhyiW4obQwa",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7A7eu_-vEr9PRhyiW4obQwa",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
 	{
+		"name": "we-love-aotearoa-2020",
+		"categories": ["media","media-other"],
+		"logo": "we-love-aotearoa.png",
+		"date": "Aug 2020",
+		"title": "We Love Aotearoa",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland"
+		},
+		"links": [
+		]
+	},
+	{
 		"name": "armageddon-tauranga-2020",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
-		"date": "July 2020",
+		"date": "Jul 2020",
 		"title": "Armageddon Expo",
 		"country": {
 			"code": "nz",

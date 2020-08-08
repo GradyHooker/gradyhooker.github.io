@@ -1,0 +1,80 @@
+.carousel-cont {
+	width: 100%;
+	max-width: 370px;
+	margin-bottom: 40px;
+	display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 1px solid #595959;
+    background: #383838;
+}
+
+.carousel {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.carousel a {
+	color: white;
+}
+
+.carousel .playlist-item {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Condensed';
+	cursor: pointer;
+	outline: none;
+	padding: 5px;
+}
+
+.carousel .playlist-item img {
+    width: 100%;
+	max-width: 260px;
+	margin: 0 auto;
+}
+
+.playlist-name {
+	margin-bottom: 0px;
+	padding: 10px;
+	display: flex;
+	color: white;
+	text-align: left;
+	width: calc(100% - 20px);
+	flex-shrink: 0;
+	border-bottom: 1px solid #595959;
+}
+
+.playlist-name h2 {
+	margin: 0px;
+}
+
+.playlist-name > img {
+	padding-right: 20px;
+	height: 120px;
+	width: 120px;
+	flex-shrink: 0;
+}
+
+.playlist-name-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.playlist-links {
+	width: 160px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.playlist-links a {
+	color: white;
+	padding: 5px 0px;
+}
