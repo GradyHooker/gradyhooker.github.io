@@ -588,20 +588,6 @@ var jsonBoxes = [
 	
 	
 	{
-		"name": "we-love-aotearoa-2020",
-		"categories": ["media","media-other"],
-		"logo": "we-love-aotearoa.png",
-		"date": "Aug 2020",
-		"title": "We Love Aotearoa",
-		"country": {
-			"code": "nz",
-			"text": "New Zealand",
-			"city": "Auckland"
-		},
-		"links": [
-		]
-	},
-	{
 		"name": "armageddon-tauranga-2020",
 		"categories": ["media","media-conventions"],
 		"logo": "armageddonexpo.png",
