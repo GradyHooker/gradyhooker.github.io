@@ -9,6 +9,9 @@
     background: url('../images/flags.png') no-repeat;
 }
 
+.flag.flag-online {
+    background-position: 0 -176px;
+}
 
 .flag.flag-ad {
     background-position: -16px 0;

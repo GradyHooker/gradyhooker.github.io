@@ -492,6 +492,34 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["podcasts"],
+		"title": "Banana Etiquette",
+		"description": "Reality TV show, Survivor",
+		"logo": "banana-etiquette.png",
+		"playlist": "PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},
+	/*{
+		"categories": ["podcasts"],
+		"title": "Coffee + Pizza = Code",
+		"description": "Game Developers",
+		"logo": "coffee-pizza-code.png",
+		"playlist": "PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			}
+		]
+	},*/
+	{
+		"categories": ["podcasts"],
 		"title": "The Podcast Podcast",
 		"description": "Podcasters",
 		"logo": "podcast-podcast.png",
@@ -513,34 +541,6 @@ var jsonBoxes = [
 		"links": [
 			{
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7B_eW9t7YbLL8pN0T9LfwGJ",
-				"image": "icon-youtube-white.png",
-				"text": "Watch more on YouTube"
-			}
-		]
-	},
-	{
-		"categories": ["podcasts"],
-		"title": "Coffee, Pizza & Code",
-		"description": "Game Developers",
-		"logo": "coffee-pizza-code.png",
-		"playlist": "PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
-		"links": [
-			{
-				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
-				"image": "icon-youtube-white.png",
-				"text": "Watch more on YouTube"
-			}
-		]
-	},
-	{
-		"categories": ["podcasts"],
-		"title": "Banana Etiquette",
-		"description": "Television show, Survivor",
-		"logo": "banana-etiquette.png",
-		"playlist": "PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
-		"links": [
-			{
-				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
 			}
@@ -587,6 +587,34 @@ var jsonBoxes = [
 	
 	
 	
+	{
+		"name": "pax-online-2020",
+		"categories": ["media","media-conventions"],
+		"logo": "pax-online.png",
+		"date": "Sep 2020",
+		"title": "PAX Online",
+		"country": {
+			"code": "online",
+			"text": "Online",
+			"city": "Online"
+		},
+		"links": [
+		]
+	},
+	{
+		"name": "gamescom-2020",
+		"categories": ["media","media-conventions"],
+		"logo": "gamescom.png",
+		"date": "Aug 2020",
+		"title": "gamescom 2020",
+		"country": {
+			"code": "online",
+			"text": "Online",
+			"city": "Online"
+		},
+		"links": [
+		]
+	},
 	{
 		"name": "armageddon-tauranga-2020",
 		"categories": ["media","media-conventions"],
