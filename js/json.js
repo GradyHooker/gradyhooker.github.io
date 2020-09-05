@@ -456,6 +456,16 @@ var jsonBoxes = [
 				"text": "Listen on Apple Podcasts"
 			},
 			{
+				"link": "https://open.spotify.com/show/1RaS4qLOBiPQRQCTnIZClX",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWNjZXNzcmFkaW8ub3JnL3Jzcy5hc2h4P3BpZD04YjYxMWI0ZS0wN2Q2LTQwODItYTIwYi1iNDU0MjAwZGE2NDY?sa=X&ved=0CAYQrrcFahcKEwi4vNzy-LTrAhUAAAAAHQAAAAAQAQ",
+				"image": "icon-google-white.png",
+				"text": "Listen on Google Podcasts"
+			},
+			{
 				"link": "https://accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646",
 				"image": "icon-accessmedia-white.png",
 				"text": "Listen on AccessMedia.nz"
@@ -504,7 +514,7 @@ var jsonBoxes = [
 			}
 		]
 	},
-	/*{
+	{
 		"categories": ["podcasts"],
 		"title": "Coffee + Pizza = Code",
 		"description": "Game Developers",
@@ -517,7 +527,7 @@ var jsonBoxes = [
 				"text": "Watch more on YouTube"
 			}
 		]
-	},*/
+	},
 	{
 		"categories": ["podcasts"],
 		"title": "The Podcast Podcast",
