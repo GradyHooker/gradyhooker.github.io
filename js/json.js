@@ -516,7 +516,7 @@ var jsonBoxes = [
 	},
 	{
 		"categories": ["podcasts"],
-		"title": "Coffee + Pizza = Code",
+		"title": "Pizza + Coffee = Code",
 		"description": "Game Developers",
 		"logo": "coffee-pizza-code.png",
 		"playlist": "PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
