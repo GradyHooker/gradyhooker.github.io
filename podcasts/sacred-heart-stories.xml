@@ -7,7 +7,7 @@
 	<webMaster>grady.hooker8@gmail.com (Grady Hooker)</webMaster>
 	<managingEditor>grady.hooker8@gmail.com (Grady Hooker)</managingEditor>
 	<image>
-	   <url>https://gradys-podcasts.sfo2.digitaloceanspaces.com/scared-heart-stories/Logo.png</url>
+	   <url>https://gradys-podcasts.sfo2.digitaloceanspaces.com/sacred-heart-stories/Logo.png</url>
 	   <title>Medacast</title>
 	   <link>https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1</link>
 	</image>
@@ -21,8 +21,8 @@
 	<itunes:type>episodic</itunes:type>
 	<itunes:keywords>scrubs, podcast, interview, television, sacred heart</itunes:keywords>
 	<itunes:explicit>no</itunes:explicit>
-	<itunes:image href="https://gradys-podcasts.sfo2.digitaloceanspaces.com/scared-heart-stories/Logo-1400.png" />
-	<atom:link href="https://grady.nz/podcasts/scared-heart-stories.xml" rel="self" type="application/rss+xml" />
+	<itunes:image href="https://gradys-podcasts.sfo2.digitaloceanspaces.com/sacred-heart-stories/Logo-1400.png" />
+	<atom:link href="https://grady.nz/podcasts/sacred-heart-stories.xml" rel="self" type="application/rss+xml" />
 	<title>Sacred Heart Stories (Scrubs)</title>
 	<itunes:author>Grady's Podcasts</itunes:author>
 	<description>Sacred Heart Stories is our podcast all about the television sitcom Scrubs. Featuring interviews with actors from the show!</description>
