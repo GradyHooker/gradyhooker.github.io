@@ -598,11 +598,11 @@ var jsonBoxes = [
 	
 	
 	{
-		"name": "pax-online-2020",
+		"name": "pax-x-egx-2020",
 		"categories": ["media","media-conventions"],
-		"logo": "pax-online.png",
+		"logo": "pax-x-egx.png",
 		"date": "Sep 2020",
-		"title": "PAX Online",
+		"title": "PAX Online x EGX Digital",
 		"country": {
 			"code": "online",
 			"text": "Online",
@@ -623,6 +623,11 @@ var jsonBoxes = [
 			"city": "Online"
 		},
 		"links": [
+			{
+				"link": "https://www.youtube.com/watch?v=TB4vFX91IxE",
+				"image": "diplodocus-games.png",
+				"text": "Keen Dreams + Regina & Mac (Diplodocus Games)"
+			}
 		]
 	},
 	{
