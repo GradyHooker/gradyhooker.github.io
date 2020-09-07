@@ -60,6 +60,20 @@
 	   <image>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/2-Lisa-Jai.png"</image>
 	   <pubDate>Mon, 17 Aug 2020 12:00:00 GMT</pubDate>
 	</item>
+	<item>
+	   <title>Darren Frost (Sloan)</title>
+	   <description>Grady calls up Darren Frost to talk about all sorts of different things including Medabots - Darren recalls having to do a French accent in an episode alongside Sloan's iconic laugh. They also touch on other shows such as Bakugan, his work in a variety of commercials, and how he keeps his comedy work separate to his voice acting.</description>
+	   <itunes:summary>Grady calls up Darren Frost to talk about all sorts of different things including Medabots - Darren recalls having to do a French accent in an episode alongside Sloan's iconic laugh. They also touch on other shows such as Bakugan, his work in a variety of commercials, and how he keeps his comedy work separate to his voice acting.</itunes:summary>
+	   <itunes:subtitle>Grady calls up Darren Frost to talk about all sorts of different things including Medabots - Darren recalls having to do a French accent in an episode alongside Sloan's iconic laugh.</itunes:subtitle>
+	   <enclosure url="https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/3-Darren-Frost.mp3" type="audio/mpeg" length="59588608" />
+	   <guid>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/3-Darren-Frost.mp3</guid>
+	   <itunes:duration>0:24:49</itunes:duration>
+	   <itunes:episode>3</itunes:episode>
+	   <itunes:episodeType>full</itunes:episodeType>
+	   <itunes:image>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/3-Darren-Frost.png</itunes:image>
+	   <image>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/3-Darren-Frost.png"</image>
+	   <pubDate>Sun, 30 Aug 2020 12:00:00 GMT</pubDate>
+	</item>
 	<!--END REPEAT--> 
 
 </channel>
