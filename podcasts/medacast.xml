@@ -23,13 +23,13 @@
 	<itunes:explicit>no</itunes:explicit>
 	<itunes:image href="https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/Logo-1400.png" />
 	<atom:link href="https://grady.nz/podcasts/medacast.xml" rel="self" type="application/rss+xml" />
-	<pubDate>Mon, 07 Sep 2020 17:00:00 GMT</pubDate>
 	<title>Medcast (Medabots)</title>
 	<itunes:author>Grady's Podcasts</itunes:author>
 	<description>Medacast is our podcast all about the 1999/2000 children's anime Medabots. Featuring interviews with voice actors from the show!</description>
 	<itunes:summary>Medacast is our podcast all about the 1999/2000 children's anime Medabots. Featuring interviews with voice actors from the show!</itunes:summary>
 	<itunes:subtitle>Medacast is our podcast all about the 1999/2000 children's anime Medabots. Featuring interviews with voice actors from the show!</itunes:subtitle>
 	<lastBuildDate>Mon, 07 Sep 2020 17:00:00 GMT</lastBuildDate>
+	<pubDate>Mon, 07 Sep 2020 17:00:00 GMT</pubDate>
 
 	<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 	<item>
