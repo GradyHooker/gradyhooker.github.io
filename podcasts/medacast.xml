@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+<channel>
+<link>https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M</link>
+<language>en-us</language>
+<copyright>&#xA9;2020</copyright>
+<webMaster>grady.hooker8@gmail.com (Grady Hooker)</webMaster>
+<managingEditor>grady.hooker8@gmail.com (Grady Hooker)</managingEditor>
+<image>
+   <url>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/Logo.png</url>
+   <title>Medacast</title>
+   <link>https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M</link>
+</image>
+<itunes:owner>
+   <itunes:name>Grady Hooker</itunes:name>
+   <itunes:email>grady.hooker8@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:category text="TV & Film">
+   <itunes:category text="Film Interviews" />
+</itunes:category>
+<itunes:keywords>medabots, podcast, interview, medarot, voice acting</itunes:keywords>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/Logo.png" />
+<atom:link href="https://grady.nz/podcasts/medacast.xml" rel="self" type="application/rss+xml" />
+<pubDate>Mon, 07 Sep 2020 17:00:00 GMT</pubDate>
+<title>Medcast (Medabots)</title>
+<itunes:author>Grady's Podcasts</itunes:author>
+<description></description>
+<itunes:summary></itunes:summary>
+<itunes:subtitle></itunes:subtitle>
+<lastBuildDate>Mon, 07 Sep 2020 17:00:00 GMT</lastBuildDate>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+   <title>Rob Tinkler (Spyke & Cyandog)</title>
+   <description>In the first episode of 'Medacast', our podcast all about the 1999/2000 children's anime Medabots, we talk to Rob Tinkler. Rob provided the voices for Spyke as well as his medabot Cyandog/Krosserdog. Other than Medabots, Rob has also provided voices for Bakugan, Cyberchase, Beyblades, The Adventures of Sam and Max: Freelance Police, and many more shows!</description>
+   <itunes:summary>In the first episode of 'Medacast', our podcast all about the 1999/2000 children's anime Medabots, we talk to Rob Tinkler. Rob provided the voices for Spyke as well as his medabot Cyandog/Krosserdog. Other than Medabots, Rob has also provided voices for Bakugan, Cyberchase, Beyblades, The Adventures of Sam and Max: Freelance Police, and many more shows!</itunes:summary>
+   <itunes:subtitle>In the first episode of 'Medacast', our podcast all about the 1999/2000 children's anime Medabots, we talk to Rob Tinkler. Rob provided the voices for Spyke as well as his medabot Cyandog/Krosserdog.</itunes:subtitle>
+   <enclosure url="https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/1-Rob-Tinkler.mp3" type="audio/mpeg" length="1" />
+   <guid>https://gradys-podcasts.sfo2.digitaloceanspaces.com/medacast/1-Rob-Tinkler.mp3</guid>
+   <itunes:duration>0:31:22</itunes:duration>
+   <pubDate>Tue, 04 Aug 2020 12:00:00 GMT</pubDate>
+</item>
+<!--END REPEAT--> 
+
+</channel>
+</rss>
