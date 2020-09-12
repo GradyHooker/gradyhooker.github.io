@@ -483,12 +483,17 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/5O6uqMDWbSXblSpti6GWOx",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
 			}
 		]
 	},
 	{
 		"categories": ["podcasts"],
-		"title": "Scared Heart Stories",
+		"title": "Sacred Heart Stories",
 		"description": "Television show, Scrubs",
 		"logo": "sacred-heart-stories.png",
 		"playlist": "PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
@@ -497,6 +502,11 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/0cMoKkecTNt8yqzjnJxxRH",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
 			}
 		]
 	},
@@ -511,6 +521,11 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/0LNoFeT48SusAldEe3tYTy",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
 			}
 		]
 	},
@@ -525,6 +540,11 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CATd4fvyP8T9otviIMhRcR",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/6vREPgX3R4j88iGS0uwe2n",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
 			}
 		]
 	},
@@ -539,6 +559,11 @@ var jsonBoxes = [
 				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Cxv5BCUnTgM6jXaCIhXgx2",
 				"image": "icon-youtube-white.png",
 				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/1R2RTgVDm0Xabulj4GWWJ1",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
 			}
 		]
 	},
