@@ -451,17 +451,17 @@ var jsonBoxes = [
 				"text": "Watch more on YouTube"
 			},
 			{
-				"link": "https://podcasts.apple.com/us/podcast/wrestling-roundup/id663644512",
-				"image": "icon-apple-white.png",
-				"text": "Listen on Apple Podcasts"
-			},
-			{
 				"link": "https://open.spotify.com/show/1RaS4qLOBiPQRQCTnIZClX",
 				"image": "icon-spotify-white.png",
 				"text": "Listen on Spotify"
 			},
 			{
-				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWNjZXNzcmFkaW8ub3JnL3Jzcy5hc2h4P3BpZD04YjYxMWI0ZS0wN2Q2LTQwODItYTIwYi1iNDU0MjAwZGE2NDY?sa=X&ved=0CAYQrrcFahcKEwi4vNzy-LTrAhUAAAAAHQAAAAAQAQ",
+				"link": "https://podcasts.apple.com/us/podcast/wrestling-roundup/id663644512",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWNjZXNzcmFkaW8ub3JnL3Jzcy5hc2h4P3BpZD04YjYxMWI0ZS0wN2Q2LTQwODItYTIwYi1iNDU0MjAwZGE2NDY",
 				"image": "icon-google-white.png",
 				"text": "Listen on Google Podcasts"
 			},
@@ -469,63 +469,6 @@ var jsonBoxes = [
 				"link": "https://accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646",
 				"image": "icon-accessmedia-white.png",
 				"text": "Listen on AccessMedia.nz"
-			}
-		]
-	},
-	{
-		"categories": ["podcasts"],
-		"title": "Medacast",
-		"description": "Children's anime, Medabots",
-		"logo": "medacast.png",
-		"playlist": "PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
-		"links": [
-			{
-				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
-				"image": "icon-youtube-white.png",
-				"text": "Watch more on YouTube"
-			},
-			{
-				"link": "https://open.spotify.com/show/5O6uqMDWbSXblSpti6GWOx",
-				"image": "icon-spotify-white.png",
-				"text": "Listen on Spotify"
-			}
-		]
-	},
-	{
-		"categories": ["podcasts"],
-		"title": "Sacred Heart Stories",
-		"description": "Television show, Scrubs",
-		"logo": "sacred-heart-stories.png",
-		"playlist": "PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
-		"links": [
-			{
-				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
-				"image": "icon-youtube-white.png",
-				"text": "Watch more on YouTube"
-			},
-			{
-				"link": "https://open.spotify.com/show/0cMoKkecTNt8yqzjnJxxRH",
-				"image": "icon-spotify-white.png",
-				"text": "Listen on Spotify"
-			}
-		]
-	},
-	{
-		"categories": ["podcasts"],
-		"title": "Banana Etiquette",
-		"description": "Reality TV show, Survivor",
-		"logo": "banana-etiquette.png",
-		"playlist": "PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
-		"links": [
-			{
-				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
-				"image": "icon-youtube-white.png",
-				"text": "Watch more on YouTube"
-			},
-			{
-				"link": "https://open.spotify.com/show/0LNoFeT48SusAldEe3tYTy",
-				"image": "icon-spotify-white.png",
-				"text": "Listen on Spotify"
 			}
 		]
 	},
@@ -545,6 +488,59 @@ var jsonBoxes = [
 				"link": "https://open.spotify.com/show/6vREPgX3R4j88iGS0uwe2n",
 				"image": "icon-spotify-white.png",
 				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.apple.com/nz/podcast/pizza-coffee-code-game-developers/id1531444819",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Medacast",
+		"description": "Children's anime, Medabots",
+		"logo": "medacast.png",
+		"playlist": "PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7AbypEWaOL6yCVev99uvE6M",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/5O6uqMDWbSXblSpti6GWOx",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9ncmFkeS5uei9wb2RjYXN0cy9tZWRhY2FzdC54bWw",
+				"image": "icon-google-white.png",
+				"text": "Listen on Google Podcasts"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Sacred Heart Stories",
+		"description": "Television show, Scrubs",
+		"logo": "sacred-heart-stories.png",
+		"playlist": "PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/0cMoKkecTNt8yqzjnJxxRH",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9ncmFkeS5uei9wb2RjYXN0cy9zYWNyZWQtaGVhcnQtc3Rvcmllcy54bWw",
+				"image": "icon-google-white.png",
+				"text": "Listen on Google Podcasts"
 			}
 		]
 	},
@@ -564,6 +560,35 @@ var jsonBoxes = [
 				"link": "https://open.spotify.com/show/1R2RTgVDm0Xabulj4GWWJ1",
 				"image": "icon-spotify-white.png",
 				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.apple.com/nz/podcast/the-podcast-podcast-podcasters/id1531586839",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
+			}
+		]
+	},
+	{
+		"categories": ["podcasts"],
+		"title": "Banana Etiquette",
+		"description": "Reality TV show, Survivor",
+		"logo": "banana-etiquette.png",
+		"playlist": "PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+		"links": [
+			{
+				"link": "https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc",
+				"image": "icon-youtube-white.png",
+				"text": "Watch more on YouTube"
+			},
+			{
+				"link": "https://open.spotify.com/show/0LNoFeT48SusAldEe3tYTy",
+				"image": "icon-spotify-white.png",
+				"text": "Listen on Spotify"
+			},
+			{
+				"link": "https://podcasts.apple.com/nz/podcast/banana-etiquette-survivor/id1531445707",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
 			}
 		]
 	},
