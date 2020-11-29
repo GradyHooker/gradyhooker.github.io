@@ -493,6 +493,11 @@ var jsonBoxes = [
 				"link": "https://podcasts.apple.com/nz/podcast/pizza-coffee-code-game-developers/id1531444819",
 				"image": "icon-apple-white.png",
 				"text": "Listen on Apple Podcasts"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3BpenphLWNvZmZlZS1jb2RlL2ZlZWQueG1s",
+				"image": "icon-google-white.png",
+				"text": "Listen on Google Podcasts"
 			}
 		]
 	},
@@ -514,7 +519,7 @@ var jsonBoxes = [
 				"text": "Listen on Spotify"
 			},
 			{
-				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9ncmFkeS5uei9wb2RjYXN0cy9tZWRhY2FzdC54bWw",
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L21lZGFjYXN0L2ZlZWQueG1s",
 				"image": "icon-google-white.png",
 				"text": "Listen on Google Podcasts"
 			}
@@ -538,7 +543,7 @@ var jsonBoxes = [
 				"text": "Listen on Spotify"
 			},
 			{
-				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9ncmFkeS5uei9wb2RjYXN0cy9zYWNyZWQtaGVhcnQtc3Rvcmllcy54bWw",
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3NhY3JlZC1oZWFydC1zdG9yaWVzL2ZlZWQueG1s",
 				"image": "icon-google-white.png",
 				"text": "Listen on Google Podcasts"
 			}
@@ -589,6 +594,11 @@ var jsonBoxes = [
 				"link": "https://podcasts.apple.com/nz/podcast/banana-etiquette-survivor/id1531445707",
 				"image": "icon-apple-white.png",
 				"text": "Listen on Apple Podcasts"
+			},
+			{
+				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2JhbmFuYS1ldGlxdWV0dGUvZmVlZC54bWw",
+				"image": "icon-google-white.png",
+				"text": "Listen on Google Podcasts"
 			}
 		]
 	},
