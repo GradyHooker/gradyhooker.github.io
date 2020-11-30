@@ -519,6 +519,11 @@ var jsonBoxes = [
 				"text": "Listen on Spotify"
 			},
 			{
+				"link": "https://podcasts.apple.com/nz/podcast/medacast-medabots/id1542494735",
+				"image": "icon-apple-white.png",
+				"text": "Listen on Apple Podcasts"
+			},
+			{
 				"link": "https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L21lZGFjYXN0L2ZlZWQueG1s",
 				"image": "icon-google-white.png",
 				"text": "Listen on Google Podcasts"
