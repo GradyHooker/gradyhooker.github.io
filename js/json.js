@@ -106,7 +106,7 @@ var jsonBoxes = [
 		"title": "Custom CSGO Trading Cards",
 		"logo": "csgocards-logo.png",
 		"logoLink": "https://esportskingdom.gg/tcg/",
-		"description": "Created and printed designs for trading cards based on eSports players that have been universally praised by the players themselves.",
+		"description": "Created and printed designs for trading cards based on esports players that have been universally praised by the players themselves.",
 		"links": [
 			{
 				"link": "https://www.facebook.com/DOTesports/videos/679986385514364/",
@@ -662,6 +662,47 @@ var jsonBoxes = [
 	
 	
 	
+	
+	{
+		"name": "ggwp-2020",
+		"categories": ["media","media-conventions"],
+		"logo": "ggwp.png",
+		"date": "Nov 2020",
+		"title": "GGWP",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Wellington"
+		},
+		"links": [
+			{
+				"link": "https://www.flickr.com/photos/gradyhooker/albums/72157716793658413",
+				"target": "_blank",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
+		]
+	},
+	{
+		"name": "armageddon-auckland-2020",
+		"categories": ["media","media-conventions"],
+		"logo": "armageddonexpo.png",
+		"date": "Oct 2020",
+		"title": "Armageddon Expo",
+		"country": {
+			"code": "nz",
+			"text": "New Zealand",
+			"city": "Auckland"
+		},
+		"links": [
+			{
+				"link": "https://www.flickr.com/photos/gradyhooker/albums/72157716643742152",
+				"target": "_blank",
+				"image": "photo.png",
+				"text": "Photo Album"
+			}
+		]
+	},
 	{
 		"name": "pax-x-egx-2020",
 		"categories": ["media","media-conventions"],
