@@ -1,91 +1,27 @@
 $(function() {
-	window.addEventListener('hashchange', function() {
-		buildSite();
-		resize();
-	});
-	buildSite();
-	resize();
-	
-	function buildSite() {
-		//Start with a Google Analytics view
-		sendGoogleAnalyticsView();
-		
-		//Close the menubar
-		resetMenu();
-		
-		//Then build the page
-		var hash;
-		if(location.hash == null || location.hash == "") {
-			hash = "projects";
-		} else {
-			hash = location.hash.substr(1);
-		}
-	
-		$("html").click(hideSidePanel);
-		
-		$("#sidePanel").click(function() {
-			event.stopPropagation();
-		});
-		
-		//Empty the page
-		$('#content').empty();
-			
-		if(jsonLabels[hash] != null && jsonLabels[hash] != "") {
-			//Do the thing
-			$('#content-name').text(jsonLabels[hash]);
-			
-			//If media, add subtitle
-			$('.content-subname').remove();
-			if(jsonLabels[hash].includes('Media')) {
-				sub = document.createElement('div');
-				$(sub).addClass('content-subname');
-				$(sub).text("Click on a box to see content from that event");					
-				$(sub).insertAfter('#content-name');
-			}
-			
-			jsonBoxes.forEach(function(box) {
-				if(box.categories.includes(hash)) {
-					//Make outer element
-					if(box.categories.includes('media')) {
-						//Structure like Media		
-						d = constructMediaBox(box);
-					} else if(box.categories.includes('podcasts')) {
-						//Structure like Media		
-						d = constructPodcastBox(box);
-					} else {
-						//Structure like Standard
-						d = constructStandardBox(box);
-					}
-					
-					$('#content').append(d);
-				}
-			});
-			
-		} else {
-			$('#content-name').text("Unrecognized URL");
-		}
-	}
-	
+	//Close side panel
+	$("html").click(hideSidePanel);
+
 	//Set the Sticky Image
 	var gradyImages = [
 		{
-			"src": "images/grady/1-700tall.png",
+			"src": "assets/characters/1-700tall.png",
 			"title": "Grady at 1 years old"
 		},
 		{
-			"src": "images/grady/2-700tall.png",
+			"src": "assets/characters/2-700tall.png",
 			"title": "Grady at 6 years old"
 		},
 		{
-			"src": "images/grady/3-700tall.png",
+			"src": "assets/characters/3-700tall.png",
 			"title": "Grady at 11 years old"
 		},
 		{
-			"src": "images/grady/4-700tall.png",
+			"src": "assets/characters/4-700tall.png",
 			"title": "Grady at 16 years old"
 		},
 		{
-			"src": "images/grady/5-700tall.png",
+			"src": "assets/characters/5-700tall.png",
 			"title": "Grady at 21 years old"
 		}
 	];
@@ -110,37 +46,14 @@ $(function() {
 	};
 });
 
-function resetMenu() {
-	$("#menu-button").removeClass("menu-opened");
-	if($("#menu-list").hasClass("open")) {
-		$("#menu-list").hide();
-	}
-	$("#menu-list").removeClass("open");
-	$("#menu-list").find(".submenu-button").removeClass("submenu-opened");
-	$("#menu-list").find("ul").removeClass("open");
-	if(getWidth() < 768) {
-		$("#menu-list").find("ul").hide();
-	} else {
-		$("#menu-list").find("ul").show();
-	}
-}
-
-function showMediaInfo(id) {
+function showMediaInfo(info) {
 	event.stopPropagation();
 	
 	$("#sidePanel").html('<div class="close" onclick="hideSidePanel()"><i class="fas fa-times"></i></div>');
 	
-	var info;
-	jsonBoxes.forEach(function(box) {
-		if(box.name == id) {
-			info = box;
-			return false;
-		}
-	});
-	
 	img = document.createElement('div');
 	$(img).addClass('sidepanel-image-cont');
-	$(img).html('<img class="sidepanel-image" src="images/media/' + info.name + '.png" alt="' + info.title + ' Image"/>');
+	$(img).html('<img class="sidepanel-image" src="assets/media/banners/' + info.name + '.png" alt="' + info.title + ' Image"/>');
 	$('#sidePanel').append(img);
 	
 	links = document.createElement('div');
@@ -150,7 +63,7 @@ function showMediaInfo(id) {
 		$(l).attr("href", link.link);
 		$(l).attr("target", "_blank");
 		$(l).addClass('sidepanel-link');
-		$(l).html('<img class="sidepanel-link-image" src="images/media/' + link.image + '" /> <span>' + link.text + '</span>');
+		$(l).html('<img class="sidepanel-link-image" src="assets/media/icons/' + link.image + '.png" /> <span>' + link.text + '</span>');
 		$(links).append(l);
 	});
 	if(info.links.length == 0) {
@@ -183,166 +96,4 @@ function getHeight() {
     document.documentElement.offsetHeight,
     document.documentElement.clientHeight
   );
-}
-
-function sendGoogleAnalyticsView() {
-	ga('create', 'UA-123516744-1', 'auto');
-	ga('send', 'pageview', location.pathname + location.hash);
-}
-
-function constructMediaBox(box) {
-	var d = document.createElement('div');
-	$(d).addClass('media-cont');
-	box.categories.forEach(function(className) {
-		$(d).addClass(className);
-	});		
-	$(d).click(function(){ showMediaInfo(box.name); });
-	
-	f = document.createElement('div');
-	$(f).addClass('media-logo-cont');
-	$(d).append(f);
-	sc = document.createElement('div');
-	$(sc).addClass('media-logo');
-	$(sc).html('<img class="media-logo-img" src="images/logos_white/' + box.logo + '" alt="' + box.title + ' Image"/>');
-	$(f).append(sc);
-	
-	e = document.createElement('div');
-	$(e).addClass('media-text-cont');
-	$(d).append(e);
-	
-	title = document.createElement('div');
-	$(title).addClass('media-title');
-	$(title).attr('data-date', box.date);
-	$(title).text(box.title);
-	$(e).append(title);
-	
-	country = document.createElement('div');
-	$(country).addClass('media-text');
-	$(country).html(box.date + ', ' + box.country.city + ' <img src="images/blank.gif" class="flag flag-' + box.country.code + '" alt="' + box.country.text + '" />');
-	$(e).append(country);
-	
-	return d;
-}
-
-function constructStandardBox(box) {
-	d = document.createElement('div');
-	$(d).addClass('project-cont');
-	box.categories.forEach(function(className) {
-		$(d).addClass(className);
-	});
-
-	//Make Screenshot
-	sc = document.createElement('div');
-	$(sc).addClass('project-screenshot-cont');
-	$(sc).html('<img class="project-screenshot" src="images/' + box.screenshot + '" alt="' + box.title + ' Image"/>');
-	$(d).append(sc);
-	
-	//Make Project Logo
-	logo = document.createElement('div');
-	$(logo).addClass('project-logo-cont');
-	if(box.logoLink != null && box.logoLink != "") {
-		$(logo).html('<a href="' + box.logoLink + '" target="_blank"><img class="project-logo" src="images/' + box.logo + '" alt="' + box.title + ' Logo"/></a>');
-	} else {
-		$(logo).html('<img class="project-logo" src="images/' + box.logo + '" alt="' + box.title + ' Logo"/>');
-	}
-	$(d).append(logo);
-	
-	//Make Project Links
-	projectLinks = document.createElement('div');
-	$(projectLinks).addClass('project-links');
-	box.links.forEach(function(link) {
-		url = document.createElement('a');
-		url.target = "_blank";
-		url.href = link.link;
-		$(url).html('<img class="project-icon" src="icons/' + link.image + '" alt="' + link.text + '" title="' + link.text + '"/>');
-		$(projectLinks).append(url);
-	});
-	$(d).append(projectLinks);
-	
-	if(box.categories.includes('work')) {
-		//Make Project Title 
-		title = document.createElement('div');
-		$(title).addClass('project-title');
-		$(title).html(box.role + "<br/>(" + box.title + ")");
-		$(d).append(title);
-		
-		//Make Project Years
-		years = document.createElement('div');
-		$(years).addClass('project-years');
-		$(years).text(box.years);
-		$(d).append(years);
-	} else {
-		//Make Project Title 
-		title = document.createElement('div');
-		$(title).addClass('project-title');
-		$(title).text(box.title);
-		$(d).append(title);
-	}
-	
-	//Make Project Description
-	description = document.createElement('div');
-	$(description).addClass('project-description');
-	$(description).text(box.description);
-	$(d).append(description);
-	
-	return d;
-}
-
-function constructPodcastBox(box) {
-	getPlaylistData(box);
-	
-	var d = document.createElement('div');
-	$(d).addClass('carousel-cont');
-	$(d).attr('id', box.playlist);
-	
-	label = document.createElement('div');
-	$(label).addClass('playlist-name');
-	$(label).html('<img src="images/podcasts/' + box.logo + '" alt="Logo for ' + box.title + '" />');
-	$(d).append(label);
-	
-	carousel = document.createElement('div');
-	$(carousel).addClass('carousel');
-	$(d).append(carousel);
-	
-	var labelInfo = document.createElement('div');
-	$(labelInfo).addClass('playlist-name-info');
-	$(labelInfo).html("<h2>" + box.title + "</h2><i>" + box.description + "</i><div><span class='eps'>&nbsp;</span> episodes</div>");
-	
-	var linkCont = document.createElement('div');
-	box.links.forEach(function(obj) {
-		url = document.createElement('a');
-		$(url).addClass('playlist-link');
-		url.target = "_blank";
-		url.href = obj.link;
-		$(url).html('<img class="project-icon" src="icons/' + obj.image + '" alt="' + obj.text + '" title="' + obj.text + '"/>');
-		$(linkCont).append(url);
-	});
-	$(labelInfo).append(linkCont);
-	$(label).append(labelInfo);
-	
-	return d;
-}
-
-function constructPodcastBoxCallback(box, playlistItems, numOfItems) {
-	var d = $('#' + box.playlist);
-	
-	$(d).find('.eps').text(numOfItems);
-	
-	carousel = $(d).find('.carousel');
-	//$(carousel).append("<div>Newest Episodes:</div>");
-	
-	playlistItems.forEach(function(obj) {
-		item = obj.snippet;
-		
-		url = document.createElement('a');
-		$(url).addClass('playlist-item');
-		url.target = "_blank";
-		url.href = "https://www.youtube.com/watch?v=" + item.resourceId.videoId + "&list=" + item.playlistId;
-		$(url).html('<img src="' + item.thumbnails.medium.url + '" alt="Thumbnail" />');
-		$(carousel).append(url);
-	});
-	
-	if(playlistItems.length >= 2) {
-		$(carousel).append("<a href='https://www.youtube.com/playlist?list=" + box.playlist + "' target='_blank'>View all Episodes</a>");
-	}
 }
