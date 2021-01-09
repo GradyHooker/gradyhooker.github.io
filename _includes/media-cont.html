@@ -1,0 +1,16 @@
+{% assign media = include.content %}
+<div class="media-cont media {{ media.categories }}" onclick='showMediaInfo({{ media | jsonify | escape }});'>
+    <div class="media-logo-cont">
+        <div class="media-logo">
+            <img class="media-logo-img" src="assets/media/logos_white/{{ media.logo }}.png" alt="{{ media.title }} Logo">
+        </div>
+    </div>
+    <div class="media-text-cont">
+        <div class="media-title" data-date="{{ media.date }}">
+            {{ media.title }}
+        </div>
+        <div class="media-text">
+            {{ media.date }}, {{ media.country.city }} <img src="assets/blank.gif" class="flag flag-{{ media.country.code }}" alt="{{ media.country.text }}">
+        </div>
+    </div>
+</div>

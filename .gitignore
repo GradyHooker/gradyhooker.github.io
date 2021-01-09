@@ -1,4 +1,9 @@
-Banner-new.png
-Banner-new.xcf
-Banner.png
-Banner.xcf
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.bundle
+vendor
+/assets/logos/medium
+/assets/logos/tiny
+makeimages.bat

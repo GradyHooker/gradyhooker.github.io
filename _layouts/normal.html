@@ -1,0 +1,21 @@
+---
+layout: base
+---
+<header id="header" class="header">
+	{% include menu.html %}
+</header>
+<div class="main" id="main">
+	<h1 id="content-name" class="section-separator">{{ page.title }}</h1>
+	<div class="content-subname">{{ page.subtitle }}</div>
+	<div id="content" class="content">
+		{{ content }}
+	</div>
+	{% if page.hasSidePanel == true %}
+	<div id="sidePanel">
+		<div class="close" onclick="hideSidePanel()">X</div>
+	</div>
+	{% endif %}
+</div>
+
+<div id="sticky"></div>
+<div id="preload"></div>

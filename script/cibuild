@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+# skip if build is triggered by pull request
+if [ $TRAVIS_PULL_REQUEST == "true" ]; then
+  echo "this is PR, exiting"
+  exit 0
+fi
+
+# enable error reporting to the console
+set -e
+
+# cleanup "_site"
+rm -rf _site
+mkdir _site
+
+# clone remote repo to "_site"
+git clone --depth 1 https://${GITHUB_TOKEN}@github.com/GradyHooker/gradyhooker.github.io.git --branch gh-pages _site
+
+# build with Jekyll into "_site"
+bundle exec jekyll build
+
+# copy cname file
+cp CNAME _site
+
+# push
+echo "Pushing Site"
+cd _site
+git config user.name "Travis CI Bot"
+git add --all
+git diff-index --quiet HEAD || git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+git push --force origin gh-pages
+echo "Site Pushed"

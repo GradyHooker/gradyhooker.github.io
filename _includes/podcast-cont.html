@@ -1,0 +1,23 @@
+{% assign podcast = include.content %}
+<div class="carousel-cont" id="{{ podcast.playlist }}">
+    <div class="playlist-name">
+        <img src="assets/podcasts/{{ podcast.logo }}.png" alt="Logo for {{ podcast.title }}">
+        <div class="playlist-name-info">
+            <h2>{{ podcast.title }}</h2>
+            <i>{{ podcast.description }}</i>
+            <div>
+                <span class="eps"></span> episodes
+            </div>
+            <div>
+                {% for link in podcast.links %}
+                    <a class="playlist-link" target="_blank" href="{{ link.link }}">
+                        <img class="project-icon" src="assets/icons/{{ link.image }}.png" alt="{{ link.text }}" title="{{ link.text }}">
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="carousel">
+    </div>
+</div>
+<script>$(function() { getPlaylistData('{{ podcast.playlist }}') });</script>

@@ -1,0 +1,149 @@
+- categories:
+  - projects
+  screenshot: esportskingdom-screenshot.png
+  title: Esports Kingdom
+  logo: esportskingdom-logo.png
+  logoLink: https://esportskingdom.gg/
+  description: I created, developed the website and write articles for Esports Kingdom
+    - which contains articles across multiple different esports games.
+  links:
+  - link: https://esportskingdom.gg/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: seizeland-screenshot.png
+  title: New Seizeland
+  logo: seizeland-logo.png
+  logoLink: http://seizeland.arcton.nz/
+  description: New Seizeland enables the player to gather resources from New Zealand
+    regions based on their GDP and take over NZ one comrade at a time.
+  links:
+  - link: http://seizeland.arcton.nz/
+    image: icon-www.png
+    text: Website icon
+  - link: https://www.youtube.com/watch?v=HSMJUsUwfgM
+    image: icon-youtube.png
+    text: YouTube icon
+
+- categories:
+  - projects
+  screenshot: collectamaps-screenshot.png
+  title: Collectamaps
+  logo: collectamaps-logo.png
+  logoLink: http://grady.nz/collectamaps/
+  description: Collectamaps allows gamers to traverse open world games by providing
+    interactive game maps with the collectibles' positions plotted and detailed.
+  links:
+  - link: http://grady.nz/collectamaps/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: motopark-screenshot.png
+  title: MotoPark NZ
+  logo: motopark-logo.png
+  logoLink: http://grady.nz/motopark-nz
+  description: As an interactive web application, MotoPark helps motorcycle riders
+    in New Zealand find parks in their city close to their destination.
+  links:
+  - link: http://grady.nz/motopark-nz
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: l2pgames-screenshot.png
+  title: L2P Games
+  logo: l2pgames-logo.png
+  logoLink: https://www.l2p.games
+  description: Learn2Play is a curated hub for video guides for video games that provides
+    convenient searching and filtering options for gamers of all skill levels.
+  links:
+  - link: https://www.youtube.com/watch?v=cBF3FGBuS0g
+    image: icon-youtube.png
+    text: YouTube icon
+  - link: https://www.l2p.games
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: csgocards-screenshot.png
+  title: Custom CSGO Trading Cards
+  logo: csgocards-logo.png
+  logoLink: https://esportskingdom.gg/tcg/
+  description: Created and printed designs for trading cards based on esports players
+    that have been universally praised by the players themselves.
+  links:
+  - link: https://www.facebook.com/DOTesports/videos/679986385514364/
+    image: icon-dotesports.png
+    text: Dot Esports icon
+  - link: https://www.reddit.com/r/GlobalOffensive/comments/5nf48j/i_created_a_set_of_87_playing_cards_based_on_esl/
+    image: icon-reddit.png
+    text: Reddit icon
+  - link: https://esportskingdom.gg/tcg/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: podomal-screenshot.png
+  title: PoDOMaL
+  logo: podomal-logo.png
+  description: Developed as my BCMS(Hons) project, PoDOMaL is a mathematical learning
+    tool aimed at and tested with primary school aged children.
+  links: []
+
+- categories:
+  - projects
+  screenshot: locatio-screenshot.png
+  title: Locatio
+  logo: locatio-logo.png
+  logoLink: https://locatio.arcton.nz/
+  description: Locatio enhances online property listings with local crime statistics,
+    demographics and more, letting you choose a home with peace of mind.
+  links:
+  - link: http://www.waikato.ac.nz/news-events/media/2016/govhack-nz-success-for-university-of-waikato-students
+    image: icon-waikatouni.png
+    text: Waikato University icon
+  - link: https://www.youtube.com/watch?v=4mYbY3zTlYA
+    image: icon-youtube.png
+    text: YouTube icon
+  - link: https://locatio.arcton.nz/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: nautdrafter-screenshot.png
+  title: NautDrafter
+  logo: nautdrafter-logo.png
+  logoLink: https://nautdrafter.bitbucket.io/nautdrafter/
+  description: NautDrafter is a desktop application for drafting teams for the multiplayer
+    online battle arena game Awesomenauts.
+  links:
+  - link: https://www.youtube.com/watch?v=gPOHC2FI_qE
+    image: icon-youtube.png
+    text: YouTube icon
+  - link: https://nautdrafter.bitbucket.io/nautdrafter/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - projects
+  screenshot: bergs-screenshot.png
+  title: B.E.R.G.S
+  logo: bergs-logo.png
+  logoLink: https://play.google.com/store/apps/details?id=nz.ac.waikato.cs.comp204.syndicatez.bergs
+  description: Survive the hordes of zombies in this unique new mobile game. Scan
+    barcodes to gain special abilities and boost your chance of survival!
+  links:
+  - link: https://www.youtube.com/watch?v=40fz3ActBAc
+    image: icon-youtube.png
+    text: YouTube icon
+  - link: https://play.google.com/store/apps/details?id=nz.ac.waikato.cs.comp204.syndicatez.bergs
+    image: icon-googleplay.png
+    text: Google Play icon

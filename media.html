@@ -1,0 +1,9 @@
+---
+layout: normal
+title: Media & Press
+subtitle: Click on a box to see content from that event
+hasSidePanel: true
+---
+{% for media in site.data.media %}
+	{% include media-cont.html content=media %}
+{% endfor %}

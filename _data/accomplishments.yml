@@ -1,0 +1,98 @@
+- categories:
+  - accomplishments
+  screenshot: nzcsc19-screenshot.png
+  title: NZ Cyber Security '19 Challenge Success
+  logo: nzcsc19-logo.png
+  description: Now flying solo, I managed to match the placing from last year and
+    land second in the industry category for the first two rounds.
+  links: []
+
+- categories:
+  - accomplishments
+  screenshot: arohafornz-screenshot.png
+  title: Aroha For NZ Charity Stream
+  logo: arohafornz-logo.png
+  description: I helped organize, moderate and host a 24hour gaming charity stream
+    that raised over $7,500 for the Christchurch Shooting Victims' Fund.
+  links: []
+
+- categories:
+  - accomplishments
+  screenshot: nzcsc18-screenshot.png
+  title: NZ Cyber Security '18 Challenge Success
+  logo: nzcsc18-logo.png
+  description: Following on from our success in the last two years we placed second
+    in the first two rounds and were the runners-up of the entire event.
+  links: []
+
+- categories:
+  - accomplishments
+  screenshot: nzcsc17-screenshot.png
+  title: NZ Cyber Security '17 Challenge Success
+  logo: nzcsc17-logo.png
+  description: We improved on our success of the 2016 with a first place overall in
+    the competition and various other smaller awards.
+  links:
+  - link: http://www.waikato.ac.nz/news-events/media/2017/making-cyber-a-safer-place
+    image: icon-waikatouni.png
+    text: Waikato University icon
+
+- categories:
+  - accomplishments
+  screenshot: wwenz-screenshot.png
+  title: WWE Greatest Fan NZ Champion
+  logo: wwenz-logo.png
+  description: At the WWE Live event in Auckland I was crowned the inaugural (and
+    only) WWE Greatest Fan NZ Champion by WWE Superstars, The New Day.
+  links:
+  - link: http://www.wwe.com/videos/greatest-wwe-kiwi-fan-rocks-with-new-day
+    image: icon-wwe.png
+    text: WWE icon
+
+- categories:
+  - accomplishments
+  screenshot: graduation-screenshot.png
+  title: Graduated with a BCMS(Hons)
+  logo: university-logo.png
+  description: In Dec of 2016, after four years of studying, I graduated with a Bachelor
+    of Computing and Mathematical Sciences with First Class Honours.
+  links: []
+
+- categories:
+  - accomplishments
+  screenshot: govhack-screenshot.png
+  title: GovHack NZ '16 Success
+  logo: govhack-logo.png
+  description: For our project Locatio, we walked away with 1st in the Open Government
+    category and 2nd in Best Innovative Hack utilising Statistics NZ data.
+  links:
+  - link: http://www.waikato.ac.nz/news-events/media/2016/govhack-nz-success-for-university-of-waikato-students
+    image: icon-waikatouni.png
+    text: Waikato University icon
+  - link: http://govhack.org.nz/2016-events-and-info/2016-awards/
+    image: icon-www.png
+    text: Website icon
+
+- categories:
+  - accomplishments
+  screenshot: nzcsc-screenshot.png
+  title: NZ Cyber Security '16 Challenge Success
+  logo: nzcsc-logo.png
+  description: In round one my team were the top tertiary team and the runners-up
+    overall, we went on to be the second runners-up of the entire event.
+  links:
+  - link: http://www.waikato.ac.nz/news-events/media/2016/hodor-wins-nz-cyber-security-challenge
+    image: icon-waikatouni.png
+    text: Waikato University icon
+  - link: https://www.youtube.com/watch?v=CeK0ZAPix80
+    image: icon-youtube.png
+    text: YouTube icon
+
+- categories:
+  - accomplishments
+  screenshot: martialarts-screenshot.png
+  title: Black Belt in Martial Arts
+  logo: martialarts-logo.png
+  description: Starting at the age of 6 and training for a total of 9 years, I finally
+    earned my black belt at Incorporated Martial Arts in 2010.
+  links: []

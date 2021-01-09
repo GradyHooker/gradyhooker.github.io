@@ -1,0 +1,889 @@
+- name: ggwp-2020
+  categories:
+  - media
+  - media-conventions
+  logo: ggwp
+  date: Nov 2020
+  title: GGWP
+  country:
+    code: nz
+    text: New Zealand
+    city: Wellington
+  links:
+  - link: https://www.flickr.com/photos/gradyhooker/albums/72157716793658413
+    target: _blank
+    image: photo
+    text: Photo Album
+
+- name: armageddon-auckland-2020
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Oct 2020
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/gradyhooker/albums/72157716643742152
+    target: _blank
+    image: photo
+    text: Photo Album
+
+- name: pax-x-egx-2020
+  categories:
+  - media
+  - media-conventions
+  logo: pax-x-egx
+  date: Sep 2020
+  title: PAX Online x EGX Digital
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://www.youtube.com/watch?v=GPGsOFecv8w
+    image: tic-toc-games
+    text: Adventures of Pip + B.Ark (Tic Toc Games)
+  - link: https://www.youtube.com/watch?v=h_k_4Mo9HLI
+    image: shiro-games
+    text: Darksburg (Shiro Games)
+  - link: https://www.youtube.com/watch?v=4fUgLQDbtfg
+    image: blowfish-studios
+    text: 'Nine Witches: Family Disruption (Blowfish Studios)'
+  - link: https://www.youtube.com/watch?v=5D7lyBS04Z8
+    image: glitch-factory
+    text: No Place for Bravery (Glitch Factory + Ysbryd Games)
+  - link: https://www.youtube.com/watch?v=BjbRyuv8Byc
+    image: createdelic
+    text: 'Starstruck: Hands of Time (Createdelic)'
+  - link: https://www.youtube.com/watch?v=IQPctRyx1tQ
+    image: batterystaple-games
+    text: 30XX (Batterystaple Games)
+  - link: https://www.youtube.com/watch?v=aDbpv-Fs5Yw
+    image: tinybuild
+    text: Hello Neighbor 2 (tinyBuild)
+  - link: https://www.youtube.com/watch?v=rP3TI-x8-lM
+    image: tinybuild
+    text: Cartel Tycoon (tinyBuild + Moon Moose)
+  - link: https://www.youtube.com/watch?v=pTsZZjlci_k
+    image: one-more-level
+    text: Ghostrunner (One More Level)
+  - link: https://www.youtube.com/watch?v=DCIOc83XCDk
+    image: woodland
+    text: Hell Architect (Woodland Games)
+
+- name: gamescom-2020
+  categories:
+  - media
+  - media-conventions
+  logo: gamescom
+  date: Aug 2020
+  title: gamescom 2020
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://www.youtube.com/watch?v=TB4vFX91IxE
+    image: diplodocus-games
+    text: Keen Dreams + Regina & Mac (Diplodocus Games)
+
+- name: armageddon-tauranga-2020
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Jul 2020
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Tauranga
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157715242711717
+    target: _blank
+    image: photo
+    text: Photo Album
+
+- name: rlcs-lpl-2019
+  categories:
+  - media
+  - media-esports
+  logo: rlcs-lpl
+  date: Nov 2019
+  title: RLCS S8 Oceanic Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/rocket-league/2019-11-torsos-interview-lplrlcs8
+    image: torsos-lplrocketleague
+    text: Interview with Renegades player Torsos
+  - link: https://esportskingdom.gg/rocket-league/2019-11-walcott-interview-lplrlcs8
+    image: walcott-lplrocketleague
+    text: Interview with Canberra Havoc player Walcott
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157711814014653
+    target: _blank
+    image: photo
+    text: Photo Album
+
+- name: armageddon-auckland-2019
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Oct 2019
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157711615515836
+    image: photo
+    text: Photo Album
+
+- name: pax-au-2019
+  categories:
+  - media
+  - media-conventions
+  - media-highlights
+  logo: pax
+  date: Oct 2019
+  title: PAX Australia
+  country:
+    code: au
+    text: Australia
+    city: Melbourne
+  links:
+  - link: https://esportskingdom.gg/22racing-series/2019-10-what-is-22-racing
+    image: 22racing
+    text: 22 Racing Series Early Impressions
+  - link: https://www.youtube.com/watch?v=epx0f40pTgw
+    image: vlog
+    text: 24/7 Championship Recap
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157711402106673
+    image: photo
+    text: Photo Album
+
+- name: lpl-projectcars2-2019
+  categories:
+  - media
+  - media-esports
+  logo: lpl-projectcars2
+  date: Sep 2019
+  title: LPL Project Cars 2 Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/project-cars2/2019-09-madzie-interview-lplprojectcars
+    image: madzie-lplcars
+    text: Interview with Team Highlands Racing player MadzieAU
+  - link: https://esportskingdom.gg/project-cars2/2019-09-bull-interview-lplprojectcars
+    image: bull-lplcars
+    text: Interview with Sim Racing player BULL
+
+- name: starladder-csgo-2019
+  categories:
+  - media
+  - media-esports
+  - media-international
+  - media-highlights
+  logo: starladder-major
+  date: Sep 2019
+  title: StarLadder CSGO Major
+  country:
+    code: de
+    text: Germany
+    city: Berlin
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2019-09-device-interview-berlin19
+    image: device-berlin19
+    text: Interview with Astralis player device
+  - link: https://esportskingdom.gg/counter-strike/2019-08-boombl4-interview-berlin19
+    image: boombl4-berlin19
+    text: Interview with NaVi player Boombl4
+  - link: https://esportskingdom.gg/counter-strike/2019-08-tarik-interview-berlin19
+    image: tarik-berlin19
+    text: Interview with NRG Esports player tarik
+  - link: https://esportskingdom.gg/counter-strike/2019-09-nbk-interview-berlin19
+    image: nbk-berlin19
+    text: Interview with Team Vitality player NBK-
+  - link: https://esportskingdom.gg/counter-strike/2019-08-gratisfaction-interview-berlin19
+    image: gratisfaction-berlin19
+    text: Interview with Renegades player Gratisfaction
+  - link: https://esportskingdom.gg/counter-strike/2019-09-liazz-interview-berlin19
+    image: liazz-berlin19
+    text: Interview with Renegades player Liazz
+  - link: https://esportskingdom.gg/counter-strike/2019-08-sick-interview-berlin19
+    image: sick-berlin19
+    text: Interview with compLexity Gaming player SicK
+
+- name: comiccon-amsterdam-2019
+  categories:
+  - media
+  - media-conventions
+  - media-international
+  logo: comiccon-amsterdam
+  date: Sep 2019
+  title: Comic Con Amsterdam
+  country:
+    code: nl
+    text: Netherlands
+    city: Amsterdam
+  links:
+  - link: https://esportskingdom.gg/multiple-games/2019-10-comiccon-amsterdam-after
+    image: article
+    text: Raidos Gaming Article
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157711007510048
+    image: photo
+    text: Photo Album
+
+- name: gamescom-2019
+  categories:
+  - media
+  - media-conventions
+  - media-international
+  - media-highlights
+  logo: gamescom
+  date: Aug 2019
+  title: gamescom
+  country:
+    code: de
+    text: Germany
+    city: Cologne
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157711007984296
+    image: photo
+    text: Photo Album
+
+- name: lpl-csgo-2019
+  categories:
+  - media
+  - media-esports
+  logo: lpl-csgo
+  date: May 2019
+  title: LPL CSGO Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2019-07-zeph-interview-lplcsgo
+    image: zeph-lplcsgo
+    text: Interview with SYF Gaming player zeph
+
+- name: lpl-dota2-2019
+  categories:
+  - media
+  - media-esports
+  logo: lpl-dota2
+  date: May 2019
+  title: LPL Dota 2 Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/dota-2/2019-07-splicko-interview-lpldota
+    image: splicko-lpldota2
+    text: Interview with Athletico player Splicko
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157709735808682
+    target: _blank
+    image: photo
+    text: Photo Album
+
+- name: lpl-projectcars2-20192
+  categories:
+  - media
+  - media-esports
+  logo: lpl-projectcars2
+  date: May 2019
+  title: LPL Project Cars 2 Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/project-cars2/2019-05-lpl-projectcars2-event
+    image: article
+    text: Esports Kingdom Article
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157708756855587
+    image: photo
+    text: Photo Album
+
+- name: iem-sydney-2019
+  categories:
+  - media
+  - media-esports
+  - media-highlights
+  logo: iem
+  date: May 2019
+  title: IEM Sydney
+  country:
+    code: au
+    text: Australia
+    city: Sydney
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2019-05-elige-interview-sydney19
+    image: elige-syd19
+    text: Interview with Team Liquid CSGO player EliGE
+  - link: https://esportskingdom.gg/counter-strike/2019-08-twistzz-interview-sydney19
+    image: twistzz-syd19
+    text: Interview with Team Liquid CSGO player Twistzz
+  - link: https://esportskingdom.gg/counter-strike/2019-05-fallen-interview-sydney19
+    image: fallen-syd19
+    text: Interview with MIBR CSGO player FalleN
+  - link: https://esportskingdom.gg/counter-strike/2019-08-lekr0-interview-sydney19
+    image: lekr0-syd19
+    text: Interview with NiP CSGO player Lekr0
+  - link: https://esportskingdom.gg/counter-strike/2019-05-adren-interview-sydney19
+    image: adren-syd19
+    text: Interview with FaZe CSGO player AdreN
+  - link: https://esportskingdom.gg/counter-strike/2019-07-chrisj-interview-sydney19
+    image: chrisj-syd19
+    text: Interview with mousesports CSGO player chrisJ
+  - link: https://esportskingdom.gg/counter-strike/2019-08-gratisfaction-interview-sydney19
+    image: gratisfaction-syd19
+    text: Interview with Renegades CSGO player Gratisfaction
+  - link: https://esportskingdom.gg/counter-strike/2019-07-ethan-interview-sydney19
+    image: ethan-syd19
+    text: Interview with NRG CSGO player Ethan
+  - link: https://esportskingdom.gg/counter-strike/2019-08-tizian-interview-sydney19
+    image: tizian-syd19
+    text: Interview with BIG CSGO player tiziaN
+  - link: https://esportskingdom.gg/counter-strike/2019-08-blamef-interview-sydney19
+    image: blamef-syd19
+    text: Interview with Heroic CSGO player blameF
+  - link: https://esportskingdom.gg/counter-strike/2019-08-freeman-interview-sydney19
+    image: freeman-syd19
+    text: Interview with ViCi Gaming CSGO player Freeman
+  - link: https://esportskingdom.gg/counter-strike/2019-08-sico-interview-sydney19
+    image: sico-syd19
+    text: Interview with Grayhound CSGO player sico
+  - link: https://esportskingdom.gg/counter-strike/2019-08-moose-interview-sydney19
+    image: moose-syd19
+    text: Interview with eUnited CSGO player moose
+  - link: https://esportskingdom.gg/counter-strike/2020-05-zewsy-ofnu-interview-sydney19
+    image: zewsyofnu-syd19
+    text: Interview with Chiefs CSGO players zewsy & ofnu
+  - link: https://esportskingdom.gg/counter-strike/2019-05-benkai-interview-sydney19
+    image: benkai-syd19
+    text: Interview with BOOT CSGO player Benkai
+  - link: https://esportskingdom.gg/overwatch/2019-05-roro-interview-sydney19
+    image: roro-syd19
+    text: Interview with Blank Esports Overwatch player Roro
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157708746831378
+    image: photo
+    text: Photo Album
+
+- name: armageddon-wellington-2019
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Apr 2019
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Wellington
+  links:
+  - link: https://www.youtube.com/watch?v=zAf6rwhNIHk
+    image: vlog
+    text: Event Vlog
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157707912677185
+    image: photo
+    text: Photo Album
+
+- name: armageddon-auckland-2018
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Oct 2018
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.youtube.com/watch?v=X5LPndZ4Y90
+    image: smash-bros
+    text: Super Smash Bros. Ultimate Early Impressions
+  - link: https://www.youtube.com/watch?v=ZwG6zE9qFU4
+    image: pokemon-lets-go
+    text: Pokemon Let's Go Pikachu/Eevee Early Impressions
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157697129091510
+    image: photo
+    text: Photo Album
+
+- name: runefest-2018
+  categories:
+  - media
+  - media-conventions
+  - media-international
+  - media-highlights
+  logo: runefest
+  date: Oct 2018
+  title: RuneFest
+  country:
+    code: gb
+    text: United Kingdom
+    city: London
+  links:
+  - link: https://www.youtube.com/watch?v=7s3iSCoG7xw
+    image: matt-kemp-runefest
+    text: Interview with Senior Product Manager of Old School RuneScape, Matthew Kemp
+  - link: https://www.youtube.com/watch?v=O_P9u1yNXqI
+    image: matt-casey-runefest
+    text: Interview with Senior Product Manager of RuneScape 3, Matt Casey
+  - link: https://www.flickr.com/photos/raidosgaming/sets/72157701021683891
+    image: photo
+    text: Photo Album
+
+- name: progress-2018
+  categories:
+  - media
+  - media-wrestling
+  - media-international
+  - media-highlights
+  logo: progress
+  date: Sep 2018
+  title: 'PROGRESS 76: Hello Wembley!'
+  country:
+    code: gb
+    text: United Kingdom
+    city: London
+  links:
+  - link: https://www.flickr.com/photos/wrestlingroundup/sets/72157696639942710
+    image: photo
+    text: Photo Album
+
+- name: facts-fall-2018
+  categories:
+  - media
+  - media-conventions
+  - media-international
+  logo: facts
+  date: Sep 2018
+  title: FACTS Fall
+  country:
+    code: be
+    text: Belgium
+    city: Ghent
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/sets/72157701356980251
+    image: photo
+    text: Photo Album
+
+- name: faceit-csgo-2018
+  categories:
+  - media
+  - media-esports
+  - media-international
+  - media-highlights
+  logo: faceit-major
+  date: Sep 2018
+  title: FACEIT CSGO Major
+  country:
+    code: gb
+    text: United Kingdom
+    city: London
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2018-09-dupreeh-interview
+    image: dupreeh-faceit
+    text: Interview with Astralis CSGO player dupreeh
+  - link: https://esportskingdom.gg/counter-strike/2018-09-zonic-interview
+    image: zonic-faceit
+    text: Interview with Astralis Counter-Strike coach zonic
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157700798733561
+    image: photo
+    text: Photo Album
+
+- name: pingzero-51
+  categories:
+  - media
+  - media-esports
+  logo: pingzero
+  date: Sep 2018
+  title: PingZero 51
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157699797496071
+    image: photo
+    text: Photo Album
+
+- name: timezone-halo-launch
+  categories:
+  - media
+  - media-other
+  logo: timezone
+  date: Aug 2018
+  title: 'Halo: Fireteam Raven Launch'
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157694897188500
+    image: photo
+    text: Photo Album
+
+- name: breakaway-tour
+  categories:
+  - media
+  - media-esports
+  logo: breakaway
+  date: Aug 2018
+  title: Breakaway Esports Dojo Tour
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157699786980104
+    image: photo
+    text: Photo Album
+
+- name: lplpro-tekken-2018
+  categories:
+  - media
+  - media-esports
+  logo: lplpro-tekken
+  date: Jul 2018
+  title: LPL Tekken 7 Qualifier
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157693014021220
+    image: photo
+    text: Photo Album
+
+- name: armageddon-tauranga-2018
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: May 2018
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Tauranga
+  links:
+  - link: https://www.youtube.com/watch?v=boJetxNJU8c
+    image: vlog
+    text: Event Vlog
+  - link: https://www.flickr.com/photos/raidosgaming/sets/72157694726551150
+    image: photo
+    text: Photo Album
+
+- name: iem-sydney-2018
+  categories:
+  - media
+  - media-esports
+  - media-highlights
+  logo: iem
+  date: May 2018
+  title: IEM Sydney
+  country:
+    code: au
+    text: Australia
+    city: Sydney
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2018-05-karrigan-interview
+    image: karrigan-syd18
+    text: Interview with FaZe Clan CSGO player karrigan
+  - link: https://esportskingdom.gg/counter-strike/2018-05-ropz-interview
+    image: ropz-syd18
+    text: Interview with mousesports CSGO player ropz
+  - link: https://esportskingdom.gg/counter-strike/2018-05-magisk-interview
+    image: magisk-syd18
+    text: Interview with Astralis CSGO player Magisk
+  - link: https://esportskingdom.gg/counter-strike/2018-05-boltz-interview
+    image: boltz-syd18
+    text: Interview with SK Gaming CSGO player boltz
+  - link: https://esportskingdom.gg/counter-strike/2018-05-lekr0-interview
+    image: lekr0-syd18
+    text: Interview with Fnatic CSGO player lekr0
+  - link: https://esportskingdom.gg/counter-strike/2018-05-bntet-interview
+    image: bntet-syd18
+    text: Interview with TyLoo CSGO player BnTeT
+  - link: https://esportskingdom.gg/counter-strike/2018-05-gratisfaction-interview
+    image: gratisfaction-syd18
+    text: Interview with Grayhound Gaming CSGO player Gratisfaction
+  - link: https://esportskingdom.gg/counter-strike/2018-05-xign-interview
+    image: xign-syd18
+    text: Interview with MVP PK CSGO player XigN
+  - link: https://esportskingdom.gg/counter-strike/2018-05-alistair-interview
+    image: alistair-syd18
+    text: Interview with ORDER CSGO player aliStair
+  - link: https://esportskingdom.gg/counter-strike/2018-05-sterling-interview
+    image: sterling-syd18
+    text: Interview with Chiefs CSGO player sterling
+  - link: https://esportskingdom.gg/counter-strike/2018-05-lons-interview
+    image: lons-syd18
+    text: Interview with Legacy CSGO player LONS
+  - link: https://www.youtube.com/watch?v=xi8d6KjGntg
+    image: vlog
+    text: Event Vlog
+  - link: https://www.flickr.com/photos/kingofesports/albums/72157690880345440
+    image: photo
+    text: Photo Album
+
+- name: rtx-sydney-2018
+  categories:
+  - media
+  - media-conventions
+  - media-highlights
+  logo: rtx-sydney
+  date: Feb 2018
+  title: RTX Sydney
+  country:
+    code: au
+    text: Australia
+    city: Sydney
+  links:
+  - link: https://www.flickr.com/photos/raidosgaming/albums/72157700220343824
+    image: photo
+    text: Photo Album
+
+- name: lpl-gtsport-2017
+  categories:
+  - media
+  - media-esports
+  logo: lpl-gtsport
+  date: Dec 2017
+  title: LPL GT Sport Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://esportskingdom.gg/gt-sport/2017-12-lpl-gtsport-event
+    image: article
+    text: Esports Kingdom Article
+  - link: https://www.flickr.com/photos/kingofesports/sets/72157668805121578
+    image: photo
+    text: Photo Album
+
+- name: armageddon-auckland-2017
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo
+  date: Oct 2017
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.youtube.com/watch?v=kMkp2SXAs24
+    image: vldl
+    text: Interview with YouTuber's Viva La Dirt League
+
+- name: lpl-tekken7-2017
+  categories:
+  - media
+  - media-esports
+  logo: lpl-tekken7
+  date: Sep 2017
+  title: LPL Tekken 7 Championship
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links: []
+
+- name: iem-sydney-2017
+  categories:
+  - media
+  - media-esports
+  - media-highlights
+  logo: iem
+  date: May 2017
+  title: IEM Sydney
+  country:
+    code: au
+    text: Australia
+    city: Sydney
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2017-05-astralis-kjaerbye-interview
+    image: astralis-kjaerbye
+    text: Interview with Astralis CSGO player Kjaerbye
+  - link: https://esportskingdom.gg/counter-strike/2017-05-sk-fer-interview
+    image: sk-fer
+    text: Interview with SK Gaming CSGO player fer
+  - link: https://esportskingdom.gg/counter-strike/2020-01-rush-interview-sydney17
+    image: optic-rush
+    text: Interview with OpTic Gaming player RUSH
+  - link: https://esportskingdom.gg/counter-strike/2020-03-nexa-interview-sydney17
+    image: renegades-nexa
+    text: Interview with Renegades player nexa
+  - link: https://www.youtube.com/watch?v=vgRj02Ou0Wc
+    image: vlog
+    text: Event Vlog
+
+- name: njpw-sakura-2016
+  categories:
+  - media
+  - media-wrestling
+  - media-highlights
+  logo: njpw
+  date: Nov 2016
+  title: NJPW Sakura On The Mat
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.youtube.com/watch?v=Z8w5vHHwc1Y
+    image: bad-luck-fale
+    text: Interview with NJPW wrestler Bad Luck Fale
+  - link: https://www.youtube.com/watch?v=OmIWi1lKxPI
+    image: jay-white
+    text: Interview with NJPW wrestler Jay White
+  - link: https://www.youtube.com/watch?v=C3lOtxQs-hk
+    image: henare
+    text: Interview with NJPW wrestler Henare
+  - link: https://www.youtube.com/watch?v=BSMn1WA13vk
+    image: leo-tonga
+    text: Interview with NJPW wrestler Leo Tonga
+  - link: https://www.youtube.com/watch?v=mnGlASztbNI
+    image: marcus-kool
+    text: Interview with Kiwi wrestler Marcus Kool
+  - link: https://www.youtube.com/watch?v=e51kngSt6-A
+    image: paul-sayers
+    text: Interview with Kiwi wrestler Paul Sayers
+  - link: https://www.youtube.com/watch?v=QAU4gDcvbvs
+    image: peter-josephs
+    text: Interview with Sakura Pro Wrestling's Peter Josephs
+
+- name: armageddon-auckland-2016
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-old
+  date: Oct 2016
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links: []
+
+- name: armageddon-manukau-2016
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-old
+  date: Mar 2016
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Manukau
+  links:
+  - link: https://www.youtube.com/watch?v=phih82Gwcrs
+    image: haku
+    text: Interview with WWE Wrestling Legend Haku
+
+- name: armageddon-auckland-2015
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-old
+  date: Oct 2015
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links: []
+
+- name: armageddon-hamilton-2015
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-old
+  date: Mar 2015
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Hamilton
+  links:
+  - link: https://www.youtube.com/watch?v=LKJdVEDW63o
+    image: martin-klebba
+    text: Interview with Actor Martin Klebba
+
+- name: armageddon-auckland-2014
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-old
+  date: Oct 2014
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links:
+  - link: https://www.youtube.com/watch?v=fLNxcMgxklQ
+    image: hacksaw-jimduggan
+    text: Interview with WWE Hall of Famer 'Hacksaw' Jim Duggan
+
+- name: armageddon-hamilton-2014
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-older
+  date: May 2014
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Hamilton
+  links:
+  - link: https://www.youtube.com/watch?v=HWUJ0YWi4Rc
+    image: michael-rowe
+    text: Interview with Actor Michael Rowe
+
+- name: armageddon-auckland-2013
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-older
+  date: Oct 2013
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Auckland
+  links: []
+
+- name: armageddon-hamilton-2013
+  categories:
+  - media
+  - media-conventions
+  logo: armageddonexpo-older
+  date: May 2013
+  title: Armageddon Expo
+  country:
+    code: nz
+    text: New Zealand
+    city: Hamilton
+  links: []

@@ -1,0 +1,7 @@
+---
+layout: normal
+title: Podcasts
+---
+{% for podcast in site.data.podcasts %}
+	{% include podcast-cont.html content=podcast %}
+{% endfor %}
