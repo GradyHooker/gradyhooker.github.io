@@ -1,3 +1,25 @@
+- name: iem-katowice-2021
+  categories:
+  - media
+  - media-esports
+  logo: iem-2021
+  date: Mar 2021
+  title: IEM Katowice
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2021-02-astralis-interview-katowice2021
+    image: astralis-katowice21
+    text: Interview with Astralis players Bubzkji & gla1ve
+  - link: https://esportskingdom.gg/counter-strike/2021-02-furia-interview-katowice2021
+    image: furia-katowice21
+    text: Interview with FURIA players VINI & junior
+  - link: https://esportskingdom.gg/counter-strike/2021-02-heroic-interview-katowice2021
+    image: heroic-katowice21
+    text: Interview with Heroic players stavn, b0RUP & TeSeS
+
 - name: ggwp-2020
   categories:
   - media
