@@ -1209,6 +1209,44 @@ table {
     height: 100%;
     width: 100%;
     border-radius: 20px; } }
+/* PRAISE PAGE */
+.praise-cont {
+  width: 360px;
+  margin: 9px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #595959;
+  background: #383838;
+  color: white;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.praise-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding-bottom: 10px; }
+
+.praise-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 10px; }
+
+.praise-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.praise-text {
+  text-align: center; }
+
 .carousel-cont {
   width: 100%;
   max-width: 370px;
@@ -1359,6 +1397,49 @@ table {
     .landing .details .items a {
       font-size: 1.5em;
       margin: 15px; } }
+.photo-image {
+  cursor: pointer; }
+
+.photocarousel-cont {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+  display: none; }
+  .photocarousel-cont .photocarousel {
+    width: 100%; }
+    .photocarousel-cont .photocarousel .slides .slick-slide {
+      height: calc(100vh - 150px); }
+      .photocarousel-cont .photocarousel .slides .slick-slide img {
+        max-width: 100%;
+        height: auto;
+        max-height: calc(100vh - 150px);
+        position: relative; }
+    .photocarousel-cont .photocarousel .slick-slide {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      outline: 0 !important;
+      font-size: 1.1em;
+      line-height: 1.2em; }
+    .photocarousel-cont .photocarousel .captions {
+      padding-top: 8px;
+      text-align: left; }
+      .photocarousel-cont .photocarousel .captions .slick-slide {
+        flex-direction: column; }
+      .photocarousel-cont .photocarousel .captions .emoji {
+        width: 30px;
+        display: inline-block;
+        text-align: center; }
+      .photocarousel-cont .photocarousel .captions .caption a {
+        color: white; }
+
 body {
   background: url("../assets/background.png");
   font-family: 'Roboto Condensed', Arial, sans-serif; }
