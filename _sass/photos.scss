@@ -1,0 +1,62 @@
+.photo-image {
+	cursor: pointer;
+}
+
+.photocarousel-cont {
+	position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    align-items: center;
+    justify-content: center;
+	z-index: 300;
+	display: none;
+	
+	.photocarousel {
+		width: 100%;
+		
+		.slides {
+			.slick-slide {
+				height: calc(100vh - 150px);
+				
+				img {
+					max-width: 100%;
+					height: auto;
+					max-height: calc(100vh - 150px);
+					position: relative;
+				}
+			}
+		}
+			
+		.slick-slide {
+			display: flex !important;
+			justify-content: center;
+			align-items: center;
+			outline: 0 !important;
+			font-size: 1.1em;
+			line-height: 1.2em;
+		}
+		
+		.captions {
+			padding-top: 8px;
+			text-align: left;
+			
+			.slick-slide {
+				flex-direction: column;
+			}
+			
+			.emoji {
+				width: 30px;
+				display: inline-block;
+				text-align: center;
+			}
+			
+			.caption a {
+				color: white;
+			}
+		}
+	}
+}

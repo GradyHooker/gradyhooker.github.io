@@ -1,0 +1,47 @@
+---
+layout: normal
+title: Photography
+---
+<div class="photos">
+	{% assign index = 0 %}
+	{% for image in site.data.photos %}
+		<img class="photo-image" src="assets/photography/thumbs/{{ image.name }}.jpg" alt="{{ image.alttext }}" onclick="showPhotos('{{ index }}');"/>
+		{% assign index = index | plus:1 %}
+	{% endfor %}
+</div>
+
+<div class="photocarousel-cont">
+	<div class="photocarousel">
+		<div class="slides" data-builtin="false">
+			{% for image in site.data.photos %}
+				<div><img class="masked tcg-large" data-lazy="assets/photography/{{ image.name }}.jpg" alt="Image Loading..." /></div>
+			{% endfor %}
+		</div>
+		<div class="controls">
+			<div class="captions">
+				{% for image in site.data.photos %}
+					<div class="caption {{ image.name }}">
+						<div class="caption-text">
+							{% if image.model != null %}<div><span class="emoji">😀</span>Model(s): {{ image.model }}</div>{% endif %}
+							{% if image.character != null %}<div><span class="emoji">🎭</span>Character(s): {{ image.character }}</div>{% endif %}
+							{% if image.makeup != null %}<div><span class="emoji">💄</span>Makeup: {{ image.makeup }}</div>{% endif %}
+							{% if image.assist != null %}<div><span class="emoji">💪</span>Assist: {{ image.assist }}</div>{% endif %}
+							{% if image.event != null %}<div><span class="emoji">🎉</span>Event: {{ image.event }}</div>{% endif %}
+							{% if image.location != null %}<div><span class="emoji">🌲</span>Location: {{ image.location }}</div>{% endif %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+			<div class="pagination"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="/lib/slick/slick.js"></script>
+<script src="/js/photos.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	makePhotosFull('{{ page.event }}');
+}, false);
+</script>
