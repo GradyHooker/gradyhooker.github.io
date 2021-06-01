@@ -58,5 +58,34 @@
 				color: white;
 			}
 		}
+		
+		.closebtn {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			cursor: pointer;
+			font-size: 4em;
+		}
+		
+		.controls {
+			position: relative;
+			
+			.pagination {
+				position: absolute;
+				top: 0px;
+				left: 10%;
+				width: 80%;
+				z-index: 100;
+				display: flex;
+				font-size: 4em;
+				justify-content: space-between;
+				height: 100%;
+				align-items: center;
+				
+				.pagination__button {
+					cursor: pointer;
+				}
+			}
+		}
 	}
 }

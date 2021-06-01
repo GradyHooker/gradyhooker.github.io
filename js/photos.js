@@ -84,3 +84,7 @@ $('.photocarousel-cont').click(function(e) {
 		$('.photocarousel-cont').fadeOut(400);
 	}
 });
+
+$('.closebtn').click(function(e) {
+	$('.photocarousel-cont').fadeOut(400);
+});
