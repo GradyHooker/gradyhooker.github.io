@@ -26,6 +26,42 @@ $(function() {
 		}
 	];
 	
+	//If it exists, change the logo
+	if($('.logo').length > 0) {
+		var date = new Date();
+		var dateString = date.getMonth() + "/" + date.getDay();
+		dateString = "02/08";
+		
+		if(dateCheck("5 Feb", "11 Feb", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/birthday.png");
+			$('.logo-img').attr("title", "Happy Birthday to Me!");
+		} else if(dateCheck("12 Feb", "17 Feb", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/valentines.png");
+			$('.logo-img').attr("title", "Happy Valentines Day!");
+		} else if(dateCheck("14 Mar", "20 Mar", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/stpaddys.png");
+			$('.logo-img').attr("title", "Happy St Patricks Day!");
+		} else if(dateCheck("22 Apr", "28 Apr", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/anzac.png");
+			$('.logo-img').attr("title", "Least We Forget");
+		} else if(dateCheck("1 May", "31 May", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/pride.png");
+			$('.logo-img').attr("title", "Happy Pride!");
+		} else if(dateCheck("16 Sep", "22 Sep", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/pirate.png");
+			$('.logo-img').attr("title", "Yarrrrrrrrr!");
+		} else if(dateCheck("5 Oct", "11 Oct", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/breastcancer.png");
+			$('.logo-img').attr("title", "Breast Cancer Awareness");
+		} else if(dateCheck("28 Oct", "3 Nov", dateString)) {
+			$('.logo-img').attr("src", "/assets/logos/halloween.png");
+			$('.logo-img').attr("title", "Happy Halloween!");
+		} else {
+			$('.logo-img').attr("src", "/assets/logos/white.png");
+			$('.logo-img').attr("title", "Grady Hooker Logo");
+		}
+	}
+	
 	var counter = Math.floor(Math.random() * Math.floor(5));
 	setInterval(cycleImages, 7500);
 	changeImage();
@@ -53,7 +89,7 @@ function showMediaInfo(info) {
 	
 	img = document.createElement('div');
 	$(img).addClass('sidepanel-image-cont');
-	$(img).html('<img class="sidepanel-image" src="assets/media/banners/' + info.name + '.png" alt="' + info.title + ' Image"/>');
+	$(img).html('<img class="sidepanel-image" src="assets/media/banners/' + info.name + '.png" title="' + info.title + ' Image"/>');
 	$('#sidePanel').append(img);
 	
 	links = document.createElement('div');
@@ -96,4 +132,17 @@ function getHeight() {
     document.documentElement.offsetHeight,
     document.documentElement.clientHeight
   );
+}
+
+function dateCheck(from,to,check) {
+
+    var fDate,lDate,cDate;
+    fDate = Date.parse(from+" 2020");
+    lDate = Date.parse(to+" 2020");
+    cDate = Date.parse(check+" 2020");
+
+    if((cDate <= lDate && cDate >= fDate)) {
+        return true;
+    }
+    return false;
 }
