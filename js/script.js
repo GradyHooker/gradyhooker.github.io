@@ -30,7 +30,6 @@ $(function() {
 	if($('.logo').length > 0) {
 		var date = new Date();
 		var dateString = date.getMonth() + "/" + date.getDay();
-		dateString = "02/08";
 		
 		if(dateCheck("5 Feb", "11 Feb", dateString)) {
 			$('.logo-img').attr("src", "/assets/logos/birthday.png");
