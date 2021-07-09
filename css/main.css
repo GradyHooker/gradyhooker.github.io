@@ -1461,6 +1461,22 @@ table {
         .photocarousel-cont .photocarousel .controls .pagination .pagination__button {
           cursor: pointer; }
 
+@media screen and (max-width: 768px) {
+  .pagination {
+    display: none !important; }
+
+  .captions {
+    font-size: 0.8em; }
+
+  .photocarousel .slides .slick-slide {
+    height: calc(100vh - 110px) !important; }
+    .photocarousel .slides .slick-slide img {
+      max-height: calc(100vh - 110px) !important; } }
+@media screen and (max-width: 480px) {
+  .photocarousel .slides .slick-slide {
+    height: calc(100vh - 150px) !important; }
+    .photocarousel .slides .slick-slide img {
+      max-height: calc(100vh - 150px) !important; } }
 .fight-record h1 {
   color: white;
   font-size: 1.5em;
