@@ -4,7 +4,15 @@ function makePhotosFull(albumName) {
 	reorganisePhotos();
 }
 
+var lastRunWidth = 0;
+
 function reorganisePhotos() {
+	if(lastRunWidth == $(window).width()) {
+		return;
+	} else {
+		lastRunWidth = $(window).width();
+	}
+	
 	var prefHeight = 250;
 	if($(window).width() < 1000) {
 		prefHeight = 200;
