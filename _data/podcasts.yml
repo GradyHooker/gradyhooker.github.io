@@ -40,6 +40,9 @@
   - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3BpenphLWNvZmZlZS1jb2RlL2ZlZWQueG1s
     image: icon-google-white
     text: Listen on Google Podcasts
+  - link: https://music.amazon.com/podcasts/08bd3eec-01af-4982-8b16-b5bead156a05/
+    image: icon-amazon-white
+    text: Listen on Amazon Music
 
 - categories:
   - podcasts
@@ -60,6 +63,9 @@
   - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L21lZGFjYXN0L2ZlZWQueG1s
     image: icon-google-white
     text: Listen on Google Podcasts
+  - link: https://music.amazon.com/podcasts/720b4054-09e9-4c48-8571-4a7ca12147f1
+    image: icon-amazon-white
+    text: Listen on Amazon Music
 
 - categories:
   - podcasts
@@ -77,6 +83,9 @@
   - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3NhY3JlZC1oZWFydC1zdG9yaWVzL2ZlZWQueG1s
     image: icon-google-white
     text: Listen on Google Podcasts
+  - link: https://music.amazon.com/podcasts/54b81131-91e2-4a8e-89e0-c836b4cdc8b6
+    image: icon-amazon-white
+    text: Listen on Amazon Music
 
 - categories:
   - podcasts
@@ -94,6 +103,12 @@
   - link: https://podcasts.apple.com/nz/podcast/the-podcast-podcast-podcasters/id1531586839
     image: icon-apple-white
     text: Listen on Apple Podcasts
+  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3BvZGNhc3QtcG9kY2FzdC9mZWVkLnhtbA
+    image: icon-google-white
+    text: Listen on Google Podcasts
+  - link: https://music.amazon.com/podcasts/a6c1cc44-ff49-47cf-a331-8a87b3e4a2e6
+    image: icon-amazon-white
+    text: Listen on Amazon Music
 
 - categories:
   - podcasts
@@ -114,3 +129,6 @@
   - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2JhbmFuYS1ldGlxdWV0dGUvZmVlZC54bWw
     image: icon-google-white
     text: Listen on Google Podcasts
+  - link: https://music.amazon.com/podcasts/914564dc-4ae8-4002-a39f-7ec995c0bc6b/
+    image: icon-amazon-white
+    text: Listen on Amazon Music
