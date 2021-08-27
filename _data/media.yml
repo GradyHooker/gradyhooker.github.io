@@ -1,3 +1,67 @@
+- name: iem-cologne-2021
+  categories:
+  - media
+  - media-esports
+  logo: iem-2021
+  date: Jul 2021
+  title: IEM Cologne
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2021-07-gambit-interview-cologne2021
+    image: gambit-cologne21
+    text: Interview with Gambit players nafany & Hobbit
+  - link: https://esportskingdom.gg/counter-strike/2021-07-navi-interview-cologne2021
+    image: navi-cologne21
+    text: Interview with Natus Vincere players s1mple & b1ad3
+  - link: https://esportskingdom.gg/counter-strike/2021-07-g2-interview-cologne2021
+    image: g2-cologne21
+    text: Interview with G2 Esports players NiKo, huNter- & JaCkz
+  - link: https://esportskingdom.gg/counter-strike/2021-07-heroic-interview-cologne2021
+    image: heroic-cologne21
+    text: Interview with Heroic players cadiaN, TeSeS, refrezh, stavn, Troels Robl & Kasper Straube
+  - link: https://esportskingdom.gg/counter-strike/2021-07-vitality-interview-cologne2021
+    image: vitality-cologne21
+    text: Interview with Vitality players apeX & misutaaa
+  - link: https://esportskingdom.gg/counter-strike/2021-07-virtuspro-interview-cologne2021
+    image: virtuspro-cologne21
+    text: Interview with Virtus.Pro players YEKINDAR, Jame & dastan
+  - link: https://esportskingdom.gg/counter-strike/2021-07-astralis-interview-cologne2021
+    image: astralis-cologne21
+    text: Interview with Astralis players Bubzkji & Xyp9x
+  - link: https://esportskingdom.gg/counter-strike/2021-07-faze-interview-cologne2021
+    image: faze-cologne21
+    text: Interview with FaZe Clan players rain & karrigan
+  - link: https://esportskingdom.gg/counter-strike/2021-07-big-interview-cologne2021
+    image: big-cologne21
+    text: Interview with BIG players tabseN, tiziaN & k1to
+  - link: https://esportskingdom.gg/counter-strike/2021-07-liquid-interview-cologne2021
+    image: liquid-cologne21
+    text: Interview with Team Liquid players EliGE, adreN & Grim
+  - link: https://esportskingdom.gg/counter-strike/2021-07-furia-interview-cologne2021
+    image: furia-cologne21
+    text: Interview with FURIA players arT & honda
+  - link: https://esportskingdom.gg/counter-strike/2021-07-mousesports-interview-cologne2021
+    image: mousesports-cologne21
+    text: Interview with mousesports players ropz, Bymas, dexter & mithR
+  - link: https://esportskingdom.gg/counter-strike/2021-07-renegades-interview-cologne2021
+    image: renegades-cologne21
+    text: Interview with Renegades players malta & KingFisher
+  - link: https://esportskingdom.gg/counter-strike/2021-07-badnewsbears-interview-cologne2021
+    image: badnewsbears-cologne21
+    text: Interview with Bad News Bears players Shakezullah, ptr & Jonji
+  - link: https://esportskingdom.gg/counter-strike/2021-07-ldlc-interview-cologne2021
+    image: ldlc-cologne21
+    text: Interview with Team LDLC players hAdji, Keoz & SIXER
+  - link: https://esportskingdom.gg/counter-strike/2021-07-mibr-interview-cologne2021
+    image: mibr-cologne21
+    text: Interview with MIBR players yel, exit & Apoka
+  - link: https://esportskingdom.gg/counter-strike/2021-07-teamone-interview-cologne2021
+    image: teamone-cologne21
+    text: Interview with Team One players malbsMd, pesadelo & righi
+
 - name: iem-katowice-2021
   categories:
   - media
