@@ -1,3 +1,123 @@
+- name: iem-fall-2021
+  categories:
+  - media
+  - media-esports
+  logo: iem-2021
+  date: Oct 2021
+  title: IEM Fall
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2021-10-ence-interview-iemfall2021
+    image: ence-epl14
+    text: Interview with ENCE players Snappi, Spinx & dycha
+  - link: https://esportskingdom.gg/counter-strike/2021-10-astralis-interview-iemfall2021
+    image: astralis-cologne21
+    text: Interview with Astralis players Lucky, Magisk & dupreeh
+  - link: https://esportskingdom.gg/counter-strike/2021-10-cphflames-interview-iemfall2021
+    image: cphflames-fall21
+    text: Interview with all of the Copenhagen Flames players
+  - link: https://esportskingdom.gg/counter-strike/2021-10-movistar-interview-iemfall2021
+    image: movistar-fall21
+    text: Interview with Movistar Riders players mopoz, dav1g & bladE
+  - link: https://esportskingdom.gg/counter-strike/2021-10-fiend-interview-iemfall2021
+    image: fiend-fall21
+    text: Interview with Team Fiend players bubble & REDSTAR
+  - link: https://esportskingdom.gg/counter-strike/2021-10-g2-interview-iemfall2021
+    image: g2-cologne21
+    text: Interview with G2 players nexa & NiKo
+  - link: https://esportskingdom.gg/counter-strike/2021-10-nip-interview-iemfall2021
+    image: nip-epl14
+    text: Interview with NiP players device, LNZ & REZ
+  
+  
+  
+  - link: https://esportskingdom.gg/counter-strike/2021-10-big-interview-iemfall2021
+    image: big-cologne21
+    text: Interview with BIG players tabseN, k1to & gade
+  - link: https://esportskingdom.gg/counter-strike/2021-10-faze-interview-iemfall2021
+    image: faze-cologne21
+    text: Interview with FaZe Clan player karrigan
+  - link: https://esportskingdom.gg/counter-strike/2021-09-renegades-interview-iemfall2021
+    image: renegades-cologne21
+    text: Interview with Renegades players INS, aliStair & Sico
+    
+- name: epl-season14
+  categories:
+  - media
+  - media-esports
+  logo: epl-2021
+  date: Sep 2021
+  title: ESL Pro League
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2021-09-navi-interview-proleague14
+    image: navi-cologne21
+    text: Interview with Natus Vincere player b1ad3
+  - link: https://esportskingdom.gg/counter-strike/2021-09-vitality-interview-proleague14
+    image: vitality-cologne21
+    text: Interview with Vitality players apEX & shox
+  - link: https://esportskingdom.gg/counter-strike/2021-09-heroic-interview-proleague14
+    image: heroic-cologne21
+    text: Interview with Heroic players stavn, cadiaN & refrezh
+  - link: https://esportskingdom.gg/counter-strike/2021-09-og-interview-proleague14
+    image: og-epl14
+    text: Interview with OG players Aleksib & ruggah
+  - link: https://esportskingdom.gg/counter-strike/2021-09-ence-interview-proleague14
+    image: ence-epl14
+    text: Interview with ENCE players doto, Snappi, Spinx & hades
+  - link: https://esportskingdom.gg/counter-strike/2021-09-liquid-interview-proleague14
+    image: liquid-cologne21
+    text: Interview with Team Liquid players Stewie2K & adreN
+  - link: https://esportskingdom.gg/counter-strike/2021-09-nip-interview-proleague14
+    image: nip-epl14
+    text: Interview with NiP players REZ, Plopski, THREAT & hampus
+  - link: https://esportskingdom.gg/counter-strike/2021-09-gambit-interview-proleague14
+    image: gambit-cologne21
+    text: Interview with Gambit players nafany & Hobbit
+  - link: https://esportskingdom.gg/counter-strike/2021-09-forze-interview-proleague14
+    image: forze-epl14
+    text: Interview with forZe players Jerry & zorte
+  - link: https://esportskingdom.gg/counter-strike/2021-09-fnatic-interview-proleague14
+    image: fnatic-epl14
+    text: Interview with Fnatic players ALEX, mezii & KRIMZ
+  - link: https://esportskingdom.gg/counter-strike/2021-09-mousesports-interview-proleague14
+    image: mousesports-cologne21
+    text: Interview with mousesports players frozen, dexter & mithR
+  - link: https://esportskingdom.gg/counter-strike/2021-09-complexity-interview-proleague14
+    image: complexity-epl14
+    text: Interview with Complexity players blameF, es3tag & NaToSaphiX
+
+- name: pax-online-2021
+  categories:
+  - media
+  - media-conventions
+  logo: pax-online
+  date: Jul 2021
+  title: PAX Online East
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://www.youtube.com/watch?v=sG614cquLDY
+    image: dinosaur-polo-club
+    text: Mini Motorways (Dinosaur Polo Club)
+  - link: https://www.youtube.com/watch?v=hlYz3mGiRDY
+    image: reclamation-games
+    text: Reina & Jericho (Reclamation Games)
+  - link: https://www.youtube.com/watch?v=iUrhaFzdcn0
+    image: red-nexus-games
+    text: Peglin (Red Nexus Games)
+  - link: https://www.youtube.com/watch?v=MOtWySjRSJ0
+    image: apogee-entertainment
+    text: Below the Stone (Apogee Entertainment)
+    
 - name: iem-cologne-2021
   categories:
   - media
@@ -10,36 +130,36 @@
     text: Online
     city: Online
   links:
-  - link: https://esportskingdom.gg/counter-strike/2021-07-gambit-interview-cologne2021
-    image: gambit-cologne21
-    text: Interview with Gambit players nafany & Hobbit
   - link: https://esportskingdom.gg/counter-strike/2021-07-navi-interview-cologne2021
     image: navi-cologne21
     text: Interview with Natus Vincere players s1mple & b1ad3
   - link: https://esportskingdom.gg/counter-strike/2021-07-g2-interview-cologne2021
     image: g2-cologne21
     text: Interview with G2 Esports players NiKo, huNter- & JaCkz
-  - link: https://esportskingdom.gg/counter-strike/2021-07-heroic-interview-cologne2021
-    image: heroic-cologne21
-    text: Interview with Heroic players cadiaN, TeSeS, refrezh, stavn, Troels Robl & Kasper Straube
-  - link: https://esportskingdom.gg/counter-strike/2021-07-vitality-interview-cologne2021
-    image: vitality-cologne21
-    text: Interview with Vitality players apeX & misutaaa
-  - link: https://esportskingdom.gg/counter-strike/2021-07-virtuspro-interview-cologne2021
-    image: virtuspro-cologne21
-    text: Interview with Virtus.Pro players YEKINDAR, Jame & dastan
   - link: https://esportskingdom.gg/counter-strike/2021-07-astralis-interview-cologne2021
     image: astralis-cologne21
     text: Interview with Astralis players Bubzkji & Xyp9x
   - link: https://esportskingdom.gg/counter-strike/2021-07-faze-interview-cologne2021
     image: faze-cologne21
     text: Interview with FaZe Clan players rain & karrigan
+  - link: https://esportskingdom.gg/counter-strike/2021-07-virtuspro-interview-cologne2021
+    image: virtuspro-cologne21
+    text: Interview with Virtus.Pro players YEKINDAR, Jame & dastan
+  - link: https://esportskingdom.gg/counter-strike/2021-07-gambit-interview-cologne2021
+    image: gambit-cologne21
+    text: Interview with Gambit players nafany & Hobbit
+  - link: https://esportskingdom.gg/counter-strike/2021-07-heroic-interview-cologne2021
+    image: heroic-cologne21
+    text: Interview with Heroic players cadiaN, TeSeS, refrezh, stavn, Troels Robl & Kasper Straube
   - link: https://esportskingdom.gg/counter-strike/2021-07-big-interview-cologne2021
     image: big-cologne21
     text: Interview with BIG players tabseN, tiziaN & k1to
   - link: https://esportskingdom.gg/counter-strike/2021-07-liquid-interview-cologne2021
     image: liquid-cologne21
     text: Interview with Team Liquid players EliGE, adreN & Grim
+  - link: https://esportskingdom.gg/counter-strike/2021-07-vitality-interview-cologne2021
+    image: vitality-cologne21
+    text: Interview with Vitality players apeX & misutaaa
   - link: https://esportskingdom.gg/counter-strike/2021-07-furia-interview-cologne2021
     image: furia-cologne21
     text: Interview with FURIA players arT & honda
@@ -49,12 +169,12 @@
   - link: https://esportskingdom.gg/counter-strike/2021-07-renegades-interview-cologne2021
     image: renegades-cologne21
     text: Interview with Renegades players malta & KingFisher
-  - link: https://esportskingdom.gg/counter-strike/2021-07-badnewsbears-interview-cologne2021
-    image: badnewsbears-cologne21
-    text: Interview with Bad News Bears players Shakezullah, ptr & Jonji
   - link: https://esportskingdom.gg/counter-strike/2021-07-ldlc-interview-cologne2021
     image: ldlc-cologne21
     text: Interview with Team LDLC players hAdji, Keoz & SIXER
+  - link: https://esportskingdom.gg/counter-strike/2021-07-badnewsbears-interview-cologne2021
+    image: badnewsbears-cologne21
+    text: Interview with Bad News Bears players Shakezullah, ptr & Jonji
   - link: https://esportskingdom.gg/counter-strike/2021-07-mibr-interview-cologne2021
     image: mibr-cologne21
     text: Interview with MIBR players yel, exit & Apoka
