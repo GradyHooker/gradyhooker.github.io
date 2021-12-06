@@ -29,7 +29,7 @@ $(function() {
 	//If it exists, change the logo
 	if($('.logo').length > 0) {
 		var date = new Date();
-		var dateString = date.getMonth() + "/" + date.getDay();
+		var dateString = (date.getMonth()+1) + "/" + date.getDate();
 		
 		if(dateCheck("5 Feb", "11 Feb", dateString)) {
 			$('.logo-img').attr("src", "/assets/logos/birthday.png");
