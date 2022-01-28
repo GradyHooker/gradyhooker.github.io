@@ -1250,6 +1250,49 @@ table {
 .praise-text {
   text-align: center; }
 
+/* ORGS PAGE */
+.orgs-table {
+  width: 100%;
+  max-width: 480px;
+  margin: 9px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #595959;
+  background: #383838;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
+  padding: 10px;
+  font-size: 0.8em; }
+  .orgs-table img {
+    width: 100%;
+    max-width: 200px; }
+  .orgs-table td, .orgs-table th {
+    border: 1px solid white;
+    vertical-align: middle;
+    padding: 4px; }
+    .orgs-table td.header, .orgs-table th.header {
+      font-size: 2em; }
+  .orgs-table .bold, .orgs-table th {
+    font-weight: bold; }
+  .orgs-table .feilong {
+    background: #0aa508; }
+  .orgs-table .zhanhu {
+    background: #d62424; }
+  .orgs-table .kasama {
+    background: #ff7824; }
+  .orgs-table .novote {
+    background: #888888; }
+  .orgs-table tr td:nth-child(1) {
+    width: 16%; }
+  .orgs-table tr td:nth-child(2) {
+    width: 18%; }
+  .orgs-table tr td:nth-child(3) {
+    width: 18%; }
+  .orgs-table tr td:nth-child(4) {
+    width: 48%; }
+
 .carousel-cont {
   width: 100%;
   max-width: 370px;
