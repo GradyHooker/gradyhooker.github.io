@@ -1,3 +1,28 @@
+- name: iem-winter-2021
+  categories:
+  - media
+  - media-esports
+  logo: iem-2021
+  date: Dec 2021
+  title: IEM Winter
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2021-12-vitality-interview-iemwinter2021
+    image: vitality-cologne21
+    text: Interview with Vitality players apEX & ZywOo
+  - link: https://esportskingdom.gg/counter-strike/2021-12-nip-interview-iemwinter2021
+    image: nip-epl14
+    text: Interview with NiP players Plopski, es3tag, dev1ce, hampus
+  - link: https://esportskingdom.gg/counter-strike/2021-12-g2-interview-iemwinter2021
+    image: g2-cologne21
+    text: Interview with G2 players NiKo, kennyS & amaNEk
+  - link: https://esportskingdom.gg/counter-strike/2021-12-virtuspro-interview-iemwinter2021
+    image: virtuspro-cologne21
+    text: Interview with VirtusPro players YEKINDAR & qikert
+
 - name: pax-onlineau-2021
   categories:
   - media
