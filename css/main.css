@@ -1232,6 +1232,9 @@ table {
   font-size: 1.2em;
   line-height: 1.2em;
   padding-bottom: 10px; }
+  .praise-info i {
+    font-size: 0.8em;
+    color: white; }
 
 .praise-image img {
   width: 100px;
