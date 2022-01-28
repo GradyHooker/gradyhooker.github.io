@@ -1,0 +1,16 @@
+{% assign praise = include.praise %}
+<div class="praise-cont">
+	<div class="praise-info">
+		<div class="praise-image">
+			<img src="/assets/praise/{{ praise.image }}" />
+		</div>
+		<div class="praise-details">
+			<div>{{ praise.name }}</div>
+			<div>@{{ praise.name-extra }}</div>
+			<div>{{ praise.date }} <a href="{{ praise.link }}" target="_blank"><i class="fas fa-link"></i></a></div>
+		</div>
+	</div>
+	<div class="praise-text">
+		{{ praise.text }}
+	</div>
+</div>
