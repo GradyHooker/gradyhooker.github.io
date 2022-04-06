@@ -1,67 +1,95 @@
 /* ORGS PAGE */
+.org-cont {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	align-items: flex-start;
+}
+
 .orgs-table {
 	width: 100%;
-	max-width: 480px;
-	margin: 9px;
+	max-width: 423px;
+	margin: 5px;
 	background: white;
 	border-radius: 3px;
 	border: 1px solid #595959;
 	background: #383838;
 	color: white;
-	margin: 10px;
 	text-align: center;
 	box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
-	padding: 10px;
 	font-size: 0.8em;
 	
-	img {
-		width: 100%;
-		max-width: 200px;
+	a {
+		color: white;
+		text-decoration: underline dotted;
+	}
+	
+	img.logo {
+		height: 100%;
+		max-height: 130px;
 	}
 	
 	td, th {
 		border: 1px solid white;
 		vertical-align: middle;
 		padding: 4px;
+		height: 25px;
 		
-		&.header {
+		&.medium {
+			height: 16px;
+		}
+		
+		&.skinny {
+			height: auto;
+			font-size: 0.9em;
+			padding: 2px 4px;
+		}
+		
+		.header {
 			font-size: 2em;
 		}
+	
+		.subtitle {
+			margin-top: 2px;
+		}
+		
+		.hoverable {
+			text-decoration: dotted underline;
+			cursor: help;
+		}
+		
+		.crossout {
+			text-decoration: dotted underline line-through;
+		}
+	}
+		
+	td {
+		height: 32px;
 	}
 	
 	.bold, th {
 		font-weight: bold;
 	}
 	
-	.feilong {
-		background: #0aa508;
-	}
+	.feilong  { background: rgba(10, 165, 8, 0.7); }
+	.zhanhu   { background: rgba(214, 36, 36, 0.7); }
+	.kasama   { background: rgba(255, 120, 36, 0.7); }
+	.novote   { background: rgba(136, 136, 136, 0.7); }
+	.anand    { background: rgba(153, 57, 85, 0.7); }
+	.macha    { background: rgba(75, 84, 59, 0.7); }
+	.morrigan { background: rgba(167, 207, 217, 0.7); }
+	.ikeda    { background: rgba(220, 178, 243, 0.7); }
+	.ikigai   { background: rgba(255, 177, 183, 0.7); }
+	.amantani { background: rgba(232, 214, 49, 0.7); }
+	.taquile  { background: rgba(235, 109, 61, 0.7); }
+	.pukara   { background: rgba(188, 56, 79, 0.7); }
 	
-	.zhanhu {
-		background: #d62424;
-	}
-	
-	.kasama {
-		background: #ff7824;
-	}
-	
-	.novote {
-		background: #888888;
-	}
-	
-	tr td:nth-child(1) {
-		width: 16%;
-	}
-	
-	tr td:nth-child(2) {
-		width: 18%;
-	}
-	
-	tr td:nth-child(3) {
-		width: 18%;
-	}
-	
-	tr td:nth-child(4) {
-		width: 48%;
-	}
+	tr td:nth-child(1), tr th:nth-child(1) { width: 16%; }
+	tr td:nth-child(2), tr th:nth-child(2) { width: 18%; }
+	tr td:nth-child(3), tr th:nth-child(3) { width: 18%; }
+	tr td:nth-child(4), tr th:nth-child(4) { width: 40%; }
+	.challenge { text-align: left; }
+	tr td:nth-child(4), tr th:nth-child(5) { width: 8%; }
+	.advantage div { display: flex; flex-wrap: wrap; height: 100%; width: 100%; align-items: center; justify-content: center; }
 }
