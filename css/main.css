@@ -1251,47 +1251,98 @@ table {
   text-align: center; }
 
 /* ORGS PAGE */
+.org-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; }
+
 .orgs-table {
   width: 100%;
-  max-width: 480px;
-  margin: 9px;
+  max-width: 423px;
+  margin: 5px;
   background: white;
   border-radius: 3px;
   border: 1px solid #595959;
   background: #383838;
   color: white;
-  margin: 10px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
-  padding: 10px;
   font-size: 0.8em; }
-  .orgs-table img {
-    width: 100%;
-    max-width: 200px; }
+  .orgs-table a {
+    color: white;
+    text-decoration: underline dotted; }
+  .orgs-table img.logo {
+    height: 100%;
+    max-height: 130px; }
   .orgs-table td, .orgs-table th {
     border: 1px solid white;
     vertical-align: middle;
-    padding: 4px; }
-    .orgs-table td.header, .orgs-table th.header {
+    padding: 4px;
+    height: 25px; }
+    .orgs-table td.medium, .orgs-table th.medium {
+      height: 16px; }
+    .orgs-table td.skinny, .orgs-table th.skinny {
+      height: auto;
+      font-size: 0.9em;
+      padding: 2px 4px; }
+    .orgs-table td .header, .orgs-table th .header {
       font-size: 2em; }
+    .orgs-table td .subtitle, .orgs-table th .subtitle {
+      margin-top: 2px; }
+    .orgs-table td .hoverable, .orgs-table th .hoverable {
+      text-decoration: dotted underline;
+      cursor: help; }
+    .orgs-table td .crossout, .orgs-table th .crossout {
+      text-decoration: dotted underline line-through; }
+  .orgs-table td {
+    height: 32px; }
   .orgs-table .bold, .orgs-table th {
     font-weight: bold; }
   .orgs-table .feilong {
-    background: #0aa508; }
+    background: rgba(10, 165, 8, 0.7); }
   .orgs-table .zhanhu {
-    background: #d62424; }
+    background: rgba(214, 36, 36, 0.7); }
   .orgs-table .kasama {
-    background: #ff7824; }
+    background: rgba(255, 120, 36, 0.7); }
   .orgs-table .novote {
-    background: #888888; }
-  .orgs-table tr td:nth-child(1) {
+    background: rgba(136, 136, 136, 0.7); }
+  .orgs-table .anand {
+    background: rgba(153, 57, 85, 0.7); }
+  .orgs-table .macha {
+    background: rgba(75, 84, 59, 0.7); }
+  .orgs-table .morrigan {
+    background: rgba(167, 207, 217, 0.7); }
+  .orgs-table .ikeda {
+    background: rgba(220, 178, 243, 0.7); }
+  .orgs-table .ikigai {
+    background: rgba(255, 177, 183, 0.7); }
+  .orgs-table .amantani {
+    background: rgba(232, 214, 49, 0.7); }
+  .orgs-table .taquile {
+    background: rgba(235, 109, 61, 0.7); }
+  .orgs-table .pukara {
+    background: rgba(188, 56, 79, 0.7); }
+  .orgs-table tr td:nth-child(1), .orgs-table tr th:nth-child(1) {
     width: 16%; }
-  .orgs-table tr td:nth-child(2) {
+  .orgs-table tr td:nth-child(2), .orgs-table tr th:nth-child(2) {
     width: 18%; }
-  .orgs-table tr td:nth-child(3) {
+  .orgs-table tr td:nth-child(3), .orgs-table tr th:nth-child(3) {
     width: 18%; }
-  .orgs-table tr td:nth-child(4) {
-    width: 48%; }
+  .orgs-table tr td:nth-child(4), .orgs-table tr th:nth-child(4) {
+    width: 40%; }
+  .orgs-table .challenge {
+    text-align: left; }
+  .orgs-table tr td:nth-child(4), .orgs-table tr th:nth-child(5) {
+    width: 8%; }
+  .orgs-table .advantage div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center; }
 
 .carousel-cont {
   width: 100%;

@@ -5,24 +5,28 @@ $(function() {
 	//Set the Sticky Image
 	var gradyImages = [
 		{
-			"src": "assets/characters/1-700tall.png",
+			"src": "/assets/characters/1-700tall.png",
 			"title": "Grady at 1 years old"
 		},
 		{
-			"src": "assets/characters/2-700tall.png",
+			"src": "/assets/characters/2-700tall.png",
 			"title": "Grady at 6 years old"
 		},
 		{
-			"src": "assets/characters/3-700tall.png",
+			"src": "/assets/characters/3-700tall.png",
 			"title": "Grady at 11 years old"
 		},
 		{
-			"src": "assets/characters/4-700tall.png",
+			"src": "/assets/characters/4-700tall.png",
 			"title": "Grady at 16 years old"
 		},
 		{
-			"src": "assets/characters/5-700tall.png",
+			"src": "/assets/characters/5-700tall.png",
 			"title": "Grady at 21 years old"
+		},
+		{
+			"src": "/assets/characters/6-700tall.png",
+			"title": "Grady at 26 years old"
 		}
 	];
 	
@@ -68,7 +72,7 @@ $(function() {
 	function changeImage() {
 		$('#sticky').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />').fadeIn(500);
 		counter++;
-		if(counter >= 5) counter = 0;
+		if(counter >= 6) counter = 0;
 		$('#preload').html('<img src="' + gradyImages[counter].src + '" title="' + gradyImages[counter].title + '" />');
 	}
 	
