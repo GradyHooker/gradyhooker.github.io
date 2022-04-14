@@ -1324,6 +1324,10 @@ table {
     background: rgba(235, 109, 61, 0.7); }
   .orgs-table .pukara {
     background: rgba(188, 56, 79, 0.7); }
+  .orgs-table .dolce {
+    background: rgba(237, 225, 89, 0.7); }
+  .orgs-table .cutuchi {
+    background: rgba(155, 209, 155, 0.7); }
   .orgs-table tr td:nth-child(1), .orgs-table tr th:nth-child(1) {
     width: 16%; }
   .orgs-table tr td:nth-child(2), .orgs-table tr th:nth-child(2) {
