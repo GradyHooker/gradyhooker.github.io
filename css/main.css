@@ -1324,10 +1324,20 @@ table {
     background: rgba(235, 109, 61, 0.7); }
   .orgs-table .pukara {
     background: rgba(188, 56, 79, 0.7); }
+  .orgs-table .killa {
+    background: rgba(67, 185, 115, 0.7); }
   .orgs-table .dolce {
     background: rgba(237, 225, 89, 0.7); }
+  .orgs-table .upa {
+    background: rgba(174, 249, 231, 0.7); }
+  .orgs-table .jednota {
+    background: rgba(132, 135, 210, 0.7); }
   .orgs-table .cutuchi {
+    background: rgba(92, 120, 153, 0.7); }
+  .orgs-table .alaquez {
     background: rgba(155, 209, 155, 0.7); }
+  .orgs-table .cotopaxi {
+    background: rgba(203, 73, 165, 0.7); }
   .orgs-table tr td:nth-child(1), .orgs-table tr th:nth-child(1) {
     width: 16%; }
   .orgs-table tr td:nth-child(2), .orgs-table tr th:nth-child(2) {
