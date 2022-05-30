@@ -81,9 +81,11 @@
 				justify-content: space-between;
 				height: 100%;
 				align-items: center;
+				pointer-events: none;
 				
 				.pagination__button {
 					cursor: pointer;
+					pointer-events: auto;
 				}
 			}
 		}

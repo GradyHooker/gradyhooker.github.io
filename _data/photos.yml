@@ -1,161 +1,259 @@
+- name: IMG_0567
+  alttext: Sansa Stark posing regal-like
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Sansa Stark from Game of Thrones
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0595
+  alttext: Mina Ashido kicking the camera
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Mina Ashido from My Hero Academia
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0609
+  alttext: Cinderella in a classic photo
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Cinderella
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0639
+  alttext: Asada Shino laying down to hit a shot
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Asada Shino from Sword Art Online
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0649
+  alttext: The Mandalorian & Bo-Katan Kryze posing with Baby Yoda
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: The Mandalorian & Bo-Katan Kryze from The Mandalorian
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0710
+  alttext: Pyramid Head being Kawaii
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Kawaii Pyramid Head from Silent Hill
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0762
+  alttext: Maid Shota Aizawa looking fed up
+  model: <a href="https://www.instagram.com/neonbirb/" target="_blank">neonbirb</a>
+  character: Maid Shota Aizawa from My Hero Academia
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0789
+  alttext: Gender Bender is ready for a fight
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Gender Bender from Futurama
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0827
+  alttext: Pinocchio showing off their dress
+  model: <a href="https://www.instagram.com/elizabeths_world_/" target="_blank">elizabeths_world</a>
+  character: Pinocchio
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0867
+  alttext: Scary creature reaching for the camera
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: XXXXXXXXXXXX
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_0917
+  alttext: Ariel posing in her big dress
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Ariel from The Little Mermaid
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_1098
+  alttext: Ryūko Matoi with half of the scissor blade
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Ryūko Matoi from Kill la Kill
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_1254
+  alttext: Wanda Maximoff's cape flying
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Wanda Maximoff (Scarlet Witch) from MARVEL
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+  
+- name: IMG_1282
+  alttext: Katara bending some water
+  model: <a href="https://instagram.com/XXXXXXXXX" target="_blank">?????????</a>
+  character: Katara from Avatar The Last Airbender
+  event: <a href="https://instagram.com/armageddonexponz" target="_blank">Armageddon Expo Tauranga 2021</a>
+  location: Trustpower Baypark
+
 - name: IMG_0075
   alttext: Chesh as Avantika, laying back on rock
   model: <a href="https://instagram.com/cheshliddle" target="_blank">cheshliddle</a>
-  character: <a href="https://instagram.com/matthewmercervo" target="_blank">matthewmercervo</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Captain Avantika from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Hutt River
   
 - name: IMG_0092
   alttext: Chesh as Avantika, squating on rocks
   model: <a href="https://instagram.com/cheshliddle" target="_blank">cheshliddle</a>
-  character: <a href="https://instagram.com/matthewmercervo" target="_blank">matthewmercervo</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Captain Avantika from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Hutt River
   
 - name: IMG_0293
   alttext: Chesh as Avantika, emerging from the water
   model: <a href="https://instagram.com/cheshliddle" target="_blank">cheshliddle</a>
-  character: <a href="https://instagram.com/matthewmercervo" target="_blank">matthewmercervo</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Captain Avantika from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Hutt River
   
 - name: IMG_0130
   alttext: Chesh as Avantika, leaning over to show eye
   model: <a href="https://instagram.com/cheshliddle" target="_blank">cheshliddle</a>
-  character: <a href="https://instagram.com/matthewmercervo" target="_blank">matthewmercervo</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Captain Avantika from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Hutt River
   
 - name: IMG_0320
   alttext: Chesh and Foxes, fighting in the water
   model: <a href="https://instagram.com/cheshliddle" target="_blank">cheshliddle</a> (Avantika) & <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a> (Beau)
-  character: <a href="https://instagram.com/matthewmercervo" target="_blank">matthewmercervo</a> & <a href="https://instagram.com/marisha_ray" target="_blank">marisha_ray</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Captain Avantika & Beau from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Hutt River
   
 - name: IMG_9833
   alttext: Demon Slayer, laying down together
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a> (Mitsuri) & <a href="https://instagram.com/happy_cookie_snapper" target="_blank">happy_cookie_snapper</a> (Shinobu)
-  character: Demon Slayer
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> National War Memorial
+  character: Mitsuri & Shinobu from Demon Slayer
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington National War Memorial
   
 - name: IMG_9844
   alttext: Demon Slayer, laying down together
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a> (Mitsuri) & <a href="https://instagram.com/happy_cookie_snapper" target="_blank">happy_cookie_snapper</a> (Shinobu)
-  character: Demon Slayer
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> National War Memorial
+  character: Mitsuri & Shinobu from Demon Slayer
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington National War Memorial
   
 - name: IMG_9898
   alttext: Demon Slayer, side squat
   model: <a href="https://instagram.com/happy_cookie_snapper" target="_blank">happy_cookie_snapper</a>
-  character: Demon Slayer
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> National War Memorial
+  character: Shinobu from Demon Slayer
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington National War Memorial
  
 - name: IMG_9974
   alttext: Demon Slayer, hug from behind
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a> (Mitsuri) & <a href="https://instagram.com/happy_cookie_snapper" target="_blank">happy_cookie_snapper</a> (Shinobu)
-  character: Demon Slayer
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> National War Memorial
+  character: Mitsuri & Shinobu from Demon Slayer
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington National War Memorial
   
 - name: IMG_9330
   alttext: Dream, reaching out over his kingdom
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/dreamwastaken">dreamwastaken</a> from DreamSMP
+  character: <a href="https://instagram.com/dreamwastaken">Dream (Minecrafter)</a>
   assist: <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a> & <a href="https://instagram.com/mollory" target="_blank">mollory</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Waterfront
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Waterfront
   
 - name: IMG_9449
   alttext: Dream, brushing hair out of face
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/dreamwastaken">dreamwastaken</a> from DreamSMP
+  character: <a href="https://instagram.com/dreamwastaken">Dream (Minecrafter)</a>
   assist: <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a> & <a href="https://instagram.com/mollory" target="_blank">mollory</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Waterfront
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Waterfront
   
 - name: IMG_9636
   alttext: Dream, jumping from bench to bench
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/dreamwastaken">dreamwastaken</a> from DreamSMP
+  character: <a href="https://instagram.com/dreamwastaken">Dream (Minecrafter)</a>
   assist: <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a> & <a href="https://instagram.com/mollory" target="_blank">mollory</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Waterfront
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Waterfront
     
 - name: IMG_9672
   alttext: Dream, covering face up
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/dreamwastaken">dreamwastaken</a> from DreamSMP
+  character: <a href="https://instagram.com/dreamwastaken">Dream (Minecrafter)</a>
   assist: <a href="https://instagram.com/pundawan.cos" target="_blank">pundawan.cos</a> & <a href="https://instagram.com/mollory" target="_blank">mollory</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Waterfront
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Waterfront
   
 - name: IMG_8724
   alttext: Two Harleys, pointing at each other
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a> (Injustice) & <a href="https://instagram.com/pumpkabun_" target="_blank">pumpkabun_</a> (Classic)
-  character: <a href="https://instagram.com/dccomics">dccomics</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Opera House Lane
+  character: Harley Quinn from <a href="https://instagram.com/dccomics">DC Comics</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Opera House Lane
   
 - name: IMG_8778
   alttext: Charlotte Harley, hanging off scaffolding
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a>
-  character: <a href="https://instagram.com/dccomics">dccomics</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Opera House Lane
+  character: Harley Quinn from <a href="https://instagram.com/dccomics">DC Comics</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Opera House Lane
   
 - name: IMG_8817
   alttext: Pumpkabun Harley, reaching through bars
   model: <a href="https://instagram.com/pumpkabun_" target="_blank">pumpkabun_</a>
-  character: <a href="https://instagram.com/dccomics">dccomics</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Opera House Lane
+  character: Harley Quinn from <a href="https://instagram.com/dccomics">DC Comics</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Opera House Lane
   
 - name: IMG_8867_composite
   alttext: Two Harleys, behind bars
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a> (Injustice) & <a href="https://instagram.com/pumpkabun_" target="_blank">pumpkabun_</a> (Classic)
-  character: <a href="https://instagram.com/dccomics">dccomics</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Opera House Lane
+  character: Harley Quinn from <a href="https://instagram.com/dccomics">DC Comics</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Opera House Lane
   
 - name: IMG_8980_composite
   alttext: Charlotte Harley, walking away
   model: <a href="https://instagram.com/charlottescosplay" target="_blank">charlottescosplay</a>
-  character: <a href="https://instagram.com/dccomics">dccomics</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
-  location: <a href="https://instagram.com/wellingtonnz" target="_blank">wellingtonnz</a> Opera House Lane
+  character: Harley Quinn from <a href="https://instagram.com/dccomics">DC Comics</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
+  location: Wellington Opera House Lane
     
 - name: IMG_9175
   alttext: Beau, staring into camera
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/marisha_ray" target="_blank">marisha_ray</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Beau from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
   makeup: <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Percy Scenic Reserve
     
 - name: IMG_9049
   alttext: Beau, meditating under waterfall
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/marisha_ray" target="_blank">marisha_ray</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Beau from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
   makeup: <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Percy Scenic Reserve
     
 - name: IMG_9222
   alttext: Beau, chilling on a tree
   model: <a href="https://instagram.com/foxesandsocks" target="_blank">foxesandsocks</a>
-  character: <a href="https://instagram.com/marisha_ray" target="_blank">marisha_ray</a> from <a href="https://instagram.com/critical_role" target="_blank">critical_role</a>
+  character: Beau from <a href="https://instagram.com/critical_role" target="_blank">Critical Role</a>
   assist: <a href="https://instagram.com/luminarchy" target="_blank">luminarchy</a> & <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
   makeup: <a href="https://instagram.com/shadow.fawn.shoots" target="_blank">shadow.fawn.shoots</a>
-  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">wellingtoncpf</a>
+  event: <a href="https://instagram.com/wellingtoncpf" target="_blank">Wellington Cosplay PhotoFest 2021</a>
   location: Percy Scenic Reserve
