@@ -1578,9 +1578,11 @@ table {
         font-size: 4em;
         justify-content: space-between;
         height: 100%;
-        align-items: center; }
+        align-items: center;
+        pointer-events: none; }
         .photocarousel-cont .photocarousel .controls .pagination .pagination__button {
-          cursor: pointer; }
+          cursor: pointer;
+          pointer-events: auto; }
 
 @media screen and (max-width: 768px) {
   .pagination {
