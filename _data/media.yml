@@ -1,3 +1,58 @@
+- name: iem-katowice-2022
+  categories:
+  - media
+  - media-esports
+  logo: iem-2022
+  date: Feb 2022
+  title: IEM Katowice
+  country:
+    code: online
+    text: Online
+    city: Online
+  links:
+  - link: https://esportskingdom.gg/counter-strike/2022-02-g2-iemkatowice2022
+    image: g2-cologne21
+    text: Interview with G2 player NiKo
+  - link: https://esportskingdom.gg/counter-strike/2022-02-heroic-iemkatowice2022
+    image: heroic-cologne21
+    text: Interview with Heroic player TeSeS
+  - link: https://esportskingdom.gg/counter-strike/2022-02-navi-iemkatowice2022
+    image: navi-cologne21
+    text: Interview with Natus Vincere player s1mple
+  - link: https://esportskingdom.gg/counter-strike/2022-02-gambit-iemkatowice2022
+    image: gambit-cologne21
+    text: Interview with Gambit player H0bbit
+  - link: https://esportskingdom.gg/counter-strike/2022-02-virtuspro-iemkatowice2022
+    image: virtuspro-cologne21
+    text: Interview with VirtusPro player YEKINDAR
+  - link: https://esportskingdom.gg/counter-strike/2022-02-nip-iemkatowice2022
+    image: nip-epl14
+    text: Interview with NiP player es3tag
+  - link: https://esportskingdom.gg/counter-strike/2022-02-astralis-iemkatowice2022
+    image: astralis-cologne21
+    text: Interview with Astralis player blameF
+  - link: https://esportskingdom.gg/counter-strike/2022-02-mouz-iemkatowice2022
+    image: mousesports-katowice2022
+    text: Interview with MOUZ player dexter
+  - link: https://esportskingdom.gg/counter-strike/2022-02-vitality-iemkatowice2022
+    image: vitality-cologne21
+    text: Interview with Vitality player dupreeh
+  - link: https://esportskingdom.gg/counter-strike/2022-02-fnatic-iemkatowice2022
+    image: fnatic-epl14
+    text: Interview with Fnatic player KRIMZ
+  - link: https://esportskingdom.gg/counter-strike/2022-02-furia-iemkatowice2022
+    image: furia-cologne21
+    text: Interview with FURIA player arT
+  - link: https://esportskingdom.gg/counter-strike/2022-02-og-iemkatowice2022
+    image: og-epl14
+    text: Interview with OG player nexa
+  - link: https://esportskingdom.gg/counter-strike/2022-02-liquid-iemkatowice2022
+    image: liquid-cologne21
+    text: Interview with Team Liquid player nitr0
+  - link: https://esportskingdom.gg/counter-strike/2022-02-ence-iemkatowice2022
+    image: ence-epl14
+    text: Interview with ENCE player Spinx
+
 - name: iem-winter-2021
   categories:
   - media

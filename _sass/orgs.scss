@@ -91,7 +91,14 @@
 	.cutuchi  { background: rgba(92, 120, 153, 0.7); }
 	.alaquez  { background: rgba(155, 209, 155, 0.7); }
 	.cotopaxi { background: rgba(203, 73, 165, 0.7); }
+	.rookies  { background: rgba(77, 77, 255, 0.5); }
+	.wcw      { background: rgba(137, 11, 206, 0.7); }
 	
+	&.orgs-table-challenge {
+		tr td:nth-child(1), tr th:nth-child(1) { width: 16%; }
+		tr td:nth-child(2), tr th:nth-child(2) { width: 42%; }
+		tr td:nth-child(3), tr th:nth-child(3) { width: 42%; }
+	}
 	tr td:nth-child(1), tr th:nth-child(1) { width: 16%; }
 	tr td:nth-child(2), tr th:nth-child(2) { width: 18%; }
 	tr td:nth-child(3), tr th:nth-child(3) { width: 18%; }
