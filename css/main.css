@@ -1342,6 +1342,10 @@ table {
     background: rgba(77, 77, 255, 0.5); }
   .orgs-table .wcw {
     background: rgba(137, 11, 206, 0.7); }
+  .orgs-table .nxt {
+    background: rgba(194, 124, 14, 0.7); }
+  .orgs-table .nwa {
+    background: rgba(50, 98, 255, 0.7); }
   .orgs-table.orgs-table-challenge tr td:nth-child(1), .orgs-table.orgs-table-challenge tr th:nth-child(1) {
     width: 16%; }
   .orgs-table.orgs-table-challenge tr td:nth-child(2), .orgs-table.orgs-table-challenge tr th:nth-child(2) {
@@ -1616,7 +1620,7 @@ table {
   .fight-record .table .tournament.grey, .fight-record .table .tournament:nth-child(odd) {
     background: rgba(255, 255, 255, 0.1); }
   .fight-record .table .tournament .row {
-    height: 60px;
+    height: 30px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1627,14 +1631,14 @@ table {
       padding-right: 5px;
       display: flex; }
     .fight-record .table .tournament .row div:nth-child(1) {
-      width: 80px;
+      width: 40px;
       align-items: center;
       justify-content: center; }
       .fight-record .table .tournament .row div:nth-child(1) img {
-        max-width: 80px;
-        max-height: 60px; }
+        max-width: 40px;
+        max-height: 30px; }
     .fight-record .table .tournament .row div:nth-child(2) {
-      width: 260px;
+      width: 290px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -1646,24 +1650,24 @@ table {
           font-weight: bold;
           text-align: left; }
     .fight-record .table .tournament .row div:nth-child(3) {
-      width: 60px;
+      width: 30px;
       align-items: center;
       justify-content: center; }
       .fight-record .table .tournament .row div:nth-child(3) img {
-        max-width: 60px;
-        max-height: 60px; }
+        max-width: 30px;
+        max-height: 30px; }
     .fight-record .table .tournament .row div:nth-child(4) {
       width: 140px;
       align-items: center;
       justify-content: center; }
     .fight-record .table .tournament .row div:nth-child(5) {
-      width: 65px;
+      width: 85px;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       text-align: center;
-      flex-direction: column; }
+      flex-direction: row; }
       .fight-record .table .tournament .row div:nth-child(5) .win, .fight-record .table .tournament .row div:nth-child(5) .loss {
-        width: 60px;
+        width: 85px;
         padding: 2px;
         border-radius: 10px;
         display: flex;
@@ -1818,7 +1822,7 @@ body {
   min-width: 250px;
   max-width: 1300px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 80px;
   transition: 0.3s; }
 
 h1 {
