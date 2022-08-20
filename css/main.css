@@ -1608,6 +1608,17 @@ table {
   color: white;
   font-size: 1.5em;
   margin-bottom: 0.5em; }
+.fight-record .key {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 20px;
+  opacity: 0.6; }
+  .fight-record .key div {
+    display: flex;
+    align-items: center; }
+    .fight-record .key div img {
+      padding-right: 5px; }
 .fight-record .table {
   width: 100%;
   display: flex;
@@ -1631,42 +1642,51 @@ table {
       padding-right: 5px;
       display: flex; }
     .fight-record .table .tournament .row div:nth-child(1) {
+      justify-content: center;
+      align-content: center;
+      width: 20px;
+      height: 100%;
+      text-align: center;
+      flex-direction: column; }
+      .fight-record .table .tournament .row div:nth-child(1) img {
+        height: 24px;
+        width: 20px; }
+    .fight-record .table .tournament .row div:nth-child(2) {
       width: 40px;
       align-items: center;
       justify-content: center; }
-      .fight-record .table .tournament .row div:nth-child(1) img {
+      .fight-record .table .tournament .row div:nth-child(2) img {
         max-width: 40px;
         max-height: 30px; }
-    .fight-record .table .tournament .row div:nth-child(2) {
+    .fight-record .table .tournament .row div:nth-child(3) {
       width: 290px;
-      display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center; }
-      .fight-record .table .tournament .row div:nth-child(2) span {
+      .fight-record .table .tournament .row div:nth-child(3) span {
         font-size: 0.8em; }
-        .fight-record .table .tournament .row div:nth-child(2) span:nth-child(1) {
+        .fight-record .table .tournament .row div:nth-child(3) span:nth-child(1) {
           font-size: 1em;
           font-weight: bold;
           text-align: left; }
-    .fight-record .table .tournament .row div:nth-child(3) {
+    .fight-record .table .tournament .row div:nth-child(4) {
       width: 30px;
       align-items: center;
       justify-content: center; }
-      .fight-record .table .tournament .row div:nth-child(3) img {
+      .fight-record .table .tournament .row div:nth-child(4) img {
         max-width: 30px;
         max-height: 30px; }
-    .fight-record .table .tournament .row div:nth-child(4) {
+    .fight-record .table .tournament .row div:nth-child(5) {
       width: 140px;
       align-items: center;
       justify-content: center; }
-    .fight-record .table .tournament .row div:nth-child(5) {
+    .fight-record .table .tournament .row div:nth-child(6) {
       width: 85px;
       align-items: center;
       justify-content: flex-start;
       text-align: center;
       flex-direction: row; }
-      .fight-record .table .tournament .row div:nth-child(5) .win, .fight-record .table .tournament .row div:nth-child(5) .loss {
+      .fight-record .table .tournament .row div:nth-child(6) .win, .fight-record .table .tournament .row div:nth-child(6) .loss {
         width: 85px;
         padding: 2px;
         border-radius: 10px;
@@ -1674,59 +1694,76 @@ table {
         align-items: center;
         justify-content: center;
         text-align: center; }
-        .fight-record .table .tournament .row div:nth-child(5) .win .sup, .fight-record .table .tournament .row div:nth-child(5) .loss .sup {
+        .fight-record .table .tournament .row div:nth-child(6) .win .sup, .fight-record .table .tournament .row div:nth-child(6) .loss .sup {
           font-size: 0.65em;
           padding-left: 3px; }
-      .fight-record .table .tournament .row div:nth-child(5) .win {
+      .fight-record .table .tournament .row div:nth-child(6) .win {
         background: #77ff77;
         color: black; }
-      .fight-record .table .tournament .row div:nth-child(5) .loss {
+      .fight-record .table .tournament .row div:nth-child(6) .loss {
         background: #ffaaaa;
         color: black; }
+    .fight-record .table .tournament .row div:nth-child(7) {
+      justify-content: center;
+      align-content: center;
+      width: 20px;
+      height: 100%;
+      text-align: center;
+      flex-direction: column; }
+      .fight-record .table .tournament .row div:nth-child(7) img {
+        width: 16px;
+        height: 16px; }
 
 @media screen and (max-width: 768px) {
-  .fight-record .table .row div:nth-child(3) {
+  .fight-record .table .row div:nth-child(4) {
     display: none; }
 
-  .fight-record .table .row div:nth-child(2) {
-    width: 150px; } }
+  .fight-record .table .row div:nth-child(3) {
+    width: 150px !important; }
+
+  .fight-record .table .row div:nth-child(3) span:nth-child(2) {
+    display: none; } }
 @media screen and (max-width: 600px) {
-  .fight-record .table .row div:nth-child(1) {
-    width: 60px; }
+  .key {
+    flex-wrap: wrap;
+    align-items: center !important;
+    justify-content: center !important; }
+    .key div {
+      padding: 0px 10px; }
 
-  .fight-record .table .row div:nth-child(1) img {
-    max-width: 60px;
-    max-height: 60px; }
-
-  .fight-record .table .row div:nth-child(4) {
-    width: 70px; }
+  .fight-record .table .row div:nth-child(2) {
+    display: none; }
 
   .fight-record .table .row div:nth-child(5) {
-    width: 35px; }
+    width: 90px !important; }
 
-  .fight-record .table .row div:nth-child(5) .win,
-  .fight-record .table .row div:nth-child(5) .loss {
-    width: 30px;
-    color: transparent; } }
+  .fight-record .table .row div:nth-child(6) {
+    width: 45px !important; }
+
+  .fight-record .table .row div:nth-child(6) .win,
+  .fight-record .table .row div:nth-child(6) .loss {
+    width: 45px !important;
+    color: transparent !important; }
+
+  .table {
+    align-self: center;
+    margin: 0 auto;
+    width: 380px !important; } }
 @media screen and (max-width: 400px) {
   .fight-record .table .row div:nth-child(1) {
     display: none; }
 
-  .fight-record .table .row div:nth-child(5) {
-    width: 20px; }
-
-  .fight-record .table .row div:nth-child(5) .win,
-  .fight-record .table .row div:nth-child(5) .loss {
-    width: 15px; } }
-@media screen and (max-width: 300px) {
   .fight-record .table {
     font-size: 0.85em; }
 
-  .fight-record .table .row div:nth-child(2) {
-    width: 120px; }
+  .fight-record .table .row div:nth-child(3) {
+    width: 120px !important; }
 
-  .fight-record .table .row div:nth-child(4) {
-    width: 60px; } }
+  .fight-record .table .row div:nth-child(5) {
+    width: 70px !important; }
+
+  .table {
+    width: 300px !important; } }
 body {
   background: url("../assets/background.png");
   font-family: 'Roboto Condensed', Arial, sans-serif; }
