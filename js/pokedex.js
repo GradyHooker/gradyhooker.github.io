@@ -9,7 +9,6 @@ function changePokemon(e) {
 	
 	var num_ele = $(e).find("div")[0];
 	var num = $(num_ele).text();
-	console.log(num);
 	
 	$(".big-photo").attr("src", "/assets/pokedex/" + num + ".jpg");
 	$(".types").empty();
@@ -107,6 +106,13 @@ var pokemon = {
 		"types": ["normal","flying"],
 		"height": "0.3 m / 1'00\"",
 		"weight": "2.1 kg / 4.6 lbs",
+		"location": "Wellington Botanic Garden, New Zealand",
+		"description": ""
+	},
+	"008": {
+		"types": ["water"],
+		"height": "1.0 m / 3'03\"",
+		"weight": "22.5 kg / 49.6 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
 		"description": ""
 	}

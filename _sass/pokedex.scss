@@ -82,13 +82,13 @@
 		width: 35%;
 		height: calc(100% - 24px);
 		margin: 10px;
+		overflow: hidden;
 		overflow-y: scroll;
 		border: 2px solid black;
 		border-radius: 10px;
 		font-family: 'VT323';
 		font-size: 1.5em;
 		background: #f8f8f8;
-		overflow: none;
 		z-index: 10;
 		
 		.poke-item {
@@ -129,6 +129,48 @@
 			div:nth-child(2) {
 				padding: 0px 10px;
 			}
+		}
+	}
+}
+
+@media screen and (max-width: $break-large) {
+	.pokedex .pokemon-display .split .types {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		img {
+			width: 50%;
+		}
+	}
+}
+
+@media screen and (max-width: $break-medium) {
+	.pokedex .scroller {
+		min-width: 160px;
+		
+		.poke-item div:nth-child(2) {
+			display: none;
+		}
+		
+		.poke-item div:nth-child(3) {
+			padding-left: 5px;
+		}
+	}
+}
+
+@media screen and (max-width: $break-tiny) {
+	.pokedex {
+		font-size: 0.8em;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: $break-mediumtiny) {
+	.pokedex .pokemon-display .split .types {
+		img {
+			width: 90%;
 		}
 	}
 }
