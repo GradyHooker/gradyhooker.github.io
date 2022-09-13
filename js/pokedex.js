@@ -93,7 +93,7 @@ var pokemon = {
 		"height": "0.1 m / 0'04\"",
 		"weight": "0.2 kg / 0.4 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
-		"description": "As one of the smallest Pokemon they are hard to see, but nestled amongst the flowerbed is a small swarm of Cutiefly!"
+		"description": "As one of the smallest Pokemon they are hard to see, but nestled amongst the flowerbed is a small swarm of 4 Cutiefly!"
 	},
 	"580": {
 		"types": ["water","flying"],
@@ -107,13 +107,27 @@ var pokemon = {
 		"height": "0.3 m / 1'00\"",
 		"weight": "2.1 kg / 4.6 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
-		"description": ""
+		"description": "This Pidove felt right at home on top of the head of this statue covered in pigeons and wasn't scared away by the many humans"
 	},
 	"008": {
 		"types": ["water"],
 		"height": "1.0 m / 3'03\"",
 		"weight": "22.5 kg / 49.6 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
-		"description": ""
+		"description": "Wartortle was playing in the waterfall overlooking the Squirtle Pond and splashing people watching and taking photos"
+	},
+	"007": {
+		"types": ["water"],
+		"height": "0.5 m / 1'08\"",
+		"weight": "9.0 kg / 19.8 lbs",
+		"location": "Wellington Botanic Garden, New Zealand",
+		"description": "With many of them swimming around, I caught this Squirtle standing up on a rock with another one sleeping behind him"
+	},
+	"541": {
+		"types": ["bug","grass"],
+		"height": "0.5 m / 1'08\"",
+		"weight": "7.3 kg / 16.1 lbs",
+		"location": "Wellington Botanic Garden, New Zealand",
+		"description": "The Swadloon was having a snack on some of the leaves and ferns laying around the forest floor, it even let my Research Assistant get real close"
 	}
 }
