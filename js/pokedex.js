@@ -136,5 +136,19 @@ var pokemon = {
 		"weight": "4.4 kg / 9.7 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
 		"description": "The fog started to roll in as we passed this house, out of the corner of my eye I saw the Mismagius lurking around anticipating an unsuspecting human."
+	},
+	"250": {
+		"types": ["fire","flying"],
+		"height": "3.8 m / 12'06\"",
+		"weight": "199.0 kg / 438.7 lbs",
+		"location": "Wellington Botanic Garden, New Zealand",
+		"description": "We were admiring The Treehouse, before a shadow came overtop followed by streaks of gold and rainbow as Ho-Oh graced us with it's presence."
+	},
+	"190": {
+		"types": ["normal"],
+		"height": "0.8 m / 2'07\"",
+		"weight": "11.5 kg / 25.4 lbs",
+		"location": "Wellington Botanic Garden, New Zealand",
+		"description": "This cheeky monkey was swinging on a lamp-post trying to get our attention, it wasn't until I started to edit that I noticed the second one."
 	}
 }
