@@ -150,5 +150,89 @@ var pokemon = {
 		"weight": "11.5 kg / 25.4 lbs",
 		"location": "Wellington Botanic Garden, New Zealand",
 		"description": "This cheeky monkey was swinging on a lamp-post trying to get our attention, it wasn't until I started to edit that I noticed the second one."
+	},
+	"276": {
+		"types": ["normal","flying"],
+		"height": "0.3 m / 1'00\"",
+		"weight": "2.3 kg / 5.1 lbs",
+		"location": "Woodridge, Wellington, New Zealand",
+		"description": "I looked out my kitchen window and saw this Taillow perching on the fence, there were a few scratch marks so it mustn't be it's first time in that spot."
+	},
+	"656": {
+		"types": ["water"],
+		"height": "0.3 m / 1'00\"",
+		"weight": "7.0 kg / 14.5 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "This Froakie was hanging out near the waterfall pool and was so docile my Research Assistant was able to get right next to it and pop a pose."
+	},
+	"143": {
+		"types": ["normal"],
+		"height": "2.1 m / 6'11\"",
+		"weight": "460.0 kg / 1014.1 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "This Snorlax must have gone for a walk through the muddy creek before deciding to block our path over this bridge, luckily leaving a gap to the left we could sneak through."
+	},
+	"013": {
+		"types": ["bug","poison"],
+		"height": "0.3 m / 1'00\"",
+		"weight": "3.2 kg / 7.1 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "Looking for some leaves to munch on, this Weedle crawled out on the cut-down tree to say hello, before moving back towards their meal."
+	},
+	"821": {
+		"types": ["flying"],
+		"height": "0.2 m / 0'08\"",
+		"weight": "1.8 kg / 4.0	lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "On our way out of the forest, this Rookidee flew up to us and landed on some barbed wire right next to us, almost challenging us."
+	},
+	"004": {
+		"types": ["fire"],
+		"height": "0.6 m / 2'00\"",
+		"weight": "8.5 kg / 18.7 lbs",
+		"location": "Red Rocks, Wellington, New Zealand",
+		"description": "We were climbing an uphill portion of the track to Red Rocks and came across this fire pit with a cute little CHarmander standing in the center."
+	},
+	"258": {
+		"types": ["water"],
+		"height": "0.4 m / 1'04\"",
+		"weight": "7.6 kg / 16.8 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "There was a muddy river that we had to cross to keep going along the track, to my right I noticed this little blue guy huddled into a hole along the river bank."
+	},
+	"364": {
+		"types": ["ice","water"],
+		"height": "1.1 m / 3'07\"",
+		"weight": "87.6 kg / 193.1 lbs",
+		"location": "Red Rocks, Wellington, New Zealand",
+		"description": "We got told that there were seals on Red Rocks, but I didn't except for there to be a Sealeo hanging out with them on the rocks in the sun."
+	},
+	"421": {
+		"types": ["grass"],
+		"height": "0.5 m / 1'08\"",
+		"weight": "9.3 kg / 20.5 lbs",
+		"location": "Victoria Esplanade, Palmerston North, NZ",
+		"description": "It is cherry blossom season and we visited The Victoria Esplanade to see them, but we got more than we bargained for with a Cherrim showing off."
+	},
+	"492": {
+		"types": ["grass"],
+		"height": "0.2 m / 0'08\"",
+		"weight": "2.1 kg / 4.6 lbs",
+		"location": "Victoria Esplanade, Palmerston North, NZ",
+		"description": "Shaymin graced us with it's presence around all of the cherry blossom trees, we offered it some flowers and it let us take a photo."
+	},
+	"708": {
+		"types": ["ghost","grass"],
+		"height": "0.4 m / 1'04\"",
+		"weight": "7.0 kg / 15.4 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "It was starting to get dark, but I noticed some glowing red eyes and noises coming from under the bridge and it turned out to be a lone Phantump just floating around."
+	},
+	"816": {
+		"types": ["water"],
+		"height": "0.3 m / 1'00\"",
+		"weight": "4.0 kg / 8.8 lbs",
+		"location": "Seton Nossiter Park, Wellington, NZ",
+		"description": "I've visited this small waterfall so many times, but this time there was an extra surprise with a Sobble thinking about going for a swim in the pond below."
 	}
 }

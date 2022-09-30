@@ -11,7 +11,6 @@ $break-xxlarge: 1800px;
 
 @import 'reset';
 
-@import 'dropdown';
 @import 'flags';
 @import 'media';
 @import 'praise';
@@ -21,5 +20,8 @@ $break-xxlarge: 1800px;
 @import 'photos';
 @import 'fights';
 @import 'pokedex';
+
+@import 'dropdown';
+@import 'flipcard';
 
 @import 'style';

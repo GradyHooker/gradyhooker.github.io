@@ -72,6 +72,7 @@
 		font-weight: bold;
 	}
 	
+	.blank    { background: rgba(85, 85, 85, 0.7); }
 	.feilong  { background: rgba(10, 165, 8, 0.7); }
 	.zhanhu   { background: rgba(214, 36, 36, 0.7); }
 	.kasama   { background: rgba(255, 120, 36, 0.7); }
@@ -101,6 +102,9 @@
 	.olum     { background: rgba(157, 115, 185, 0.7); }
 	.welchia  { background: rgba(136, 90, 35, 0.7); }
 	.mydoom   { background: rgba(119, 180, 228, 0.7); }
+	.abraxas  { background: rgba(148, 146, 146, 0.7); }
+	.viveremori { background: rgba(240, 167, 41, 0.7); }
+	.trojanwhores { background: rgba(31, 224, 154, 0.6); }
 	
 	&.orgs-table-challenge {
 		tr td:nth-child(1), tr th:nth-child(1) { width: 16%; }
