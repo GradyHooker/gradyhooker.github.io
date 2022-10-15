@@ -985,6 +985,9 @@ table {
       font-size: 2em; }
     .orgs-table td .subtitle, .orgs-table th .subtitle {
       margin-top: 2px; }
+      .orgs-table td .subtitle img, .orgs-table th .subtitle img {
+        height: 10px;
+        width: 10px; }
     .orgs-table td .hoverable, .orgs-table th .hoverable {
       text-decoration: dotted underline;
       cursor: help; }
