@@ -146,7 +146,7 @@ function checkDate() {
 }
 
 function musicScrape() {
-	musicXhr = $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent("https://www.billboard.com/charts/hot-100/" + date) + '&callback=?', function(data){
+	musicXhr = $.getJSON("https://www.billboard.com/charts/hot-100/" + date, function(data){
 		var rows = $(data.contents).find('article.chart-row');
 		var firstObj = {};
 		firstObj.song = $(rows[0]).find('.chart-row__song').text();
