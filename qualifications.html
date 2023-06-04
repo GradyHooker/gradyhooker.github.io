@@ -10,7 +10,7 @@
 		<!-- Open Graph data -->
 		<meta property="og:type" content="">
 		<meta property="og:site_name" content="">
-		<meta property="og:url" content="https://grady.nz/qualifications">
+		<meta property="og:url" content="http://localhost:4000/qualifications">
 		<meta property="og:title" content="">
 		<meta property="og:description" content="">
 		<meta property="og:image" content="">
@@ -171,12 +171,14 @@
 		<script src="/js/dropdown.js"></script>
 		<script src="/js/pokedex.js"></script>
 		
-		<!-- Google Analytics -->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MHC2G8PFX"></script>
 		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-3MHC2G8PFX');
 		</script>
 	</body>
 </html>
