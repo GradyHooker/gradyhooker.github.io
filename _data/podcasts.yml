@@ -20,6 +20,17 @@
   - link: https://accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646
     image: icon-accessmedia-white
     text: Listen on AccessMedia.nz
+    
+- categories:
+  - podcasts
+  title: Chats with Grady
+  description: Anyone who wants to chat
+  logo: chats-with-grady
+  playlist: PL_tQxNJBCq7AqVqoh0Trb-GI3Ydi2_siV
+  links:
+  - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7AqVqoh0Trb-GI3Ydi2_siV
+    image: icon-youtube-white
+    text: Watch more on YouTube
 
 - categories:
   - podcasts
@@ -90,28 +101,28 @@
     image: icon-amazon-white
     text: Listen on Amazon Music
 
-- categories:
-  - podcasts
-  title: Sacred Heart Stories
-  description: Television show, Scrubs
-  logo: sacred-heart-stories
-  playlist: PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1
-  links:
-  - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1
-    image: icon-youtube-white
-    text: Watch more on YouTube
-  - link: https://open.spotify.com/show/0cMoKkecTNt8yqzjnJxxRH
-    image: icon-spotify-white
-    text: Listen on Spotify
-  - link: https://podcasts.apple.com/us/podcast/sacred-heart-stories-scrubs/id1597595594
-    image: icon-apple-white
-    text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3NhY3JlZC1oZWFydC1zdG9yaWVzL2ZlZWQueG1s
-    image: icon-google-white
-    text: Listen on Google Podcasts
-  - link: https://music.amazon.co.uk/podcasts/54b81131-91e2-4a8e-89e0-c836b4cdc8b6
-    image: icon-amazon-white
-    text: Listen on Amazon Music
+#- categories:
+#  - podcasts
+#  title: Sacred Heart Stories
+#  description: Television show, Scrubs
+#  logo: sacred-heart-stories
+#  playlist: PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1
+#  links:
+#  - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7Ciz16KWrlBfx6n27GDlFO1
+#    image: icon-youtube-white
+#    text: Watch more on YouTube
+#  - link: https://open.spotify.com/show/0cMoKkecTNt8yqzjnJxxRH
+#    image: icon-spotify-white
+#    text: Listen on Spotify
+#  - link: https://podcasts.apple.com/us/podcast/sacred-heart-stories-scrubs/id1597595594
+#    image: icon-apple-white
+#    text: Listen on Apple Podcasts
+#  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3NhY3JlZC1oZWFydC1zdG9yaWVzL2ZlZWQueG1s
+#    image: icon-google-white
+#    text: Listen on Google Podcasts
+#  - link: https://music.amazon.co.uk/podcasts/54b81131-91e2-4a8e-89e0-c836b4cdc8b6
+#    image: icon-amazon-white
+#    text: Listen on Amazon Music
 
 #- categories:
 #  - podcasts
@@ -136,25 +147,25 @@
 #    image: icon-amazon-white
 #    text: Listen on Amazon Music
 
-- categories:
-  - podcasts
-  title: Banana Etiquette
-  description: Reality TV show, Survivor
-  logo: banana-etiquette
-  playlist: PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc
-  links:
-  - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc
-    image: icon-youtube-white
-    text: Watch more on YouTube
-  - link: https://open.spotify.com/show/0LNoFeT48SusAldEe3tYTy
-    image: icon-spotify-white
-    text: Listen on Spotify
-  - link: https://podcasts.apple.com/nz/podcast/banana-etiquette-survivor/id1531445707
-    image: icon-apple-white
-    text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2JhbmFuYS1ldGlxdWV0dGUvZmVlZC54bWw
-    image: icon-google-white
-    text: Listen on Google Podcasts
-  - link: https://music.amazon.co.uk/podcasts/914564dc-4ae8-4002-a39f-7ec995c0bc6b/
-    image: icon-amazon-white
-    text: Listen on Amazon Music
+#- categories:
+#  - podcasts
+#  title: Banana Etiquette
+#  description: Reality TV show, Survivor
+#  logo: banana-etiquette
+#  playlist: PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc
+#  links:
+#  - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7CCTYJlSGlWGy-QsYNmuBQc
+#    image: icon-youtube-white
+#    text: Watch more on YouTube
+#  - link: https://open.spotify.com/show/0LNoFeT48SusAldEe3tYTy
+#    image: icon-spotify-white
+#    text: Listen on Spotify
+#  - link: https://podcasts.apple.com/nz/podcast/banana-etiquette-survivor/id1531445707
+#    image: icon-apple-white
+#    text: Listen on Apple Podcasts
+#  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2JhbmFuYS1ldGlxdWV0dGUvZmVlZC54bWw
+#    image: icon-google-white
+#    text: Listen on Google Podcasts
+#  - link: https://music.amazon.co.uk/podcasts/914564dc-4ae8-4002-a39f-7ec995c0bc6b/
+#    image: icon-amazon-white
+#    text: Listen on Amazon Music
