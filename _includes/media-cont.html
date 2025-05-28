@@ -10,7 +10,10 @@
             {{ media.title }}
         </div>
         <div class="media-text">
-            {{ media.date }}, {{ media.country.city }} <img src="assets/blank.gif" class="flag flag-{{ media.country.code }}" alt="{{ media.country.text }}">
+            {{ media.date }}
+        </div>
+        <div class="media-text media-location">
+            {{ media.country.city }} <img src="assets/blank.gif" class="flag flag-{{ media.country.code }}" alt="{{ media.country.text }}">
         </div>
     </div>
 </div>
