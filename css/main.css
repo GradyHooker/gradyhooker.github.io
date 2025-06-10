@@ -820,7 +820,7 @@ table {
 /* MEDIA PAGE */
 .media-cont {
   height: 85px;
-  width: 400px;
+  width: 300px;
   margin: 9px;
   background: white;
   border-radius: 3px;
@@ -884,6 +884,9 @@ table {
   color: white;
   font-weight: 300;
   font-size: 0.95em; }
+
+.media-location {
+  padding-top: 2px; }
 
 .media-logo-cont-small a {
   width: 34px; }
@@ -1629,6 +1632,14 @@ table {
 @media screen and (max-width: 480px) {
   .pokedex .pokemon-display .split .types img {
     width: 90%; } }
+#main.puzzle {
+  width: 100% !important;
+  max-width: 350px !important; }
+
+#content.puzzle {
+  margin-top: 10px;
+  color: white; }
+
 #cssmenu ul {
   padding-left: 0;
   margin: 0;
