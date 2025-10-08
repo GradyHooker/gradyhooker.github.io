@@ -1,7 +1,7 @@
 - categories:
   - podcasts
   title: Wrestling Roundup
-  description: Professional Wrestling
+  description: Weekly WWE Recap
   logo: wrestling-roundup
   playlist: PLf_ZXfW98JX0RvJQ1UUBTcb9aBMhDAjoN
   links:
@@ -77,6 +77,17 @@
   - link: https://music.amazon.co.uk/podcasts/720b4054-09e9-4c48-8571-4a7ca12147f1
     image: icon-amazon-white
     text: Listen on Amazon Music
+    
+- categories:
+  - podcasts
+  title: Wrestling Interviews
+  description: People in the Wrestling sphere
+  logo: wrestling-interviews
+  playlist: PLf_ZXfW98JX3NwxeZ_PYQXWtqXeXn1ECi
+  links:
+  - link: https://www.youtube.com/playlist?list=PLf_ZXfW98JX3NwxeZ_PYQXWtqXeXn1ECi
+    image: icon-youtube-white
+    text: Watch more on YouTube
 
 - categories:
   - podcasts
