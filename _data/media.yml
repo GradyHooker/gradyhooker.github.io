@@ -1,3 +1,42 @@
+- name: pax-au-2025
+  categories:
+  - media
+  - media-conventions
+  logo: pax
+  date: Oct 2025
+  title: PAX Australia
+  country:
+    code: au
+    text: Australia
+    city: Melbourne
+  links:
+  - link: https://esportskingdom.gg/events/conventions/pax-aus-2025-after-event/
+    image: article
+    text: Event Recap Article
+  - link: https://www.youtube.com/watch?v=Jc5COgXK4JU
+    image: ify-nwadiwe
+    text: Interview with Ify Nwadiwe (Um, Actually)
+  - link: https://www.youtube.com/watch?v=GXGqrUhutKc
+    image: amelia-tyler
+    text: Interview with Amelia Tyler (Baldur's Gate 3)
+  - link: 
+    image: stormcloak-games
+    text: Adaptory (Stormcloak Games)
+
+- name: la-comiccon-2025
+  categories:
+  - media
+  - media-conventions
+  - media-international
+  logo: la-comiccon
+  date: Sep 2025
+  title: LA Comic Con
+  country:
+    code: us
+    text: United States
+    city: Los Angeles
+  links: []
+
 - name: iem-melbourne-2025
   categories:
   - media
