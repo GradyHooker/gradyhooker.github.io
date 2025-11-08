@@ -11,15 +11,12 @@
   - link: https://open.spotify.com/show/1RaS4qLOBiPQRQCTnIZClX
     image: icon-spotify-white
     text: Listen on Spotify
-  - link: https://podcasts.apple.com/us/podcast/wrestling-roundup/id663644512
-    image: icon-apple-white
-    text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWNjZXNzcmFkaW8ub3JnL3Jzcy5hc2h4P3BpZD04YjYxMWI0ZS0wN2Q2LTQwODItYTIwYi1iNDU0MjAwZGE2NDY
-    image: icon-google-white
-    text: Listen on Google Podcasts
-  - link: https://accessradio.org/ProgrammePage.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646
+#  - link: https://podcasts.apple.com/us/podcast/wrestling-roundup/id663644512
+#    image: icon-apple-white
+#    text: Listen on Apple Podcasts
+  - link: https://www.freefm.org.nz/Programmes/Details.aspx?PID=8b611b4e-07d6-4082-a20b-b454200da646
     image: icon-accessmedia-white
-    text: Listen on AccessMedia.nz
+    text: Listen on FreeFM
     
 - categories:
   - podcasts
@@ -48,9 +45,6 @@
   - link: https://podcasts.apple.com/nz/podcast/pizza-coffee-code-game-developers/id1531444819
     image: icon-apple-white
     text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3BpenphLWNvZmZlZS1jb2RlL2ZlZWQueG1s
-    image: icon-google-white
-    text: Listen on Google Podcasts
   - link: https://music.amazon.co.uk/podcasts/08bd3eec-01af-4982-8b16-b5bead156a05/
     image: icon-amazon-white
     text: Listen on Amazon Music
@@ -71,9 +65,6 @@
   - link: https://podcasts.apple.com/nz/podcast/medacast-medabots/id1542494735
     image: icon-apple-white
     text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L21lZGFjYXN0L2ZlZWQueG1s
-    image: icon-google-white
-    text: Listen on Google Podcasts
   - link: https://music.amazon.co.uk/podcasts/720b4054-09e9-4c48-8571-4a7ca12147f1
     image: icon-amazon-white
     text: Listen on Amazon Music
@@ -105,9 +96,6 @@
   - link: https://podcasts.apple.com/us/podcast/cult-potato-cult-classic-movies/id1597595573
     image: icon-apple-white
     text: Listen on Apple Podcasts
-  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2N1bHQtcG90YXRvL2ZlZWQueG1s
-    image: icon-google-white
-    text: Listen on Google Podcasts
   - link: https://music.amazon.co.uk/podcasts/d84a36c6-d125-4c82-9ae9-db309ad0447f
     image: icon-amazon-white
     text: Listen on Amazon Music
@@ -128,9 +116,6 @@
 #  - link: https://podcasts.apple.com/us/podcast/sacred-heart-stories-scrubs/id1597595594
 #    image: icon-apple-white
 #    text: Listen on Apple Podcasts
-#  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3NhY3JlZC1oZWFydC1zdG9yaWVzL2ZlZWQueG1s
-#    image: icon-google-white
-#    text: Listen on Google Podcasts
 #  - link: https://music.amazon.co.uk/podcasts/54b81131-91e2-4a8e-89e0-c836b4cdc8b6
 #    image: icon-amazon-white
 #    text: Listen on Amazon Music
@@ -151,9 +136,6 @@
 #  - link: https://podcasts.apple.com/nz/podcast/the-podcast-podcast-podcasters/id1531586839
 #    image: icon-apple-white
 #    text: Listen on Apple Podcasts
-#  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L3BvZGNhc3QtcG9kY2FzdC9mZWVkLnhtbA
-#    image: icon-google-white
-#    text: Listen on Google Podcasts
 #  - link: https://music.amazon.co.uk/podcasts/a6c1cc44-ff49-47cf-a331-8a87b3e4a2e6
 #    image: icon-amazon-white
 #    text: Listen on Amazon Music
@@ -174,9 +156,6 @@
 #  - link: https://podcasts.apple.com/nz/podcast/banana-etiquette-survivor/id1531445707
 #    image: icon-apple-white
 #    text: Listen on Apple Podcasts
-#  - link: https://podcasts.google.com/feed/aHR0cHM6Ly9jb250ZW50LmdyYWR5Lm56L2JhbmFuYS1ldGlxdWV0dGUvZmVlZC54bWw
-#    image: icon-google-white
-#    text: Listen on Google Podcasts
 #  - link: https://music.amazon.co.uk/podcasts/914564dc-4ae8-4002-a39f-7ec995c0bc6b/
 #    image: icon-amazon-white
 #    text: Listen on Amazon Music
