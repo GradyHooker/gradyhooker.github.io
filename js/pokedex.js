@@ -234,5 +234,54 @@ var pokemon = {
 		"weight": "4.0 kg / 8.8 lbs",
 		"location": "Seton Nossiter Park, Wellington, NZ",
 		"description": "I've visited this small waterfall so many times, but this time there was an extra surprise with a Sobble thinking about going for a swim in the pond below."
-	}
+	},
+	"067": {
+		"types": ["fighting"],
+		"height": "1.5 m / 4'11\"",
+		"weight": "70.5 kg / 155.4 lbs",
+		"location": "Epuni Community Hall, Lower Hutt, NZ",
+		"description": "Was attending CPW Aftermath 2022 and one of the featured wrestlers was this braggadocious Machoke, he did win his match."
+	},
+	"122": {
+		"types": ["psychic","fairy"],
+		"height": "1.3 m / 4'03\"",
+		"weight": "54.5 kg / 120.2 lbs",
+		"location": "Wellington National Library, Wellington, NZ",
+		"description": "I was asked to be the photographer for GGWP 2023, but I didn't expect one of the performers to be Mr. Mime."
+	},
+	"532": {
+		"types": ["fighting"],
+		"height": "0.6 m / 2'00\"",
+		"weight": "12.5 kg / 27.6 lbs",
+		"location": "Beach Haven, Auckland, NZ",
+		"description": "Going for a walk and my path was blocked as this Timburr was helping to rebuild the pedestrian bridge across the stream."
+	},
+	"761": {
+		"types": ["grass"],
+		"height": "0.3 m / 1'00\"",
+		"weight": "3.2 kg / 7.1 lbs",
+		"location": "Zaberri World, Auckland, NZ",
+		"description": "Got together with a few friends to go strawberry picking, but it wasn't get strawberries in the field as there were a bunch of Bounsweet around."
+	},
+	"781": {
+		"types": ["ghost","grass"],
+		"height": "3.9 m / 12'10\"",
+		"weight": "210.0 kg / 463.0 lbs",
+		"location": "Pirate's Cove Adventure Golf, Porirua, NZ",
+		"description": "We saw quite a few Pokemon while out minigolfing, but my favourite was this Dhelmise on the side of the ship."
+	},
+	"931": {
+		"types": ["normal","flying"],
+		"height": "0.6 m / 2'00\"",
+		"weight": "2.4 kg / 5.3 lbs",
+		"location": "Pirate's Cove Adventure Golf, Porirua, NZ",
+		"description": "There were many seagulls around us, but this Squawkabilly took me by surprise with it's bright green plumage, I also saw a blue one, but didn't get a photo."
+	},
+	"963": {
+		"types": ["water"],
+		"height": "1.3 m / 4'03\"",
+		"weight": "60.2 kg / 132.7 lbs",
+		"location": "Pirate's Cove Adventure Golf, Porirua, NZ",
+		"description": "This cute Finizen appeared to be posing for us, by splashing out of the water constantly. Made it suepr easy to get a good photo of it."
+	},
 }
