@@ -19,7 +19,7 @@
   - link: https://www.youtube.com/watch?v=GXGqrUhutKc
     image: amelia-tyler
     text: Interview with Amelia Tyler (Baldur's Gate 3)
-  - link: 
+  - link: https://www.youtube.com/watch?v=C0V5vKMrvlA
     image: stormcloak-games
     text: Adaptory (Stormcloak Games)
 
@@ -35,7 +35,10 @@
     code: us
     text: United States
     city: Los Angeles
-  links: []
+  links:
+  - link: https://www.youtube.com/watch?v=nEIldVRRJ3E
+    image: vlog
+    text: Event Recap Video
 
 - name: iem-melbourne-2025
   categories:

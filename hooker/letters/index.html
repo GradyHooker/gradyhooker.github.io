@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Archive</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #f4f1ea;
+            --text-color: #2c2c2c;
+            --accent: #5d4037;
+            --ui-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Toolbar */
+        .controls {
+            position: sticky;
+            top: 0;
+            background: var(--ui-bg);
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        button, select {
+            padding: 8px 12px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background: #fff;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button:hover { background: #eee; }
+
+        /* Letter Container */
+        .letter-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            min-height: 80vh;
+        }
+
+        .meta-data {
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .meta-field { font-weight: bold; color: var(--accent); }
+
+        /* Images */
+        .image-gallery {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .letter-thumb {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            cursor: zoom-in;
+            border: 1px solid #ddd;
+        }
+
+        /* Modals */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            max-width: 95%;
+            max-height: 95%;
+            object-fit: contain;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px; right: 20px;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .transcription {
+            white-space: pre-wrap;
+            margin-top: 20px;
+            font-size: 18px; /* Controlled by JS */
+        }
+
+        /* Mobile specific adjustments */
+        @media (max-width: 600px) {
+            .controls button { flex: 1 1 40%; }
+            .letter-container { margin: 10px; padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="controls">
+    <button id="prevBtn">← Previous</button>
+    <button id="nextBtn">Next →</button>
+    <select id="contentsMenu">
+        <option value="" disabled selected>Contents</option>
+    </select>
+    <button id="zoomIn">Text A+</button>
+    <button id="zoomOut">Text A-</button>
+    <button id="showTree">Show Tree</button>
+</div>
+
+<div class="letter-container" id="letterDisplay">
+    <div class="meta-data">
+        <div><span class="meta-field">Date:</span> <span id="dateText"></span></div>
+        <div><span class="meta-field">To:</span> <span id="toText"></span></div>
+        <div><span class="meta-field">From:</span> <span id="fromText"></span></div>
+    </div>
+
+    <div class="transcription" id="transcriptionText">
+        <em>No transcription available yet.</em>
+    </div>
+
+    <div class="image-gallery" id="imageGallery"></div>
+</div>
+
+<div class="modal" id="modalOverlay">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+// Sample Data Structure
+const letters = [
+    {
+        title: "Stephen Hooker (1779) to his wife Frances (Gorringe)",
+        date: "1828, July 19",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["1.jpg"]
+    },
+    {
+        title: "D.F.Corke to his cousin Frances (Gorringe)",
+        date: "1831, September 27",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["2.jpg"]
+    },
+    {
+        title: "Stephen to his daughter Mary who was teaching in Boulogne",
+        date: "1832, October 16",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["3.1.jpg","3.2.jpg"]
+    },
+    {
+        title: "Frances and Stephen to their daughter Mary",
+        date: "1833, February 4",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["4.1.jpg","4.2.jpg"]
+    },
+    {
+        title: "Mary to Mother and Father",
+        date: "1833, May 11",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["5.1.jpg","5.2.jpg","5.3.jpg"]
+    },
+    {
+        title: "Stephen to Mary in France",
+        date: "1833, June 12",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["6.jpg"]
+    },
+    {
+        title: "Stephen to Mary in France",
+        date: "1833, September 9",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["7.jpg"]
+    },
+    {
+        title: "Mary to Mother about returning home",
+        date: "1833, October 9",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["8.1.jpg","8.2.jpg"]
+    },
+    {
+        title: "Stephen to Mary to tell her of her cousin's accident",
+        date: "1833, November 18",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["9.jpg"]
+    },
+    {
+        title: "Mary to Father",
+        date: "1833, November 25",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["10.1.jpg","10.2.jpg"]
+    },
+    {
+        title: "Stephen to Mary arrangement for her return",
+        date: "1833, December 11",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["11.jpg"]
+    },
+    {
+        title: "Mary to Father preparing for the journey",
+        date: "1833, December 15",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["12.1.jpg","12.2.jpg"]
+    },
+    {
+        title: "Stephen to Mary arrangements for meeting her at Dover",
+        date: "1834, January 11",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["13.jpg"]
+    },
+    {
+        title: "Mary to Father, she is now teaching in England",
+        date: "1838, February 21",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["14.jpg"]
+    },
+    {
+        title: "Mary to Father, for her birthday",
+        date: "1838, February 23",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["15.jpg"]
+    },
+    {
+        title: "Stephen to Mary",
+        date: "1856, September 11",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["16.jpg"]
+    },
+    {
+        title: "Stephen to Mary",
+        date: "1857, July 4",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["17.jpg"]
+    },
+    {
+        title: "Stephen to Mary",
+        date: "1857, September 13",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["18.jpg"]
+    },
+    {
+        title: "Charlotte Young to sister Julia as she was about to embark",
+        date: "",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["19.jpg"]
+    },
+    {
+        title: "Frances (b.USA) to Aunt Julia",
+        date: "1859, Janaury",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["20.1.jpg","20.2.jpg"]
+    },
+    {
+        title: "No Description",
+        date: "1859, Janaury 26",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["21.jpg"]
+    },
+    {
+        title: "Chardy to Julia wishing her happiness",
+        date: "1860, February 26",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["22.jpg"]
+    },
+    {
+        title: "Chardy to Julia about having a baby",
+        date: "1860, August 23",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["23.1.jpg","23.2.jpg"]
+    },
+    {
+        title: "Charlotte to Julia awaiting arrival of baby",
+        date: "1860, December 24",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["24.1.jpg","24.2.jpg"]
+    },
+    {
+        title: "Stephen b.1817 to sister Julia. Unhappy with Louisa",
+        date: "1861, March 26",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["25.jpg"]
+    },
+    {
+        title: "Frances to Aunt Julia with condolences",
+        date: "1861, August",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["26.jpg"]
+    },
+    {
+        title: "Charlotte to Julia with condolences",
+        date: "1861, August 5",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["27.jpg"]
+    },
+    {
+        title: "Charlotte to Cardy hoping Julia has recovered",
+        date: "1861, September 20",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["28.jpg"]
+    },
+    {
+        title: "Frances to Aunt Julia",
+        date: "1861, October 7",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["29.jpg"]
+    },
+    {
+        title: "Chardy to Julia, I am expecting to be confined again",
+        date: "1862, January 1",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["30.1.jpg","30.2.jpg"]
+    },
+    {
+        title: "Frank to Julia, Chardy safely confined",
+        date: "1862, February 17",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["31.jpg"]
+    },
+    {
+        title: "Charlotte to Mamma, Frances engaged to John Soppet",
+        date: "1862, August 8",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["32.jpg"]
+    },
+    {
+        title: "Chardy to Julia, feel I may not live 3 months",
+        date: "1862, December 30",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["33.jpg"]
+    },
+    {
+        title: "Stephen to Julia",
+        date: "1863, June 1",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["34.jpg"]
+    },
+    {
+        title: "Frances Soppet to Grandmamma, Frank Young remarried",
+        date: "1864, October 31",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["35.jpg"]
+    },
+    {
+        title: "Stephen to Mother",
+        date: "1865, August 7",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["36.jpg"]
+    },
+    {
+        title: "Stephen to Mother, Lavinia is married",
+        date: "1868, September 2",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["37.1.jpg","37.2.jpg"]
+    },
+    {
+        title: "Stephen to Mother, Frances has two girls and a boy",
+        date: "1868, December 2",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["38.jpg"]
+    },
+    {
+        title: "Frances to Grandmother (Partial)",
+        date: "1869, December",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["39.2.jpg"]
+    },
+    {
+        title: "John Marshall Hooker to Julia",
+        date: "1894, April 8",
+        to: "",
+        from: "",
+        transcription: "",
+        images: ["40.jpg"]
+    },
+];
+
+let currentIndex = 0;
+let currentFontSize = 18;
+
+function renderLetter(index) {
+    const letter = letters[index];
+    $('#dateText').text(letter.date);
+    $('#toText').text(letter.to);
+    $('#fromText').text(letter.from);
+    $('#transcriptionText').text(letter.transcription || "Transcription coming soon.");
+    
+    // Render Images
+    $('#imageGallery').empty();
+    letter.images.forEach(imgSrc => {
+        $('#imageGallery').append(`<img src="${imgSrc}" class="letter-thumb" onclick="openZoom('${imgSrc}')">`);
+    });
+}
+
+function openZoom(src) {
+    $('#modalImg').attr('src', src);
+    $('#modalOverlay').css('display', 'flex');
+}
+
+$(document).ready(function() {
+    // Populate Contents
+    letters.forEach((l, i) => {
+        $('#contentsMenu').append(`<option value="${i}">${l.title}</option>`);
+    });
+
+    renderLetter(currentIndex);
+
+    // Navigation
+    $('#nextBtn').click(() => {
+        if(currentIndex < letters.length - 1) {
+            currentIndex++;
+            renderLetter(currentIndex);
+        }
+    });
+
+    $('#prevBtn').click(() => {
+        if(currentIndex > 0) {
+            currentIndex--;
+            renderLetter(currentIndex);
+        }
+    });
+
+    $('#contentsMenu').change(function() {
+        currentIndex = parseInt($(this).val());
+        renderLetter(currentIndex);
+    });
+
+    // Font Controls
+    $('#zoomIn').click(() => {
+        currentFontSize += 2;
+        $('#transcriptionText').css('font-size', currentFontSize + 'px');
+    });
+
+    $('#zoomOut').click(() => {
+        if(currentFontSize > 12) {
+            currentFontSize -= 2;
+            $('#transcriptionText').css('font-size', currentFontSize + 'px');
+        }
+    });
+
+    // Modal Control
+    $('.close-modal, #modalOverlay').click(() => {
+        $('#modalOverlay').hide();
+    });
+
+    // Tree Image (Placeholder)
+    $('#showTree').click(() => {
+        openZoom('tree.jpg');
+    });
+});
+</script>
+
+</body>
+</html>
