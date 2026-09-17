@@ -40,312 +40,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#cssmenu ul {
-  padding-left: 0;
-  margin: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  #cssmenu ul li {
-    margin: 0;
-    border: 0;
-    list-style: none;
-    line-height: 1;
-    display: block;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    #cssmenu ul li a {
-      margin: 0;
-      border: 0;
-      list-style: none;
-      line-height: 1;
-      display: block;
-      position: relative;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-  #cssmenu ul ul {
-    position: absolute;
-    left: -9999px; }
-    #cssmenu ul ul li {
-      min-height: 0px;
-      max-height: 0px;
-      -webkit-transition: all .3s ease;
-      -moz-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-      -o-transition: all .3s ease;
-      transition: all .3s ease; }
-      #cssmenu ul ul li a {
-        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-        padding: 11px 15px;
-        width: 170px;
-        font-size: 16px;
-        text-decoration: none;
-        color: #464646;
-        font-weight: 400;
-        background: #e7e7e7; }
-        #cssmenu ul ul li a:hover {
-          color: #222222; }
-      #cssmenu ul ul li:last-child > a {
-        border-bottom: 0; }
-      #cssmenu ul ul li:hover > a {
-        color: #222222; }
-    #cssmenu ul ul ul {
-      margin-left: 100%;
-      top: 0; }
-    #cssmenu ul ul li.last-item > a {
-      border-bottom: 0; }
-    #cssmenu ul ul li.has-sub > a:after {
-      position: absolute;
-      top: 16px;
-      right: 11px;
-      width: 8px;
-      height: 2px;
-      display: block;
-      background: #464646;
-      content: ''; }
-    #cssmenu ul ul li.has-sub > a:before {
-      position: absolute;
-      top: 13px;
-      right: 14px;
-      display: block;
-      width: 2px;
-      height: 8px;
-      background: #464646;
-      content: '';
-      -webkit-transition: all .25s ease;
-      -moz-transition: all .25s ease;
-      -ms-transition: all .25s ease;
-      -o-transition: all .25s ease;
-      transition: all .25s ease; }
-#cssmenu #menu-button {
-  margin: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: none;
-  height: 100%; }
-  #cssmenu #menu-button .menu-icon {
-    width: 24px;
-    text-align: center;
-    padding-bottom: 2px; }
-#cssmenu:after {
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0; }
-#cssmenu > ul:after {
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0; }
-#cssmenu > ul > li {
-  float: left; }
-  #cssmenu > ul > li > ul > li > ul > li {
-    overflow: hidden; }
-    #cssmenu > ul > li > ul > li > ul > li > a > img {
-      height: 60px;
-      position: absolute;
-      right: 4px;
-      top: 0px;
-      padding-top: 4px;
-      opacity: 0.8; }
-  #cssmenu > ul > li > a {
-    padding: 17px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: #464646;
-    font-weight: 700;
-    text-transform: uppercase; }
-  #cssmenu > ul > li:hover > a {
-    color: #222222; }
-#cssmenu > ul > li.has-sub > a {
-  padding-right: 30px; }
-  #cssmenu > ul > li.has-sub > a:after {
-    position: absolute;
-    top: 22px;
-    right: 11px;
-    width: 8px;
-    height: 2px;
-    display: block;
-    background: #464646;
-    content: ''; }
-  #cssmenu > ul > li.has-sub > a:before {
-    position: absolute;
-    top: 19px;
-    right: 14px;
-    display: block;
-    width: 2px;
-    height: 8px;
-    background: #464646;
-    content: '';
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-
-#cssmenu.align-center > ul {
-  font-size: 0;
-  text-align: center; }
-  #cssmenu.align-center > ul > li {
-    display: inline-block;
-    float: none; }
-#cssmenu.align-center ul ul {
-  text-align: left; }
-
-#cssmenu.align-right > ul > li {
-  float: right; }
-#cssmenu.align-right ul ul {
-  text-align: right; }
-  #cssmenu.align-right ul ul ul {
-    margin-left: 0;
-    margin-right: 100%; }
-  #cssmenu.align-right ul ul li.has-sub > a:after {
-    right: auto;
-    left: 11px; }
-  #cssmenu.align-right ul ul li.has-sub > a:before {
-    right: auto;
-    left: 14px; }
-
-@media screen and (min-width: 768px) {
-  #cssmenu > ul > li.has-sub:hover > a:before {
-    top: 23px;
-    height: 0; }
-  #cssmenu li:hover > ul {
-    left: auto; }
-    #cssmenu li:hover > ul > li {
-      min-height: 35px;
-      max-height: 70px; }
-  #cssmenu ul ul > li.has-sub:hover > a:before {
-    top: 17px;
-    height: 0; }
-
-  #cssmenu.align-right li:hover > ul {
-    left: auto;
-    right: 0; } }
-@media screen and (max-width: 768px) {
-  #cssmenu {
-    width: calc(100% - 40px); }
-    #cssmenu ul {
-      width: 100%;
-      display: none; }
-      #cssmenu ul li {
-        width: 100%;
-        border-top: 1px solid rgba(120, 120, 120, 0.2); }
-        #cssmenu ul li a {
-          width: 100%;
-          border-bottom: 0; }
-      #cssmenu ul ul {
-        position: relative;
-        left: 0;
-        width: 100%;
-        margin: 0;
-        text-align: left; }
-        #cssmenu ul ul li {
-          height: auto;
-          max-height: 9999px; }
-          #cssmenu ul ul li a {
-            width: 100%;
-            border-bottom: 0;
-            padding-left: 25px;
-            color: #464646;
-            background: none; }
-          #cssmenu ul ul li:hover > a {
-            color: #222222; }
-        #cssmenu ul ul ul {
-          position: relative;
-          left: 0;
-          width: 100%;
-          margin: 0;
-          text-align: left; }
-          #cssmenu ul ul ul li a {
-            padding-left: 35px; }
-        #cssmenu ul ul li.active > a {
-          color: #222222; }
-        #cssmenu ul ul > li.has-sub > a:after {
-          display: none; }
-        #cssmenu ul ul > li.has-sub > a:before {
-          display: none; }
-        #cssmenu ul ul .submenu-button {
-          height: 38px;
-          width: 38px; }
-          #cssmenu ul ul .submenu-button:after {
-            top: 15px;
-            right: 13px; }
-    #cssmenu li:hover > ul > li {
-      height: auto;
-      max-height: 9999px; }
-    #cssmenu > ul > li {
-      float: none; }
-    #cssmenu > ul > li.has-sub > a:after {
-      display: none; }
-    #cssmenu > ul > li.has-sub > a:before {
-      display: none; }
-    #cssmenu #menu-button {
-      display: flex;
-      align-items: center;
-      color: #464646;
-      cursor: pointer;
-      font-size: 16px;
-      text-transform: uppercase;
-      font-weight: 700; }
-    #cssmenu .submenu-button {
-      position: absolute;
-      z-index: 99;
-      right: 0;
-      top: 0;
-      display: block;
-      border-left: 1px solid rgba(120, 120, 120, 0.2);
-      height: 50px;
-      width: 50px;
-      cursor: pointer;
-      color: #464646;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      #cssmenu .submenu-button:before {
-        font-family: 'Font Awesome\ 5 Free';
-        font-weight: 900;
-        content: "\f067"; }
-    #cssmenu .submenu-button.submenu-opened:after {
-      background: #222222; }
-    #cssmenu .submenu-button.submenu-opened:before {
-      font-family: 'Font Awesome\ 5 Free';
-      content: "\f068"; }
-
-  #cssmenu.align-center > ul {
-    text-align: left; }
-
-  #cssmenu.align-right ul ul {
-    position: relative;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    text-align: left; }
-
-  #menu-button .menu-icon:before {
-    font-family: 'Font Awesome\ 5 Free';
-    content: "\f0c9"; }
-
-  #menu-button.menu-opened .menu-icon:before {
-    font-family: 'Font Awesome\ 5 Free';
-    content: "\f00d"; } }
 /*!
  * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
  */
@@ -1126,7 +820,7 @@ table {
 /* MEDIA PAGE */
 .media-cont {
   height: 85px;
-  width: 400px;
+  width: 300px;
   margin: 9px;
   background: white;
   border-radius: 3px;
@@ -1191,6 +885,9 @@ table {
   font-weight: 300;
   font-size: 0.95em; }
 
+.media-location {
+  padding-top: 2px; }
+
 .media-logo-cont-small a {
   width: 34px; }
 
@@ -1232,6 +929,9 @@ table {
   font-size: 1.2em;
   line-height: 1.2em;
   padding-bottom: 10px; }
+  .praise-info i {
+    font-size: 0.8em;
+    color: white; }
 
 .praise-image img {
   width: 100px;
@@ -1246,6 +946,179 @@ table {
 
 .praise-text {
   text-align: center; }
+
+/* ORGS PAGE */
+.org-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; }
+
+.orgs-table {
+  width: 100%;
+  max-width: 423px;
+  margin: 5px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #595959;
+  background: #383838;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4);
+  font-size: 0.8em; }
+  .orgs-table a {
+    color: white;
+    text-decoration: underline dotted; }
+  .orgs-table img.logo {
+    height: 100%;
+    max-height: 130px; }
+  .orgs-table td, .orgs-table th {
+    border: 1px solid white;
+    vertical-align: middle;
+    padding: 4px;
+    height: 25px; }
+    .orgs-table td.medium, .orgs-table th.medium {
+      height: 16px; }
+    .orgs-table td.skinny, .orgs-table th.skinny {
+      height: auto;
+      font-size: 0.9em;
+      padding: 2px 4px; }
+    .orgs-table td .header, .orgs-table th .header {
+      font-size: 2em; }
+    .orgs-table td .subtitle, .orgs-table th .subtitle {
+      margin-top: 2px; }
+      .orgs-table td .subtitle img, .orgs-table th .subtitle img {
+        height: 10px;
+        width: 10px; }
+    .orgs-table td .hoverable, .orgs-table th .hoverable {
+      text-decoration: dotted underline;
+      cursor: help; }
+    .orgs-table td .crossout, .orgs-table th .crossout {
+      text-decoration: dotted underline line-through; }
+  .orgs-table td {
+    height: 32px; }
+  .orgs-table .bold, .orgs-table th {
+    font-weight: bold; }
+  .orgs-table .blank {
+    background: rgba(85, 85, 85, 0.7); }
+  .orgs-table .feilong {
+    background: rgba(10, 165, 8, 0.7); }
+  .orgs-table .zhanhu {
+    background: rgba(214, 36, 36, 0.7); }
+  .orgs-table .kasama {
+    background: rgba(255, 120, 36, 0.7); }
+  .orgs-table .novote {
+    background: rgba(136, 136, 136, 0.7); }
+  .orgs-table .anand {
+    background: rgba(153, 57, 85, 0.7); }
+  .orgs-table .macha {
+    background: rgba(75, 84, 59, 0.7); }
+  .orgs-table .morrigan {
+    background: rgba(167, 207, 217, 0.7); }
+  .orgs-table .ikeda {
+    background: rgba(220, 178, 243, 0.7); }
+  .orgs-table .ikigai {
+    background: rgba(255, 177, 183, 0.7); }
+  .orgs-table .amantani {
+    background: rgba(232, 214, 49, 0.7); }
+  .orgs-table .taquile {
+    background: rgba(235, 109, 61, 0.7); }
+  .orgs-table .pukara {
+    background: rgba(188, 56, 79, 0.7); }
+  .orgs-table .killa {
+    background: rgba(67, 185, 115, 0.7); }
+  .orgs-table .dolce {
+    background: rgba(237, 225, 89, 0.7); }
+  .orgs-table .upa {
+    background: rgba(174, 249, 231, 0.7); }
+  .orgs-table .jednota {
+    background: rgba(132, 135, 210, 0.7); }
+  .orgs-table .cutuchi {
+    background: rgba(92, 120, 153, 0.7); }
+  .orgs-table .alaquez {
+    background: rgba(155, 209, 155, 0.7); }
+  .orgs-table .cotopaxi {
+    background: rgba(203, 73, 165, 0.7); }
+  .orgs-table .rookies {
+    background: rgba(77, 77, 255, 0.5); }
+  .orgs-table .wcw {
+    background: rgba(137, 11, 206, 0.7); }
+  .orgs-table .nxt {
+    background: rgba(194, 124, 14, 0.7); }
+  .orgs-table .nwa {
+    background: rgba(50, 98, 255, 0.7); }
+  .orgs-table .yaha {
+    background: rgba(26, 124, 3, 0.7); }
+  .orgs-table .swen {
+    background: rgba(17, 78, 196, 0.7); }
+  .orgs-table .durmus {
+    background: rgba(168, 213, 186, 0.7); }
+  .orgs-table .olum {
+    background: rgba(157, 115, 185, 0.7); }
+  .orgs-table .welchia {
+    background: rgba(136, 90, 35, 0.7); }
+  .orgs-table .mydoom {
+    background: rgba(119, 180, 228, 0.7); }
+  .orgs-table .abraxas {
+    background: rgba(148, 146, 146, 0.7); }
+  .orgs-table .viveremori {
+    background: rgba(240, 167, 41, 0.7); }
+  .orgs-table .trojanwhores {
+    background: rgba(31, 224, 154, 0.6); }
+  .orgs-table .futeki {
+    background: rgba(237, 151, 202, 0.7); }
+  .orgs-table .tsuyoi {
+    background: rgba(21, 27, 38, 0.7); }
+  .orgs-table .hayai {
+    background: rgba(56, 161, 49, 0.7); }
+  .orgs-table .koumyou {
+    background: rgba(123, 88, 81, 0.7); }
+  .orgs-table .tozansha {
+    background: rgba(255, 184, 245, 0.7); }
+  .orgs-table .danketsu {
+    background: rgba(221, 228, 228, 0.7); }
+  .orgs-table .striata {
+    background: rgba(255, 141, 141, 0.7); }
+  .orgs-table .enkvir {
+    background: rgba(176, 185, 173, 0.7); }
+  .orgs-table .elysian {
+    background: rgba(224, 208, 254, 0.7); }
+  .orgs-table .tirama {
+    background: rgba(185, 230, 169, 0.7); }
+  .orgs-table .aranui {
+    background: rgba(200, 199, 243, 0.7); }
+  .orgs-table .team2 {
+    background: rgba(137, 0, 255, 0.5); }
+  .orgs-table .gradykevin {
+    background: rgba(237, 18, 28, 0.5); }
+  .orgs-table .limeteam {
+    background: rgba(190, 255, 0, 0.5); }
+  .orgs-table.orgs-table-challenge tr td:nth-child(1), .orgs-table.orgs-table-challenge tr th:nth-child(1) {
+    width: 16%; }
+  .orgs-table.orgs-table-challenge tr td:nth-child(2), .orgs-table.orgs-table-challenge tr th:nth-child(2) {
+    width: 42%; }
+  .orgs-table.orgs-table-challenge tr td:nth-child(3), .orgs-table.orgs-table-challenge tr th:nth-child(3) {
+    width: 42%; }
+  .orgs-table tr td:nth-child(1), .orgs-table tr th:nth-child(1) {
+    width: 16%; }
+  .orgs-table tr td:nth-child(2), .orgs-table tr th:nth-child(2) {
+    width: 18%; }
+  .orgs-table tr td:nth-child(3), .orgs-table tr th:nth-child(3) {
+    width: 18%; }
+  .orgs-table tr td:nth-child(4), .orgs-table tr th:nth-child(4) {
+    width: 40%; }
+  .orgs-table .challenge {
+    text-align: left; }
+  .orgs-table tr td:nth-child(4), .orgs-table tr th:nth-child(5) {
+    width: 8%; }
+  .orgs-table .advantage div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center; }
 
 .carousel-cont {
   width: 100%;
@@ -1457,14 +1330,43 @@ table {
         font-size: 4em;
         justify-content: space-between;
         height: 100%;
-        align-items: center; }
+        align-items: center;
+        pointer-events: none; }
         .photocarousel-cont .photocarousel .controls .pagination .pagination__button {
-          cursor: pointer; }
+          cursor: pointer;
+          pointer-events: auto; }
 
+@media screen and (max-width: 768px) {
+  .pagination {
+    display: none !important; }
+
+  .captions {
+    font-size: 0.8em; }
+
+  .photocarousel .slides .slick-slide {
+    height: calc(100vh - 110px) !important; }
+    .photocarousel .slides .slick-slide img {
+      max-height: calc(100vh - 110px) !important; } }
+@media screen and (max-width: 480px) {
+  .photocarousel .slides .slick-slide {
+    height: calc(100vh - 150px) !important; }
+    .photocarousel .slides .slick-slide img {
+      max-height: calc(100vh - 150px) !important; } }
 .fight-record h1 {
   color: white;
   font-size: 1.5em;
   margin-bottom: 0.5em; }
+.fight-record .key {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 20px;
+  opacity: 0.6; }
+  .fight-record .key div {
+    display: flex;
+    align-items: center; }
+    .fight-record .key div img {
+      padding-right: 5px; }
 .fight-record .table {
   width: 100%;
   display: flex;
@@ -1474,116 +1376,637 @@ table {
   background: #383838;
   color: white;
   box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.4); }
-  .fight-record .table .row {
-    height: 60px;
+  .fight-record .table .tournament.grey, .fight-record .table .tournament:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.1); }
+  .fight-record .table .tournament .row {
+    height: 30px;
     width: 100%;
     display: flex;
     flex-direction: row;
     padding-bottom: 5px;
     padding-top: 5px; }
-    .fight-record .table .row.grey {
-      background: rgba(255, 255, 255, 0.1); }
-    .fight-record .table .row > * {
+    .fight-record .table .tournament .row > * {
       padding-left: 5px;
       padding-right: 5px;
       display: flex; }
-    .fight-record .table .row div:nth-child(1) {
-      width: 80px;
+    .fight-record .table .tournament .row div:nth-child(1) {
+      justify-content: center;
+      align-content: center;
+      width: 20px;
+      height: 100%;
+      text-align: center;
+      flex-direction: column; }
+      .fight-record .table .tournament .row div:nth-child(1) img {
+        height: 24px;
+        width: 20px; }
+    .fight-record .table .tournament .row div:nth-child(2) {
+      width: 40px;
       align-items: center;
       justify-content: center; }
-      .fight-record .table .row div:nth-child(1) img {
-        max-width: 80px;
-        max-height: 60px; }
-    .fight-record .table .row div:nth-child(2) {
-      width: 260px;
-      display: flex;
+      .fight-record .table .tournament .row div:nth-child(2) img {
+        max-width: 40px;
+        max-height: 30px; }
+    .fight-record .table .tournament .row div:nth-child(3) {
+      width: 290px;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center; }
-      .fight-record .table .row div:nth-child(2) span {
+      .fight-record .table .tournament .row div:nth-child(3) span {
         font-size: 0.8em; }
-        .fight-record .table .row div:nth-child(2) span:nth-child(1) {
+        .fight-record .table .tournament .row div:nth-child(3) span:nth-child(1) {
           font-size: 1em;
           font-weight: bold;
           text-align: left; }
-    .fight-record .table .row div:nth-child(3) {
-      width: 60px;
+    .fight-record .table .tournament .row div:nth-child(4) {
+      width: 30px;
       align-items: center;
       justify-content: center; }
-      .fight-record .table .row div:nth-child(3) img {
-        max-width: 60px;
-        max-height: 60px; }
-    .fight-record .table .row div:nth-child(4) {
+      .fight-record .table .tournament .row div:nth-child(4) img {
+        max-width: 30px;
+        max-height: 30px; }
+    .fight-record .table .tournament .row div:nth-child(5) {
       width: 140px;
       align-items: center;
       justify-content: center; }
-    .fight-record .table .row div:nth-child(5) {
-      width: 65px;
+    .fight-record .table .tournament .row div:nth-child(6) {
+      width: 85px;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       text-align: center;
-      flex-direction: column; }
-      .fight-record .table .row div:nth-child(5) .win, .fight-record .table .row div:nth-child(5) .loss {
-        width: 60px;
+      flex-direction: row; }
+      .fight-record .table .tournament .row div:nth-child(6) .win, .fight-record .table .tournament .row div:nth-child(6) .loss, .fight-record .table .tournament .row div:nth-child(6) .draw {
+        width: 85px;
         padding: 2px;
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center; }
-        .fight-record .table .row div:nth-child(5) .win .sup, .fight-record .table .row div:nth-child(5) .loss .sup {
+        .fight-record .table .tournament .row div:nth-child(6) .win .sup, .fight-record .table .tournament .row div:nth-child(6) .loss .sup, .fight-record .table .tournament .row div:nth-child(6) .draw .sup {
           font-size: 0.65em;
           padding-left: 3px; }
-      .fight-record .table .row div:nth-child(5) .win {
+      .fight-record .table .tournament .row div:nth-child(6) .win {
         background: #77ff77;
         color: black; }
-      .fight-record .table .row div:nth-child(5) .loss {
+      .fight-record .table .tournament .row div:nth-child(6) .loss {
         background: #ffaaaa;
         color: black; }
+      .fight-record .table .tournament .row div:nth-child(6) .draw {
+        background: #FFFFAA;
+        color: black; }
+    .fight-record .table .tournament .row div:nth-child(7) {
+      justify-content: center;
+      align-content: center;
+      width: 20px;
+      height: 100%;
+      text-align: center;
+      flex-direction: column; }
+      .fight-record .table .tournament .row div:nth-child(7) img {
+        width: 16px;
+        height: 16px; }
 
 @media screen and (max-width: 768px) {
-  .fight-record .table .row div:nth-child(3) {
+  .fight-record .table .row div:nth-child(4) {
     display: none; }
 
-  .fight-record .table .row div:nth-child(2) {
-    width: 150px; } }
+  .fight-record .table .row div:nth-child(3) {
+    width: 150px !important; }
+
+  .fight-record .table .row div:nth-child(3) span:nth-child(2) {
+    display: none; } }
 @media screen and (max-width: 600px) {
-  .fight-record .table .row div:nth-child(1) {
-    width: 60px; }
+  .key {
+    flex-wrap: wrap;
+    align-items: center !important;
+    justify-content: center !important; }
+    .key div {
+      padding: 0px 10px; }
 
-  .fight-record .table .row div:nth-child(1) img {
-    max-width: 60px;
-    max-height: 60px; }
-
-  .fight-record .table .row div:nth-child(4) {
-    width: 70px; }
+  .fight-record .table .row div:nth-child(2) {
+    display: none; }
 
   .fight-record .table .row div:nth-child(5) {
-    width: 35px; }
+    width: 90px !important; }
 
-  .fight-record .table .row div:nth-child(5) .win,
-  .fight-record .table .row div:nth-child(5) .loss {
-    width: 30px;
-    color: transparent; } }
+  .fight-record .table .row div:nth-child(6) {
+    width: 45px !important; }
+
+  .fight-record .table .row div:nth-child(6) .win,
+  .fight-record .table .row div:nth-child(6) .loss {
+    width: 45px !important;
+    color: transparent !important; }
+
+  .table {
+    align-self: center;
+    margin: 0 auto;
+    width: 380px !important; } }
 @media screen and (max-width: 400px) {
   .fight-record .table .row div:nth-child(1) {
     display: none; }
 
-  .fight-record .table .row div:nth-child(5) {
-    width: 20px; }
-
-  .fight-record .table .row div:nth-child(5) .win,
-  .fight-record .table .row div:nth-child(5) .loss {
-    width: 15px; } }
-@media screen and (max-width: 300px) {
   .fight-record .table {
     font-size: 0.85em; }
 
-  .fight-record .table .row div:nth-child(2) {
-    width: 120px; }
+  .fight-record .table .row div:nth-child(3) {
+    width: 120px !important; }
 
-  .fight-record .table .row div:nth-child(4) {
-    width: 60px; } }
+  .fight-record .table .row div:nth-child(5) {
+    width: 70px !important; }
+
+  .table {
+    width: 300px !important; } }
+@font-face {
+  font-family: '04b03';
+  src: url("/fonts/04b03.ttf.woff") format("woff"), url("/fonts/04b03.ttf.svg#04b03") format("svg"), url("/fonts/04b03.ttf.eot"), url("/fonts/04b03.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+.pokedex {
+  max-width: 700px;
+  width: 100%;
+  height: 655px;
+  background: #EEE;
+  display: flex;
+  background-image: url("/assets/background-grid.png");
+  padding: 12px; }
+  .pokedex .pokemon-display {
+    width: 65%;
+    height: calc(100% - 10px);
+    font-family: '04b03';
+    text-align: left;
+    margin: 10px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column; }
+    .pokedex .pokemon-display .big-photo {
+      width: 100%; }
+    .pokedex .pokemon-display .types img {
+      width: 40%;
+      padding: 0px 2px; }
+    .pokedex .pokemon-display .split {
+      display: flex;
+      width: 100%;
+      margin: 10px 0px;
+      text-align: center;
+      display: flex;
+      align-items: center; }
+      .pokedex .pokemon-display .split .types {
+        width: 50%;
+        flex-shrink: 0; }
+      .pokedex .pokemon-display .split .details {
+        width: 100%;
+        text-align: right;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 2px 5px;
+        margin-bottom: 0px !important; }
+    .pokedex .pokemon-display .description {
+      height: 100%; }
+    .pokedex .pokemon-display .border {
+      margin-bottom: 10px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 8px 16px !important;
+      text-align: left;
+      background: white;
+      box-shadow: inset -10px 0px 0px 0px #9030e9, inset 10px 0px 0px 0px #9030e9, inset 10px 0 0 2px #c09fe9, inset -10px 0 0 2px #c09fe9; }
+  .pokedex .scroller {
+    width: 35%;
+    height: calc(100% - 24px);
+    margin: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'VT323';
+    font-size: 1.5em;
+    background: #f8f8f8;
+    z-index: 10; }
+    .pokedex .scroller .poke-item {
+      scroll-snap-align: start;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      cursor: pointer;
+      position: relative; }
+      .pokedex .scroller .poke-item.selected {
+        background: #ddd4e9; }
+      .pokedex .scroller .poke-item:hover:before {
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        border-radius: 10px;
+        border: 1px solid white;
+        box-shadow: inset 0 0 0 2px #9030e9, inset 0 0 0 3px white;
+        position: absolute;
+        top: -1px;
+        left: -2px;
+        z-index: 100; }
+      .pokedex .scroller .poke-item img {
+        padding: 2px;
+        height: 32px;
+        width: 32px;
+        background: #9230e9;
+        border-right: 2px solid #c09fe9; }
+      .pokedex .scroller .poke-item div:nth-child(2) {
+        padding: 0px 10px; }
+
+@media screen and (max-width: 950px) {
+  .pokedex .pokemon-display .split .types {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .pokedex .pokemon-display .split .types img {
+      width: 50%; } }
+@media screen and (max-width: 820px) {
+  .pokedex .scroller {
+    min-width: 160px; }
+    .pokedex .scroller .poke-item div:nth-child(2) {
+      display: none; }
+    .pokedex .scroller .poke-item div:nth-child(3) {
+      padding-left: 5px; } }
+@media screen and (max-width: 600px) {
+  .pokedex {
+    font-size: 0.8em;
+    height: 100%; } }
+@media screen and (max-width: 480px) {
+  .pokedex .pokemon-display .split .types img {
+    width: 90%; } }
+#main.puzzle {
+  width: 100% !important;
+  max-width: 350px !important; }
+
+#content.puzzle {
+  margin-top: 10px;
+  color: white; }
+
+#cssmenu ul {
+  padding-left: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  #cssmenu ul li {
+    margin: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    #cssmenu ul li a {
+      margin: 0;
+      border: 0;
+      list-style: none;
+      line-height: 1;
+      display: block;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+  #cssmenu ul ul {
+    position: absolute;
+    left: -9999px; }
+    #cssmenu ul ul li {
+      min-height: 0px;
+      max-height: 0px;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      #cssmenu ul ul li a {
+        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+        padding: 11px 15px;
+        width: 170px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #464646;
+        font-weight: 400;
+        background: #e7e7e7; }
+        #cssmenu ul ul li a:hover {
+          color: #222222; }
+      #cssmenu ul ul li:last-child > a {
+        border-bottom: 0; }
+      #cssmenu ul ul li:hover > a {
+        color: #222222; }
+    #cssmenu ul ul ul {
+      margin-left: 100%;
+      top: 0; }
+    #cssmenu ul ul li.last-item > a {
+      border-bottom: 0; }
+    #cssmenu ul ul li.has-sub > a:after {
+      position: absolute;
+      top: 16px;
+      right: 11px;
+      width: 8px;
+      height: 2px;
+      display: block;
+      background: #464646;
+      content: ''; }
+    #cssmenu ul ul li.has-sub > a:before {
+      position: absolute;
+      top: 13px;
+      right: 14px;
+      display: block;
+      width: 2px;
+      height: 8px;
+      background: #464646;
+      content: '';
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease; }
+#cssmenu #menu-button {
+  margin: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: none;
+  height: 100%; }
+  #cssmenu #menu-button .menu-icon {
+    width: 24px;
+    text-align: center;
+    padding-bottom: 2px; }
+#cssmenu:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+#cssmenu > ul:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+#cssmenu > ul > li {
+  float: left; }
+  #cssmenu > ul > li > ul > li > ul > li {
+    overflow: hidden; }
+    #cssmenu > ul > li > ul > li > ul > li > a > img {
+      height: 60px;
+      position: absolute;
+      right: 4px;
+      top: 0px;
+      padding-top: 4px;
+      opacity: 0.8; }
+  #cssmenu > ul > li > a {
+    padding: 17px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #464646;
+    font-weight: 700;
+    text-transform: uppercase; }
+  #cssmenu > ul > li:hover > a {
+    color: #222222; }
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px; }
+  #cssmenu > ul > li.has-sub > a:after {
+    position: absolute;
+    top: 22px;
+    right: 11px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #464646;
+    content: ''; }
+  #cssmenu > ul > li.has-sub > a:before {
+    position: absolute;
+    top: 19px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #464646;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center; }
+  #cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none; }
+#cssmenu.align-center ul ul {
+  text-align: left; }
+
+#cssmenu.align-right > ul > li {
+  float: right; }
+#cssmenu.align-right ul ul {
+  text-align: right; }
+  #cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%; }
+  #cssmenu.align-right ul ul li.has-sub > a:after {
+    right: auto;
+    left: 11px; }
+  #cssmenu.align-right ul ul li.has-sub > a:before {
+    right: auto;
+    left: 14px; }
+
+@media screen and (min-width: 768px) {
+  #cssmenu > ul > li.has-sub:hover > a:before {
+    top: 23px;
+    height: 0; }
+  #cssmenu li:hover > ul {
+    left: auto; }
+    #cssmenu li:hover > ul > li {
+      min-height: 35px;
+      max-height: 70px; }
+  #cssmenu ul ul > li.has-sub:hover > a:before {
+    top: 17px;
+    height: 0; }
+
+  #cssmenu.align-right li:hover > ul {
+    left: auto;
+    right: 0; } }
+@media screen and (max-width: 768px) {
+  #cssmenu {
+    width: calc(100% - 40px); }
+    #cssmenu ul {
+      width: 100%;
+      display: none; }
+      #cssmenu ul li {
+        width: 100%;
+        border-top: 1px solid rgba(120, 120, 120, 0.2); }
+        #cssmenu ul li a {
+          width: 100%;
+          border-bottom: 0; }
+      #cssmenu ul ul {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left; }
+        #cssmenu ul ul li {
+          height: auto;
+          max-height: 9999px; }
+          #cssmenu ul ul li a {
+            width: 100%;
+            border-bottom: 0;
+            padding-left: 25px;
+            color: #464646;
+            background: none; }
+          #cssmenu ul ul li:hover > a {
+            color: #222222; }
+        #cssmenu ul ul ul {
+          position: relative;
+          left: 0;
+          width: 100%;
+          margin: 0;
+          text-align: left; }
+          #cssmenu ul ul ul li a {
+            padding-left: 35px; }
+        #cssmenu ul ul li.active > a {
+          color: #222222; }
+        #cssmenu ul ul > li.has-sub > a:after {
+          display: none; }
+        #cssmenu ul ul > li.has-sub > a:before {
+          display: none; }
+        #cssmenu ul ul .submenu-button {
+          height: 38px;
+          width: 38px; }
+          #cssmenu ul ul .submenu-button:after {
+            top: 15px;
+            right: 13px; }
+    #cssmenu li:hover > ul > li {
+      height: auto;
+      max-height: 9999px; }
+    #cssmenu > ul > li {
+      float: none; }
+    #cssmenu > ul > li.has-sub > a:after {
+      display: none; }
+    #cssmenu > ul > li.has-sub > a:before {
+      display: none; }
+    #cssmenu #menu-button {
+      display: flex;
+      align-items: center;
+      color: #464646;
+      cursor: pointer;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700; }
+    #cssmenu .submenu-button {
+      position: absolute;
+      z-index: 99;
+      right: 0;
+      top: 0;
+      display: block;
+      border-left: 1px solid rgba(120, 120, 120, 0.2);
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      color: #464646;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #cssmenu .submenu-button:before {
+        font-family: 'Font Awesome\ 5 Free';
+        font-weight: 900;
+        content: "\f067"; }
+    #cssmenu .submenu-button.submenu-opened:after {
+      background: #222222; }
+    #cssmenu .submenu-button.submenu-opened:before {
+      font-family: 'Font Awesome\ 5 Free';
+      content: "\f068"; }
+
+  #cssmenu.align-center > ul {
+    text-align: left; }
+
+  #cssmenu.align-right ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left; }
+
+  #menu-button .menu-icon:before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f0c9"; }
+
+  #menu-button.menu-opened .menu-icon:before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f00d"; } }
+/** @aron-tw on CodePen **/
+/** https://codepen.io/aron-tw/pen/pLJqgE **/
+.flip {
+  position: relative; }
+  .flip > .front,
+  .flip > .back {
+    display: block;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+    transition-property: transform, opacity; }
+  .flip > .front {
+    transform: rotateY(0deg); }
+  .flip > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg); }
+  .flip:hover > .front {
+    transform: rotateY(180deg); }
+  .flip:hover > .back {
+    opacity: 1;
+    transform: rotateY(0deg); }
+  .flip.flip-vertical > .back {
+    transform: rotateX(-180deg); }
+  .flip.flip-vertical:hover > .front {
+    transform: rotateX(180deg); }
+  .flip.flip-vertical:hover > .back {
+    transform: rotateX(0deg); }
+  .flip h2 {
+    margin-bottom: 1em; }
+
+.flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  width: 200px;
+  height: 200px; }
+  .flip > .front,
+  .flip > .back {
+    display: block;
+    color: white;
+    width: calc(100% - 4em);
+    background-size: cover !important;
+    background-position: center !important;
+    height: calc(100% - 2em);
+    padding: 1em 2em;
+    background: #313131;
+    border-radius: 10px; }
+    .flip > .front p,
+    .flip > .back p {
+      font-size: 0.9125rem;
+      line-height: 120%;
+      color: #999; }
+    .flip > .front a,
+    .flip > .back a {
+      color: #999; }
+
 body {
   background: url("../assets/background.png");
   font-family: 'Roboto Condensed', Arial, sans-serif; }
@@ -1679,7 +2102,7 @@ body {
   min-width: 250px;
   max-width: 1300px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 80px;
   transition: 0.3s; }
 
 h1 {
