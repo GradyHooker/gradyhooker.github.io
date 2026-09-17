@@ -1640,6 +1640,65 @@ table {
   margin-top: 10px;
   color: white; }
 
+.qualifications-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.qualification-card {
+  display: flex;
+  align-items: center;
+  background: #313131;
+  border: 1px solid #999;
+  border-radius: 6px;
+  padding: 16px;
+  width: calc(33% - 15px);
+  box-sizing: border-box;
+  margin-bottom: 20px; }
+
+.qualification-card .badge-image {
+  flex: 0 0 130px;
+  height: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 6px; }
+
+.qualification-card .badge-info {
+  flex: 1;
+  min-width: 0;
+  /* Prevents text overflow issues */ }
+
+.qualification-card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 4px 0;
+  line-height: 1.3;
+  color: #FFF; }
+
+.qualification-card .issuer {
+  font-size: 0.85rem;
+  color: #999;
+  margin: 0 0 8px 0; }
+
+.qualification-card .description {
+  font-size: 0.9rem;
+  color: #999;
+  margin: 0 0 8px 0;
+  line-height: 1.4; }
+
+.qualification-card a {
+  font-size: 0.85rem;
+  text-decoration: underline;
+  color: #FFF; }
+
+@media screen and (max-width: 1600px) {
+  .qualification-card {
+    width: calc(50% - 15px); } }
+@media screen and (max-width: 1000px) {
+  .qualification-card {
+    width: 100%; } }
 #cssmenu ul {
   padding-left: 0;
   margin: 0;
