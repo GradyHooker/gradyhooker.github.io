@@ -28,6 +28,15 @@
   - link: https://www.youtube.com/playlist?list=PL_tQxNJBCq7AqVqoh0Trb-GI3Ydi2_siV
     image: icon-youtube-white
     text: Watch more on YouTube
+  - link: https://open.spotify.com/show/3expWigVPcUOE6ASJGclUA
+    image: icon-spotify-white
+    text: Listen on Spotify
+  - link: https://podcasts.apple.com/nz/podcast/chats-with-grady/id6813019186
+    image: icon-apple-white
+    text: Listen on Apple Podcasts
+  - link: 
+    image: icon-amazon-white
+    text: Listen on Amazon Music
 
 - categories:
   - podcasts
